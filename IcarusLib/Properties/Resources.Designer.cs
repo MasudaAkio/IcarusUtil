@@ -61,6 +61,105 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string AluminumOre {
+            get {
+                return ResourceManager.GetString("AluminumOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Bone {
+            get {
+                return ResourceManager.GetString("Bone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Carrot {
+            get {
+                return ResourceManager.GetString("Carrot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CoalOre {
+            get {
+                return ResourceManager.GetString("CoalOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Cone {
+            get {
+                return ResourceManager.GetString("Cone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CopperOre {
+            get {
+                return ResourceManager.GetString("CopperOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Exotics {
+            get {
+                return ResourceManager.GetString("Exotics", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Fiber {
+            get {
+                return ResourceManager.GetString("Fiber", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Fur {
+            get {
+                return ResourceManager.GetString("Fur", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string GoldOre {
+            get {
+                return ResourceManager.GetString("GoldOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Ice {
+            get {
+                return ResourceManager.GetString("Ice", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Iron Ingot に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string IronIngot {
@@ -75,6 +174,285 @@ namespace IcarusLib.Properties {
         public static string IronOre {
             get {
                 return ResourceManager.GetString("IronOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Leather {
+            get {
+                return ResourceManager.GetString("Leather", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Lily {
+            get {
+                return ResourceManager.GetString("Lily", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Mushroom {
+            get {
+                return ResourceManager.GetString("Mushroom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Oxide {
+            get {
+                return ResourceManager.GetString("Oxide", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string PlatinumOre {
+            get {
+                return ResourceManager.GetString("PlatinumOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Pumpkin {
+            get {
+                return ResourceManager.GetString("Pumpkin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RawBacon {
+            get {
+                return ResourceManager.GetString("RawBacon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RawFattyTbone {
+            get {
+                return ResourceManager.GetString("RawFattyTbone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RawFish {
+            get {
+                return ResourceManager.GetString("RawFish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RawGameMeat {
+            get {
+                return ResourceManager.GetString("RawGameMeat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RawGiantSteak {
+            get {
+                return ResourceManager.GetString("RawGiantSteak", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RawMeat {
+            get {
+                return ResourceManager.GetString("RawMeat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RawSoftMeat {
+            get {
+                return ResourceManager.GetString("RawSoftMeat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RawStringyMeat {
+            get {
+                return ResourceManager.GetString("RawStringyMeat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string RawWhiteMeat {
+            get {
+                return ResourceManager.GetString("RawWhiteMeat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ReedFlower {
+            get {
+                return ResourceManager.GetString("ReedFlower", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SilicaOre {
+            get {
+                return ResourceManager.GetString("SilicaOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SoyBean {
+            get {
+                return ResourceManager.GetString("SoyBean", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SpoiledMeat {
+            get {
+                return ResourceManager.GetString("SpoiledMeat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SpoiledPlants {
+            get {
+                return ResourceManager.GetString("SpoiledPlants", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Squash {
+            get {
+                return ResourceManager.GetString("Squash", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Stick {
+            get {
+                return ResourceManager.GetString("Stick", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Stone {
+            get {
+                return ResourceManager.GetString("Stone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Sulfur {
+            get {
+                return ResourceManager.GetString("Sulfur", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string TitaniumOre {
+            get {
+                return ResourceManager.GetString("TitaniumOre", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string WaterMelon {
+            get {
+                return ResourceManager.GetString("WaterMelon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Wheat {
+            get {
+                return ResourceManager.GetString("Wheat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string WildBerry {
+            get {
+                return ResourceManager.GetString("WildBerry", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Wood {
+            get {
+                return ResourceManager.GetString("Wood", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string Yeast {
+            get {
+                return ResourceManager.GetString("Yeast", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string YoungCoconut {
+            get {
+                return ResourceManager.GetString("YoungCoconut", resourceCulture);
             }
         }
     }

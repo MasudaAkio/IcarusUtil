@@ -106,7 +106,7 @@ namespace IcarusLib
         {
             var keynames = new string[]
             {
-                "IronOre", "CopperOre", "GoldOre", "Coal", "AluminumOre", "PlatinumOre", "TitaniumOre", "ExoticOre", "Stone",
+                "IronOre", "CopperOre", "GoldOre", "CoalOre", "AluminumOre", "PlatinumOre", "TitaniumOre", "Exotics", "Stone",
                 "Ice", "Oxide", "SilicaOre", "Sulfur",
                 "ReedFlower", "Lily", "Squash", "Yeast", "Wheat", "Cone", "WaterMelon", "SoyBean","Pumpkin", "WildBerry",
                 "Carrot", "YoungCoconut", "Mushroom", "Wood",

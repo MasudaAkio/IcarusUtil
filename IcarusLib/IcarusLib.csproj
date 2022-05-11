@@ -75,5 +75,20 @@
   <ItemGroup>
     <None Include="Resources\NoImage.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoalOre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CopperOre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exotics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GoldOre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ice.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

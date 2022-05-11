@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32413.511
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcarusLib", "IcarusLib\IcarusLib.csproj", "{050FC3A3-B4C3-4B65-88F8-41C1843D636B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcarusTest", "IcarusTest\IcarusTest.csproj", "{E8CB7FB0-227D-4887-977D-B8ED94CC3B68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcarusSample", "IcarusTest\IcarusSample.csproj", "{E8CB7FB0-227D-4887-977D-B8ED94CC3B68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

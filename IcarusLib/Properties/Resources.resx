@@ -124,129 +124,129 @@
     <value>Iron Ore</value>
   </data>
   <data name="CopperOre" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="GoldOre" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
-  <data name="Coal" xml:space="preserve">
-    <value></value>
+  <data name="CoalOre" xml:space="preserve">
+    <value />
   </data>
   <data name="AluminumOre" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="PlatinumOre" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="TitaniumOre" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
-  <data name="ExoticOre" xml:space="preserve">
-    <value></value>
+  <data name="Exotics" xml:space="preserve">
+    <value />
   </data>
   <data name="Stone" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Ice" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Oxide" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="SilicaOre" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Sulfur" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="ReedFlower" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Lily" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Squash" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Yeast" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Wheat" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Cone" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="WaterMelon" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="SoyBean" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Pumpkin" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="WildBerry" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Carrot" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="YoungCoconut" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Mushroom" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Wood" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="SpoiledPlants" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="SpoiledMeat" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Fiber" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Stick" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Leather" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Bone" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="Fur" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="RawFish" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="RawMeat" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="RawGiantSteak" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="RawBacon" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="RawFattyTbone" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="RawGameMeat" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="RawSoftMeat" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="RawStringyMeat" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
   <data name="RawWhiteMeat" xml:space="preserve">
-    <value></value>
+    <value />
   </data>
 </root>

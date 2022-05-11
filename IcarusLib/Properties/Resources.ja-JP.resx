@@ -129,7 +129,7 @@
   <data name="GoldOre" xml:space="preserve">
     <value>金鉱石</value>
   </data>
-  <data name="Coal" xml:space="preserve">
+  <data name="CoalOre" xml:space="preserve">
     <value>石炭</value>
   </data>
   <data name="AluminumOre" xml:space="preserve">
@@ -141,7 +141,7 @@
   <data name="TitaniumOre" xml:space="preserve">
     <value>チタニウム鉱石</value>
   </data>
-  <data name="ExoticOre" xml:space="preserve">
+  <data name="Exotics" xml:space="preserve">
     <value>エキゾチック</value>
   </data>
   <data name="Stone" xml:space="preserve">
