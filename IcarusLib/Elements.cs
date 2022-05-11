@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Collections.ObjectModel;
-using Windows.ApplicationModel.Resources;
 
-namespace IcarusUtil
+using IcarusLib.Properties;
+
+
+namespace IcarusLib
 {
     [Flags]
     public enum Attrs
@@ -27,11 +25,6 @@ namespace IcarusUtil
         CraftingBenches,
         CookingBenches,
         ClimateControl, // 気候制御
-
-
-
-
-
     }
 
     public abstract class Object
@@ -42,7 +35,10 @@ namespace IcarusUtil
         public Object(string key)
         {
             this.keyname = key;
-            name = ResourceLoader.GetForCurrentView().GetString(key);
+            // name = ResourceLoader.GetForCurrentView().GetString(key);
+            
+            name = Resources.ResourceManager.GetString(key, Resources.Culture);
+            
         }
     }
 
