@@ -43,7 +43,7 @@ namespace IcarusLib
         public Object(string key)
         {
             keyname = key;
-            name = Resources.ResourceManager.GetString(key, Resources.Culture);
+            name = Names.ResourceManager.GetString(key, Names.Culture);
             if (string.IsNullOrEmpty(name)) string.Join(" ", new Regex("[A-Z][a-z]+").Matches(key).OfType<string>());
 
             image = (Bitmap)(Images.ResourceManager.GetObject(key) ?? Images.ResourceManager.GetObject("NoImage"));
@@ -52,7 +52,7 @@ namespace IcarusLib
         private static CultureInfo calture { get => CultureInfo.CurrentCulture; }
         public static IEnumerable<string> Keys
         {
-            get => Resources
+            get => Names
                     .ResourceManager
                     .GetResourceSet(calture, true, true).Cast<DictionaryEntry>().Select(e => e.Key.ToString());
         }
