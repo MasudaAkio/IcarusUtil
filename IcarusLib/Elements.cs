@@ -1,8 +1,12 @@
 ﻿using System;
 using System.Linq;
+using System.IO;
 using System.Collections.ObjectModel;
 using System.Text.RegularExpressions;
+using System.Collections;
+using System.Collections.Generic;
 using System.Drawing;
+using System.Globalization;
 using IcarusLib.Properties;
 
 
@@ -35,8 +39,6 @@ namespace IcarusLib
         public string name { get; private set; }
 
         public Bitmap image { get; private set; }
-        internal Images x { get; set; }
-       
 
         public Object(string key)
         {
@@ -45,6 +47,14 @@ namespace IcarusLib
             if (string.IsNullOrEmpty(name)) string.Join(" ", new Regex("[A-Z][a-z]+").Matches(key).OfType<string>());
 
             image = (Bitmap)(Images.ResourceManager.GetObject(key) ?? Images.ResourceManager.GetObject("NoImage"));
+        }
+
+        private static CultureInfo calture { get => CultureInfo.CurrentCulture; }
+        public static IEnumerable<string> Keys
+        {
+            get => Resources
+                    .ResourceManager
+                    .GetResourceSet(calture, true, true).Cast<DictionaryEntry>().Select(e => e.Key.ToString());
         }
     }
 

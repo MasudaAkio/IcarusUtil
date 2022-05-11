@@ -15,9 +15,9 @@ using IcarusLib.Properties;
 
 namespace IcarusTest
 {
-    public partial class Form1 : Form
+    public partial class IcarusSample : Form
     {
-        public Form1()
+        public IcarusSample()
         {
             InitializeComponent();
 

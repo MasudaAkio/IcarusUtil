@@ -1,7 +1,7 @@
 ﻿
 namespace IcarusTest
 {
-    partial class Form1
+    partial class IcarusSample
     {
         /// <summary>
         /// 必要なデザイナー変数です。
