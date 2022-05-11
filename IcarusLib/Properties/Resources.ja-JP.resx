@@ -123,4 +123,130 @@
   <data name="IronOre" xml:space="preserve">
     <value>鉄鉱石</value>
   </data>
+  <data name="CopperOre" xml:space="preserve">
+    <value>銅鉱石</value>
+  </data>
+  <data name="GoldOre" xml:space="preserve">
+    <value>金鉱石</value>
+  </data>
+  <data name="Coal" xml:space="preserve">
+    <value>石炭</value>
+  </data>
+  <data name="AluminumOre" xml:space="preserve">
+    <value>アルミニウム鉱石</value>
+  </data>
+  <data name="PlatinumOre" xml:space="preserve">
+    <value>プラチナ鉱石</value>
+  </data>
+  <data name="TitaniumOre" xml:space="preserve">
+    <value>チタニウム鉱石</value>
+  </data>
+  <data name="ExoticOre" xml:space="preserve">
+    <value>エキゾチック</value>
+  </data>
+  <data name="Stone" xml:space="preserve">
+    <value>石</value>
+  </data>
+  <data name="Ice" xml:space="preserve">
+    <value>氷</value>
+  </data>
+  <data name="Oxide" xml:space="preserve">
+    <value>オキサイド</value>
+  </data>
+  <data name="SilicaOre" xml:space="preserve">
+    <value>シリカ鉱石</value>
+  </data>
+  <data name="Sulfur" xml:space="preserve">
+    <value>硫黄</value>
+  </data>
+  <data name="ReedFlower" xml:space="preserve">
+    <value>アシの花</value>
+  </data>
+  <data name="Lily" xml:space="preserve">
+    <value>百合</value>
+  </data>
+  <data name="Squash" xml:space="preserve">
+    <value>カボチャ</value>
+  </data>
+  <data name="Yeast" xml:space="preserve">
+    <value>酵母</value>
+  </data>
+  <data name="Wheat" xml:space="preserve">
+    <value>小麦</value>
+  </data>
+  <data name="Cone" xml:space="preserve">
+    <value>コーン</value>
+  </data>
+  <data name="WaterMelon" xml:space="preserve">
+    <value>スイカ</value>
+  </data>
+  <data name="SoyBean" xml:space="preserve">
+    <value>大豆</value>
+  </data>
+  <data name="Pumpkin" xml:space="preserve">
+    <value>カボチャ</value>
+  </data>
+  <data name="WildBerry" xml:space="preserve">
+    <value>ワイルドベリー</value>
+  </data>
+  <data name="Carrot" xml:space="preserve">
+    <value>にんじん</value>
+  </data>
+  <data name="YoungCoconut" xml:space="preserve">
+    <value>ココナツ</value>
+  </data>
+  <data name="Mushroom" xml:space="preserve">
+    <value>マッシュルーム</value>
+  </data>
+  <data name="Wood" xml:space="preserve">
+    <value>木材</value>
+  </data>
+  <data name="SpoiledPlants" xml:space="preserve">
+    <value>腐った植物</value>
+  </data>
+  <data name="SpoiledMeat" xml:space="preserve">
+    <value>腐った肉</value>
+  </data>
+  <data name="Fiber" xml:space="preserve">
+    <value>繊維</value>
+  </data>
+  <data name="Stick" xml:space="preserve">
+    <value>木の枝</value>
+  </data>
+  <data name="Leather" xml:space="preserve">
+    <value>皮革</value>
+  </data>
+  <data name="Bone" xml:space="preserve">
+    <value>骨</value>
+  </data>
+  <data name="Fur" xml:space="preserve">
+    <value>毛皮</value>
+  </data>
+  <data name="RawFish" xml:space="preserve">
+    <value>生魚</value>
+  </data>
+  <data name="RawMeat" xml:space="preserve">
+    <value>生肉</value>
+  </data>
+  <data name="RawGiantSteak" xml:space="preserve">
+    <value>生の精肉</value>
+  </data>
+  <data name="RawBacon" xml:space="preserve">
+    <value>ベーコン</value>
+  </data>
+  <data name="RawFattyTbone" xml:space="preserve">
+    <value>生のTボーン肉</value>
+  </data>
+  <data name="RawGameMeat" xml:space="preserve">
+    <value>ゲームミート</value>
+  </data>
+  <data name="RawSoftMeat" xml:space="preserve">
+    <value>ソフトミート</value>
+  </data>
+  <data name="RawStringyMeat" xml:space="preserve">
+    <value>スジ肉</value>
+  </data>
+  <data name="RawWhiteMeat" xml:space="preserve">
+    <value>ホワイトミート</value>
+  </data>
 </root>

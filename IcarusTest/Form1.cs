@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
 
+using IcarusLib;
 using IcarusLib.Properties;
 
 namespace IcarusTest
@@ -20,12 +21,7 @@ namespace IcarusTest
         {
             InitializeComponent();
 
-            label1.Text = Resources.IronOre;
-
-            var rs = Resources.ResourceManager.GetResourceSet(Resources.Culture??CultureInfo.CurrentCulture, true, true);
-            listView1.Items.AddRange(rs.Cast<DictionaryEntry>().Select(r => new ListViewItem(r.Key + "|" + r.Value)).ToArray());
-
-
+            listView1.Items.AddRange(new Materials().Select(m => new ListViewItem(m.keyname + "|" + m.name)).ToArray());
         }
 
     }

@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.ObjectModel;
-
+using System.Text.RegularExpressions;
 using IcarusLib.Properties;
 
 
@@ -34,11 +35,9 @@ namespace IcarusLib
 
         public Object(string key)
         {
-            this.keyname = key;
-            // name = ResourceLoader.GetForCurrentView().GetString(key);
-            
+            keyname = key;
             name = Resources.ResourceManager.GetString(key, Resources.Culture);
-            
+            if (string.IsNullOrEmpty(name)) string.Join(" ", new Regex("[A-Z][a-z]+").Matches(key).OfType<string>());
         }
     }
 
@@ -113,7 +112,7 @@ namespace IcarusLib
             foreach (var k in  keynames ) Add(new Material(k));
         }
 
-        protected override string GetKeyForItem(Material item) => item.name;
+        protected override string GetKeyForItem(Material item) => item.keyname;
     }
 
     public class Benches : KeyedCollection<string, Bench>
