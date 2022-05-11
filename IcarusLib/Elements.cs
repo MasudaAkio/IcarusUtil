@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Collections.ObjectModel;
 using System.Text.RegularExpressions;
+using System.Drawing;
 using IcarusLib.Properties;
 
 
@@ -33,11 +34,17 @@ namespace IcarusLib
         public string keyname { get; private set; }
         public string name { get; private set; }
 
+        public Bitmap image { get; private set; }
+        internal Images x { get; set; }
+       
+
         public Object(string key)
         {
             keyname = key;
             name = Resources.ResourceManager.GetString(key, Resources.Culture);
             if (string.IsNullOrEmpty(name)) string.Join(" ", new Regex("[A-Z][a-z]+").Matches(key).OfType<string>());
+
+            image = (Bitmap)(Images.ResourceManager.GetObject(key) ?? Images.ResourceManager.GetObject("NoImage"));
         }
     }
 

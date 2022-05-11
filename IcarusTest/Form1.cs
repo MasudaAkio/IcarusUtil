@@ -21,8 +21,24 @@ namespace IcarusTest
         {
             InitializeComponent();
 
-            listView1.Items.AddRange(new Materials().Select(m => new ListViewItem(m.keyname + "|" + m.name)).ToArray());
+            listView1.Items.AddRange(new Materials().Select(m => {
+                ObjectImagesLarge.Images.Add(m.keyname, m.image);
+                ObjectImagesSmall.Images.Add(m.keyname, m.image);
+                var item = new ListViewItem(m.keyname, m.keyname);
+                return item;
+
+            }).ToArray());
+            
         }
 
+        private void largeIconToolStripMenuItem_Click(object sender, EventArgs e) => listView1.View = View.LargeIcon;
+
+        private void smallIconToolStripMenuItem_Click(object sender, EventArgs e) => listView1.View = View.SmallIcon;
+
+        // private void detailsToolStripMenuItem_Click(object sender, EventArgs e) => listView1.View = View.Details;
+
+        private void listToolStripMenuItem_Click(object sender, EventArgs e) => listView1.View = View.List;
+
+        private void tileToolStripMenuItem_Click(object sender, EventArgs e) => listView1.View = View.Tile;
     }
 }
