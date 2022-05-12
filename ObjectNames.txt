@@ -1,0 +1,615 @@
+Adlift Module
+Advanced Deep Mining Ore Scanner
+Alpha Wolf Head
+Alpha Wolf Trophy
+Aluminium Arrow
+Aluminium Beam
+Aluminium Door
+Aluminium Floor
+Aluminium Floor Trapdoor
+Aluminium Halfpieces
+Aluminium Halfpitches
+Aluminium Ingot
+Aluminium Ladder
+Aluminium Ore
+Aluminium Railing
+Aluminium Ramp
+Aluminium Roof
+Aluminium Roof Corner
+Aluminium Stairs
+Aluminium Trapdoor
+Aluminium Wall
+Aluminium Wall Angled
+Aluminium Window
+Animal Bait
+Animal Fat
+Animal Healthbar Module
+Animal Highlighting Module
+Anti-Parasitic Paste
+Anti-Parasitic Pill
+Anti-Parasitic Tonic
+Anti-Parasitic Vaccine I
+Anti-Parasitic Vaccine II
+Anti-Parasitic Vaccine III
+Anti-Poison Paste
+Anti-Poison Pill
+Anti-Poison Tonic
+Anti-Poison Vaccine I
+Anti-Poison Vaccine II
+Anti-Poison Vaccine III
+Antibiotic Paste
+Antibiotic Pill
+Antibiotic Tonic
+Anvil Bench
+Archers Backpack
+Bacterial Vaccine I
+Bacterial Vaccine II
+Bacterial Vaccine III
+Barbeque Carrot
+Basic Bandage
+Basic Ceiling Light
+Basic Fertilizer
+Basic Wall Light
+Bear Head
+Bear Trophy
+Bedroll
+Beer
+Beer Bottle
+Berry Jam
+Binoculars
+Biofuel Can
+Biofuel Composter
+Biofuel Deep-Mining Drill
+Biofuel Generator
+Biofuel Lamp
+Biofuel Stove
+Black Jaguar Head
+Black Jaguar Trophy
+Blood Thinning Paste
+Blood Thinning Pill
+Blood Thinning Tonic
+Blood Thinning Vaccine I
+Blood Thinning Vaccine II
+Blood Thinning Vaccine III
+Bolt Action Rifle
+Bone
+Bone Arrow
+Bone Knife
+Bone Sickle
+Bone Spear
+Brazier
+Bread
+Bread Dough
+Buckshot Shell
+Buffalo Head
+Buffalo Trophy
+Building Upgrade Tool
+Campfire
+Canteen
+Carbon Arrow
+Carbon Fiber
+Carbon Paste
+Carbon Spear
+Carpentry Bench
+Carrot
+Cave Scanner
+Caveworm Arrow
+Caveworm Bow
+Caveworm Knife
+Caveworm Spear
+Cement Mixer
+Charcoal
+Charred Corn
+Chemistry Bench
+Cloth Arms Armor
+Cloth Chest Armor
+Cloth Feet Armor
+Cloth Head Armor
+Cloth Legs Armor
+Coal Ore
+Cocoa Seed
+Coffee Bean
+Combat Knife
+Comet Coal (Stack)
+Composite Arms Armor
+Composite Arrow
+Composite Chest Armor
+Composite Feet Armor
+Composite Head Armor
+Composite Legs Armor
+Composite Paste
+Composite Spear
+Composites
+Compound Bow
+Concrete Beam
+Concrete Floor
+Concrete Floor Trapdoor
+Concrete Frame
+Concrete Furnace
+Concrete Halfpieces
+Concrete Halfpitches
+Concrete Mix
+Concrete Railing
+Concrete Ramp
+Concrete Roof
+Concrete Roof Corner
+Concrete Stairs
+Concrete Wall
+Concrete Wall Angled
+Cooked Bacon
+Cooked Fatty Tbone
+Cooked Fish
+Cooked Game Meat
+Cooked Giant Steak
+Cooked Meat
+Cooked Soft Meat
+Cooked Stringy Meat
+Cooked White Meat
+Cooking Station
+Cooling Bandage
+Copper Bolt
+Copper Ingot
+Copper Nail
+Copper Ore
+Corn
+Cougar Head
+Cougar Trophy
+Crafting Bench
+Creamed Corn
+Crispy Bacon
+Crossbow
+Crumbed Fish Fillet
+Crushed Bone
+CX-400 Arms Armor
+CX-400 Chest Armor
+CX-400 Feet Armor
+CX-400 Head Armor
+CX-400 Legs Armor
+Deep Mining Ore Scanner
+Deer Head
+Deer Trophy
+Dehumidifier
+Detoxifier Module
+Directional Worklamp
+Doseup Module
+Dried Fatty Tbone
+Dried Game Meat
+Dried Giant Steak
+Dried Soft Meat
+Dried Stringy Meat
+Dried White Meat
+Drying Rack
+Electric Carpentry Bench
+Electric Composter
+Electric Deep-Mining Drill
+Electric Dehumidifier
+Electric Furnace
+Electric Masonry Bench
+Electricity Tool
+Electronics
+Endurogel
+Epoxy
+Exotics
+Extractor
+Fabricator
+Fiber
+Fire Arrow
+Fire Extinguisher
+Fire Whacker
+Firepit
+Fireplace
+Fish Curry
+Fishing Rod
+Fishing Trap
+Flare Arrow
+Flashlight
+Flatbread
+Flatbread Dough
+Flint Arrow
+Floor Torch
+Flour
+Food Consumption Paste
+Frag Grenade
+Frozen Rocks
+Fruit Pie
+Fruit Salad
+Fur
+Fur Arms Armor
+Fur Chest Armor
+Fur Feet Armor
+Fur Head Armor
+Fur Legs Armor
+Gatherers Backpack
+Ghillie Arms Armor
+Ghillie Chest Armor
+Ghillie Feet Armor
+Ghillie Head Armor
+Ghillie Legs Armor
+Glass
+Glass Beam
+Glass Door
+Glass Jar
+Glass Roof
+Glass Roof Corner
+Glass Wall
+Glass Wall Angled
+Glass Window
+Glassworking Bench
+Go
+Gold Ore
+Gorse Flower
+Gorse Tea
+Grilled Pumpkin
+Growth Fertilizer
+Gunpowder
+Healing Boost Module
+Health Buff Paste
+Health Regeneration Paste
+Health Restoration Paste
+Heat Bandage
+Heavy Air Conditioner
+Heavy Glass Window
+Heavy Heater
+Heavy Trapdoor
+Herbalism Bench
+High-Quality Fertilizer
+Hot Cocoa
+Hot Coffee
+Hot Tea
+Hunter Arms Armor
+Hunter Chest Armor
+Hunter Feet Armor
+Hunter Head Armor
+Hunter Legs Armor
+Hunting Rifle
+Hydroponic Crop Plot
+Ice
+Ice Box
+Inaris Aruda Arrow
+Inaris Dias Axe
+Inaris Gris Spear
+Inaris Neves Pickaxe
+Inaris Ventura Knife
+Incendiary Rifle Round
+Interior Wood Beam
+Interior Wood Cupboard
+Interior Wood Door
+Interior Wood Floor
+Interior Wood Floor Trapdoor
+Interior Wood Halfpieces
+Interior Wood Halfpitches
+Interior Wood Ladder
+Interior Wood Railing
+Interior Wood Ramp
+Interior Wood Stairs
+Interior Wood Trapdoor
+Interior Wood Wall
+Interior Wood Wall Angled
+Iron Axe
+Iron Bolt
+Iron Crop Plot
+Iron Cupboard
+Iron Hammer
+Iron Ingot
+Iron Knife
+Iron Nail
+Iron Ore
+Iron Pickaxe
+Iron Sickle
+Iron Spear
+Jaguar Head
+Jaguar Trophy
+Kick Fall Module
+Kitchen Bench
+Kitchen Storage Block
+Lantern
+Larkwell Martinez Axe
+Larkwell Martinez Hammer
+Larkwell Martinez Knife
+Larkwell Martinez Mercenary Backpack
+Larkwell Martinez Pickaxe
+Larkwell Martinez Sickle
+Larkwell Martinez Spear
+Larkwell Martinez Tactical Backpack
+Leather
+Leather Arms Armor
+Leather Backpack
+Leather Chest Armor
+Leather Curtain Door
+Leather Curtain Window
+Leather Feet Armor
+Leather Head Armor
+Leather Legs Armor
+Lightning Rod
+Lily
+Longbow
+Lowburn Module
+Machete
+Machining Bench
+Mammoth Head
+Mammoth Trophy
+Masonry Bench
+Mass Dampener Module
+Material Processor
+Mature Coconut
+Meat Pie
+Medium Interior Wood Crate
+Medium Iron Crate
+Medium Wood Crate
+Medium Wood Hedgehog
+Metal Ore
+Metal Oxite Dissolver
+Micromeal
+Mortar and Pestle
+Mushroom Soup
+MXC Axe
+MXC Campfire
+MXC Crate
+MXC Firewhacker
+MXC Flange Arrow
+MXC Furnace
+MXC Hammer
+MXC Knife
+MXC Nerve Arrow
+MXC Pickaxe
+MXC Sickle
+MXC Spear
+MXC Venom Arrow
+MXCAxe
+MXCFirewhacker
+MXCHammer
+MXCKnife
+MXCPickaxe
+MXCSickle
+Naneo Arms Armor
+Naneo Chest Armor
+Naneo Feet Armor
+Naneo Head Armor
+Naneo Legs Armor
+Omnidirectional Worklamp
+Organic Resin
+Oxidizer
+Oxite
+Oxite Dissolver
+Oxygel
+Oxygen Bladder
+Oxygen Buff Paste
+Oxygen Consumption Paste
+Oxygen Restoration Paste
+Oxygen Tank
+Pastry
+Patcher I Module
+Patcher II Module
+Patcher IIModule
+Patcher IModule
+Pickled Carrot
+Pistol
+Pistol Round
+Platinum Axe
+Platinum Bolt
+Platinum Hammer
+Platinum Ingot
+Platinum Knife
+Platinum Ore
+Platinum Pickaxe
+Platinum Sickle
+Platinum Spear
+Player Tracker Module
+Poison Arrow
+Poison Paste
+Poisoned Animal Bait
+Polar Bear Arms Armor
+Polar Bear Chest Armor
+Polar Bear Feet Armor
+Polar Bear Head
+Polar Bear Head Armor
+Polar Bear Legs Armor
+Polar Bear Pelt
+Polar Bear Trophy
+Portable Beacon
+Potbelly Stove
+Pumpkin
+Pumpkin Bread
+Radar
+Rain Reservoir
+Raw Bacon
+Raw Fatty Tbone
+Raw Fish
+Raw Game Meat
+Raw Giant Steak
+Raw Meat
+Raw Soft Meat
+Raw Stringy Meat
+Raw White Meat
+Recurve Bow
+Reed Flower
+Refined Gold
+Refined Wood
+Refrigerator
+Reinforced Door
+Reinforced Ladder
+Reinforced Railing
+Reinforced Trapdoor
+Reinforced Window
+Resources
+Rifle Round
+Ripe Coconut
+Roast Squash
+Roast Vegetables
+Rope
+Sandworm Arrow
+Sandworm Bow
+Sandworm Knife
+Sandworm Scale
+Sandworm Spear
+Scorpion Hedgehog
+Scorpion Pincer Trap
+Shengong Akira Hammer
+Shengong Daokou Knife
+Shengong Dida Spear
+Shengong Dong Pickaxe
+Shengong Gong Bu Spear
+Shengong Heike Axe
+Shengong Hulu Canteen
+Shengong Ji Bow
+Shengong Jijing Bow
+Shengong Jiju Spear
+Shengong Jushi Pickaxe
+Shengong Kuang Pickaxe
+Shengong Lie Axe
+Shengong Liwei O2 Tank
+Shengong Qie Knife
+Shengong Sen Axe
+Shengong Shui Knife
+Shengong Sichou Knife
+Shengong Sui Shi Pickaxe
+Shengong Tetsuo Hammer
+Shengong Wenhe Arrow
+Shengong Xingxing Spear
+Shengong Yeying Bandage
+Shengong Zhang Hu Bow
+Shotgun
+Shovel
+Silica Ore
+Skinning Bench
+Small Interior Wood Crate
+Small Iron Crate
+Small Wood Crate
+Small Wood Sign
+Smoke Grenade
+Snow Leopard Head
+Snow Leopard Trophy
+Solar Panel
+Soy Bean
+Soy Bean Stir-Fry
+Splint
+Spoiled Meat
+Spoiled Plants
+Sponge
+Squash
+ST-700 Arms Armor
+ST-700 Chest Armor
+ST-700 Feet Armor
+ST-700 Head Armor
+ST-700 Legs Armor
+Stamina
+Stamina Buff Paste
+Stamina Consumption Paste
+Stamina Regeneration Paste
+Stamina Restoration Paste
+Steel Axe
+Steel Bloom
+Steel Bolt
+Steel Hammer
+Steel Ingot
+Steel Knife
+Steel Pickaxe
+Steel Rebar
+Steel Screw
+Steel Spear
+Stew
+Stick
+Stone
+Stone Arrow
+Stone Axe
+Stone Beam
+Stone Floor
+Stone Floor Trapdoor
+Stone Frame
+Stone Furnace
+Stone Halfpieces
+Stone Halfpitches
+Stone Knife
+Stone Pickaxe
+Stone Pile
+Stone Ramp
+Stone Roof
+Stone Roof Corner
+Stone Stairs
+Stone Wall
+Stone Wall Angled
+Strength Boost Module
+Sulfur
+Survival Backpack
+Suture Kit
+Sweetcorn Soup
+Taxidermy Knife
+Tea
+Textiles Bench
+Thatch Beam
+Thatch Door
+Thatch Floor
+Thatch Floor Trapdoor
+Thatch Halfpieces
+Thatch Halfpitches
+Thatch Ladder
+Thatch Railing
+Thatch Ramp
+Thatch Roof
+Thatch Roof Corner
+Thatch Stairs
+Thatch Trapdoor
+Thatch Wall
+Thatch Wall Angled
+Thatch Window
+Thermos
+Titanium Arrow
+Titanium Axe
+Titanium Bolt
+Titanium Hammer
+Titanium Ingot
+Titanium Knife
+Titanium Ore
+Titanium Pickaxe
+Titanium Sickle
+Titanium Spear
+Tree Sap
+Trophy Bench
+Ultrameal
+Vegetable Pie
+Wall Torch
+Water Consumption Paste
+Water Pipe Tool
+Water Pump
+Water Sources
+Water Sprinkler
+Watermelon
+Waterskin
+Wheat
+Wild Berry
+Wild Salad
+Wine
+Wine Bottle
+Wood
+Wood Beam
+Wood Bed
+Wood Bow
+Wood Chair
+Wood Composter
+Wood Crop Plot
+Wood Cupboard
+Wood Door
+Wood Floor
+Wood Floor Trapdoor
+Wood Halfpieces
+Wood Halfpitches
+Wood Ladder
+Wood Pile
+Wood Rag Torch
+Wood Railing
+Wood Ramp
+Wood Repair Hammer
+Wood Roof
+Wood Roof Corner
+Wood Spear
+Wood Stairs
+Wood Table
+Wood Torch
+Wood Trapdoor
+Wood Wall
+Wood Wall Angled
+Wood Window
+Workshop Repair Kit
+Workshop Repair Kit Bundle
+Yeast
+Young Coconut

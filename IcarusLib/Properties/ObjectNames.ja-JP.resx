@@ -132,9 +132,6 @@
   <data name="CoalOre" xml:space="preserve">
     <value>石炭鉱石</value>
   </data>
-  <data name="AluminumOre" xml:space="preserve">
-    <value>アルミニウム鉱石</value>
-  </data>
   <data name="PlatinumOre" xml:space="preserve">
     <value>プラチナ鉱石</value>
   </data>
@@ -149,9 +146,6 @@
   </data>
   <data name="Ice" xml:space="preserve">
     <value>アイス</value>
-  </data>
-  <data name="Oxide" xml:space="preserve">
-    <value>オキサイド</value>
   </data>
   <data name="SilicaOre" xml:space="preserve">
     <value>珪石</value>

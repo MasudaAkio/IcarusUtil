@@ -132,9 +132,6 @@
   <data name="CoalOre" xml:space="preserve">
     <value>Coal Ore</value>
   </data>
-  <data name="AluminumOre" xml:space="preserve">
-    <value>Aluminum Ore</value>
-  </data>
   <data name="PlatinumOre" xml:space="preserve">
     <value>Platinum Ore</value>
   </data>
@@ -149,9 +146,6 @@
   </data>
   <data name="Ice" xml:space="preserve">
     <value>Ice</value>
-  </data>
-  <data name="Oxide" xml:space="preserve">
-    <value />
   </data>
   <data name="SilicaOre" xml:space="preserve">
     <value>Silica Ore</value>

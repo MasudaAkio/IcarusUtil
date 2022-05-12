@@ -13,7 +13,7 @@ using System.Globalization;
 using IcarusLib;
 using IcarusLib.Properties;
 
-namespace IcarusTest
+namespace IcarusSample
 {
     public partial class IcarusSample : Form
     {
@@ -46,22 +46,18 @@ namespace IcarusTest
 
         void Filter(string s)
         {
-            if (!string.IsNullOrEmpty(s))
-            {
-                listView1.Items.AddRange(new Objects()
-                    .Where(m => m.name.Contains(s))
-                    .OrderBy(m => m.name)
-                    .Select(m => CreateItem(m)).ToArray());
-            }
+            var all = string.IsNullOrEmpty(s);
+            listView1.Items.AddRange(new Objects()
+                .Where(m => all || m.name.Contains(s))
+                .OrderBy(m => m.name)
+                .Select(m => CreateItem(m))
+                .ToArray());
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(tbxFilter.Text))
-            {
-                listView1.Items.Clear();
-                Filter(tbxFilter.Text);
+            listView1.Items.Clear();
+            Filter(tbxFilter.Text);
         }
-    }
     }
 }

@@ -268,15 +268,6 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   Aluminum Ore に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        public static string AluminumOre {
-            get {
-                return ResourceManager.GetString("AluminumOre", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Animal Bait に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AnimalBait {
