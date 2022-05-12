@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcarusSample", "IcarusSampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeImagesResX", "MakeImagesResX\MakeImagesResX.csproj", "{0B74ECAA-6256-4E24-9F99-7FAB9D12643A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakingRecipeHelper", "MakingRecipeHelper\MakingRecipeHelper.csproj", "{734877E8-2021-4010-AE3F-38EE4F6C0C90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,14 +85,34 @@ Global
 		{0B74ECAA-6256-4E24-9F99-7FAB9D12643A}.Release|x64.Build.0 = Release|Any CPU
 		{0B74ECAA-6256-4E24-9F99-7FAB9D12643A}.Release|x86.ActiveCfg = Release|Any CPU
 		{0B74ECAA-6256-4E24-9F99-7FAB9D12643A}.Release|x86.Build.0 = Release|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Debug|ARM.Build.0 = Debug|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Debug|x64.Build.0 = Debug|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Debug|x86.Build.0 = Debug|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Release|ARM.ActiveCfg = Release|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Release|ARM.Build.0 = Release|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Release|ARM64.Build.0 = Release|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Release|x64.ActiveCfg = Release|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Release|x64.Build.0 = Release|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Release|x86.ActiveCfg = Release|Any CPU
+		{734877E8-2021-4010-AE3F-38EE4F6C0C90}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E3E514C4-55D8-4833-8F00-5E55E99D9A0C}
-		RESX_AutoCreateNewLanguageFiles = True
-		RESX_DuplicateKeyHandling = Fail
 		RESX_Rules = {"EnabledRules":["StringFormat","WhiteSpaceLead","PunctuationLead","PunctuationTail"]}
+		RESX_DuplicateKeyHandling = Fail
+		RESX_AutoCreateNewLanguageFiles = True
+		SolutionGuid = {E3E514C4-55D8-4833-8F00-5E55E99D9A0C}
 	EndGlobalSection
 EndGlobal

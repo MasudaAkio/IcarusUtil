@@ -1558,7 +1558,7 @@
     <value>スキニングベンチ</value>
   </data>
   <data name="SmallInteriorWoodCrate" xml:space="preserve">
-    <value>木箱(小)</value>
+    <value>インテリア木箱(小)</value>
   </data>
   <data name="SmallIronCrate" xml:space="preserve">
     <value>鉄の木箱(小)</value>

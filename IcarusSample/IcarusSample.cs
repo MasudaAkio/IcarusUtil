@@ -17,8 +17,16 @@ namespace IcarusSample
 {
     public partial class IcarusSample : Form
     {
-        ListViewItem CreateItem(IcarusLib.Object m) => new ListViewItem(/* $"{m.name}-{m.keyname}" */ m.name, m.keyname);
-        ListViewItem CreateItem2(IcarusLib.Object m) => new ListViewItem($"{m.name}-{m.keyname}" /* m.name */, m.keyname);
+        private class ObjectItem : ListViewItem
+        {
+            public string key { get; private set; }
+            public ObjectItem(IcarusLib.Object m, bool debug = false)
+                : base(!debug ? m.name : $"{m.name}-{m.keyname}", m.keyname)
+                => key = m.keyname;
+        }
+
+        private bool debug = false;
+
         public IcarusSample()
         {
             InitializeComponent();
@@ -28,7 +36,7 @@ namespace IcarusSample
                 .Select(m => {
                     ObjectImagesLarge.Images.Add(m.keyname, m.image);
                     ObjectImagesSmall.Images.Add(m.keyname, m.image);
-                    return CreateItem(m);
+                    return new ObjectItem(m, debug);
                 })
                 .ToArray());
             
@@ -50,7 +58,7 @@ namespace IcarusSample
             listView1.Items.AddRange(new Objects()
                 .Where(m => all || m.name.Contains(s))
                 .OrderBy(m => m.name)
-                .Select(m => CreateItem(m))
+                .Select(m => new ObjectItem(m, debug))
                 .ToArray());
         }
 
