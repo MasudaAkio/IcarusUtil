@@ -17,18 +17,20 @@ namespace IcarusTest
 {
     public partial class IcarusSample : Form
     {
+        ListViewItem CreateItem(IcarusLib.Object m) => new ListViewItem(/* $"{m.name}-{m.keyname}" */ m.name, m.keyname);
+        ListViewItem CreateItem2(IcarusLib.Object m) => new ListViewItem($"{m.name}-{m.keyname}" /* m.name */, m.keyname);
         public IcarusSample()
         {
             InitializeComponent();
 
-            listView1.Items.AddRange(new Objects().OrderBy(m => m.name).Select(m => {
-                ObjectImagesLarge.Images.Add(m.keyname, m.image);
-                ObjectImagesSmall.Images.Add(m.keyname, m.image);
-                var item = new ListViewItem(/* $"{m.name}-{m.keyname}" */ m.name, m.keyname);
-                // var item = new ListViewItem($"{m.name}-{m.keyname}" /* m.name */, m.keyname);
-                return item;
-
-            }).ToArray());
+            listView1.Items.AddRange(new Objects()
+                .OrderBy(m => m.name)
+                .Select(m => {
+                    ObjectImagesLarge.Images.Add(m.keyname, m.image);
+                    ObjectImagesSmall.Images.Add(m.keyname, m.image);
+                    return CreateItem(m);
+                })
+                .ToArray());
             
         }
 
@@ -41,5 +43,25 @@ namespace IcarusTest
         private void listToolStripMenuItem_Click(object sender, EventArgs e) => listView1.View = View.List;
 
         private void tileToolStripMenuItem_Click(object sender, EventArgs e) => listView1.View = View.Tile;
+
+        void Filter(string s)
+        {
+            if (!string.IsNullOrEmpty(s))
+            {
+                listView1.Items.AddRange(new Objects()
+                    .Where(m => m.name.Contains(s))
+                    .OrderBy(m => m.name)
+                    .Select(m => CreateItem(m)).ToArray());
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(tbxFilter.Text))
+            {
+                listView1.Items.Clear();
+                Filter(tbxFilter.Text);
+        }
+    }
     }
 }

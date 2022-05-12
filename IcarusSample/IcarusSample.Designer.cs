@@ -40,6 +40,9 @@ namespace IcarusTest
             this.smallIconToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tbxFilter = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.panel1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,9 +54,10 @@ namespace IcarusTest
             this.listView1.GridLines = true;
             this.listView1.HideSelection = false;
             this.listView1.LargeImageList = this.ObjectImagesLarge;
-            this.listView1.Location = new System.Drawing.Point(200, 26);
+            this.listView1.Location = new System.Drawing.Point(182, 26);
+            this.listView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(520, 366);
+            this.listView1.Size = new System.Drawing.Size(542, 268);
             this.listView1.SmallImageList = this.ObjectImagesSmall;
             this.listView1.TabIndex = 1;
             this.listView1.UseCompatibleStateImageBehavior = false;
@@ -73,11 +77,14 @@ namespace IcarusTest
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.SandyBrown;
+            this.panel1.BackColor = System.Drawing.Color.DarkGray;
+            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.tbxFilter);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 26);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 366);
+            this.panel1.Size = new System.Drawing.Size(182, 268);
             this.panel1.TabIndex = 2;
             // 
             // menuStrip1
@@ -88,7 +95,8 @@ namespace IcarusTest
             this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(720, 26);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip1.Size = new System.Drawing.Size(724, 26);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -132,18 +140,43 @@ namespace IcarusTest
             this.tileToolStripMenuItem.Text = "Tile";
             this.tileToolStripMenuItem.Click += new System.EventHandler(this.tileToolStripMenuItem_Click);
             // 
-            // Form1
+            // tbxFilter
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
+            this.tbxFilter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.tbxFilter.Location = new System.Drawing.Point(8, 11);
+            this.tbxFilter.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbxFilter.Name = "tbxFilter";
+            this.tbxFilter.Size = new System.Drawing.Size(113, 25);
+            this.tbxFilter.TabIndex = 0;
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(125, 12);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(48, 24);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Filter";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // IcarusSample
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(720, 392);
+            this.ClientSize = new System.Drawing.Size(724, 294);
             this.Controls.Add(this.listView1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
-            this.Font = new System.Drawing.Font("メイリオ", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
-            this.Name = "Form1";
+            this.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "IcarusSample";
             this.Text = "IcarusSample";
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -162,6 +195,8 @@ namespace IcarusTest
         private System.Windows.Forms.ToolStripMenuItem smallIconToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem listToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tileToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox tbxFilter;
     }
 }
 

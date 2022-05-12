@@ -36,6 +36,7 @@ namespace MakeImagesResX
                 else wrtr.AddResource(k, noimage);
             }
             wrtr.Close();
+            MessageBox.Show($"{Path.Combine(prefix, @"Properties\Images.resx")}を作成しました。");
         }
     }
 }
