@@ -1,0 +1,1950 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IronIngot" xml:space="preserve">
+    <value>Iron Ingot</value>
+  </data>
+  <data name="IronOre" xml:space="preserve">
+    <value>Iron Ore</value>
+  </data>
+  <data name="CopperOre" xml:space="preserve">
+    <value>Copper Ore</value>
+  </data>
+  <data name="GoldOre" xml:space="preserve">
+    <value>Gold Ore</value>
+  </data>
+  <data name="CoalOre" xml:space="preserve">
+    <value>Coal Ore</value>
+  </data>
+  <data name="AluminumOre" xml:space="preserve">
+    <value>Aluminum Ore</value>
+  </data>
+  <data name="PlatinumOre" xml:space="preserve">
+    <value>Platinum Ore</value>
+  </data>
+  <data name="TitaniumOre" xml:space="preserve">
+    <value>Titanium Ore</value>
+  </data>
+  <data name="Exotics" xml:space="preserve">
+    <value>Exotics</value>
+  </data>
+  <data name="Stone" xml:space="preserve">
+    <value>Stone</value>
+  </data>
+  <data name="Ice" xml:space="preserve">
+    <value>Ice</value>
+  </data>
+  <data name="Oxide" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SilicaOre" xml:space="preserve">
+    <value>Silica Ore</value>
+  </data>
+  <data name="Sulfur" xml:space="preserve">
+    <value>Sulfur</value>
+  </data>
+  <data name="ReedFlower" xml:space="preserve">
+    <value>Reed Flower</value>
+  </data>
+  <data name="Lily" xml:space="preserve">
+    <value>Lily</value>
+  </data>
+  <data name="Squash" xml:space="preserve">
+    <value>Squash</value>
+  </data>
+  <data name="Yeast" xml:space="preserve">
+    <value>Yeast</value>
+  </data>
+  <data name="Wheat" xml:space="preserve">
+    <value>Wheat</value>
+  </data>
+  <data name="SoyBean" xml:space="preserve">
+    <value>Soy Bean</value>
+  </data>
+  <data name="Pumpkin" xml:space="preserve">
+    <value>Pumpkin</value>
+  </data>
+  <data name="WildBerry" xml:space="preserve">
+    <value>Wild Berry</value>
+  </data>
+  <data name="Carrot" xml:space="preserve">
+    <value>Carrot</value>
+  </data>
+  <data name="YoungCoconut" xml:space="preserve">
+    <value>Young Coconut</value>
+  </data>
+  <data name="Mushroom" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Wood" xml:space="preserve">
+    <value>Wood</value>
+  </data>
+  <data name="SpoiledPlants" xml:space="preserve">
+    <value>Spoiled Plants</value>
+  </data>
+  <data name="SpoiledMeat" xml:space="preserve">
+    <value>Spoiled Meat</value>
+  </data>
+  <data name="Fiber" xml:space="preserve">
+    <value>Fiber</value>
+  </data>
+  <data name="Stick" xml:space="preserve">
+    <value>Stick</value>
+  </data>
+  <data name="Leather" xml:space="preserve">
+    <value>Leather</value>
+  </data>
+  <data name="Bone" xml:space="preserve">
+    <value>Bone</value>
+  </data>
+  <data name="Fur" xml:space="preserve">
+    <value>Fur</value>
+  </data>
+  <data name="RawFish" xml:space="preserve">
+    <value>Raw Fish</value>
+  </data>
+  <data name="RawMeat" xml:space="preserve">
+    <value>Raw Meat</value>
+  </data>
+  <data name="RawGiantSteak" xml:space="preserve">
+    <value>Raw Giant Steak</value>
+  </data>
+  <data name="RawBacon" xml:space="preserve">
+    <value>Raw Bacon</value>
+  </data>
+  <data name="RawFattyTbone" xml:space="preserve">
+    <value>Raw Fatty Tbone</value>
+  </data>
+  <data name="RawGameMeat" xml:space="preserve">
+    <value>Raw Game Meat</value>
+  </data>
+  <data name="RawSoftMeat" xml:space="preserve">
+    <value>Raw Soft Meat</value>
+  </data>
+  <data name="RawStringyMeat" xml:space="preserve">
+    <value>Raw Stringy Meat</value>
+  </data>
+  <data name="RawWhiteMeat" xml:space="preserve">
+    <value>Raw White Meat</value>
+  </data>
+  <data name="AdliftModule" xml:space="preserve">
+    <value>Adlift Module</value>
+  </data>
+  <data name="AdvancedDeepMiningOreScanner" xml:space="preserve">
+    <value>Advanced Deep Mining Ore Scanner</value>
+  </data>
+  <data name="AlphaWolfHead" xml:space="preserve">
+    <value>Alpha Wolf Head</value>
+  </data>
+  <data name="AlphaWolfTrophy" xml:space="preserve">
+    <value>Alpha Wolf Trophy</value>
+  </data>
+  <data name="AluminiumArrow" xml:space="preserve">
+    <value>Aluminium Arrow</value>
+  </data>
+  <data name="AluminiumBeam" xml:space="preserve">
+    <value>Aluminium Beam</value>
+  </data>
+  <data name="AluminiumDoor" xml:space="preserve">
+    <value>Aluminium Door</value>
+  </data>
+  <data name="AluminiumFloor" xml:space="preserve">
+    <value>Aluminium Floor</value>
+  </data>
+  <data name="AluminiumFloorTrapdoor" xml:space="preserve">
+    <value>Aluminium Floor Trapdoor</value>
+  </data>
+  <data name="AluminiumHalfpieces" xml:space="preserve">
+    <value>Aluminium Halfpieces</value>
+  </data>
+  <data name="AluminiumHalfpitches" xml:space="preserve">
+    <value>Aluminium Halfpitches</value>
+  </data>
+  <data name="AluminiumIngot" xml:space="preserve">
+    <value>Aluminium Ingot</value>
+  </data>
+  <data name="AluminiumLadder" xml:space="preserve">
+    <value>Aluminium Ladder</value>
+  </data>
+  <data name="AluminiumOre" xml:space="preserve">
+    <value>Aluminium Ore</value>
+  </data>
+  <data name="AluminiumRailing" xml:space="preserve">
+    <value>Aluminium Railing</value>
+  </data>
+  <data name="AluminiumRamp" xml:space="preserve">
+    <value>Aluminium Ramp</value>
+  </data>
+  <data name="AluminiumRoof" xml:space="preserve">
+    <value>Aluminium Roof</value>
+  </data>
+  <data name="AluminiumRoofCorner" xml:space="preserve">
+    <value>Aluminium Roof Corner</value>
+  </data>
+  <data name="AluminiumStairs" xml:space="preserve">
+    <value>Aluminium Stairs</value>
+  </data>
+  <data name="AluminiumTrapdoor" xml:space="preserve">
+    <value>Aluminium Trapdoor</value>
+  </data>
+  <data name="AluminiumWall" xml:space="preserve">
+    <value>Aluminium Wall</value>
+  </data>
+  <data name="AluminiumWallAngled" xml:space="preserve">
+    <value>Aluminium Wall Angled</value>
+  </data>
+  <data name="AluminiumWindow" xml:space="preserve">
+    <value>Aluminium Window</value>
+  </data>
+  <data name="AnimalBait" xml:space="preserve">
+    <value>Animal Bait</value>
+  </data>
+  <data name="AnimalFat" xml:space="preserve">
+    <value>Animal Fat</value>
+  </data>
+  <data name="AnimalHealthbarModule" xml:space="preserve">
+    <value>Animal Healthbar Module</value>
+  </data>
+  <data name="AnimalHighlightingModule" xml:space="preserve">
+    <value>Animal Highlighting Module</value>
+  </data>
+  <data name="Anti-ParasiticPaste" xml:space="preserve">
+    <value>Anti-Parasitic Paste</value>
+  </data>
+  <data name="Anti-ParasiticPill" xml:space="preserve">
+    <value>Anti-Parasitic Pill</value>
+  </data>
+  <data name="Anti-ParasiticTonic" xml:space="preserve">
+    <value>Anti-Parasitic Tonic</value>
+  </data>
+  <data name="Anti-ParasiticVaccineI" xml:space="preserve">
+    <value>Anti-Parasitic Vaccine I</value>
+  </data>
+  <data name="Anti-ParasiticVaccineII" xml:space="preserve">
+    <value>Anti-Parasitic Vaccine II</value>
+  </data>
+  <data name="Anti-ParasiticVaccineIII" xml:space="preserve">
+    <value>Anti-Parasitic Vaccine III</value>
+  </data>
+  <data name="Anti-PoisonPaste" xml:space="preserve">
+    <value>Anti-Poison Paste</value>
+  </data>
+  <data name="Anti-PoisonPill" xml:space="preserve">
+    <value>Anti-Poison Pill</value>
+  </data>
+  <data name="Anti-PoisonTonic" xml:space="preserve">
+    <value>Anti-Poison Tonic</value>
+  </data>
+  <data name="Anti-PoisonVaccineI" xml:space="preserve">
+    <value>Anti-Poison Vaccine I</value>
+  </data>
+  <data name="Anti-PoisonVaccineII" xml:space="preserve">
+    <value>Anti-Poison Vaccine II</value>
+  </data>
+  <data name="Anti-PoisonVaccineIII" xml:space="preserve">
+    <value>Anti-Poison Vaccine III</value>
+  </data>
+  <data name="AntibioticPaste" xml:space="preserve">
+    <value>Antibiotic Paste</value>
+  </data>
+  <data name="AntibioticPill" xml:space="preserve">
+    <value>Antibiotic Pill</value>
+  </data>
+  <data name="AntibioticTonic" xml:space="preserve">
+    <value>Antibiotic Tonic</value>
+  </data>
+  <data name="AnvilBench" xml:space="preserve">
+    <value>Anvil Bench</value>
+  </data>
+  <data name="ArchersBackpack" xml:space="preserve">
+    <value>Archers Backpack</value>
+  </data>
+  <data name="BacterialVaccineI" xml:space="preserve">
+    <value>Bacterial Vaccine I</value>
+  </data>
+  <data name="BacterialVaccineII" xml:space="preserve">
+    <value>Bacterial Vaccine II</value>
+  </data>
+  <data name="BacterialVaccineIII" xml:space="preserve">
+    <value>Bacterial Vaccine III</value>
+  </data>
+  <data name="BarbequeCarrot" xml:space="preserve">
+    <value>Barbeque Carrot</value>
+  </data>
+  <data name="BasicBandage" xml:space="preserve">
+    <value>Basic Bandage</value>
+  </data>
+  <data name="BasicCeilingLight" xml:space="preserve">
+    <value>Basic Ceiling Light</value>
+  </data>
+  <data name="BasicFertilizer" xml:space="preserve">
+    <value>Basic Fertilizer</value>
+  </data>
+  <data name="BasicWallLight" xml:space="preserve">
+    <value>Basic Wall Light</value>
+  </data>
+  <data name="BearHead" xml:space="preserve">
+    <value>Bear Head</value>
+  </data>
+  <data name="BearTrophy" xml:space="preserve">
+    <value>Bear Trophy</value>
+  </data>
+  <data name="Bedroll" xml:space="preserve">
+    <value>Bedroll</value>
+  </data>
+  <data name="Beer" xml:space="preserve">
+    <value>Beer</value>
+  </data>
+  <data name="BeerBottle" xml:space="preserve">
+    <value>Beer Bottle</value>
+  </data>
+  <data name="BerryJam" xml:space="preserve">
+    <value>Berry Jam</value>
+  </data>
+  <data name="Binoculars" xml:space="preserve">
+    <value>Binoculars</value>
+  </data>
+  <data name="BiofuelCan" xml:space="preserve">
+    <value>Biofuel Can</value>
+  </data>
+  <data name="BiofuelComposter" xml:space="preserve">
+    <value>Biofuel Composter</value>
+  </data>
+  <data name="BiofuelDeep-MiningDrill" xml:space="preserve">
+    <value>Biofuel Deep-Mining Drill</value>
+  </data>
+  <data name="BiofuelGenerator" xml:space="preserve">
+    <value>Biofuel Generator</value>
+  </data>
+  <data name="BiofuelLamp" xml:space="preserve">
+    <value>Biofuel Lamp</value>
+  </data>
+  <data name="BiofuelStove" xml:space="preserve">
+    <value>Biofuel Stove</value>
+  </data>
+  <data name="BlackJaguarHead" xml:space="preserve">
+    <value>Black Jaguar Head</value>
+  </data>
+  <data name="BlackJaguarTrophy" xml:space="preserve">
+    <value>Black Jaguar Trophy</value>
+  </data>
+  <data name="BloodThinningPaste" xml:space="preserve">
+    <value>Blood Thinning Paste</value>
+  </data>
+  <data name="BloodThinningPill" xml:space="preserve">
+    <value>Blood Thinning Pill</value>
+  </data>
+  <data name="BloodThinningTonic" xml:space="preserve">
+    <value>Blood Thinning Tonic</value>
+  </data>
+  <data name="BloodThinningVaccineI" xml:space="preserve">
+    <value>Blood Thinning Vaccine I</value>
+  </data>
+  <data name="BloodThinningVaccineII" xml:space="preserve">
+    <value>Blood Thinning Vaccine II</value>
+  </data>
+  <data name="BloodThinningVaccineIII" xml:space="preserve">
+    <value>Blood Thinning Vaccine III</value>
+  </data>
+  <data name="BoltActionRifle" xml:space="preserve">
+    <value>Bolt Action Rifle</value>
+  </data>
+  <data name="BoneArrow" xml:space="preserve">
+    <value>Bone Arrow</value>
+  </data>
+  <data name="BoneKnife" xml:space="preserve">
+    <value>Bone Knife</value>
+  </data>
+  <data name="BoneSickle" xml:space="preserve">
+    <value>Bone Sickle</value>
+  </data>
+  <data name="BoneSpear" xml:space="preserve">
+    <value>Bone Spear</value>
+  </data>
+  <data name="Brazier" xml:space="preserve">
+    <value>Brazier</value>
+  </data>
+  <data name="Bread" xml:space="preserve">
+    <value>Bread</value>
+  </data>
+  <data name="BreadDough" xml:space="preserve">
+    <value>Bread Dough</value>
+  </data>
+  <data name="BuckshotShell" xml:space="preserve">
+    <value>Buckshot Shell</value>
+  </data>
+  <data name="BuffaloHead" xml:space="preserve">
+    <value>Buffalo Head</value>
+  </data>
+  <data name="BuffaloTrophy" xml:space="preserve">
+    <value>Buffalo Trophy</value>
+  </data>
+  <data name="BuildingUpgradeTool" xml:space="preserve">
+    <value>Building Upgrade Tool</value>
+  </data>
+  <data name="Campfire" xml:space="preserve">
+    <value>Campfire</value>
+  </data>
+  <data name="Canteen" xml:space="preserve">
+    <value>Canteen</value>
+  </data>
+  <data name="CarbonArrow" xml:space="preserve">
+    <value>Carbon Arrow</value>
+  </data>
+  <data name="CarbonFiber" xml:space="preserve">
+    <value>Carbon Fiber</value>
+  </data>
+  <data name="CarbonPaste" xml:space="preserve">
+    <value>Carbon Paste</value>
+  </data>
+  <data name="CarbonSpear" xml:space="preserve">
+    <value>Carbon Spear</value>
+  </data>
+  <data name="CarpentryBench" xml:space="preserve">
+    <value>Carpentry Bench</value>
+  </data>
+  <data name="CaveScanner" xml:space="preserve">
+    <value>Cave Scanner</value>
+  </data>
+  <data name="CavewormArrow" xml:space="preserve">
+    <value>Caveworm Arrow</value>
+  </data>
+  <data name="CavewormBow" xml:space="preserve">
+    <value>Caveworm Bow</value>
+  </data>
+  <data name="CavewormKnife" xml:space="preserve">
+    <value>Caveworm Knife</value>
+  </data>
+  <data name="CavewormSpear" xml:space="preserve">
+    <value>Caveworm Spear</value>
+  </data>
+  <data name="CementMixer" xml:space="preserve">
+    <value>Cement Mixer</value>
+  </data>
+  <data name="Charcoal" xml:space="preserve">
+    <value>Charcoal</value>
+  </data>
+  <data name="CharredCorn" xml:space="preserve">
+    <value>Charred Corn</value>
+  </data>
+  <data name="ChemistryBench" xml:space="preserve">
+    <value>Chemistry Bench</value>
+  </data>
+  <data name="ClothArmsArmor" xml:space="preserve">
+    <value>Cloth Arms Armor</value>
+  </data>
+  <data name="ClothChestArmor" xml:space="preserve">
+    <value>Cloth Chest Armor</value>
+  </data>
+  <data name="ClothFeetArmor" xml:space="preserve">
+    <value>Cloth Feet Armor</value>
+  </data>
+  <data name="ClothHeadArmor" xml:space="preserve">
+    <value>Cloth Head Armor</value>
+  </data>
+  <data name="ClothLegsArmor" xml:space="preserve">
+    <value>Cloth Legs Armor</value>
+  </data>
+  <data name="CocoaSeed" xml:space="preserve">
+    <value>Cocoa Seed</value>
+  </data>
+  <data name="CoffeeBean" xml:space="preserve">
+    <value>Coffee Bean</value>
+  </data>
+  <data name="CombatKnife" xml:space="preserve">
+    <value>Combat Knife</value>
+  </data>
+  <data name="CometCoal" xml:space="preserve">
+    <value>Comet Coal (Stack)</value>
+  </data>
+  <data name="CompositeArmsArmor" xml:space="preserve">
+    <value>Composite Arms Armor</value>
+  </data>
+  <data name="CompositeArrow" xml:space="preserve">
+    <value>Composite Arrow</value>
+  </data>
+  <data name="CompositeChestArmor" xml:space="preserve">
+    <value>Composite Chest Armor</value>
+  </data>
+  <data name="CompositeFeetArmor" xml:space="preserve">
+    <value>Composite Feet Armor</value>
+  </data>
+  <data name="CompositeHeadArmor" xml:space="preserve">
+    <value>Composite Head Armor</value>
+  </data>
+  <data name="CompositeLegsArmor" xml:space="preserve">
+    <value>Composite Legs Armor</value>
+  </data>
+  <data name="CompositePaste" xml:space="preserve">
+    <value>Composite Paste</value>
+  </data>
+  <data name="CompositeSpear" xml:space="preserve">
+    <value>Composite Spear</value>
+  </data>
+  <data name="Composites" xml:space="preserve">
+    <value>Composites</value>
+  </data>
+  <data name="CompoundBow" xml:space="preserve">
+    <value>Compound Bow</value>
+  </data>
+  <data name="ConcreteBeam" xml:space="preserve">
+    <value>Concrete Beam</value>
+  </data>
+  <data name="ConcreteFloor" xml:space="preserve">
+    <value>Concrete Floor</value>
+  </data>
+  <data name="ConcreteFloorTrapdoor" xml:space="preserve">
+    <value>Concrete Floor Trapdoor</value>
+  </data>
+  <data name="ConcreteFrame" xml:space="preserve">
+    <value>Concrete Frame</value>
+  </data>
+  <data name="ConcreteFurnace" xml:space="preserve">
+    <value>Concrete Furnace</value>
+  </data>
+  <data name="ConcreteHalfpieces" xml:space="preserve">
+    <value>Concrete Halfpieces</value>
+  </data>
+  <data name="ConcreteHalfpitches" xml:space="preserve">
+    <value>Concrete Halfpitches</value>
+  </data>
+  <data name="ConcreteMix" xml:space="preserve">
+    <value>Concrete Mix</value>
+  </data>
+  <data name="ConcreteRailing" xml:space="preserve">
+    <value>Concrete Railing</value>
+  </data>
+  <data name="ConcreteRamp" xml:space="preserve">
+    <value>Concrete Ramp</value>
+  </data>
+  <data name="ConcreteRoof" xml:space="preserve">
+    <value>Concrete Roof</value>
+  </data>
+  <data name="ConcreteRoofCorner" xml:space="preserve">
+    <value>Concrete Roof Corner</value>
+  </data>
+  <data name="ConcreteStairs" xml:space="preserve">
+    <value>Concrete Stairs</value>
+  </data>
+  <data name="ConcreteWall" xml:space="preserve">
+    <value>Concrete Wall</value>
+  </data>
+  <data name="ConcreteWallAngled" xml:space="preserve">
+    <value>Concrete Wall Angled</value>
+  </data>
+  <data name="CookedBacon" xml:space="preserve">
+    <value>Cooked Bacon</value>
+  </data>
+  <data name="CookedFattyTbone" xml:space="preserve">
+    <value>Cooked Fatty Tbone</value>
+  </data>
+  <data name="CookedFish" xml:space="preserve">
+    <value>Cooked Fish</value>
+  </data>
+  <data name="CookedGameMeat" xml:space="preserve">
+    <value>Cooked Game Meat</value>
+  </data>
+  <data name="CookedGiantSteak" xml:space="preserve">
+    <value>Cooked Giant Steak</value>
+  </data>
+  <data name="CookedMeat" xml:space="preserve">
+    <value>Cooked Meat</value>
+  </data>
+  <data name="CookedSoftMeat" xml:space="preserve">
+    <value>Cooked Soft Meat</value>
+  </data>
+  <data name="CookedStringyMeat" xml:space="preserve">
+    <value>Cooked Stringy Meat</value>
+  </data>
+  <data name="CookedWhiteMeat" xml:space="preserve">
+    <value>Cooked White Meat</value>
+  </data>
+  <data name="CookingStation" xml:space="preserve">
+    <value>Cooking Station</value>
+  </data>
+  <data name="CoolingBandage" xml:space="preserve">
+    <value>Cooling Bandage</value>
+  </data>
+  <data name="CopperBolt" xml:space="preserve">
+    <value>Copper Bolt</value>
+  </data>
+  <data name="CopperIngot" xml:space="preserve">
+    <value>Copper Ingot</value>
+  </data>
+  <data name="CopperNail" xml:space="preserve">
+    <value>Copper Nail</value>
+  </data>
+  <data name="Corn" xml:space="preserve">
+    <value>Corn</value>
+  </data>
+  <data name="CougarHead" xml:space="preserve">
+    <value>Cougar Head</value>
+  </data>
+  <data name="CougarTrophy" xml:space="preserve">
+    <value>Cougar Trophy</value>
+  </data>
+  <data name="CraftingBench" xml:space="preserve">
+    <value>Crafting Bench</value>
+  </data>
+  <data name="CreamedCorn" xml:space="preserve">
+    <value>Creamed Corn</value>
+  </data>
+  <data name="CrispyBacon" xml:space="preserve">
+    <value>Crispy Bacon</value>
+  </data>
+  <data name="Crossbow" xml:space="preserve">
+    <value>Crossbow</value>
+  </data>
+  <data name="CrumbedFishFillet" xml:space="preserve">
+    <value>Crumbed Fish Fillet</value>
+  </data>
+  <data name="CrushedBone" xml:space="preserve">
+    <value>Crushed Bone</value>
+  </data>
+  <data name="CX-400ArmsArmor" xml:space="preserve">
+    <value>CX-400 Arms Armor</value>
+  </data>
+  <data name="CX-400ChestArmor" xml:space="preserve">
+    <value>CX-400 Chest Armor</value>
+  </data>
+  <data name="CX-400FeetArmor" xml:space="preserve">
+    <value>CX-400 Feet Armor</value>
+  </data>
+  <data name="CX-400HeadArmor" xml:space="preserve">
+    <value>CX-400 Head Armor</value>
+  </data>
+  <data name="CX-400LegsArmor" xml:space="preserve">
+    <value>CX-400 Legs Armor</value>
+  </data>
+  <data name="DeepMiningOreScanner" xml:space="preserve">
+    <value>Deep Mining Ore Scanner</value>
+  </data>
+  <data name="DeerHead" xml:space="preserve">
+    <value>Deer Head</value>
+  </data>
+  <data name="DeerTrophy" xml:space="preserve">
+    <value>Deer Trophy</value>
+  </data>
+  <data name="Dehumidifier" xml:space="preserve">
+    <value>Dehumidifier</value>
+  </data>
+  <data name="DetoxifierModule" xml:space="preserve">
+    <value>Detoxifier Module</value>
+  </data>
+  <data name="DirectionalWorklamp" xml:space="preserve">
+    <value>Directional Worklamp</value>
+  </data>
+  <data name="DoseupModule" xml:space="preserve">
+    <value>Doseup Module</value>
+  </data>
+  <data name="DriedFattyTbone" xml:space="preserve">
+    <value>Dried Fatty Tbone</value>
+  </data>
+  <data name="DriedGameMeat" xml:space="preserve">
+    <value>Dried Game Meat</value>
+  </data>
+  <data name="DriedGiantSteak" xml:space="preserve">
+    <value>Dried Giant Steak</value>
+  </data>
+  <data name="DriedSoftMeat" xml:space="preserve">
+    <value>Dried Soft Meat</value>
+  </data>
+  <data name="DriedStringyMeat" xml:space="preserve">
+    <value>Dried Stringy Meat</value>
+  </data>
+  <data name="DriedWhiteMeat" xml:space="preserve">
+    <value>Dried White Meat</value>
+  </data>
+  <data name="DryingRack" xml:space="preserve">
+    <value>Drying Rack</value>
+  </data>
+  <data name="ElectricCarpentryBench" xml:space="preserve">
+    <value>Electric Carpentry Bench</value>
+  </data>
+  <data name="ElectricComposter" xml:space="preserve">
+    <value>Electric Composter</value>
+  </data>
+  <data name="ElectricDeep-MiningDrill" xml:space="preserve">
+    <value>Electric Deep-Mining Drill</value>
+  </data>
+  <data name="ElectricDehumidifier" xml:space="preserve">
+    <value>Electric Dehumidifier</value>
+  </data>
+  <data name="ElectricFurnace" xml:space="preserve">
+    <value>Electric Furnace</value>
+  </data>
+  <data name="ElectricMasonryBench" xml:space="preserve">
+    <value>Electric Masonry Bench</value>
+  </data>
+  <data name="ElectricityTool" xml:space="preserve">
+    <value>Electricity Tool</value>
+  </data>
+  <data name="Electronics" xml:space="preserve">
+    <value>Electronics</value>
+  </data>
+  <data name="Endurogel" xml:space="preserve">
+    <value>Endurogel</value>
+  </data>
+  <data name="Epoxy" xml:space="preserve">
+    <value>Epoxy</value>
+  </data>
+  <data name="Extractor" xml:space="preserve">
+    <value>Extractor</value>
+  </data>
+  <data name="Fabricator" xml:space="preserve">
+    <value>Fabricator</value>
+  </data>
+  <data name="FireArrow" xml:space="preserve">
+    <value>Fire Arrow</value>
+  </data>
+  <data name="FireExtinguisher" xml:space="preserve">
+    <value>Fire Extinguisher</value>
+  </data>
+  <data name="FireWhacker" xml:space="preserve">
+    <value>Fire Whacker</value>
+  </data>
+  <data name="Firepit" xml:space="preserve">
+    <value>Firepit</value>
+  </data>
+  <data name="Fireplace" xml:space="preserve">
+    <value>Fireplace</value>
+  </data>
+  <data name="FishCurry" xml:space="preserve">
+    <value>Fish Curry</value>
+  </data>
+  <data name="FishingRod" xml:space="preserve">
+    <value>Fishing Rod</value>
+  </data>
+  <data name="FishingTrap" xml:space="preserve">
+    <value>Fishing Trap</value>
+  </data>
+  <data name="FlareArrow" xml:space="preserve">
+    <value>Flare Arrow</value>
+  </data>
+  <data name="Flashlight" xml:space="preserve">
+    <value>Flashlight</value>
+  </data>
+  <data name="Flatbread" xml:space="preserve">
+    <value>Flatbread</value>
+  </data>
+  <data name="FlatbreadDough" xml:space="preserve">
+    <value>Flatbread Dough</value>
+  </data>
+  <data name="FlintArrow" xml:space="preserve">
+    <value>Flint Arrow</value>
+  </data>
+  <data name="FloorTorch" xml:space="preserve">
+    <value>Floor Torch</value>
+  </data>
+  <data name="Flour" xml:space="preserve">
+    <value>Flour</value>
+  </data>
+  <data name="FoodConsumptionPaste" xml:space="preserve">
+    <value>Food Consumption Paste</value>
+  </data>
+  <data name="FragGrenade" xml:space="preserve">
+    <value>Frag Grenade</value>
+  </data>
+  <data name="FrozenRocks" xml:space="preserve">
+    <value>Frozen Rocks</value>
+  </data>
+  <data name="FruitPie" xml:space="preserve">
+    <value>Fruit Pie</value>
+  </data>
+  <data name="FruitSalad" xml:space="preserve">
+    <value>Fruit Salad</value>
+  </data>
+  <data name="FurArmsArmor" xml:space="preserve">
+    <value>Fur Arms Armor</value>
+  </data>
+  <data name="FurChestArmor" xml:space="preserve">
+    <value>Fur Chest Armor</value>
+  </data>
+  <data name="FurFeetArmor" xml:space="preserve">
+    <value>Fur Feet Armor</value>
+  </data>
+  <data name="FurHeadArmor" xml:space="preserve">
+    <value>Fur Head Armor</value>
+  </data>
+  <data name="FurLegsArmor" xml:space="preserve">
+    <value>Fur Legs Armor</value>
+  </data>
+  <data name="GatherersBackpack" xml:space="preserve">
+    <value>Gatherers Backpack</value>
+  </data>
+  <data name="GhillieArmsArmor" xml:space="preserve">
+    <value>Ghillie Arms Armor</value>
+  </data>
+  <data name="GhillieChestArmor" xml:space="preserve">
+    <value>Ghillie Chest Armor</value>
+  </data>
+  <data name="GhillieFeetArmor" xml:space="preserve">
+    <value>Ghillie Feet Armor</value>
+  </data>
+  <data name="GhillieHeadArmor" xml:space="preserve">
+    <value>Ghillie Head Armor</value>
+  </data>
+  <data name="GhillieLegsArmor" xml:space="preserve">
+    <value>Ghillie Legs Armor</value>
+  </data>
+  <data name="Glass" xml:space="preserve">
+    <value>Glass</value>
+  </data>
+  <data name="GlassBeam" xml:space="preserve">
+    <value>Glass Beam</value>
+  </data>
+  <data name="GlassDoor" xml:space="preserve">
+    <value>Glass Door</value>
+  </data>
+  <data name="GlassJar" xml:space="preserve">
+    <value>Glass Jar</value>
+  </data>
+  <data name="GlassRoof" xml:space="preserve">
+    <value>Glass Roof</value>
+  </data>
+  <data name="GlassRoofCorner" xml:space="preserve">
+    <value>Glass Roof Corner</value>
+  </data>
+  <data name="GlassWall" xml:space="preserve">
+    <value>Glass Wall</value>
+  </data>
+  <data name="GlassWallAngled" xml:space="preserve">
+    <value>Glass Wall Angled</value>
+  </data>
+  <data name="GlassWindow" xml:space="preserve">
+    <value>Glass Window</value>
+  </data>
+  <data name="GlassworkingBench" xml:space="preserve">
+    <value>Glassworking Bench</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="GorseFlower" xml:space="preserve">
+    <value>Gorse Flower</value>
+  </data>
+  <data name="GorseTea" xml:space="preserve">
+    <value>Gorse Tea</value>
+  </data>
+  <data name="GrilledPumpkin" xml:space="preserve">
+    <value>Grilled Pumpkin</value>
+  </data>
+  <data name="GrowthFertilizer" xml:space="preserve">
+    <value>Growth Fertilizer</value>
+  </data>
+  <data name="Gunpowder" xml:space="preserve">
+    <value>Gunpowder</value>
+  </data>
+  <data name="HealingBoostModule" xml:space="preserve">
+    <value>Healing Boost Module</value>
+  </data>
+  <data name="HealthBuffPaste" xml:space="preserve">
+    <value>Health Buff Paste</value>
+  </data>
+  <data name="HealthRegenerationPaste" xml:space="preserve">
+    <value>Health Regeneration Paste</value>
+  </data>
+  <data name="HealthRestorationPaste" xml:space="preserve">
+    <value>Health Restoration Paste</value>
+  </data>
+  <data name="HeatBandage" xml:space="preserve">
+    <value>Heat Bandage</value>
+  </data>
+  <data name="HeavyAirConditioner" xml:space="preserve">
+    <value>Heavy Air Conditioner</value>
+  </data>
+  <data name="HeavyGlassWindow" xml:space="preserve">
+    <value>Heavy Glass Window</value>
+  </data>
+  <data name="HeavyHeater" xml:space="preserve">
+    <value>Heavy Heater</value>
+  </data>
+  <data name="HeavyTrapdoor" xml:space="preserve">
+    <value>Heavy Trapdoor</value>
+  </data>
+  <data name="HerbalismBench" xml:space="preserve">
+    <value>Herbalism Bench</value>
+  </data>
+  <data name="High-QualityFertilizer" xml:space="preserve">
+    <value>High-Quality Fertilizer</value>
+  </data>
+  <data name="HotCocoa" xml:space="preserve">
+    <value>Hot Cocoa</value>
+  </data>
+  <data name="HotCoffee" xml:space="preserve">
+    <value>Hot Coffee</value>
+  </data>
+  <data name="HotTea" xml:space="preserve">
+    <value>Hot Tea</value>
+  </data>
+  <data name="HunterArmsArmor" xml:space="preserve">
+    <value>Hunter Arms Armor</value>
+  </data>
+  <data name="HunterChestArmor" xml:space="preserve">
+    <value>Hunter Chest Armor</value>
+  </data>
+  <data name="HunterFeetArmor" xml:space="preserve">
+    <value>Hunter Feet Armor</value>
+  </data>
+  <data name="HunterHeadArmor" xml:space="preserve">
+    <value>Hunter Head Armor</value>
+  </data>
+  <data name="HunterLegsArmor" xml:space="preserve">
+    <value>Hunter Legs Armor</value>
+  </data>
+  <data name="HuntingRifle" xml:space="preserve">
+    <value>Hunting Rifle</value>
+  </data>
+  <data name="HydroponicCropPlot" xml:space="preserve">
+    <value>Hydroponic Crop Plot</value>
+  </data>
+  <data name="IceBox" xml:space="preserve">
+    <value>Ice Box</value>
+  </data>
+  <data name="InarisArudaArrow" xml:space="preserve">
+    <value>Inaris Aruda Arrow</value>
+  </data>
+  <data name="InarisDiasAxe" xml:space="preserve">
+    <value>Inaris Dias Axe</value>
+  </data>
+  <data name="InarisGrisSpear" xml:space="preserve">
+    <value>Inaris Gris Spear</value>
+  </data>
+  <data name="InarisNevesPickaxe" xml:space="preserve">
+    <value>Inaris Neves Pickaxe</value>
+  </data>
+  <data name="InarisVenturaKnife" xml:space="preserve">
+    <value>Inaris Ventura Knife</value>
+  </data>
+  <data name="IncendiaryRifleRound" xml:space="preserve">
+    <value>Incendiary Rifle Round</value>
+  </data>
+  <data name="InteriorWoodBeam" xml:space="preserve">
+    <value>Interior Wood Beam</value>
+  </data>
+  <data name="InteriorWoodCupboard" xml:space="preserve">
+    <value>Interior Wood Cupboard</value>
+  </data>
+  <data name="InteriorWoodDoor" xml:space="preserve">
+    <value>Interior Wood Door</value>
+  </data>
+  <data name="InteriorWoodFloor" xml:space="preserve">
+    <value>Interior Wood Floor</value>
+  </data>
+  <data name="InteriorWoodFloorTrapdoor" xml:space="preserve">
+    <value>Interior Wood Floor Trapdoor</value>
+  </data>
+  <data name="InteriorWoodHalfpieces" xml:space="preserve">
+    <value>Interior Wood Halfpieces</value>
+  </data>
+  <data name="InteriorWoodHalfpitches" xml:space="preserve">
+    <value>Interior Wood Halfpitches</value>
+  </data>
+  <data name="InteriorWoodLadder" xml:space="preserve">
+    <value>Interior Wood Ladder</value>
+  </data>
+  <data name="InteriorWoodRailing" xml:space="preserve">
+    <value>Interior Wood Railing</value>
+  </data>
+  <data name="InteriorWoodRamp" xml:space="preserve">
+    <value>Interior Wood Ramp</value>
+  </data>
+  <data name="InteriorWoodStairs" xml:space="preserve">
+    <value>Interior Wood Stairs</value>
+  </data>
+  <data name="InteriorWoodTrapdoor" xml:space="preserve">
+    <value>Interior Wood Trapdoor</value>
+  </data>
+  <data name="InteriorWoodWall" xml:space="preserve">
+    <value>Interior Wood Wall</value>
+  </data>
+  <data name="InteriorWoodWallAngled" xml:space="preserve">
+    <value>Interior Wood Wall Angled</value>
+  </data>
+  <data name="IronAxe" xml:space="preserve">
+    <value>Iron Axe</value>
+  </data>
+  <data name="IronBolt" xml:space="preserve">
+    <value>Iron Bolt</value>
+  </data>
+  <data name="IronCropPlot" xml:space="preserve">
+    <value>Iron Crop Plot</value>
+  </data>
+  <data name="IronCupboard" xml:space="preserve">
+    <value>Iron Cupboard</value>
+  </data>
+  <data name="IronHammer" xml:space="preserve">
+    <value>Iron Hammer</value>
+  </data>
+  <data name="IronKnife" xml:space="preserve">
+    <value>Iron Knife</value>
+  </data>
+  <data name="IronNail" xml:space="preserve">
+    <value>Iron Nail</value>
+  </data>
+  <data name="IronPickaxe" xml:space="preserve">
+    <value>Iron Pickaxe</value>
+  </data>
+  <data name="IronSickle" xml:space="preserve">
+    <value>Iron Sickle</value>
+  </data>
+  <data name="IronSpear" xml:space="preserve">
+    <value>Iron Spear</value>
+  </data>
+  <data name="JaguarHead" xml:space="preserve">
+    <value>Jaguar Head</value>
+  </data>
+  <data name="JaguarTrophy" xml:space="preserve">
+    <value>Jaguar Trophy</value>
+  </data>
+  <data name="KickFallModule" xml:space="preserve">
+    <value>Kick Fall Module</value>
+  </data>
+  <data name="KitchenBench" xml:space="preserve">
+    <value>Kitchen Bench</value>
+  </data>
+  <data name="KitchenStorageBlock" xml:space="preserve">
+    <value>Kitchen Storage Block</value>
+  </data>
+  <data name="Lantern" xml:space="preserve">
+    <value>Lantern</value>
+  </data>
+  <data name="LarkwellMartinezAxe" xml:space="preserve">
+    <value>Larkwell Martinez Axe</value>
+  </data>
+  <data name="LarkwellMartinezHammer" xml:space="preserve">
+    <value>Larkwell Martinez Hammer</value>
+  </data>
+  <data name="LarkwellMartinezKnife" xml:space="preserve">
+    <value>Larkwell Martinez Knife</value>
+  </data>
+  <data name="LarkwellMartinezMercenaryBackpack" xml:space="preserve">
+    <value>Larkwell Martinez Mercenary Backpack</value>
+  </data>
+  <data name="LarkwellMartinezPickaxe" xml:space="preserve">
+    <value>Larkwell Martinez Pickaxe</value>
+  </data>
+  <data name="LarkwellMartinezSickle" xml:space="preserve">
+    <value>Larkwell Martinez Sickle</value>
+  </data>
+  <data name="LarkwellMartinezSpear" xml:space="preserve">
+    <value>Larkwell Martinez Spear</value>
+  </data>
+  <data name="LarkwellMartinezTacticalBackpack" xml:space="preserve">
+    <value>Larkwell Martinez Tactical Backpack</value>
+  </data>
+  <data name="LeatherArmsArmor" xml:space="preserve">
+    <value>Leather Arms Armor</value>
+  </data>
+  <data name="LeatherBackpack" xml:space="preserve">
+    <value>Leather Backpack</value>
+  </data>
+  <data name="LeatherChestArmor" xml:space="preserve">
+    <value>Leather Chest Armor</value>
+  </data>
+  <data name="LeatherCurtainDoor" xml:space="preserve">
+    <value>Leather Curtain Door</value>
+  </data>
+  <data name="LeatherCurtainWindow" xml:space="preserve">
+    <value>Leather Curtain Window</value>
+  </data>
+  <data name="LeatherFeetArmor" xml:space="preserve">
+    <value>Leather Feet Armor</value>
+  </data>
+  <data name="LeatherHeadArmor" xml:space="preserve">
+    <value>Leather Head Armor</value>
+  </data>
+  <data name="LeatherLegsArmor" xml:space="preserve">
+    <value>Leather Legs Armor</value>
+  </data>
+  <data name="LightningRod" xml:space="preserve">
+    <value>Lightning Rod</value>
+  </data>
+  <data name="Longbow" xml:space="preserve">
+    <value>Longbow</value>
+  </data>
+  <data name="LowburnModule" xml:space="preserve">
+    <value>Lowburn Module</value>
+  </data>
+  <data name="Machete" xml:space="preserve">
+    <value>Machete</value>
+  </data>
+  <data name="MachiningBench" xml:space="preserve">
+    <value>Machining Bench</value>
+  </data>
+  <data name="MammothHead" xml:space="preserve">
+    <value>Mammoth Head</value>
+  </data>
+  <data name="MammothTrophy" xml:space="preserve">
+    <value>Mammoth Trophy</value>
+  </data>
+  <data name="MasonryBench" xml:space="preserve">
+    <value>Masonry Bench</value>
+  </data>
+  <data name="MassDampenerModule" xml:space="preserve">
+    <value>Mass Dampener Module</value>
+  </data>
+  <data name="MaterialProcessor" xml:space="preserve">
+    <value>Material Processor</value>
+  </data>
+  <data name="MatureCoconut" xml:space="preserve">
+    <value>Mature Coconut</value>
+  </data>
+  <data name="MeatPie" xml:space="preserve">
+    <value>Meat Pie</value>
+  </data>
+  <data name="MediumInteriorWoodCrate" xml:space="preserve">
+    <value>Medium Interior Wood Crate</value>
+  </data>
+  <data name="MediumIronCrate" xml:space="preserve">
+    <value>Medium Iron Crate</value>
+  </data>
+  <data name="MediumWoodCrate" xml:space="preserve">
+    <value>Medium Wood Crate</value>
+  </data>
+  <data name="MediumWoodHedgehog" xml:space="preserve">
+    <value>Medium Wood Hedgehog</value>
+  </data>
+  <data name="MetalOre" xml:space="preserve">
+    <value>Metal Ore</value>
+  </data>
+  <data name="MetalOxiteDissolver" xml:space="preserve">
+    <value>Metal Oxite Dissolver</value>
+  </data>
+  <data name="Micromeal" xml:space="preserve">
+    <value>Micromeal</value>
+  </data>
+  <data name="MortarandPestle" xml:space="preserve">
+    <value>Mortar and Pestle</value>
+  </data>
+  <data name="MushroomSoup" xml:space="preserve">
+    <value>Mushroom Soup</value>
+  </data>
+  <data name="MXCAxe" xml:space="preserve">
+    <value>MXCAxe</value>
+  </data>
+  <data name="MXCCampfire" xml:space="preserve">
+    <value>MXC Campfire</value>
+  </data>
+  <data name="MXCCrate" xml:space="preserve">
+    <value>MXC Crate</value>
+  </data>
+  <data name="MXCFirewhacker" xml:space="preserve">
+    <value>MXCFirewhacker</value>
+  </data>
+  <data name="MXCFlangeArrow" xml:space="preserve">
+    <value>MXC Flange Arrow</value>
+  </data>
+  <data name="MXCFurnace" xml:space="preserve">
+    <value>MXC Furnace</value>
+  </data>
+  <data name="MXCHammer" xml:space="preserve">
+    <value>MXCHammer</value>
+  </data>
+  <data name="MXCKnife" xml:space="preserve">
+    <value>MXCKnife</value>
+  </data>
+  <data name="MXCNerveArrow" xml:space="preserve">
+    <value>MXC Nerve Arrow</value>
+  </data>
+  <data name="MXCPickaxe" xml:space="preserve">
+    <value>MXCPickaxe</value>
+  </data>
+  <data name="MXCSickle" xml:space="preserve">
+    <value>MXCSickle</value>
+  </data>
+  <data name="MXCSpear" xml:space="preserve">
+    <value>MXC Spear</value>
+  </data>
+  <data name="MXCVenomArrow" xml:space="preserve">
+    <value>MXC Venom Arrow</value>
+  </data>
+  <data name="NaneoArmsArmor" xml:space="preserve">
+    <value>Naneo Arms Armor</value>
+  </data>
+  <data name="NaneoChestArmor" xml:space="preserve">
+    <value>Naneo Chest Armor</value>
+  </data>
+  <data name="NaneoFeetArmor" xml:space="preserve">
+    <value>Naneo Feet Armor</value>
+  </data>
+  <data name="NaneoHeadArmor" xml:space="preserve">
+    <value>Naneo Head Armor</value>
+  </data>
+  <data name="NaneoLegsArmor" xml:space="preserve">
+    <value>Naneo Legs Armor</value>
+  </data>
+  <data name="OmnidirectionalWorklamp" xml:space="preserve">
+    <value>Omnidirectional Worklamp</value>
+  </data>
+  <data name="OrganicResin" xml:space="preserve">
+    <value>Organic Resin</value>
+  </data>
+  <data name="Oxidizer" xml:space="preserve">
+    <value>Oxidizer</value>
+  </data>
+  <data name="Oxite" xml:space="preserve">
+    <value>Oxite</value>
+  </data>
+  <data name="OxiteDissolver" xml:space="preserve">
+    <value>Oxite Dissolver</value>
+  </data>
+  <data name="Oxygel" xml:space="preserve">
+    <value>Oxygel</value>
+  </data>
+  <data name="OxygenBladder" xml:space="preserve">
+    <value>Oxygen Bladder</value>
+  </data>
+  <data name="OxygenBuffPaste" xml:space="preserve">
+    <value>Oxygen Buff Paste</value>
+  </data>
+  <data name="OxygenConsumptionPaste" xml:space="preserve">
+    <value>Oxygen Consumption Paste</value>
+  </data>
+  <data name="OxygenRestorationPaste" xml:space="preserve">
+    <value>Oxygen Restoration Paste</value>
+  </data>
+  <data name="OxygenTank" xml:space="preserve">
+    <value>Oxygen Tank</value>
+  </data>
+  <data name="Pastry" xml:space="preserve">
+    <value>Pastry</value>
+  </data>
+  <data name="PatcherIModule" xml:space="preserve">
+    <value>Patcher IModule</value>
+  </data>
+  <data name="PatcherIIModule" xml:space="preserve">
+    <value>Patcher IIModule</value>
+  </data>
+  <data name="PickledCarrot" xml:space="preserve">
+    <value>Pickled Carrot</value>
+  </data>
+  <data name="Pistol" xml:space="preserve">
+    <value>Pistol</value>
+  </data>
+  <data name="PistolRound" xml:space="preserve">
+    <value>Pistol Round</value>
+  </data>
+  <data name="PlatinumAxe" xml:space="preserve">
+    <value>Platinum Axe</value>
+  </data>
+  <data name="PlatinumBolt" xml:space="preserve">
+    <value>Platinum Bolt</value>
+  </data>
+  <data name="PlatinumHammer" xml:space="preserve">
+    <value>Platinum Hammer</value>
+  </data>
+  <data name="PlatinumIngot" xml:space="preserve">
+    <value>Platinum Ingot</value>
+  </data>
+  <data name="PlatinumKnife" xml:space="preserve">
+    <value>Platinum Knife</value>
+  </data>
+  <data name="PlatinumPickaxe" xml:space="preserve">
+    <value>Platinum Pickaxe</value>
+  </data>
+  <data name="PlatinumSickle" xml:space="preserve">
+    <value>Platinum Sickle</value>
+  </data>
+  <data name="PlatinumSpear" xml:space="preserve">
+    <value>Platinum Spear</value>
+  </data>
+  <data name="PlayerTrackerModule" xml:space="preserve">
+    <value>Player Tracker Module</value>
+  </data>
+  <data name="PoisonArrow" xml:space="preserve">
+    <value>Poison Arrow</value>
+  </data>
+  <data name="PoisonPaste" xml:space="preserve">
+    <value>Poison Paste</value>
+  </data>
+  <data name="PoisonedAnimalBait" xml:space="preserve">
+    <value>Poisoned Animal Bait</value>
+  </data>
+  <data name="PolarBearArmsArmor" xml:space="preserve">
+    <value>Polar Bear Arms Armor</value>
+  </data>
+  <data name="PolarBearChestArmor" xml:space="preserve">
+    <value>Polar Bear Chest Armor</value>
+  </data>
+  <data name="PolarBearFeetArmor" xml:space="preserve">
+    <value>Polar Bear Feet Armor</value>
+  </data>
+  <data name="PolarBearHead" xml:space="preserve">
+    <value>Polar Bear Head</value>
+  </data>
+  <data name="PolarBearHeadArmor" xml:space="preserve">
+    <value>Polar Bear Head Armor</value>
+  </data>
+  <data name="PolarBearLegsArmor" xml:space="preserve">
+    <value>Polar Bear Legs Armor</value>
+  </data>
+  <data name="PolarBearPelt" xml:space="preserve">
+    <value>Polar Bear Pelt</value>
+  </data>
+  <data name="PolarBearTrophy" xml:space="preserve">
+    <value>Polar Bear Trophy</value>
+  </data>
+  <data name="PortableBeacon" xml:space="preserve">
+    <value>Portable Beacon</value>
+  </data>
+  <data name="PotbellyStove" xml:space="preserve">
+    <value>Potbelly Stove</value>
+  </data>
+  <data name="PumpkinBread" xml:space="preserve">
+    <value>Pumpkin Bread</value>
+  </data>
+  <data name="Radar" xml:space="preserve">
+    <value>Radar</value>
+  </data>
+  <data name="RainReservoir" xml:space="preserve">
+    <value>Rain Reservoir</value>
+  </data>
+  <data name="RecurveBow" xml:space="preserve">
+    <value>Recurve Bow</value>
+  </data>
+  <data name="RefinedGold" xml:space="preserve">
+    <value>Refined Gold</value>
+  </data>
+  <data name="RefinedWood" xml:space="preserve">
+    <value>Refined Wood</value>
+  </data>
+  <data name="Refrigerator" xml:space="preserve">
+    <value>Refrigerator</value>
+  </data>
+  <data name="ReinforcedDoor" xml:space="preserve">
+    <value>Reinforced Door</value>
+  </data>
+  <data name="ReinforcedLadder" xml:space="preserve">
+    <value>Reinforced Ladder</value>
+  </data>
+  <data name="ReinforcedRailing" xml:space="preserve">
+    <value>Reinforced Railing</value>
+  </data>
+  <data name="ReinforcedTrapdoor" xml:space="preserve">
+    <value>Reinforced Trapdoor</value>
+  </data>
+  <data name="ReinforcedWindow" xml:space="preserve">
+    <value>Reinforced Window</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="RifleRound" xml:space="preserve">
+    <value>Rifle Round</value>
+  </data>
+  <data name="RipeCoconut" xml:space="preserve">
+    <value>Ripe Coconut</value>
+  </data>
+  <data name="RoastSquash" xml:space="preserve">
+    <value>Roast Squash</value>
+  </data>
+  <data name="RoastVegetables" xml:space="preserve">
+    <value>Roast Vegetables</value>
+  </data>
+  <data name="Rope" xml:space="preserve">
+    <value>Rope</value>
+  </data>
+  <data name="SandwormArrow" xml:space="preserve">
+    <value>Sandworm Arrow</value>
+  </data>
+  <data name="SandwormBow" xml:space="preserve">
+    <value>Sandworm Bow</value>
+  </data>
+  <data name="SandwormKnife" xml:space="preserve">
+    <value>Sandworm Knife</value>
+  </data>
+  <data name="SandwormScale" xml:space="preserve">
+    <value>Sandworm Scale</value>
+  </data>
+  <data name="SandwormSpear" xml:space="preserve">
+    <value>Sandworm Spear</value>
+  </data>
+  <data name="ScorpionHedgehog" xml:space="preserve">
+    <value>Scorpion Hedgehog</value>
+  </data>
+  <data name="ScorpionPincerTrap" xml:space="preserve">
+    <value>Scorpion Pincer Trap</value>
+  </data>
+  <data name="ShengongAkiraHammer" xml:space="preserve">
+    <value>Shengong Akira Hammer</value>
+  </data>
+  <data name="ShengongDaokouKnife" xml:space="preserve">
+    <value>Shengong Daokou Knife</value>
+  </data>
+  <data name="ShengongDidaSpear" xml:space="preserve">
+    <value>Shengong Dida Spear</value>
+  </data>
+  <data name="ShengongDongPickaxe" xml:space="preserve">
+    <value>Shengong Dong Pickaxe</value>
+  </data>
+  <data name="ShengongGongBuSpear" xml:space="preserve">
+    <value>Shengong Gong Bu Spear</value>
+  </data>
+  <data name="ShengongHeikeAxe" xml:space="preserve">
+    <value>Shengong Heike Axe</value>
+  </data>
+  <data name="ShengongHuluCanteen" xml:space="preserve">
+    <value>Shengong Hulu Canteen</value>
+  </data>
+  <data name="ShengongJiBow" xml:space="preserve">
+    <value>Shengong Ji Bow</value>
+  </data>
+  <data name="ShengongJijingBow" xml:space="preserve">
+    <value>Shengong Jijing Bow</value>
+  </data>
+  <data name="ShengongJijuSpear" xml:space="preserve">
+    <value>Shengong Jiju Spear</value>
+  </data>
+  <data name="ShengongJushiPickaxe" xml:space="preserve">
+    <value>Shengong Jushi Pickaxe</value>
+  </data>
+  <data name="ShengongKuangPickaxe" xml:space="preserve">
+    <value>Shengong Kuang Pickaxe</value>
+  </data>
+  <data name="ShengongLieAxe" xml:space="preserve">
+    <value>Shengong Lie Axe</value>
+  </data>
+  <data name="ShengongLiweiO2Tank" xml:space="preserve">
+    <value>Shengong Liwei O2 Tank</value>
+  </data>
+  <data name="ShengongQieKnife" xml:space="preserve">
+    <value>Shengong Qie Knife</value>
+  </data>
+  <data name="ShengongSenAxe" xml:space="preserve">
+    <value>Shengong Sen Axe</value>
+  </data>
+  <data name="ShengongShuiKnife" xml:space="preserve">
+    <value>Shengong Shui Knife</value>
+  </data>
+  <data name="ShengongSichouKnife" xml:space="preserve">
+    <value>Shengong Sichou Knife</value>
+  </data>
+  <data name="ShengongSuiShiPickaxe" xml:space="preserve">
+    <value>Shengong Sui Shi Pickaxe</value>
+  </data>
+  <data name="ShengongTetsuoHammer" xml:space="preserve">
+    <value>Shengong Tetsuo Hammer</value>
+  </data>
+  <data name="ShengongWenheArrow" xml:space="preserve">
+    <value>Shengong Wenhe Arrow</value>
+  </data>
+  <data name="ShengongXingxingSpear" xml:space="preserve">
+    <value>Shengong Xingxing Spear</value>
+  </data>
+  <data name="ShengongYeyingBandage" xml:space="preserve">
+    <value>Shengong Yeying Bandage</value>
+  </data>
+  <data name="ShengongZhangHuBow" xml:space="preserve">
+    <value>Shengong Zhang Hu Bow</value>
+  </data>
+  <data name="Shotgun" xml:space="preserve">
+    <value>Shotgun</value>
+  </data>
+  <data name="Shovel" xml:space="preserve">
+    <value>Shovel</value>
+  </data>
+  <data name="SkinningBench" xml:space="preserve">
+    <value>Skinning Bench</value>
+  </data>
+  <data name="SmallInteriorWoodCrate" xml:space="preserve">
+    <value>Small Interior Wood Crate</value>
+  </data>
+  <data name="SmallIronCrate" xml:space="preserve">
+    <value>Small Iron Crate</value>
+  </data>
+  <data name="SmallWoodCrate" xml:space="preserve">
+    <value>Small Wood Crate</value>
+  </data>
+  <data name="SmallWoodSign" xml:space="preserve">
+    <value>Small Wood Sign</value>
+  </data>
+  <data name="SmokeGrenade" xml:space="preserve">
+    <value>Smoke Grenade</value>
+  </data>
+  <data name="SnowLeopardHead" xml:space="preserve">
+    <value>Snow Leopard Head</value>
+  </data>
+  <data name="SnowLeopardTrophy" xml:space="preserve">
+    <value>Snow Leopard Trophy</value>
+  </data>
+  <data name="SolarPanel" xml:space="preserve">
+    <value>Solar Panel</value>
+  </data>
+  <data name="SoyBeanStir-Fry" xml:space="preserve">
+    <value>Soy Bean Stir-Fry</value>
+  </data>
+  <data name="Splint" xml:space="preserve">
+    <value>Splint</value>
+  </data>
+  <data name="Sponge" xml:space="preserve">
+    <value>Sponge</value>
+  </data>
+  <data name="ST-700ArmsArmor" xml:space="preserve">
+    <value>ST-700 Arms Armor</value>
+  </data>
+  <data name="ST-700ChestArmor" xml:space="preserve">
+    <value>ST-700 Chest Armor</value>
+  </data>
+  <data name="ST-700FeetArmor" xml:space="preserve">
+    <value>ST-700 Feet Armor</value>
+  </data>
+  <data name="ST-700HeadArmor" xml:space="preserve">
+    <value>ST-700 Head Armor</value>
+  </data>
+  <data name="ST-700LegsArmor" xml:space="preserve">
+    <value>ST-700 Legs Armor</value>
+  </data>
+  <data name="Stamina" xml:space="preserve">
+    <value>Stamina</value>
+  </data>
+  <data name="StaminaBuffPaste" xml:space="preserve">
+    <value>Stamina Buff Paste</value>
+  </data>
+  <data name="StaminaConsumptionPaste" xml:space="preserve">
+    <value>Stamina Consumption Paste</value>
+  </data>
+  <data name="StaminaRegenerationPaste" xml:space="preserve">
+    <value>Stamina Regeneration Paste</value>
+  </data>
+  <data name="StaminaRestorationPaste" xml:space="preserve">
+    <value>Stamina Restoration Paste</value>
+  </data>
+  <data name="SteelAxe" xml:space="preserve">
+    <value>Steel Axe</value>
+  </data>
+  <data name="SteelBloom" xml:space="preserve">
+    <value>Steel Bloom</value>
+  </data>
+  <data name="SteelBolt" xml:space="preserve">
+    <value>Steel Bolt</value>
+  </data>
+  <data name="SteelHammer" xml:space="preserve">
+    <value>Steel Hammer</value>
+  </data>
+  <data name="SteelIngot" xml:space="preserve">
+    <value>Steel Ingot</value>
+  </data>
+  <data name="SteelKnife" xml:space="preserve">
+    <value>Steel Knife</value>
+  </data>
+  <data name="SteelPickaxe" xml:space="preserve">
+    <value>Steel Pickaxe</value>
+  </data>
+  <data name="SteelRebar" xml:space="preserve">
+    <value>Steel Rebar</value>
+  </data>
+  <data name="SteelScrew" xml:space="preserve">
+    <value>Steel Screw</value>
+  </data>
+  <data name="SteelSpear" xml:space="preserve">
+    <value>Steel Spear</value>
+  </data>
+  <data name="Stew" xml:space="preserve">
+    <value>Stew</value>
+  </data>
+  <data name="StoneArrow" xml:space="preserve">
+    <value>Stone Arrow</value>
+  </data>
+  <data name="StoneAxe" xml:space="preserve">
+    <value>Stone Axe</value>
+  </data>
+  <data name="StoneBeam" xml:space="preserve">
+    <value>Stone Beam</value>
+  </data>
+  <data name="StoneFloor" xml:space="preserve">
+    <value>Stone Floor</value>
+  </data>
+  <data name="StoneFloorTrapdoor" xml:space="preserve">
+    <value>Stone Floor Trapdoor</value>
+  </data>
+  <data name="StoneFrame" xml:space="preserve">
+    <value>Stone Frame</value>
+  </data>
+  <data name="StoneFurnace" xml:space="preserve">
+    <value>Stone Furnace</value>
+  </data>
+  <data name="StoneHalfpieces" xml:space="preserve">
+    <value>Stone Halfpieces</value>
+  </data>
+  <data name="StoneHalfpitches" xml:space="preserve">
+    <value>Stone Halfpitches</value>
+  </data>
+  <data name="StoneKnife" xml:space="preserve">
+    <value>Stone Knife</value>
+  </data>
+  <data name="StonePickaxe" xml:space="preserve">
+    <value>Stone Pickaxe</value>
+  </data>
+  <data name="StonePile" xml:space="preserve">
+    <value>Stone Pile</value>
+  </data>
+  <data name="StoneRamp" xml:space="preserve">
+    <value>Stone Ramp</value>
+  </data>
+  <data name="StoneRoof" xml:space="preserve">
+    <value>Stone Roof</value>
+  </data>
+  <data name="StoneRoofCorner" xml:space="preserve">
+    <value>Stone Roof Corner</value>
+  </data>
+  <data name="StoneStairs" xml:space="preserve">
+    <value>Stone Stairs</value>
+  </data>
+  <data name="StoneWall" xml:space="preserve">
+    <value>Stone Wall</value>
+  </data>
+  <data name="StoneWallAngled" xml:space="preserve">
+    <value>Stone Wall Angled</value>
+  </data>
+  <data name="StrengthBoostModule" xml:space="preserve">
+    <value>Strength Boost Module</value>
+  </data>
+  <data name="SurvivalBackpack" xml:space="preserve">
+    <value>Survival Backpack</value>
+  </data>
+  <data name="SutureKit" xml:space="preserve">
+    <value>Suture Kit</value>
+  </data>
+  <data name="SweetcornSoup" xml:space="preserve">
+    <value>Sweetcorn Soup</value>
+  </data>
+  <data name="TaxidermyKnife" xml:space="preserve">
+    <value>Taxidermy Knife</value>
+  </data>
+  <data name="Tea" xml:space="preserve">
+    <value>Tea</value>
+  </data>
+  <data name="TextilesBench" xml:space="preserve">
+    <value>Textiles Bench</value>
+  </data>
+  <data name="ThatchBeam" xml:space="preserve">
+    <value>Thatch Beam</value>
+  </data>
+  <data name="ThatchDoor" xml:space="preserve">
+    <value>Thatch Door</value>
+  </data>
+  <data name="ThatchFloor" xml:space="preserve">
+    <value>Thatch Floor</value>
+  </data>
+  <data name="ThatchFloorTrapdoor" xml:space="preserve">
+    <value>Thatch Floor Trapdoor</value>
+  </data>
+  <data name="ThatchHalfpieces" xml:space="preserve">
+    <value>Thatch Halfpieces</value>
+  </data>
+  <data name="ThatchHalfpitches" xml:space="preserve">
+    <value>Thatch Halfpitches</value>
+  </data>
+  <data name="ThatchLadder" xml:space="preserve">
+    <value>Thatch Ladder</value>
+  </data>
+  <data name="ThatchRailing" xml:space="preserve">
+    <value>Thatch Railing</value>
+  </data>
+  <data name="ThatchRamp" xml:space="preserve">
+    <value>Thatch Ramp</value>
+  </data>
+  <data name="ThatchRoof" xml:space="preserve">
+    <value>Thatch Roof</value>
+  </data>
+  <data name="ThatchRoofCorner" xml:space="preserve">
+    <value>Thatch Roof Corner</value>
+  </data>
+  <data name="ThatchStairs" xml:space="preserve">
+    <value>Thatch Stairs</value>
+  </data>
+  <data name="ThatchTrapdoor" xml:space="preserve">
+    <value>Thatch Trapdoor</value>
+  </data>
+  <data name="ThatchWall" xml:space="preserve">
+    <value>Thatch Wall</value>
+  </data>
+  <data name="ThatchWallAngled" xml:space="preserve">
+    <value>Thatch Wall Angled</value>
+  </data>
+  <data name="ThatchWindow" xml:space="preserve">
+    <value>Thatch Window</value>
+  </data>
+  <data name="Thermos" xml:space="preserve">
+    <value>Thermos</value>
+  </data>
+  <data name="TitaniumArrow" xml:space="preserve">
+    <value>Titanium Arrow</value>
+  </data>
+  <data name="TitaniumAxe" xml:space="preserve">
+    <value>Titanium Axe</value>
+  </data>
+  <data name="TitaniumBolt" xml:space="preserve">
+    <value>Titanium Bolt</value>
+  </data>
+  <data name="TitaniumHammer" xml:space="preserve">
+    <value>Titanium Hammer</value>
+  </data>
+  <data name="TitaniumIngot" xml:space="preserve">
+    <value>Titanium Ingot</value>
+  </data>
+  <data name="TitaniumKnife" xml:space="preserve">
+    <value>Titanium Knife</value>
+  </data>
+  <data name="TitaniumPickaxe" xml:space="preserve">
+    <value>Titanium Pickaxe</value>
+  </data>
+  <data name="TitaniumSickle" xml:space="preserve">
+    <value>Titanium Sickle</value>
+  </data>
+  <data name="TitaniumSpear" xml:space="preserve">
+    <value>Titanium Spear</value>
+  </data>
+  <data name="TreeSap" xml:space="preserve">
+    <value>Tree Sap</value>
+  </data>
+  <data name="TrophyBench" xml:space="preserve">
+    <value>Trophy Bench</value>
+  </data>
+  <data name="Ultrameal" xml:space="preserve">
+    <value>Ultrameal</value>
+  </data>
+  <data name="VegetablePie" xml:space="preserve">
+    <value>Vegetable Pie</value>
+  </data>
+  <data name="WallTorch" xml:space="preserve">
+    <value>Wall Torch</value>
+  </data>
+  <data name="WaterConsumptionPaste" xml:space="preserve">
+    <value>Water Consumption Paste</value>
+  </data>
+  <data name="WaterPipeTool" xml:space="preserve">
+    <value>Water Pipe Tool</value>
+  </data>
+  <data name="WaterPump" xml:space="preserve">
+    <value>Water Pump</value>
+  </data>
+  <data name="WaterSources" xml:space="preserve">
+    <value>Water Sources</value>
+  </data>
+  <data name="WaterSprinkler" xml:space="preserve">
+    <value>Water Sprinkler</value>
+  </data>
+  <data name="Waterskin" xml:space="preserve">
+    <value>Waterskin</value>
+  </data>
+  <data name="WildSalad" xml:space="preserve">
+    <value>Wild Salad</value>
+  </data>
+  <data name="Wine" xml:space="preserve">
+    <value>Wine</value>
+  </data>
+  <data name="WineBottle" xml:space="preserve">
+    <value>Wine Bottle</value>
+  </data>
+  <data name="WoodBeam" xml:space="preserve">
+    <value>Wood Beam</value>
+  </data>
+  <data name="WoodBed" xml:space="preserve">
+    <value>Wood Bed</value>
+  </data>
+  <data name="WoodBow" xml:space="preserve">
+    <value>Wood Bow</value>
+  </data>
+  <data name="WoodChair" xml:space="preserve">
+    <value>Wood Chair</value>
+  </data>
+  <data name="WoodComposter" xml:space="preserve">
+    <value>Wood Composter</value>
+  </data>
+  <data name="WoodCropPlot" xml:space="preserve">
+    <value>Wood Crop Plot</value>
+  </data>
+  <data name="WoodCupboard" xml:space="preserve">
+    <value>Wood Cupboard</value>
+  </data>
+  <data name="WoodDoor" xml:space="preserve">
+    <value>Wood Door</value>
+  </data>
+  <data name="WoodFloor" xml:space="preserve">
+    <value>Wood Floor</value>
+  </data>
+  <data name="WoodFloorTrapdoor" xml:space="preserve">
+    <value>Wood Floor Trapdoor</value>
+  </data>
+  <data name="WoodHalfpieces" xml:space="preserve">
+    <value>Wood Halfpieces</value>
+  </data>
+  <data name="WoodHalfpitches" xml:space="preserve">
+    <value>Wood Halfpitches</value>
+  </data>
+  <data name="WoodLadder" xml:space="preserve">
+    <value>Wood Ladder</value>
+  </data>
+  <data name="WoodPile" xml:space="preserve">
+    <value>Wood Pile</value>
+  </data>
+  <data name="WoodRagTorch" xml:space="preserve">
+    <value>Wood Rag Torch</value>
+  </data>
+  <data name="WoodRailing" xml:space="preserve">
+    <value>Wood Railing</value>
+  </data>
+  <data name="WoodRamp" xml:space="preserve">
+    <value>Wood Ramp</value>
+  </data>
+  <data name="WoodRepairHammer" xml:space="preserve">
+    <value>Wood Repair Hammer</value>
+  </data>
+  <data name="WoodRoof" xml:space="preserve">
+    <value>Wood Roof</value>
+  </data>
+  <data name="WoodRoofCorner" xml:space="preserve">
+    <value>Wood Roof Corner</value>
+  </data>
+  <data name="WoodSpear" xml:space="preserve">
+    <value>Wood Spear</value>
+  </data>
+  <data name="WoodStairs" xml:space="preserve">
+    <value>Wood Stairs</value>
+  </data>
+  <data name="WoodTable" xml:space="preserve">
+    <value>Wood Table</value>
+  </data>
+  <data name="WoodTorch" xml:space="preserve">
+    <value>Wood Torch</value>
+  </data>
+  <data name="WoodTrapdoor" xml:space="preserve">
+    <value>Wood Trapdoor</value>
+  </data>
+  <data name="WoodWall" xml:space="preserve">
+    <value>Wood Wall</value>
+  </data>
+  <data name="WoodWallAngled" xml:space="preserve">
+    <value>Wood Wall Angled</value>
+  </data>
+  <data name="WoodWindow" xml:space="preserve">
+    <value>Wood Window</value>
+  </data>
+  <data name="WorkshopRepairKit" xml:space="preserve">
+    <value>Workshop Repair Kit</value>
+  </data>
+  <data name="WorkshopRepairKitBundle" xml:space="preserve">
+    <value>Workshop Repair Kit Bundle</value>
+  </data>
+  <data name="Watermelon" xml:space="preserve">
+    <value>Watermelon</value>
+  </data>
+</root>

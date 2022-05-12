@@ -21,10 +21,11 @@ namespace IcarusTest
         {
             InitializeComponent();
 
-            listView1.Items.AddRange(new Materials().Select(m => {
+            listView1.Items.AddRange(new Objects().OrderBy(m => m.name).Select(m => {
                 ObjectImagesLarge.Images.Add(m.keyname, m.image);
                 ObjectImagesSmall.Images.Add(m.keyname, m.image);
-                var item = new ListViewItem(m.name, m.keyname);
+                var item = new ListViewItem(/* $"{m.name}-{m.keyname}" */ m.name, m.keyname);
+                // var item = new ListViewItem($"{m.name}-{m.keyname}" /* m.name */, m.keyname);
                 return item;
 
             }).ToArray());

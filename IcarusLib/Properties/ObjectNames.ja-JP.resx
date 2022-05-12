@@ -1,0 +1,1950 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="IronIngot" xml:space="preserve">
+    <value>鉄のインゴット</value>
+  </data>
+  <data name="IronOre" xml:space="preserve">
+    <value>鉄鉱石</value>
+  </data>
+  <data name="CopperOre" xml:space="preserve">
+    <value>銅鉱石</value>
+  </data>
+  <data name="GoldOre" xml:space="preserve">
+    <value>金鉱石</value>
+  </data>
+  <data name="CoalOre" xml:space="preserve">
+    <value>石炭鉱石</value>
+  </data>
+  <data name="AluminumOre" xml:space="preserve">
+    <value>アルミニウム鉱石</value>
+  </data>
+  <data name="PlatinumOre" xml:space="preserve">
+    <value>プラチナ鉱石</value>
+  </data>
+  <data name="TitaniumOre" xml:space="preserve">
+    <value>チタン鉱石</value>
+  </data>
+  <data name="Exotics" xml:space="preserve">
+    <value>エキゾチック</value>
+  </data>
+  <data name="Stone" xml:space="preserve">
+    <value>石材</value>
+  </data>
+  <data name="Ice" xml:space="preserve">
+    <value>アイス</value>
+  </data>
+  <data name="Oxide" xml:space="preserve">
+    <value>オキサイド</value>
+  </data>
+  <data name="SilicaOre" xml:space="preserve">
+    <value>珪石</value>
+  </data>
+  <data name="Sulfur" xml:space="preserve">
+    <value>硫黄</value>
+  </data>
+  <data name="ReedFlower" xml:space="preserve">
+    <value>リードフラワー</value>
+  </data>
+  <data name="Lily" xml:space="preserve">
+    <value>リリー</value>
+  </data>
+  <data name="Squash" xml:space="preserve">
+    <value>カボチャ</value>
+  </data>
+  <data name="Yeast" xml:space="preserve">
+    <value>イースト</value>
+  </data>
+  <data name="Wheat" xml:space="preserve">
+    <value>小麦</value>
+  </data>
+  <data name="SoyBean" xml:space="preserve">
+    <value>大豆</value>
+  </data>
+  <data name="Pumpkin" xml:space="preserve">
+    <value>パンプキン</value>
+  </data>
+  <data name="WildBerry" xml:space="preserve">
+    <value>ワイルドベリー</value>
+  </data>
+  <data name="Carrot" xml:space="preserve">
+    <value>ニンジン</value>
+  </data>
+  <data name="YoungCoconut" xml:space="preserve">
+    <value>ヤングココナッツ</value>
+  </data>
+  <data name="Mushroom" xml:space="preserve">
+    <value>マッシュルーム</value>
+  </data>
+  <data name="Wood" xml:space="preserve">
+    <value>木</value>
+  </data>
+  <data name="SpoiledPlants" xml:space="preserve">
+    <value>腐った植物</value>
+  </data>
+  <data name="SpoiledMeat" xml:space="preserve">
+    <value>腐った肉</value>
+  </data>
+  <data name="Fiber" xml:space="preserve">
+    <value>ファイバー</value>
+  </data>
+  <data name="Stick" xml:space="preserve">
+    <value>スティック</value>
+  </data>
+  <data name="Leather" xml:space="preserve">
+    <value>レザー</value>
+  </data>
+  <data name="Bone" xml:space="preserve">
+    <value>ボーン</value>
+  </data>
+  <data name="Fur" xml:space="preserve">
+    <value>毛皮</value>
+  </data>
+  <data name="RawFish" xml:space="preserve">
+    <value>生魚</value>
+  </data>
+  <data name="RawMeat" xml:space="preserve">
+    <value>生肉</value>
+  </data>
+  <data name="RawGiantSteak" xml:space="preserve">
+    <value>巨大な生ステーキ</value>
+  </data>
+  <data name="RawBacon" xml:space="preserve">
+    <value>生ベーコン</value>
+  </data>
+  <data name="RawFattyTbone" xml:space="preserve">
+    <value>生の脂肪の骨</value>
+  </data>
+  <data name="RawGameMeat" xml:space="preserve">
+    <value>生ゲームミート</value>
+  </data>
+  <data name="RawSoftMeat" xml:space="preserve">
+    <value>生ソフトミート</value>
+  </data>
+  <data name="RawStringyMeat" xml:space="preserve">
+    <value>生筋子</value>
+  </data>
+  <data name="RawWhiteMeat" xml:space="preserve">
+    <value>白身肉</value>
+  </data>
+  <data name="AdliftModule" xml:space="preserve">
+    <value>アドリフトモジュール</value>
+  </data>
+  <data name="AdvancedDeepMiningOreScanner" xml:space="preserve">
+    <value>アドバンスド・ディープ・マイニング・オレ・スキャナー</value>
+  </data>
+  <data name="AlphaWolfHead" xml:space="preserve">
+    <value>アルファウルフヘッド</value>
+  </data>
+  <data name="AlphaWolfTrophy" xml:space="preserve">
+    <value>アルファウルフトロフィー</value>
+  </data>
+  <data name="AluminiumArrow" xml:space="preserve">
+    <value>アルミニウムアロー</value>
+  </data>
+  <data name="AluminiumBeam" xml:space="preserve">
+    <value>アルミビーム</value>
+  </data>
+  <data name="AluminiumDoor" xml:space="preserve">
+    <value>アルミニウムドア</value>
+  </data>
+  <data name="AluminiumFloor" xml:space="preserve">
+    <value>アルミフロア</value>
+  </data>
+  <data name="AluminiumFloorTrapdoor" xml:space="preserve">
+    <value>アルミニウムフロア・トラップドア</value>
+  </data>
+  <data name="AluminiumHalfpieces" xml:space="preserve">
+    <value>アルミハーフピース</value>
+  </data>
+  <data name="AluminiumHalfpitches" xml:space="preserve">
+    <value>アルミニウムハーフピッチ</value>
+  </data>
+  <data name="AluminiumIngot" xml:space="preserve">
+    <value>アルミインゴット</value>
+  </data>
+  <data name="AluminiumLadder" xml:space="preserve">
+    <value>アルミラダー</value>
+  </data>
+  <data name="AluminiumOre" xml:space="preserve">
+    <value>アルミニウム鉱石</value>
+  </data>
+  <data name="AluminiumRailing" xml:space="preserve">
+    <value>アルミ製の手すり</value>
+  </data>
+  <data name="AluminiumRamp" xml:space="preserve">
+    <value>アルミニウムランプ</value>
+  </data>
+  <data name="AluminiumRoof" xml:space="preserve">
+    <value>アルミニウム屋根</value>
+  </data>
+  <data name="AluminiumRoofCorner" xml:space="preserve">
+    <value>アルミルーフコーナー</value>
+  </data>
+  <data name="AluminiumStairs" xml:space="preserve">
+    <value>アルミニウム階段</value>
+  </data>
+  <data name="AluminiumTrapdoor" xml:space="preserve">
+    <value>アルミトラップドア</value>
+  </data>
+  <data name="AluminiumWall" xml:space="preserve">
+    <value>アルミニウム壁</value>
+  </data>
+  <data name="AluminiumWallAngled" xml:space="preserve">
+    <value>アルミウォールアングル</value>
+  </data>
+  <data name="AluminiumWindow" xml:space="preserve">
+    <value>アルミ窓</value>
+  </data>
+  <data name="AnimalBait" xml:space="preserve">
+    <value>動物のえさ</value>
+  </data>
+  <data name="AnimalFat" xml:space="preserve">
+    <value>アニマルファット</value>
+  </data>
+  <data name="AnimalHealthbarModule" xml:space="preserve">
+    <value>アニマルヘルスバーモジュール</value>
+  </data>
+  <data name="AnimalHighlightingModule" xml:space="preserve">
+    <value>アニマルハイライティングモジュール</value>
+  </data>
+  <data name="Anti-ParasiticPaste" xml:space="preserve">
+    <value>寄生虫対策ペースト</value>
+  </data>
+  <data name="Anti-ParasiticPill" xml:space="preserve">
+    <value>寄生虫駆除薬</value>
+  </data>
+  <data name="Anti-ParasiticTonic" xml:space="preserve">
+    <value>寄生虫対策トニック</value>
+  </data>
+  <data name="Anti-ParasiticVaccineI" xml:space="preserve">
+    <value>寄生虫予防ワクチンI</value>
+  </data>
+  <data name="Anti-ParasiticVaccineII" xml:space="preserve">
+    <value>寄生虫予防ワクチンII</value>
+  </data>
+  <data name="Anti-ParasiticVaccineIII" xml:space="preserve">
+    <value>寄生虫予防ワクチンIII</value>
+  </data>
+  <data name="Anti-PoisonPaste" xml:space="preserve">
+    <value>抗毒素ペースト</value>
+  </data>
+  <data name="Anti-PoisonPill" xml:space="preserve">
+    <value>毒薬</value>
+  </data>
+  <data name="Anti-PoisonTonic" xml:space="preserve">
+    <value>抗毒素トニック</value>
+  </data>
+  <data name="Anti-PoisonVaccineI" xml:space="preserve">
+    <value>抗毒素ワクチンI</value>
+  </data>
+  <data name="Anti-PoisonVaccineII" xml:space="preserve">
+    <value>抗毒素ワクチン II</value>
+  </data>
+  <data name="Anti-PoisonVaccineIII" xml:space="preserve">
+    <value>抗毒素ワクチンIII</value>
+  </data>
+  <data name="AntibioticPaste" xml:space="preserve">
+    <value>抗生物質ペースト</value>
+  </data>
+  <data name="AntibioticPill" xml:space="preserve">
+    <value>抗生物質錠剤</value>
+  </data>
+  <data name="AntibioticTonic" xml:space="preserve">
+    <value>抗生物質トニック</value>
+  </data>
+  <data name="AnvilBench" xml:space="preserve">
+    <value>アンビルベンチ</value>
+  </data>
+  <data name="ArchersBackpack" xml:space="preserve">
+    <value>アーチャーズバックパック</value>
+  </data>
+  <data name="BacterialVaccineI" xml:space="preserve">
+    <value>バクテリアワクチンI</value>
+  </data>
+  <data name="BacterialVaccineII" xml:space="preserve">
+    <value>バクテリアルワクチンII</value>
+  </data>
+  <data name="BacterialVaccineIII" xml:space="preserve">
+    <value>細菌ワクチンIII</value>
+  </data>
+  <data name="BarbequeCarrot" xml:space="preserve">
+    <value>バーベキューキャロット</value>
+  </data>
+  <data name="BasicBandage" xml:space="preserve">
+    <value>ベーシックバンデージ</value>
+  </data>
+  <data name="BasicCeilingLight" xml:space="preserve">
+    <value>シーリングライト</value>
+  </data>
+  <data name="BasicFertilizer" xml:space="preserve">
+    <value>基本的な肥料</value>
+  </data>
+  <data name="BasicWallLight" xml:space="preserve">
+    <value>ベーシックウォールライト</value>
+  </data>
+  <data name="BearHead" xml:space="preserve">
+    <value>ベアヘッド</value>
+  </data>
+  <data name="BearTrophy" xml:space="preserve">
+    <value>熊のトロフィー</value>
+  </data>
+  <data name="Bedroll" xml:space="preserve">
+    <value>寝袋</value>
+  </data>
+  <data name="Beer" xml:space="preserve">
+    <value>ビール</value>
+  </data>
+  <data name="BeerBottle" xml:space="preserve">
+    <value>ビール瓶</value>
+  </data>
+  <data name="BerryJam" xml:space="preserve">
+    <value>ベリージャム</value>
+  </data>
+  <data name="Binoculars" xml:space="preserve">
+    <value>双眼鏡</value>
+  </data>
+  <data name="BiofuelCan" xml:space="preserve">
+    <value>バイオ燃料缶</value>
+  </data>
+  <data name="BiofuelComposter" xml:space="preserve">
+    <value>バイオ燃料コンポスター</value>
+  </data>
+  <data name="BiofuelDeep-MiningDrill" xml:space="preserve">
+    <value>バイオ燃料深堀りドリル</value>
+  </data>
+  <data name="BiofuelGenerator" xml:space="preserve">
+    <value>バイオ燃料発電機</value>
+  </data>
+  <data name="BiofuelLamp" xml:space="preserve">
+    <value>バイオ燃料ランプ</value>
+  </data>
+  <data name="BiofuelStove" xml:space="preserve">
+    <value>バイオ燃料ストーブ</value>
+  </data>
+  <data name="BlackJaguarHead" xml:space="preserve">
+    <value>ブラックジャガーヘッド</value>
+  </data>
+  <data name="BlackJaguarTrophy" xml:space="preserve">
+    <value>ブラックジャガートロフィー</value>
+  </data>
+  <data name="BloodThinningPaste" xml:space="preserve">
+    <value>血液サラサラペースト</value>
+  </data>
+  <data name="BloodThinningPill" xml:space="preserve">
+    <value>血液サラサラ薬</value>
+  </data>
+  <data name="BloodThinningTonic" xml:space="preserve">
+    <value>血液サラサラトニック</value>
+  </data>
+  <data name="BloodThinningVaccineI" xml:space="preserve">
+    <value>血液サラサラワクチンI</value>
+  </data>
+  <data name="BloodThinningVaccineII" xml:space="preserve">
+    <value>血液サラサラワクチンII</value>
+  </data>
+  <data name="BloodThinningVaccineIII" xml:space="preserve">
+    <value>血液サラサラワクチンIII</value>
+  </data>
+  <data name="BoltActionRifle" xml:space="preserve">
+    <value>ボルトアクションライフル</value>
+  </data>
+  <data name="BoneArrow" xml:space="preserve">
+    <value>ボーンアロー</value>
+  </data>
+  <data name="BoneKnife" xml:space="preserve">
+    <value>ボーンナイフ</value>
+  </data>
+  <data name="BoneSickle" xml:space="preserve">
+    <value>ボーン・シックル</value>
+  </data>
+  <data name="BoneSpear" xml:space="preserve">
+    <value>ボーン・スピア</value>
+  </data>
+  <data name="Brazier" xml:space="preserve">
+    <value>火鉢</value>
+  </data>
+  <data name="Bread" xml:space="preserve">
+    <value>パン</value>
+  </data>
+  <data name="BreadDough" xml:space="preserve">
+    <value>パン生地</value>
+  </data>
+  <data name="BuckshotShell" xml:space="preserve">
+    <value>バックショットシェル</value>
+  </data>
+  <data name="BuffaloHead" xml:space="preserve">
+    <value>バッファローヘッド</value>
+  </data>
+  <data name="BuffaloTrophy" xml:space="preserve">
+    <value>バッファローのトロフィー</value>
+  </data>
+  <data name="BuildingUpgradeTool" xml:space="preserve">
+    <value>建築物アップグレードツール</value>
+  </data>
+  <data name="Campfire" xml:space="preserve">
+    <value>キャンプファイヤー</value>
+  </data>
+  <data name="Canteen" xml:space="preserve">
+    <value>水筒</value>
+  </data>
+  <data name="CarbonArrow" xml:space="preserve">
+    <value>カーボンアロー</value>
+  </data>
+  <data name="CarbonFiber" xml:space="preserve">
+    <value>カーボンファイバー</value>
+  </data>
+  <data name="CarbonPaste" xml:space="preserve">
+    <value>カーボンペースト</value>
+  </data>
+  <data name="CarbonSpear" xml:space="preserve">
+    <value>カーボンスピア</value>
+  </data>
+  <data name="CarpentryBench" xml:space="preserve">
+    <value>大工用ベンチ</value>
+  </data>
+  <data name="CaveScanner" xml:space="preserve">
+    <value>ケイブスキャナー</value>
+  </data>
+  <data name="CavewormArrow" xml:space="preserve">
+    <value>洞窟虫の矢</value>
+  </data>
+  <data name="CavewormBow" xml:space="preserve">
+    <value>キャブウォームボウ</value>
+  </data>
+  <data name="CavewormKnife" xml:space="preserve">
+    <value>ケーブウォームナイフ</value>
+  </data>
+  <data name="CavewormSpear" xml:space="preserve">
+    <value>ケーブウォームスピア</value>
+  </data>
+  <data name="CementMixer" xml:space="preserve">
+    <value>セメントミキサー</value>
+  </data>
+  <data name="Charcoal" xml:space="preserve">
+    <value>木炭</value>
+  </data>
+  <data name="CharredCorn" xml:space="preserve">
+    <value>焦がしコーン</value>
+  </data>
+  <data name="ChemistryBench" xml:space="preserve">
+    <value>化学ベンチ</value>
+  </data>
+  <data name="ClothArmsArmor" xml:space="preserve">
+    <value>布製アームズアーマー</value>
+  </data>
+  <data name="ClothChestArmor" xml:space="preserve">
+    <value>布製胸部アーマー</value>
+  </data>
+  <data name="ClothFeetArmor" xml:space="preserve">
+    <value>布製足甲</value>
+  </data>
+  <data name="ClothHeadArmor" xml:space="preserve">
+    <value>布製ヘッドアーマー</value>
+  </data>
+  <data name="ClothLegsArmor" xml:space="preserve">
+    <value>布製脚部アーマー</value>
+  </data>
+  <data name="CocoaSeed" xml:space="preserve">
+    <value>ココアシード</value>
+  </data>
+  <data name="CoffeeBean" xml:space="preserve">
+    <value>コーヒー豆</value>
+  </data>
+  <data name="CombatKnife" xml:space="preserve">
+    <value>コンバットナイフ</value>
+  </data>
+  <data name="CometCoal" xml:space="preserve">
+    <value>コメットコール(スタック)</value>
+  </data>
+  <data name="CompositeArmsArmor" xml:space="preserve">
+    <value>コンポジットアームズアーマー</value>
+  </data>
+  <data name="CompositeArrow" xml:space="preserve">
+    <value>コンポジットアロー</value>
+  </data>
+  <data name="CompositeChestArmor" xml:space="preserve">
+    <value>コンポジットチェストアーマー</value>
+  </data>
+  <data name="CompositeFeetArmor" xml:space="preserve">
+    <value>コンポジットフィートアーマー</value>
+  </data>
+  <data name="CompositeHeadArmor" xml:space="preserve">
+    <value>コンポジットヘッドアーマー</value>
+  </data>
+  <data name="CompositeLegsArmor" xml:space="preserve">
+    <value>コンポジットレッグスアーマー</value>
+  </data>
+  <data name="CompositePaste" xml:space="preserve">
+    <value>コンポジットペースト</value>
+  </data>
+  <data name="CompositeSpear" xml:space="preserve">
+    <value>コンポジットスピア</value>
+  </data>
+  <data name="Composites" xml:space="preserve">
+    <value>コンポジット</value>
+  </data>
+  <data name="CompoundBow" xml:space="preserve">
+    <value>コンポジットボウ</value>
+  </data>
+  <data name="ConcreteBeam" xml:space="preserve">
+    <value>コンクリート梁</value>
+  </data>
+  <data name="ConcreteFloor" xml:space="preserve">
+    <value>コンクリート床</value>
+  </data>
+  <data name="ConcreteFloorTrapdoor" xml:space="preserve">
+    <value>コンクリートフロア・トラップドア</value>
+  </data>
+  <data name="ConcreteFrame" xml:space="preserve">
+    <value>コンクリートフレーム</value>
+  </data>
+  <data name="ConcreteFurnace" xml:space="preserve">
+    <value>コンクリート炉</value>
+  </data>
+  <data name="ConcreteHalfpieces" xml:space="preserve">
+    <value>コンクリートハーフピース</value>
+  </data>
+  <data name="ConcreteHalfpitches" xml:space="preserve">
+    <value>コンクリートハーフピッチ</value>
+  </data>
+  <data name="ConcreteMix" xml:space="preserve">
+    <value>コンクリートミックス</value>
+  </data>
+  <data name="ConcreteRailing" xml:space="preserve">
+    <value>コンクリート手すり</value>
+  </data>
+  <data name="ConcreteRamp" xml:space="preserve">
+    <value>コンクリート製ランプ</value>
+  </data>
+  <data name="ConcreteRoof" xml:space="preserve">
+    <value>コンクリートルーフ</value>
+  </data>
+  <data name="ConcreteRoofCorner" xml:space="preserve">
+    <value>コンクリート屋根コーナー</value>
+  </data>
+  <data name="ConcreteStairs" xml:space="preserve">
+    <value>コンクリート階段</value>
+  </data>
+  <data name="ConcreteWall" xml:space="preserve">
+    <value>コンクリート壁</value>
+  </data>
+  <data name="ConcreteWallAngled" xml:space="preserve">
+    <value>角度のあるコンクリート壁</value>
+  </data>
+  <data name="CookedBacon" xml:space="preserve">
+    <value>クックドベーコン</value>
+  </data>
+  <data name="CookedFattyTbone" xml:space="preserve">
+    <value>調理済み脂肪骨</value>
+  </data>
+  <data name="CookedFish" xml:space="preserve">
+    <value>魚の調理品</value>
+  </data>
+  <data name="CookedGameMeat" xml:space="preserve">
+    <value>ゲームミート</value>
+  </data>
+  <data name="CookedGiantSteak" xml:space="preserve">
+    <value>ジャイアントステーキ</value>
+  </data>
+  <data name="CookedMeat" xml:space="preserve">
+    <value>クックドミート</value>
+  </data>
+  <data name="CookedSoftMeat" xml:space="preserve">
+    <value>ソフトミート</value>
+  </data>
+  <data name="CookedStringyMeat" xml:space="preserve">
+    <value>筋のある肉</value>
+  </data>
+  <data name="CookedWhiteMeat" xml:space="preserve">
+    <value>白身肉</value>
+  </data>
+  <data name="CookingStation" xml:space="preserve">
+    <value>クッキングステーション</value>
+  </data>
+  <data name="CoolingBandage" xml:space="preserve">
+    <value>冷却包帯</value>
+  </data>
+  <data name="CopperBolt" xml:space="preserve">
+    <value>銅のボルト</value>
+  </data>
+  <data name="CopperIngot" xml:space="preserve">
+    <value>銅のインゴット</value>
+  </data>
+  <data name="CopperNail" xml:space="preserve">
+    <value>銅の爪</value>
+  </data>
+  <data name="Corn" xml:space="preserve">
+    <value>コーン</value>
+  </data>
+  <data name="CougarHead" xml:space="preserve">
+    <value>クーガーヘッド</value>
+  </data>
+  <data name="CougarTrophy" xml:space="preserve">
+    <value>クーガートロフィー</value>
+  </data>
+  <data name="CraftingBench" xml:space="preserve">
+    <value>クラフトベンチ</value>
+  </data>
+  <data name="CreamedCorn" xml:space="preserve">
+    <value>クリームコーン</value>
+  </data>
+  <data name="CrispyBacon" xml:space="preserve">
+    <value>クリスピーベーコン</value>
+  </data>
+  <data name="Crossbow" xml:space="preserve">
+    <value>クロスボウ</value>
+  </data>
+  <data name="CrumbedFishFillet" xml:space="preserve">
+    <value>魚の切り身（Crumbed Fish Fillet</value>
+  </data>
+  <data name="CrushedBone" xml:space="preserve">
+    <value>砕いた骨</value>
+  </data>
+  <data name="CX-400ArmsArmor" xml:space="preserve">
+    <value>CX-400 アームズアーマー</value>
+  </data>
+  <data name="CX-400ChestArmor" xml:space="preserve">
+    <value>CX-400 胸部アーマー</value>
+  </data>
+  <data name="CX-400FeetArmor" xml:space="preserve">
+    <value>CX-400 フィートアーマー</value>
+  </data>
+  <data name="CX-400HeadArmor" xml:space="preserve">
+    <value>CX-400 ヘッドアーマー</value>
+  </data>
+  <data name="CX-400LegsArmor" xml:space="preserve">
+    <value>CX-400 レッグスアーマー</value>
+  </data>
+  <data name="DeepMiningOreScanner" xml:space="preserve">
+    <value>ディープマイニング鉱石スキャナ</value>
+  </data>
+  <data name="DeerHead" xml:space="preserve">
+    <value>鹿の頭</value>
+  </data>
+  <data name="DeerTrophy" xml:space="preserve">
+    <value>鹿のトロフィー</value>
+  </data>
+  <data name="Dehumidifier" xml:space="preserve">
+    <value>除湿機</value>
+  </data>
+  <data name="DetoxifierModule" xml:space="preserve">
+    <value>デトキシファイヤーモジュール</value>
+  </data>
+  <data name="DirectionalWorklamp" xml:space="preserve">
+    <value>ディレクショナルワークランプ</value>
+  </data>
+  <data name="DoseupModule" xml:space="preserve">
+    <value>ドーズアップモジュール</value>
+  </data>
+  <data name="DriedFattyTbone" xml:space="preserve">
+    <value>乾燥脂肪骨</value>
+  </data>
+  <data name="DriedGameMeat" xml:space="preserve">
+    <value>乾燥ジビエ肉</value>
+  </data>
+  <data name="DriedGiantSteak" xml:space="preserve">
+    <value>乾燥ジャイアントステーキ</value>
+  </data>
+  <data name="DriedSoftMeat" xml:space="preserve">
+    <value>乾燥ソフトミート</value>
+  </data>
+  <data name="DriedStringyMeat" xml:space="preserve">
+    <value>干し筋肉</value>
+  </data>
+  <data name="DriedWhiteMeat" xml:space="preserve">
+    <value>白身肉</value>
+  </data>
+  <data name="DryingRack" xml:space="preserve">
+    <value>乾燥ラック</value>
+  </data>
+  <data name="ElectricCarpentryBench" xml:space="preserve">
+    <value>電動大工用ベンチ</value>
+  </data>
+  <data name="ElectricComposter" xml:space="preserve">
+    <value>電動コンポスター</value>
+  </data>
+  <data name="ElectricDeep-MiningDrill" xml:space="preserve">
+    <value>電動深堀りドリル</value>
+  </data>
+  <data name="ElectricDehumidifier" xml:space="preserve">
+    <value>電気式除湿器</value>
+  </data>
+  <data name="ElectricFurnace" xml:space="preserve">
+    <value>電気炉</value>
+  </data>
+  <data name="ElectricMasonryBench" xml:space="preserve">
+    <value>電動石工用ベンチ</value>
+  </data>
+  <data name="ElectricityTool" xml:space="preserve">
+    <value>電動工具</value>
+  </data>
+  <data name="Electronics" xml:space="preserve">
+    <value>電子機器</value>
+  </data>
+  <data name="Endurogel" xml:space="preserve">
+    <value>エンデュロゲル</value>
+  </data>
+  <data name="Epoxy" xml:space="preserve">
+    <value>エポキシ樹脂</value>
+  </data>
+  <data name="Extractor" xml:space="preserve">
+    <value>エクストラクター</value>
+  </data>
+  <data name="Fabricator" xml:space="preserve">
+    <value>ファブリケーター</value>
+  </data>
+  <data name="FireArrow" xml:space="preserve">
+    <value>ファイアアロー</value>
+  </data>
+  <data name="FireExtinguisher" xml:space="preserve">
+    <value>消火器</value>
+  </data>
+  <data name="FireWhacker" xml:space="preserve">
+    <value>ファイヤーワッカー</value>
+  </data>
+  <data name="Firepit" xml:space="preserve">
+    <value>ファイアピット</value>
+  </data>
+  <data name="Fireplace" xml:space="preserve">
+    <value>暖炉</value>
+  </data>
+  <data name="FishCurry" xml:space="preserve">
+    <value>フィッシュカレー</value>
+  </data>
+  <data name="FishingRod" xml:space="preserve">
+    <value>釣り竿</value>
+  </data>
+  <data name="FishingTrap" xml:space="preserve">
+    <value>フィッシングトラップ</value>
+  </data>
+  <data name="FlareArrow" xml:space="preserve">
+    <value>フレアアロー</value>
+  </data>
+  <data name="Flashlight" xml:space="preserve">
+    <value>懐中電灯</value>
+  </data>
+  <data name="Flatbread" xml:space="preserve">
+    <value>フラットブレッド</value>
+  </data>
+  <data name="FlatbreadDough" xml:space="preserve">
+    <value>フラットブレッド生地</value>
+  </data>
+  <data name="FlintArrow" xml:space="preserve">
+    <value>フリントアロー</value>
+  </data>
+  <data name="FloorTorch" xml:space="preserve">
+    <value>フロアトーチ</value>
+  </data>
+  <data name="Flour" xml:space="preserve">
+    <value>小麦粉</value>
+  </data>
+  <data name="FoodConsumptionPaste" xml:space="preserve">
+    <value>食品消費用ペースト</value>
+  </data>
+  <data name="FragGrenade" xml:space="preserve">
+    <value>フラググレネード</value>
+  </data>
+  <data name="FrozenRocks" xml:space="preserve">
+    <value>凍った岩</value>
+  </data>
+  <data name="FruitPie" xml:space="preserve">
+    <value>フルーツパイ</value>
+  </data>
+  <data name="FruitSalad" xml:space="preserve">
+    <value>フルーツサラダ</value>
+  </data>
+  <data name="FurArmsArmor" xml:space="preserve">
+    <value>ファーアームズアーマー</value>
+  </data>
+  <data name="FurChestArmor" xml:space="preserve">
+    <value>胸部ファーアーマー</value>
+  </data>
+  <data name="FurFeetArmor" xml:space="preserve">
+    <value>ファー足甲</value>
+  </data>
+  <data name="FurHeadArmor" xml:space="preserve">
+    <value>ファーヘッドアーマー</value>
+  </data>
+  <data name="FurLegsArmor" xml:space="preserve">
+    <value>ファーレッグスアーマー</value>
+  </data>
+  <data name="GatherersBackpack" xml:space="preserve">
+    <value>ギャザラーズバックパック</value>
+  </data>
+  <data name="GhillieArmsArmor" xml:space="preserve">
+    <value>ギリーアームズアーマー</value>
+  </data>
+  <data name="GhillieChestArmor" xml:space="preserve">
+    <value>ギリー チェストアーマー</value>
+  </data>
+  <data name="GhillieFeetArmor" xml:space="preserve">
+    <value>ギリー フィート アーマー</value>
+  </data>
+  <data name="GhillieHeadArmor" xml:space="preserve">
+    <value>ギリーヘッドアーマー</value>
+  </data>
+  <data name="GhillieLegsArmor" xml:space="preserve">
+    <value>ギリーレッグスアーマー</value>
+  </data>
+  <data name="Glass" xml:space="preserve">
+    <value>グラス</value>
+  </data>
+  <data name="GlassBeam" xml:space="preserve">
+    <value>ガラスビーム</value>
+  </data>
+  <data name="GlassDoor" xml:space="preserve">
+    <value>ガラスドア</value>
+  </data>
+  <data name="GlassJar" xml:space="preserve">
+    <value>ガラスジャー</value>
+  </data>
+  <data name="GlassRoof" xml:space="preserve">
+    <value>ガラスの屋根</value>
+  </data>
+  <data name="GlassRoofCorner" xml:space="preserve">
+    <value>ガラスルーフコーナー</value>
+  </data>
+  <data name="GlassWall" xml:space="preserve">
+    <value>ガラス壁</value>
+  </data>
+  <data name="GlassWallAngled" xml:space="preserve">
+    <value>ガラス壁アングル</value>
+  </data>
+  <data name="GlassWindow" xml:space="preserve">
+    <value>ガラス窓</value>
+  </data>
+  <data name="GlassworkingBench" xml:space="preserve">
+    <value>ガラス加工用ベンチ</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>碁</value>
+  </data>
+  <data name="GorseFlower" xml:space="preserve">
+    <value>ゴースフラワー</value>
+  </data>
+  <data name="GorseTea" xml:space="preserve">
+    <value>ゴースティー</value>
+  </data>
+  <data name="GrilledPumpkin" xml:space="preserve">
+    <value>焼きかぼちゃ</value>
+  </data>
+  <data name="GrowthFertilizer" xml:space="preserve">
+    <value>成長肥料</value>
+  </data>
+  <data name="Gunpowder" xml:space="preserve">
+    <value>火薬</value>
+  </data>
+  <data name="HealingBoostModule" xml:space="preserve">
+    <value>ヒーリングブーストモジュール</value>
+  </data>
+  <data name="HealthBuffPaste" xml:space="preserve">
+    <value>ヘルスバフペースト</value>
+  </data>
+  <data name="HealthRegenerationPaste" xml:space="preserve">
+    <value>ヘルスリジェネレーションペースト</value>
+  </data>
+  <data name="HealthRestorationPaste" xml:space="preserve">
+    <value>ヘルスリストアリングペースト</value>
+  </data>
+  <data name="HeatBandage" xml:space="preserve">
+    <value>ヒートバンテージ</value>
+  </data>
+  <data name="HeavyAirConditioner" xml:space="preserve">
+    <value>重いエアコン</value>
+  </data>
+  <data name="HeavyGlassWindow" xml:space="preserve">
+    <value>重いガラス窓</value>
+  </data>
+  <data name="HeavyHeater" xml:space="preserve">
+    <value>重いヒーター</value>
+  </data>
+  <data name="HeavyTrapdoor" xml:space="preserve">
+    <value>重いトラップドア</value>
+  </data>
+  <data name="HerbalismBench" xml:space="preserve">
+    <value>ハーバリズムベンチ</value>
+  </data>
+  <data name="High-QualityFertilizer" xml:space="preserve">
+    <value>高品質な肥料</value>
+  </data>
+  <data name="HotCocoa" xml:space="preserve">
+    <value>ホットココア</value>
+  </data>
+  <data name="HotCoffee" xml:space="preserve">
+    <value>ホットコーヒー</value>
+  </data>
+  <data name="HotTea" xml:space="preserve">
+    <value>ホットティー</value>
+  </data>
+  <data name="HunterArmsArmor" xml:space="preserve">
+    <value>ハンターアームズアーマー</value>
+  </data>
+  <data name="HunterChestArmor" xml:space="preserve">
+    <value>ハンターチェストアーマー</value>
+  </data>
+  <data name="HunterFeetArmor" xml:space="preserve">
+    <value>ハンターフィートアーマー</value>
+  </data>
+  <data name="HunterHeadArmor" xml:space="preserve">
+    <value>ハンターヘッドアーマー</value>
+  </data>
+  <data name="HunterLegsArmor" xml:space="preserve">
+    <value>ハンターレッグスアーマー</value>
+  </data>
+  <data name="HuntingRifle" xml:space="preserve">
+    <value>ハンティングライフル</value>
+  </data>
+  <data name="HydroponicCropPlot" xml:space="preserve">
+    <value>水耕栽培の作物</value>
+  </data>
+  <data name="IceBox" xml:space="preserve">
+    <value>アイスボックス</value>
+  </data>
+  <data name="InarisArudaArrow" xml:space="preserve">
+    <value>イナリスアルーダアロー</value>
+  </data>
+  <data name="InarisDiasAxe" xml:space="preserve">
+    <value>イナリスディアスアックス</value>
+  </data>
+  <data name="InarisGrisSpear" xml:space="preserve">
+    <value>イナリスグリススピア</value>
+  </data>
+  <data name="InarisNevesPickaxe" xml:space="preserve">
+    <value>イナリスネベスツルハシ</value>
+  </data>
+  <data name="InarisVenturaKnife" xml:space="preserve">
+    <value>イナリスベンチュラナイフ</value>
+  </data>
+  <data name="IncendiaryRifleRound" xml:space="preserve">
+    <value>焼夷弾ライフル</value>
+  </data>
+  <data name="InteriorWoodBeam" xml:space="preserve">
+    <value>インテリアウッドビーム</value>
+  </data>
+  <data name="InteriorWoodCupboard" xml:space="preserve">
+    <value>内装用木製食器棚</value>
+  </data>
+  <data name="InteriorWoodDoor" xml:space="preserve">
+    <value>内装用木製ドア</value>
+  </data>
+  <data name="InteriorWoodFloor" xml:space="preserve">
+    <value>インテリアウッドフロア</value>
+  </data>
+  <data name="InteriorWoodFloorTrapdoor" xml:space="preserve">
+    <value>インテリアウッドフロアトラップドア</value>
+  </data>
+  <data name="InteriorWoodHalfpieces" xml:space="preserve">
+    <value>インテリアウッドハーフピース</value>
+  </data>
+  <data name="InteriorWoodHalfpitches" xml:space="preserve">
+    <value>インテリアウッドハーフピッチ</value>
+  </data>
+  <data name="InteriorWoodLadder" xml:space="preserve">
+    <value>インテリアウッドラダー</value>
+  </data>
+  <data name="InteriorWoodRailing" xml:space="preserve">
+    <value>インテリアウッドレール</value>
+  </data>
+  <data name="InteriorWoodRamp" xml:space="preserve">
+    <value>インテリアウッドランプ</value>
+  </data>
+  <data name="InteriorWoodStairs" xml:space="preserve">
+    <value>インテリアウッドステア</value>
+  </data>
+  <data name="InteriorWoodTrapdoor" xml:space="preserve">
+    <value>インテリアウッドトラップドア</value>
+  </data>
+  <data name="InteriorWoodWall" xml:space="preserve">
+    <value>インテリアウッドウォール</value>
+  </data>
+  <data name="InteriorWoodWallAngled" xml:space="preserve">
+    <value>インテリアウッドウォールアングル</value>
+  </data>
+  <data name="IronAxe" xml:space="preserve">
+    <value>アイアンアックス</value>
+  </data>
+  <data name="IronBolt" xml:space="preserve">
+    <value>鉄のボルト</value>
+  </data>
+  <data name="IronCropPlot" xml:space="preserve">
+    <value>鉄の作物圃場</value>
+  </data>
+  <data name="IronCupboard" xml:space="preserve">
+    <value>鉄の食器棚</value>
+  </data>
+  <data name="IronHammer" xml:space="preserve">
+    <value>鉄のハンマー</value>
+  </data>
+  <data name="IronKnife" xml:space="preserve">
+    <value>鉄のナイフ</value>
+  </data>
+  <data name="IronNail" xml:space="preserve">
+    <value>鉄の釘</value>
+  </data>
+  <data name="IronPickaxe" xml:space="preserve">
+    <value>鉄のつるはし</value>
+  </data>
+  <data name="IronSickle" xml:space="preserve">
+    <value>鉄の鎌</value>
+  </data>
+  <data name="IronSpear" xml:space="preserve">
+    <value>鉄の槍</value>
+  </data>
+  <data name="JaguarHead" xml:space="preserve">
+    <value>ジャガーヘッド</value>
+  </data>
+  <data name="JaguarTrophy" xml:space="preserve">
+    <value>ジャガートロフィー</value>
+  </data>
+  <data name="KickFallModule" xml:space="preserve">
+    <value>キックフォールモジュール</value>
+  </data>
+  <data name="KitchenBench" xml:space="preserve">
+    <value>キッチンベンチ</value>
+  </data>
+  <data name="KitchenStorageBlock" xml:space="preserve">
+    <value>キッチン収納ブロック</value>
+  </data>
+  <data name="Lantern" xml:space="preserve">
+    <value>ランタン</value>
+  </data>
+  <data name="LarkwellMartinezAxe" xml:space="preserve">
+    <value>ラークウェル・マルチネス・アックス</value>
+  </data>
+  <data name="LarkwellMartinezHammer" xml:space="preserve">
+    <value>ラークウェルマルチネスハンマー</value>
+  </data>
+  <data name="LarkwellMartinezKnife" xml:space="preserve">
+    <value>ラークウェル・マルチネス・ナイフ</value>
+  </data>
+  <data name="LarkwellMartinezMercenaryBackpack" xml:space="preserve">
+    <value>ラークウェル・マルチネス 傭兵用バックパック</value>
+  </data>
+  <data name="LarkwellMartinezPickaxe" xml:space="preserve">
+    <value>ラークウェルマルチネス ツルハシ</value>
+  </data>
+  <data name="LarkwellMartinezSickle" xml:space="preserve">
+    <value>ラークウェルマルチネス シックル</value>
+  </data>
+  <data name="LarkwellMartinezSpear" xml:space="preserve">
+    <value>ラークウェル・マルチネス・スピア</value>
+  </data>
+  <data name="LarkwellMartinezTacticalBackpack" xml:space="preserve">
+    <value>ラークウェルマルチネス タクティカルバックパック</value>
+  </data>
+  <data name="LeatherArmsArmor" xml:space="preserve">
+    <value>レザーアームズアーマー</value>
+  </data>
+  <data name="LeatherBackpack" xml:space="preserve">
+    <value>レザーバックパック</value>
+  </data>
+  <data name="LeatherChestArmor" xml:space="preserve">
+    <value>レザーチェストアーマー</value>
+  </data>
+  <data name="LeatherCurtainDoor" xml:space="preserve">
+    <value>レザーカーテンドア</value>
+  </data>
+  <data name="LeatherCurtainWindow" xml:space="preserve">
+    <value>レザーカーテン・ウィンドウ</value>
+  </data>
+  <data name="LeatherFeetArmor" xml:space="preserve">
+    <value>レザーフットアーマー</value>
+  </data>
+  <data name="LeatherHeadArmor" xml:space="preserve">
+    <value>レザーヘッドアーマー</value>
+  </data>
+  <data name="LeatherLegsArmor" xml:space="preserve">
+    <value>レザーレッグスアーマー</value>
+  </data>
+  <data name="LightningRod" xml:space="preserve">
+    <value>ライトニングロッド</value>
+  </data>
+  <data name="Longbow" xml:space="preserve">
+    <value>ロングボウ</value>
+  </data>
+  <data name="LowburnModule" xml:space="preserve">
+    <value>ローバーンモジュール</value>
+  </data>
+  <data name="Machete" xml:space="preserve">
+    <value>マチェーテ</value>
+  </data>
+  <data name="MachiningBench" xml:space="preserve">
+    <value>マシニングベンチ</value>
+  </data>
+  <data name="MammothHead" xml:space="preserve">
+    <value>マンモスヘッド</value>
+  </data>
+  <data name="MammothTrophy" xml:space="preserve">
+    <value>マンモス・トロフィー</value>
+  </data>
+  <data name="MasonryBench" xml:space="preserve">
+    <value>メイソンリーベンチ</value>
+  </data>
+  <data name="MassDampenerModule" xml:space="preserve">
+    <value>マスダンプナーモジュール</value>
+  </data>
+  <data name="MaterialProcessor" xml:space="preserve">
+    <value>マテリアルプロセッサー</value>
+  </data>
+  <data name="MatureCoconut" xml:space="preserve">
+    <value>マチュアココナッツ</value>
+  </data>
+  <data name="MeatPie" xml:space="preserve">
+    <value>ミートパイ</value>
+  </data>
+  <data name="MediumInteriorWoodCrate" xml:space="preserve">
+    <value>ミディアムインテリアウッドクレート</value>
+  </data>
+  <data name="MediumIronCrate" xml:space="preserve">
+    <value>鉄製クレート（中</value>
+  </data>
+  <data name="MediumWoodCrate" xml:space="preserve">
+    <value>ミディアムウッドクレート</value>
+  </data>
+  <data name="MediumWoodHedgehog" xml:space="preserve">
+    <value>ウッドヘッジホッグ（Mサイズ</value>
+  </data>
+  <data name="MetalOre" xml:space="preserve">
+    <value>金属鉱石</value>
+  </data>
+  <data name="MetalOxiteDissolver" xml:space="preserve">
+    <value>メタルオキサイトディゾルバー</value>
+  </data>
+  <data name="Micromeal" xml:space="preserve">
+    <value>マイクロメイル</value>
+  </data>
+  <data name="MortarandPestle" xml:space="preserve">
+    <value>モルタルとペストル</value>
+  </data>
+  <data name="MushroomSoup" xml:space="preserve">
+    <value>キノコスープ</value>
+  </data>
+  <data name="MXCAxe" xml:space="preserve">
+    <value>MXCAxe</value>
+  </data>
+  <data name="MXCCampfire" xml:space="preserve">
+    <value>MXCキャンプファイヤー</value>
+  </data>
+  <data name="MXCCrate" xml:space="preserve">
+    <value>MXC クレート</value>
+  </data>
+  <data name="MXCFirewhacker" xml:space="preserve">
+    <value>MXCファイヤーウォーカー</value>
+  </data>
+  <data name="MXCFlangeArrow" xml:space="preserve">
+    <value>MXC フランジアロー</value>
+  </data>
+  <data name="MXCFurnace" xml:space="preserve">
+    <value>MXCファーネス</value>
+  </data>
+  <data name="MXCHammer" xml:space="preserve">
+    <value>MXCHammer</value>
+  </data>
+  <data name="MXCKnife" xml:space="preserve">
+    <value>MXCナイフ</value>
+  </data>
+  <data name="MXCNerveArrow" xml:space="preserve">
+    <value>MXCナーブアロー</value>
+  </data>
+  <data name="MXCPickaxe" xml:space="preserve">
+    <value>MXCPickaxe</value>
+  </data>
+  <data name="MXCSickle" xml:space="preserve">
+    <value>MXCSickle</value>
+  </data>
+  <data name="MXCSpear" xml:space="preserve">
+    <value>MXCスピア</value>
+  </data>
+  <data name="MXCVenomArrow" xml:space="preserve">
+    <value>MXCベノムアロー</value>
+  </data>
+  <data name="NaneoArmsArmor" xml:space="preserve">
+    <value>ナネオアームズアーマー</value>
+  </data>
+  <data name="NaneoChestArmor" xml:space="preserve">
+    <value>ナノイー胸部アーマー</value>
+  </data>
+  <data name="NaneoFeetArmor" xml:space="preserve">
+    <value>ナネオフットアーマー</value>
+  </data>
+  <data name="NaneoHeadArmor" xml:space="preserve">
+    <value>ナネオヘッドアーマー</value>
+  </data>
+  <data name="NaneoLegsArmor" xml:space="preserve">
+    <value>ナネオレッグスアーマー</value>
+  </data>
+  <data name="OmnidirectionalWorklamp" xml:space="preserve">
+    <value>全方位型ワークランプ</value>
+  </data>
+  <data name="OrganicResin" xml:space="preserve">
+    <value>有機樹脂</value>
+  </data>
+  <data name="Oxidizer" xml:space="preserve">
+    <value>オキシダイザー</value>
+  </data>
+  <data name="Oxite" xml:space="preserve">
+    <value>オキサイト</value>
+  </data>
+  <data name="OxiteDissolver" xml:space="preserve">
+    <value>オキサイト溶解剤</value>
+  </data>
+  <data name="Oxygel" xml:space="preserve">
+    <value>オキシジェル</value>
+  </data>
+  <data name="OxygenBladder" xml:space="preserve">
+    <value>酸素ブラダー</value>
+  </data>
+  <data name="OxygenBuffPaste" xml:space="preserve">
+    <value>酸素バフペースト</value>
+  </data>
+  <data name="OxygenConsumptionPaste" xml:space="preserve">
+    <value>酸素消費用ペースト</value>
+  </data>
+  <data name="OxygenRestorationPaste" xml:space="preserve">
+    <value>酸素復元ペースト</value>
+  </data>
+  <data name="OxygenTank" xml:space="preserve">
+    <value>酸素タンク</value>
+  </data>
+  <data name="Pastry" xml:space="preserve">
+    <value>ペストリー</value>
+  </data>
+  <data name="PatcherIModule" xml:space="preserve">
+    <value>パッチャーIMモジュール</value>
+  </data>
+  <data name="PatcherIIModule" xml:space="preserve">
+    <value>パッチャーIモジュール</value>
+  </data>
+  <data name="PickledCarrot" xml:space="preserve">
+    <value>ニンジンのピクルス</value>
+  </data>
+  <data name="Pistol" xml:space="preserve">
+    <value>ピストル</value>
+  </data>
+  <data name="PistolRound" xml:space="preserve">
+    <value>ピストルラウンド</value>
+  </data>
+  <data name="PlatinumAxe" xml:space="preserve">
+    <value>プラチナアックス</value>
+  </data>
+  <data name="PlatinumBolt" xml:space="preserve">
+    <value>プラチナボルト</value>
+  </data>
+  <data name="PlatinumHammer" xml:space="preserve">
+    <value>プラチナハンマー</value>
+  </data>
+  <data name="PlatinumIngot" xml:space="preserve">
+    <value>プラチナインゴット</value>
+  </data>
+  <data name="PlatinumKnife" xml:space="preserve">
+    <value>プラチナ・ナイフ</value>
+  </data>
+  <data name="PlatinumPickaxe" xml:space="preserve">
+    <value>プラチナツルハシ</value>
+  </data>
+  <data name="PlatinumSickle" xml:space="preserve">
+    <value>プラチナ・シックル</value>
+  </data>
+  <data name="PlatinumSpear" xml:space="preserve">
+    <value>プラチナスピアー</value>
+  </data>
+  <data name="PlayerTrackerModule" xml:space="preserve">
+    <value>プレイヤートラッカーモジュール</value>
+  </data>
+  <data name="PoisonArrow" xml:space="preserve">
+    <value>ポイズンアロー</value>
+  </data>
+  <data name="PoisonPaste" xml:space="preserve">
+    <value>ポイズンペースト</value>
+  </data>
+  <data name="PoisonedAnimalBait" xml:space="preserve">
+    <value>毒動物のエサ</value>
+  </data>
+  <data name="PolarBearArmsArmor" xml:space="preserve">
+    <value>ホッキョクグマの腕の防具</value>
+  </data>
+  <data name="PolarBearChestArmor" xml:space="preserve">
+    <value>ホッキョクグマの胸部防具</value>
+  </data>
+  <data name="PolarBearFeetArmor" xml:space="preserve">
+    <value>ホッキョクグマの足アーマー</value>
+  </data>
+  <data name="PolarBearHead" xml:space="preserve">
+    <value>ポーラーベアヘッド</value>
+  </data>
+  <data name="PolarBearHeadArmor" xml:space="preserve">
+    <value>ポーラーベアヘッドアーマー</value>
+  </data>
+  <data name="PolarBearLegsArmor" xml:space="preserve">
+    <value>ホッキョクグマ脚部アーマー</value>
+  </data>
+  <data name="PolarBearPelt" xml:space="preserve">
+    <value>シロクマ毛皮</value>
+  </data>
+  <data name="PolarBearTrophy" xml:space="preserve">
+    <value>シロクマトロフィー</value>
+  </data>
+  <data name="PortableBeacon" xml:space="preserve">
+    <value>ポータブルビーコン</value>
+  </data>
+  <data name="PotbellyStove" xml:space="preserve">
+    <value>ポットベリーストーブ</value>
+  </data>
+  <data name="PumpkinBread" xml:space="preserve">
+    <value>パンプキンブレッド</value>
+  </data>
+  <data name="Radar" xml:space="preserve">
+    <value>レーダー</value>
+  </data>
+  <data name="RainReservoir" xml:space="preserve">
+    <value>雨水貯留槽</value>
+  </data>
+  <data name="RecurveBow" xml:space="preserve">
+    <value>リカーブボウ</value>
+  </data>
+  <data name="RefinedGold" xml:space="preserve">
+    <value>リファインゴールド</value>
+  </data>
+  <data name="RefinedWood" xml:space="preserve">
+    <value>木</value>
+  </data>
+  <data name="Refrigerator" xml:space="preserve">
+    <value>冷蔵庫</value>
+  </data>
+  <data name="ReinforcedDoor" xml:space="preserve">
+    <value>強化ドア</value>
+  </data>
+  <data name="ReinforcedLadder" xml:space="preserve">
+    <value>強化ハシゴ</value>
+  </data>
+  <data name="ReinforcedRailing" xml:space="preserve">
+    <value>強化手すり</value>
+  </data>
+  <data name="ReinforcedTrapdoor" xml:space="preserve">
+    <value>強化トラップドア</value>
+  </data>
+  <data name="ReinforcedWindow" xml:space="preserve">
+    <value>強化窓</value>
+  </data>
+  <data name="Resources" xml:space="preserve">
+    <value>資源</value>
+  </data>
+  <data name="RifleRound" xml:space="preserve">
+    <value>ライフル弾</value>
+  </data>
+  <data name="RipeCoconut" xml:space="preserve">
+    <value>熟したココナッツ</value>
+  </data>
+  <data name="RoastSquash" xml:space="preserve">
+    <value>ローストカボチャ</value>
+  </data>
+  <data name="RoastVegetables" xml:space="preserve">
+    <value>ローストベジタブル</value>
+  </data>
+  <data name="Rope" xml:space="preserve">
+    <value>ロープ</value>
+  </data>
+  <data name="SandwormArrow" xml:space="preserve">
+    <value>サンドウォーム・アロー</value>
+  </data>
+  <data name="SandwormBow" xml:space="preserve">
+    <value>サンドウォーム・ボウ</value>
+  </data>
+  <data name="SandwormKnife" xml:space="preserve">
+    <value>ナイフ</value>
+  </data>
+  <data name="SandwormScale" xml:space="preserve">
+    <value>蚕の鱗</value>
+  </data>
+  <data name="SandwormSpear" xml:space="preserve">
+    <value>サンドウォーム スピア</value>
+  </data>
+  <data name="ScorpionHedgehog" xml:space="preserve">
+    <value>スコーピオン・ヘッジホッグ</value>
+  </data>
+  <data name="ScorpionPincerTrap" xml:space="preserve">
+    <value>スコーピオンピンサートラップ</value>
+  </data>
+  <data name="ShengongAkiraHammer" xml:space="preserve">
+    <value>シェンゴン社製明ハンマー</value>
+  </data>
+  <data name="ShengongDaokouKnife" xml:space="preserve">
+    <value>シェンゴン社製大光包丁</value>
+  </data>
+  <data name="ShengongDidaSpear" xml:space="preserve">
+    <value>シェンゴン社製陀槍</value>
+  </data>
+  <data name="ShengongDongPickaxe" xml:space="preserve">
+    <value>シェンゴン社製董卓斧</value>
+  </data>
+  <data name="ShengongGongBuSpear" xml:space="preserve">
+    <value>シェンゴン社製功夫槍</value>
+  </data>
+  <data name="ShengongHeikeAxe" xml:space="preserve">
+    <value>シェンゴン社製平家斧</value>
+  </data>
+  <data name="ShengongHuluCanteen" xml:space="preserve">
+    <value>シェンゴン社製胡盧餐飲</value>
+  </data>
+  <data name="ShengongJiBow" xml:space="preserve">
+    <value>シェンゴン社製智弓</value>
+  </data>
+  <data name="ShengongJijingBow" xml:space="preserve">
+    <value>シェンゴン社製之弓</value>
+  </data>
+  <data name="ShengongJijuSpear" xml:space="preserve">
+    <value>シェンゴン社製集鎗</value>
+  </data>
+  <data name="ShengongJushiPickaxe" xml:space="preserve">
+    <value>シェンゴン社製柔斧</value>
+  </data>
+  <data name="ShengongKuangPickaxe" xml:space="preserve">
+    <value>シェンゴン社製ツルハシ</value>
+  </data>
+  <data name="ShengongLieAxe" xml:space="preserve">
+    <value>シェンゴン社製李斧</value>
+  </data>
+  <data name="ShengongLiweiO2Tank" xml:space="preserve">
+    <value>シェンゴン社製李維O2タンク</value>
+  </data>
+  <data name="ShengongQieKnife" xml:space="preserve">
+    <value>シェンゴン社製羯磨刀</value>
+  </data>
+  <data name="ShengongSenAxe" xml:space="preserve">
+    <value>シェンゴン社製仙斧</value>
+  </data>
+  <data name="ShengongShuiKnife" xml:space="preserve">
+    <value>シェンゴン社製水ナイフ</value>
+  </data>
+  <data name="ShengongSichouKnife" xml:space="preserve">
+    <value>シェンゴン社製四川包丁</value>
+  </data>
+  <data name="ShengongSuiShiPickaxe" xml:space="preserve">
+    <value>シェンゴン社製水石ツルハシ</value>
+  </data>
+  <data name="ShengongTetsuoHammer" xml:space="preserve">
+    <value>シェンゴン社製鉄鎚</value>
+  </data>
+  <data name="ShengongWenheArrow" xml:space="preserve">
+    <value>シェンゴン社製文和矢</value>
+  </data>
+  <data name="ShengongXingxingSpear" xml:space="preserve">
+    <value>シェンゴン社製興業槍</value>
+  </data>
+  <data name="ShengongYeyingBandage" xml:space="preserve">
+    <value>シェンゴン社製玉英包帯</value>
+  </data>
+  <data name="ShengongZhangHuBow" xml:space="preserve">
+    <value>シェンゴン社製張惠妹弓</value>
+  </data>
+  <data name="Shotgun" xml:space="preserve">
+    <value>ショットガン</value>
+  </data>
+  <data name="Shovel" xml:space="preserve">
+    <value>シャベル</value>
+  </data>
+  <data name="SkinningBench" xml:space="preserve">
+    <value>スキニングベンチ</value>
+  </data>
+  <data name="SmallInteriorWoodCrate" xml:space="preserve">
+    <value>木箱(小)</value>
+  </data>
+  <data name="SmallIronCrate" xml:space="preserve">
+    <value>鉄の木箱(小)</value>
+  </data>
+  <data name="SmallWoodCrate" xml:space="preserve">
+    <value>木箱（小</value>
+  </data>
+  <data name="SmallWoodSign" xml:space="preserve">
+    <value>木製看板（小</value>
+  </data>
+  <data name="SmokeGrenade" xml:space="preserve">
+    <value>スモークグレネード</value>
+  </data>
+  <data name="SnowLeopardHead" xml:space="preserve">
+    <value>ユキヒョウの頭</value>
+  </data>
+  <data name="SnowLeopardTrophy" xml:space="preserve">
+    <value>ユキヒョウのトロフィー</value>
+  </data>
+  <data name="SolarPanel" xml:space="preserve">
+    <value>ソーラーパネル</value>
+  </data>
+  <data name="SoyBeanStir-Fry" xml:space="preserve">
+    <value>大豆の炒め物</value>
+  </data>
+  <data name="Splint" xml:space="preserve">
+    <value>スプリント</value>
+  </data>
+  <data name="Sponge" xml:space="preserve">
+    <value>スポンジ</value>
+  </data>
+  <data name="ST-700ArmsArmor" xml:space="preserve">
+    <value>ST-700 アームズアーマー</value>
+  </data>
+  <data name="ST-700ChestArmor" xml:space="preserve">
+    <value>ST-700 チェストアーマー</value>
+  </data>
+  <data name="ST-700FeetArmor" xml:space="preserve">
+    <value>ST-700 フィートアーマー</value>
+  </data>
+  <data name="ST-700HeadArmor" xml:space="preserve">
+    <value>ST-700 ヘッドアーマー</value>
+  </data>
+  <data name="ST-700LegsArmor" xml:space="preserve">
+    <value>ST-700 レッグスアーマー</value>
+  </data>
+  <data name="Stamina" xml:space="preserve">
+    <value>スタミナ</value>
+  </data>
+  <data name="StaminaBuffPaste" xml:space="preserve">
+    <value>スタミナバフペースト</value>
+  </data>
+  <data name="StaminaConsumptionPaste" xml:space="preserve">
+    <value>スタミナ消費ペースト</value>
+  </data>
+  <data name="StaminaRegenerationPaste" xml:space="preserve">
+    <value>スタミナ回復ペースト</value>
+  </data>
+  <data name="StaminaRestorationPaste" xml:space="preserve">
+    <value>スタミナ回復ペースト</value>
+  </data>
+  <data name="SteelAxe" xml:space="preserve">
+    <value>スティールアックス</value>
+  </data>
+  <data name="SteelBloom" xml:space="preserve">
+    <value>スティールブルーム</value>
+  </data>
+  <data name="SteelBolt" xml:space="preserve">
+    <value>スティールボルト</value>
+  </data>
+  <data name="SteelHammer" xml:space="preserve">
+    <value>スティールハンマー</value>
+  </data>
+  <data name="SteelIngot" xml:space="preserve">
+    <value>鋼鉄のインゴット</value>
+  </data>
+  <data name="SteelKnife" xml:space="preserve">
+    <value>鋼鉄のナイフ</value>
+  </data>
+  <data name="SteelPickaxe" xml:space="preserve">
+    <value>鋼鉄のつるはし</value>
+  </data>
+  <data name="SteelRebar" xml:space="preserve">
+    <value>鋼鉄鉄筋</value>
+  </data>
+  <data name="SteelScrew" xml:space="preserve">
+    <value>鋼鉄製のネジ</value>
+  </data>
+  <data name="SteelSpear" xml:space="preserve">
+    <value>鋼鉄の槍</value>
+  </data>
+  <data name="Stew" xml:space="preserve">
+    <value>シチュー</value>
+  </data>
+  <data name="StoneArrow" xml:space="preserve">
+    <value>ストーンアロー</value>
+  </data>
+  <data name="StoneAxe" xml:space="preserve">
+    <value>石の斧</value>
+  </data>
+  <data name="StoneBeam" xml:space="preserve">
+    <value>石の梁</value>
+  </data>
+  <data name="StoneFloor" xml:space="preserve">
+    <value>石の床</value>
+  </data>
+  <data name="StoneFloorTrapdoor" xml:space="preserve">
+    <value>石床トラップドア</value>
+  </data>
+  <data name="StoneFrame" xml:space="preserve">
+    <value>石フレーム</value>
+  </data>
+  <data name="StoneFurnace" xml:space="preserve">
+    <value>石炉</value>
+  </data>
+  <data name="StoneHalfpieces" xml:space="preserve">
+    <value>石材ハーフピース</value>
+  </data>
+  <data name="StoneHalfpitches" xml:space="preserve">
+    <value>石材ハーフピッチ</value>
+  </data>
+  <data name="StoneKnife" xml:space="preserve">
+    <value>石製ナイフ</value>
+  </data>
+  <data name="StonePickaxe" xml:space="preserve">
+    <value>石のツルハシ</value>
+  </data>
+  <data name="StonePile" xml:space="preserve">
+    <value>石積み</value>
+  </data>
+  <data name="StoneRamp" xml:space="preserve">
+    <value>石のランプ</value>
+  </data>
+  <data name="StoneRoof" xml:space="preserve">
+    <value>石屋根</value>
+  </data>
+  <data name="StoneRoofCorner" xml:space="preserve">
+    <value>石屋根の角</value>
+  </data>
+  <data name="StoneStairs" xml:space="preserve">
+    <value>石階段</value>
+  </data>
+  <data name="StoneWall" xml:space="preserve">
+    <value>石垣</value>
+  </data>
+  <data name="StoneWallAngled" xml:space="preserve">
+    <value>石垣の角度</value>
+  </data>
+  <data name="StrengthBoostModule" xml:space="preserve">
+    <value>ストレングスブーストモジュール</value>
+  </data>
+  <data name="SurvivalBackpack" xml:space="preserve">
+    <value>サバイバルバックパック</value>
+  </data>
+  <data name="SutureKit" xml:space="preserve">
+    <value>縫合キット</value>
+  </data>
+  <data name="SweetcornSoup" xml:space="preserve">
+    <value>スイートコーンスープ</value>
+  </data>
+  <data name="TaxidermyKnife" xml:space="preserve">
+    <value>剥製用ナイフ</value>
+  </data>
+  <data name="Tea" xml:space="preserve">
+    <value>お茶</value>
+  </data>
+  <data name="TextilesBench" xml:space="preserve">
+    <value>テキスタイルベンチ</value>
+  </data>
+  <data name="ThatchBeam" xml:space="preserve">
+    <value>サッチビーム</value>
+  </data>
+  <data name="ThatchDoor" xml:space="preserve">
+    <value>茅葺き屋根のドア</value>
+  </data>
+  <data name="ThatchFloor" xml:space="preserve">
+    <value>サッチフロア</value>
+  </data>
+  <data name="ThatchFloorTrapdoor" xml:space="preserve">
+    <value>サッチフロア・トラップドア</value>
+  </data>
+  <data name="ThatchHalfpieces" xml:space="preserve">
+    <value>サッチハーフピース</value>
+  </data>
+  <data name="ThatchHalfpitches" xml:space="preserve">
+    <value>サッチハーフピッチ</value>
+  </data>
+  <data name="ThatchLadder" xml:space="preserve">
+    <value>サッチラダー</value>
+  </data>
+  <data name="ThatchRailing" xml:space="preserve">
+    <value>サッチレーリング</value>
+  </data>
+  <data name="ThatchRamp" xml:space="preserve">
+    <value>サッチランプ</value>
+  </data>
+  <data name="ThatchRoof" xml:space="preserve">
+    <value>茅葺き屋根</value>
+  </data>
+  <data name="ThatchRoofCorner" xml:space="preserve">
+    <value>茅葺き屋根のコーナー</value>
+  </data>
+  <data name="ThatchStairs" xml:space="preserve">
+    <value>葺き替え階段</value>
+  </data>
+  <data name="ThatchTrapdoor" xml:space="preserve">
+    <value>サッチ・トラップドア</value>
+  </data>
+  <data name="ThatchWall" xml:space="preserve">
+    <value>サッチウォール</value>
+  </data>
+  <data name="ThatchWallAngled" xml:space="preserve">
+    <value>サッチウォールアングルド</value>
+  </data>
+  <data name="ThatchWindow" xml:space="preserve">
+    <value>サッチウインドウ</value>
+  </data>
+  <data name="Thermos" xml:space="preserve">
+    <value>魔法瓶</value>
+  </data>
+  <data name="TitaniumArrow" xml:space="preserve">
+    <value>チタンアロー</value>
+  </data>
+  <data name="TitaniumAxe" xml:space="preserve">
+    <value>チタンアックス</value>
+  </data>
+  <data name="TitaniumBolt" xml:space="preserve">
+    <value>チタンボルト</value>
+  </data>
+  <data name="TitaniumHammer" xml:space="preserve">
+    <value>チタンハンマー</value>
+  </data>
+  <data name="TitaniumIngot" xml:space="preserve">
+    <value>チタンインゴット</value>
+  </data>
+  <data name="TitaniumKnife" xml:space="preserve">
+    <value>チタン製ナイフ</value>
+  </data>
+  <data name="TitaniumPickaxe" xml:space="preserve">
+    <value>チタン製ツルハシ</value>
+  </data>
+  <data name="TitaniumSickle" xml:space="preserve">
+    <value>チタン鎌</value>
+  </data>
+  <data name="TitaniumSpear" xml:space="preserve">
+    <value>チタンスピア</value>
+  </data>
+  <data name="TreeSap" xml:space="preserve">
+    <value>樹液</value>
+  </data>
+  <data name="TrophyBench" xml:space="preserve">
+    <value>トロフィーベンチ</value>
+  </data>
+  <data name="Ultrameal" xml:space="preserve">
+    <value>ウルトラメタル</value>
+  </data>
+  <data name="VegetablePie" xml:space="preserve">
+    <value>ベジタブルパイ</value>
+  </data>
+  <data name="WallTorch" xml:space="preserve">
+    <value>ウォールトーチ</value>
+  </data>
+  <data name="WaterConsumptionPaste" xml:space="preserve">
+    <value>水消費ペースト</value>
+  </data>
+  <data name="WaterPipeTool" xml:space="preserve">
+    <value>ウォーターパイプツール</value>
+  </data>
+  <data name="WaterPump" xml:space="preserve">
+    <value>水ポンプ</value>
+  </data>
+  <data name="WaterSources" xml:space="preserve">
+    <value>水源</value>
+  </data>
+  <data name="WaterSprinkler" xml:space="preserve">
+    <value>水スプリンクラー</value>
+  </data>
+  <data name="Waterskin" xml:space="preserve">
+    <value>水皮</value>
+  </data>
+  <data name="WildSalad" xml:space="preserve">
+    <value>ワイルドサラダ</value>
+  </data>
+  <data name="Wine" xml:space="preserve">
+    <value>ワイン</value>
+  </data>
+  <data name="WineBottle" xml:space="preserve">
+    <value>ワインボトル</value>
+  </data>
+  <data name="WoodBeam" xml:space="preserve">
+    <value>木の梁</value>
+  </data>
+  <data name="WoodBed" xml:space="preserve">
+    <value>ウッドベッド</value>
+  </data>
+  <data name="WoodBow" xml:space="preserve">
+    <value>ウッドリボン</value>
+  </data>
+  <data name="WoodChair" xml:space="preserve">
+    <value>ウッドチェア</value>
+  </data>
+  <data name="WoodComposter" xml:space="preserve">
+    <value>ウッドコンポスター</value>
+  </data>
+  <data name="WoodCropPlot" xml:space="preserve">
+    <value>ウッドクロッププロット</value>
+  </data>
+  <data name="WoodCupboard" xml:space="preserve">
+    <value>木製の食器棚</value>
+  </data>
+  <data name="WoodDoor" xml:space="preserve">
+    <value>木の扉</value>
+  </data>
+  <data name="WoodFloor" xml:space="preserve">
+    <value>ウッドフロア</value>
+  </data>
+  <data name="WoodFloorTrapdoor" xml:space="preserve">
+    <value>ウッドフロアトラップドア</value>
+  </data>
+  <data name="WoodHalfpieces" xml:space="preserve">
+    <value>ウッドハーフピース</value>
+  </data>
+  <data name="WoodHalfpitches" xml:space="preserve">
+    <value>ウッドハーフピッチ</value>
+  </data>
+  <data name="WoodLadder" xml:space="preserve">
+    <value>ウッドラダー</value>
+  </data>
+  <data name="WoodPile" xml:space="preserve">
+    <value>ウッドパイル</value>
+  </data>
+  <data name="WoodRagTorch" xml:space="preserve">
+    <value>ウッドラグ・トーチ</value>
+  </data>
+  <data name="WoodRailing" xml:space="preserve">
+    <value>木製の手すり</value>
+  </data>
+  <data name="WoodRamp" xml:space="preserve">
+    <value>ウッドランプ</value>
+  </data>
+  <data name="WoodRepairHammer" xml:space="preserve">
+    <value>木材補修用ハンマー</value>
+  </data>
+  <data name="WoodRoof" xml:space="preserve">
+    <value>木製の屋根</value>
+  </data>
+  <data name="WoodRoofCorner" xml:space="preserve">
+    <value>木製の屋根の角</value>
+  </data>
+  <data name="WoodSpear" xml:space="preserve">
+    <value>木製の槍</value>
+  </data>
+  <data name="WoodStairs" xml:space="preserve">
+    <value>木製の階段</value>
+  </data>
+  <data name="WoodTable" xml:space="preserve">
+    <value>木製のテーブル</value>
+  </data>
+  <data name="WoodTorch" xml:space="preserve">
+    <value>木製のトーチ</value>
+  </data>
+  <data name="WoodTrapdoor" xml:space="preserve">
+    <value>木製トラップドア</value>
+  </data>
+  <data name="WoodWall" xml:space="preserve">
+    <value>木の壁</value>
+  </data>
+  <data name="WoodWallAngled" xml:space="preserve">
+    <value>木の壁アングル</value>
+  </data>
+  <data name="WoodWindow" xml:space="preserve">
+    <value>ウッドウィンドウ</value>
+  </data>
+  <data name="WorkshopRepairKit" xml:space="preserve">
+    <value>ワークショップ用リペアキット</value>
+  </data>
+  <data name="WorkshopRepairKitBundle" xml:space="preserve">
+    <value>ワークショップリペアキットセット</value>
+  </data>
+  <data name="Watermelon" xml:space="preserve">
+    <value>スイカ</value>
+  </data>
+</root>

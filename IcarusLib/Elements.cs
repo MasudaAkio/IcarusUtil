@@ -33,7 +33,7 @@ namespace IcarusLib
         ClimateControl, // 気候制御
     }
 
-    public abstract class Object
+    public /* abstract */ class Object
     {
         public string keyname { get; private set; }
         public string name { get; private set; }
@@ -43,7 +43,7 @@ namespace IcarusLib
         public Object(string key)
         {
             keyname = key;
-            name = Names.ResourceManager.GetString(key, Names.Culture);
+            name = ObjectNames.ResourceManager.GetString(key, ObjectNames.Culture);
             if (string.IsNullOrEmpty(name)) string.Join(" ", new Regex("[A-Z][a-z]+").Matches(key).OfType<string>());
 
             image = (Bitmap)(Images.ResourceManager.GetObject(key) ?? Images.ResourceManager.GetObject("NoImage"));
@@ -52,10 +52,21 @@ namespace IcarusLib
         private static CultureInfo calture { get => CultureInfo.CurrentCulture; }
         public static IEnumerable<string> Keys
         {
-            get => Names
+            get => ObjectNames
                     .ResourceManager
                     .GetResourceSet(calture, true, true).Cast<DictionaryEntry>().Select(e => e.Key.ToString());
         }
+    }
+
+    public class Objects : KeyedCollection<string, Object>
+    {
+        public Objects()
+        {
+            var keynames = Object.Keys.ToArray();
+            foreach (var k in keynames) Add(new Object(k));
+        }
+
+        protected override string GetKeyForItem(Object item) => item.keyname;
     }
 
     public class RecipeItem
@@ -118,7 +129,7 @@ namespace IcarusLib
             {
                 "IronOre", "CopperOre", "GoldOre", "CoalOre", "AluminumOre", "PlatinumOre", "TitaniumOre", "Exotics", "Stone",
                 "Ice", "Oxide", "SilicaOre", "Sulfur",
-                "ReedFlower", "Lily", "Squash", "Yeast", "Wheat", "Cone", "WaterMelon", "SoyBean","Pumpkin", "WildBerry",
+                "ReedFlower", "Lily", "Squash", "Yeast", "Wheat", "Cone", "Watermelon", "SoyBean","Pumpkin", "WildBerry",
                 "Carrot", "YoungCoconut", "Mushroom", "Wood",
                 "SpoiledPlants", "SpoiledMeat",
                 "Fiber", "Stick", "Leather", "Bone", "Fur",

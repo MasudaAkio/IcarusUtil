@@ -49,10 +49,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Images.resx</DependentUpon>
     </Compile>
-    <Compile Include="Properties\Names.Designer.cs">
+    <Compile Include="Properties\ObjectNames.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Names.resx</DependentUpon>
+      <DependentUpon>ObjectNames.resx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -60,10 +60,12 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Images.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\Names.ja-JP.resx" />
-    <EmbeddedResource Include="Properties\Names.resx">
+    <EmbeddedResource Include="Properties\ObjectNames.ja-JP.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\ObjectNames.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Names.Designer.cs</LastGenOutput>
+      <LastGenOutput>ObjectNames.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
