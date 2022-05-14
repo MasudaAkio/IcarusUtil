@@ -110,9 +110,9 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		RESX_Rules = {"EnabledRules":["StringFormat","WhiteSpaceLead","PunctuationLead","PunctuationTail"]}
-		RESX_DuplicateKeyHandling = Fail
-		RESX_AutoCreateNewLanguageFiles = True
 		SolutionGuid = {E3E514C4-55D8-4833-8F00-5E55E99D9A0C}
+		RESX_AutoCreateNewLanguageFiles = True
+		RESX_DuplicateKeyHandling = Fail
+		RESX_Rules = {"EnabledRules":["StringFormat","WhiteSpaceLead","PunctuationLead","PunctuationTail"]}
 	EndGlobalSection
 EndGlobal

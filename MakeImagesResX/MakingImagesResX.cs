@@ -17,8 +17,6 @@ namespace MakeImagesResX
         public MakeImagesResX()
         {
             InitializeComponent();
-
-            // btnGo.FlatStyle = FlatStyle.Flat;
         }
 
         private void btnGo_Click(object sender, EventArgs e)

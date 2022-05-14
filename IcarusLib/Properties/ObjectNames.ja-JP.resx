@@ -1437,9 +1437,6 @@
   <data name="ReinforcedWindow" xml:space="preserve">
     <value>強化窓</value>
   </data>
-  <data name="Resources" xml:space="preserve">
-    <value>資源</value>
-  </data>
   <data name="RifleRound" xml:space="preserve">
     <value>ライフル弾</value>
   </data>

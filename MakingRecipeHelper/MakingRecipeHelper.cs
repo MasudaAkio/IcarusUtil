@@ -35,6 +35,7 @@ namespace MakingRecipeHelper
     public partial class MakingRecipeHelper : Form
     {
         private string[] Benches = new string[] {
+            "Character Crafting",
             "Anvil Bench",
             "Carpentry Bench",
             "Cement Mixer",
@@ -61,6 +62,11 @@ namespace MakingRecipeHelper
             "Kitchen Bench",
             "MXC Campfire",
             "Potbelly Stove",
+            "Wood Composter",
+            "Stone Furnace",
+            "Concrete Furnace",
+            "Electric Furnace",
+            "MXC Furnace",
         };
 
         public MakingRecipeHelper()
@@ -73,29 +79,30 @@ namespace MakingRecipeHelper
         {
             string remove_spc(string s) => s?.Replace(" ", "");
 
-            var src = tbxInputArea.Lines;
-            var bench = "";
-            var staffs = new List<string>();
-            var staff_regex = new Regex(@"(\d+)\s+(.+)$");
+            IEnumerable<string> pull_bench(string s) => Benches.Where(b => s.Contains(b));
 
-            foreach (var l in src.Select(s => s.Trim()))
+            var src = tbxInputArea.Lines;
+            var benches = new List<string>();
+            var staffs = new List<string>();
+            var staff_regex = new Regex(@"^\s*(\d+)\s+(.+)$", RegexOptions.Compiled);
+
+            foreach (var ln in src.Select(s => s.Trim()))
             {
-                if (Benches.Contains(l))
+
+                benches.AddRange(pull_bench(ln));
                 {
-                    bench = l;
-                    lbxBenches.SelectedItem = l;
-                }
-                else
-                {
-                    var m = staff_regex.Match(l);
+                    var m = staff_regex.Match(ln);
                     if (m.Success)
                         staffs.Add($"{remove_spc(m.Groups[2].Value)}:{m.Groups[1]}");
                 }
             }
             if (staffs.Count > 0)
             {
-                if (string.IsNullOrEmpty(bench)) bench = lbxBenches.SelectedItem?.ToString();
-                tbxEdited.Text = $"{remove_spc(bench)}({string.Join(",", staffs.ToArray())})";
+                if (benches.Count == 0) benches.Add(lbxBenches.SelectedItem?.ToString() ?? "");
+                var args = $"({string.Join(",", staffs.ToArray())})";
+                tbxEdited.Text = string.Join("|", benches
+                                                    .Distinct()
+                                                    .Select(bn => $"{remove_spc(bn)}{args}"));
                 this.BeginInvoke(new MethodInvoker(() => Clipboard.SetDataObject(tbxEdited.Text, true, 25, 100)));
             }
         }
@@ -104,6 +111,17 @@ namespace MakingRecipeHelper
         {
             if (!string.IsNullOrEmpty(tbxEdited.Text))
                 tbxInputArea_TextChanged(tbxInputArea, new EventArgs());
+        }
+
+        private void tbxEdited_MouseHover(object sender, EventArgs e)
+        {
+            toolTip1.SetToolTip(tbxEdited, tbxEdited.Text);
+        }
+
+        private void btnPaste_Click(object sender, EventArgs e)
+        {
+            tbxInputArea.Clear();
+            tbxInputArea.Text = Clipboard.GetText();
         }
     }
 }
