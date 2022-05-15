@@ -1,0 +1,5 @@
+@startuml
+class Images {
+    <<internal>> Images()
+}
+@enduml

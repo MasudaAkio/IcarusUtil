@@ -31,10 +31,10 @@ namespace IcarusSample
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IcarusSample));
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.lvSouces = new System.Windows.Forms.ListView();
             this.ObjectImagesLarge = new System.Windows.Forms.ImageList(this.components);
             this.ObjectImagesSmall = new System.Windows.Forms.ImageList(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.pnlUpper = new System.Windows.Forms.Panel();
             this.btnFilter = new System.Windows.Forms.Button();
             this.tbxFilter = new System.Windows.Forms.TextBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -43,26 +43,31 @@ namespace IcarusSample
             this.smallIconToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1.SuspendLayout();
+            this.pnlLower = new System.Windows.Forms.Panel();
+            this.lvTarget = new System.Windows.Forms.ListView();
+            this.lvRecipe = new System.Windows.Forms.ListView();
+            this.pnlUpper.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.pnlLower.SuspendLayout();
             this.SuspendLayout();
             // 
-            // listView1
+            // lvSouces
             // 
-            this.listView1.BackColor = System.Drawing.Color.MistyRose;
-            this.listView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.listView1.Font = new System.Drawing.Font("メイリオ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.listView1.GridLines = true;
-            this.listView1.HideSelection = false;
-            this.listView1.LargeImageList = this.ObjectImagesLarge;
-            this.listView1.Location = new System.Drawing.Point(182, 24);
-            this.listView1.Margin = new System.Windows.Forms.Padding(2);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(1082, 657);
-            this.listView1.SmallImageList = this.ObjectImagesSmall;
-            this.listView1.TabIndex = 1;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.List;
+            this.lvSouces.BackColor = System.Drawing.Color.MistyRose;
+            this.lvSouces.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lvSouces.Font = new System.Drawing.Font("メイリオ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.lvSouces.GridLines = true;
+            this.lvSouces.HideSelection = false;
+            this.lvSouces.LargeImageList = this.ObjectImagesLarge;
+            this.lvSouces.Location = new System.Drawing.Point(182, 24);
+            this.lvSouces.Margin = new System.Windows.Forms.Padding(2);
+            this.lvSouces.Name = "lvSouces";
+            this.lvSouces.Size = new System.Drawing.Size(1082, 557);
+            this.lvSouces.SmallImageList = this.ObjectImagesSmall;
+            this.lvSouces.TabIndex = 1;
+            this.lvSouces.UseCompatibleStateImageBehavior = false;
+            this.lvSouces.View = System.Windows.Forms.View.List;
+            this.lvSouces.SelectedIndexChanged += new System.EventHandler(this.lvSouces_SelectedIndexChanged);
             // 
             // ObjectImagesLarge
             // 
@@ -76,17 +81,17 @@ namespace IcarusSample
             this.ObjectImagesSmall.ImageSize = new System.Drawing.Size(16, 16);
             this.ObjectImagesSmall.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // panel1
+            // pnlUpper
             // 
-            this.panel1.BackColor = System.Drawing.Color.DarkGray;
-            this.panel1.Controls.Add(this.btnFilter);
-            this.panel1.Controls.Add(this.tbxFilter);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panel1.Location = new System.Drawing.Point(0, 24);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(182, 657);
-            this.panel1.TabIndex = 2;
+            this.pnlUpper.BackColor = System.Drawing.Color.DarkGray;
+            this.pnlUpper.Controls.Add(this.btnFilter);
+            this.pnlUpper.Controls.Add(this.tbxFilter);
+            this.pnlUpper.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlUpper.Location = new System.Drawing.Point(0, 24);
+            this.pnlUpper.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlUpper.Name = "pnlUpper";
+            this.pnlUpper.Size = new System.Drawing.Size(182, 557);
+            this.pnlUpper.TabIndex = 2;
             // 
             // btnFilter
             // 
@@ -166,32 +171,68 @@ namespace IcarusSample
             this.tileToolStripMenuItem.Text = "タイル";
             this.tileToolStripMenuItem.Click += new System.EventHandler(this.tileToolStripMenuItem_Click);
             // 
+            // pnlLower
+            // 
+            this.pnlLower.Controls.Add(this.lvRecipe);
+            this.pnlLower.Controls.Add(this.lvTarget);
+            this.pnlLower.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlLower.Location = new System.Drawing.Point(0, 581);
+            this.pnlLower.Name = "pnlLower";
+            this.pnlLower.Size = new System.Drawing.Size(1264, 100);
+            this.pnlLower.TabIndex = 4;
+            // 
+            // lvTarget
+            // 
+            this.lvTarget.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lvTarget.HideSelection = false;
+            this.lvTarget.LargeImageList = this.ObjectImagesLarge;
+            this.lvTarget.Location = new System.Drawing.Point(0, 0);
+            this.lvTarget.Name = "lvTarget";
+            this.lvTarget.Size = new System.Drawing.Size(182, 100);
+            this.lvTarget.SmallImageList = this.ObjectImagesSmall;
+            this.lvTarget.TabIndex = 5;
+            this.lvTarget.UseCompatibleStateImageBehavior = false;
+            // 
+            // lvRecipe
+            // 
+            this.lvRecipe.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lvRecipe.HideSelection = false;
+            this.lvRecipe.LargeImageList = this.ObjectImagesLarge;
+            this.lvRecipe.Location = new System.Drawing.Point(182, 0);
+            this.lvRecipe.Name = "lvRecipe";
+            this.lvRecipe.Size = new System.Drawing.Size(1082, 100);
+            this.lvRecipe.SmallImageList = this.ObjectImagesSmall;
+            this.lvRecipe.TabIndex = 6;
+            this.lvRecipe.UseCompatibleStateImageBehavior = false;
+            // 
             // IcarusSample
             // 
             this.AcceptButton = this.btnFilter;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.listView1);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.lvSouces);
+            this.Controls.Add(this.pnlUpper);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.pnlLower);
             this.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "IcarusSample";
             this.Text = "IcarusSample";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
+            this.pnlUpper.ResumeLayout(false);
+            this.pnlUpper.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.pnlLower.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ListView lvSouces;
+        private System.Windows.Forms.Panel pnlUpper;
         private System.Windows.Forms.ImageList ObjectImagesLarge;
         private System.Windows.Forms.ImageList ObjectImagesSmall;
         private System.Windows.Forms.MenuStrip menuStrip1;
@@ -202,6 +243,9 @@ namespace IcarusSample
         private System.Windows.Forms.ToolStripMenuItem tileToolStripMenuItem;
         private System.Windows.Forms.Button btnFilter;
         private System.Windows.Forms.TextBox tbxFilter;
+        private System.Windows.Forms.Panel pnlLower;
+        private System.Windows.Forms.ListView lvTarget;
+        private System.Windows.Forms.ListView lvRecipe;
     }
 }
 

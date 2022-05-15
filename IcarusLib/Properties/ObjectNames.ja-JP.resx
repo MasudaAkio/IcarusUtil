@@ -1938,4 +1938,10 @@
   <data name="Watermelon" xml:space="preserve">
     <value>スイカ</value>
   </data>
+  <data name="WorkShop" xml:space="preserve">
+    <value>ワークショップ</value>
+  </data>
+  <data name="CharacterCrafting" xml:space="preserve">
+    <value>素手</value>
+  </data>
 </root>

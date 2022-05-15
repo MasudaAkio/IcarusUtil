@@ -1,0 +1,60 @@
+@startuml
+enum Attrs {
+    Armors,
+    BuildingPieces,
+    Consumables,
+    Deplyables,
+    Environsuits,
+    Modules,
+    Resources,
+    Tools,
+    Weapons,
+    Food,
+    Drinks,
+    Medicine,
+    Benches,
+    CraftingBenches,
+    CookingBenches,
+    ClimateControl,
+}
+class IcrObject {
+    + Key : string <<get>>
+    + IcrObject(key:string)
+}
+class IcrObjectCore {
+    + Key : string <<get>>
+    + Name : string <<get>>
+    <<internal>> IcrObjectCore(key:string)
+    + HasAnyRecipes : bool <<get>>
+}
+class IcrObjectCores {
+    + IcrObjectCores()
+    # <<override>> GetKeyForItem(item:IcrObjectCore) : string
+}
+class RecipeItem {
+    + Volume : decimal <<get>>
+    + RecipeItem(iobj:IcrObject, vol:decimal)
+}
+class Recipe {
+    - Recipe()
+    {static} <<internal>> Decode(recipe_str:string) : IEnumerable<Recipe>
+}
+class "IEnumerable`1"<T> {
+}
+class "KeyedCollection`2"<T1,T2> {
+}
+IcrObject o-> "Cores" IcrObjectCores
+IcrObject --> "_core" IcrObjectCore
+IcrObject --> "Core" IcrObjectCore
+IcrObject +-- IcrObjectCore
+IcrObjectCore --> "Image" Bitmap
+IcrObjectCore --> "Attributes" Attrs
+IcrObjectCore --> "calture" CultureInfo
+IcrObjectCore --> "Keys<string>" "IEnumerable`1"
+IcrObject +-- IcrObjectCores
+"KeyedCollection`2" "<string,IcrObjectCore>" <|-- IcrObjectCores
+IcrObject +-- RecipeItem
+RecipeItem --> "Stuff" IcrObject
+IcrObject +-- Recipe
+Recipe --> "Bench" IcrObject
+@enduml

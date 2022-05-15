@@ -1,0 +1,65 @@
+12  Iron Ingot
+4  Steel Screw
+4  Epoxy
+
+Glassworking Bench
+Amount	Resource
+12	 Iron Ingot
+18	 Glass
+4	 Epoxy
+
+
+"Anvil Bench",
+"Carpentry Bench",
+"Cement Mixer",
+"Chemistry Bench",
+"Crafting Bench",
+"Electric Carpentry Bench",
+"Electric Masonry Bench",
+"Fabricator",
+"Glassworking Bench",
+"Herbalism Bench",
+"Machining Bench",
+"Masonry Bench",
+"Material Processor",
+"Mortar and Pestle",
+"Skinning Bench",
+"Textiles Bench",
+"Trophy Bench",
+"Biofuel Stove",
+"Campfire",
+"Cooking Station",
+"Drying Rack",
+"Firepit",
+"Fireplace",
+"Kitchen Bench",
+"MXC Campfire",
+"Potbelly Stove",
+
+GlassworkingBench(IronIngot:12,Glass:18,Epoxy:4)
+
+GlassworkingBench(IronIngot:12,Glass:18,Epoxy:4)
+
+GlassworkingBench(IronIngot:12,Glass:18,Epoxy:4)
+
+InputArea に以下のような文字列を書き込む(通常はクリップボードから貼り付ける)と
+Recipes.resx 用のレシピ式に成形してクリップボードに格納する。
+
+    Glassworking Bench
+    Amount	Resource
+    12	 Iron Ingot
+    18	 Glass
+    4	 Epoxy
+
+整形後 => GlassworkingBench(IronIngot:12,Glass:18,Epoxy:4)
+
+また、作成ベンチを含まない以下のような文字列の場合は、
+左のリストから選択したものを追加する。
+
+    12  Iron Ingot
+    4  Steel Screw
+    4  Epoxy
+
+整形後 => HerbalismBench(IronIngot:12,SteelScrew:4,Epoxy:4)
+(ベンチリストの"Herbalism Bench"を選択した場合)
+

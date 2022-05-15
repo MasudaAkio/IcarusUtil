@@ -1,0 +1,8 @@
+@startuml
+!include .\\Elements.puml
+!include .\\Properties\AssemblyInfo.puml
+!include .\\Properties\Images.Designer.puml
+!include .\\Properties\ObjectNames.Designer.puml
+!include .\\Properties\Recipes.Designer.puml
+!include .\\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.puml
+@enduml

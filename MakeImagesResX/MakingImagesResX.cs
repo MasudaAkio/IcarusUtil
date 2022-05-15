@@ -27,7 +27,7 @@ namespace MakeImagesResX
             var wrtr = new ResXResourceWriter(Path.Combine(prefix, @"Properties\Images.resx"));
 
             var noimage = new Bitmap(Path.Combine(prefix, @"Resources\NoImage.png"));
-            foreach (var k in IcarusLib.Object.Keys.Concat(new string[] { "NoImage" }))
+            foreach (var k in IcarusLib.IcrObject.Keys.Concat(new string[] { "NoImage" }))
             {
                 var png = new FileInfo(Path.Combine(prefix, $@"Resources\{k}.png"));
                 if (png.Exists) wrtr.AddResource(k, new Bitmap(png.ToString()));

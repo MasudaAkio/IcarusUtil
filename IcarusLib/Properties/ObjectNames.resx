@@ -1938,4 +1938,10 @@
   <data name="Watermelon" xml:space="preserve">
     <value>Watermelon</value>
   </data>
+  <data name="WorkShop" xml:space="preserve">
+    <value>WorkShop</value>
+  </data>
+  <data name="CharacterCrafting" xml:space="preserve">
+    <value>Character Crafting</value>
+  </data>
 </root>
