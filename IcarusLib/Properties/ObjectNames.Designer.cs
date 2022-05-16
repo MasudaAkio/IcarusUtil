@@ -961,6 +961,15 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///   Character Crafting に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string CharacterCrafting {
+            get {
+                return ResourceManager.GetString("CharacterCrafting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Charcoal に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Charcoal {
@@ -3346,15 +3355,6 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        public static string Oxide {
-            get {
-                return ResourceManager.GetString("Oxide", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Oxidizer に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Oxidizer {
@@ -3603,6 +3603,15 @@ namespace IcarusLib.Properties {
         public static string PoisonPaste {
             get {
                 return ResourceManager.GetString("PoisonPaste", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Poison Sack に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string PoisonSack {
+            get {
+                return ResourceManager.GetString("PoisonSack", resourceCulture);
             }
         }
         
@@ -3900,15 +3909,6 @@ namespace IcarusLib.Properties {
         public static string ReinforcedWindow {
             get {
                 return ResourceManager.GetString("ReinforcedWindow", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Resources に類似しているローカライズされた文字列を検索します。
-        /// </summary>
-        public static string Resources {
-            get {
-                return ResourceManager.GetString("Resources", resourceCulture);
             }
         }
         
@@ -5506,6 +5506,15 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///   WorkShop に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string WorkShop {
+            get {
+                return ResourceManager.GetString("WorkShop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Workshop Repair Kit に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WorkshopRepairKit {
@@ -5520,6 +5529,15 @@ namespace IcarusLib.Properties {
         public static string WorkshopRepairKitBundle {
             get {
                 return ResourceManager.GetString("WorkshopRepairKitBundle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Worm Scale に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string WormScale {
+            get {
+                return ResourceManager.GetString("WormScale", resourceCulture);
             }
         }
         

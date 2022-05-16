@@ -1,7 +1,7 @@
 ﻿
-namespace IcarusSample
+namespace WhatDoYouNeed
 {
-    partial class IcarusSample
+    partial class WhatDoYouNeed
     {
         /// <summary>
         /// 必要なデザイナー変数です。
@@ -30,7 +30,7 @@ namespace IcarusSample
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(IcarusSample));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WhatDoYouNeed));
             this.lvSouces = new System.Windows.Forms.ListView();
             this.ObjectImagesLarge = new System.Windows.Forms.ImageList(this.components);
             this.ObjectImagesSmall = new System.Windows.Forms.ImageList(this.components);
@@ -44,8 +44,8 @@ namespace IcarusSample
             this.listToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlLower = new System.Windows.Forms.Panel();
-            this.lvTarget = new System.Windows.Forms.ListView();
             this.lvRecipe = new System.Windows.Forms.ListView();
+            this.lvTarget = new System.Windows.Forms.ListView();
             this.pnlUpper.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.pnlLower.SuspendLayout();
@@ -181,18 +181,6 @@ namespace IcarusSample
             this.pnlLower.Size = new System.Drawing.Size(1264, 100);
             this.pnlLower.TabIndex = 4;
             // 
-            // lvTarget
-            // 
-            this.lvTarget.Dock = System.Windows.Forms.DockStyle.Left;
-            this.lvTarget.HideSelection = false;
-            this.lvTarget.LargeImageList = this.ObjectImagesLarge;
-            this.lvTarget.Location = new System.Drawing.Point(0, 0);
-            this.lvTarget.Name = "lvTarget";
-            this.lvTarget.Size = new System.Drawing.Size(182, 100);
-            this.lvTarget.SmallImageList = this.ObjectImagesSmall;
-            this.lvTarget.TabIndex = 5;
-            this.lvTarget.UseCompatibleStateImageBehavior = false;
-            // 
             // lvRecipe
             // 
             this.lvRecipe.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -205,7 +193,19 @@ namespace IcarusSample
             this.lvRecipe.TabIndex = 6;
             this.lvRecipe.UseCompatibleStateImageBehavior = false;
             // 
-            // IcarusSample
+            // lvTarget
+            // 
+            this.lvTarget.Dock = System.Windows.Forms.DockStyle.Left;
+            this.lvTarget.HideSelection = false;
+            this.lvTarget.LargeImageList = this.ObjectImagesLarge;
+            this.lvTarget.Location = new System.Drawing.Point(0, 0);
+            this.lvTarget.Name = "lvTarget";
+            this.lvTarget.Size = new System.Drawing.Size(182, 100);
+            this.lvTarget.SmallImageList = this.ObjectImagesSmall;
+            this.lvTarget.TabIndex = 5;
+            this.lvTarget.UseCompatibleStateImageBehavior = false;
+            // 
+            // WhatDoYouNeed
             // 
             this.AcceptButton = this.btnFilter;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
@@ -218,8 +218,8 @@ namespace IcarusSample
             this.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.Name = "IcarusSample";
-            this.Text = "IcarusSample";
+            this.Name = "WhatDoYouNeed";
+            this.Text = "Icarus:What do you need";
             this.pnlUpper.ResumeLayout(false);
             this.pnlUpper.PerformLayout();
             this.menuStrip1.ResumeLayout(false);

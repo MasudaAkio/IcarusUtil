@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace IcarusSample.Properties {
+namespace WhatDoYouNeed.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

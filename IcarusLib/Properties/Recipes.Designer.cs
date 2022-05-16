@@ -106,7 +106,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:2,Wood:2,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:2,Wood:2,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumBeam {
             get {
@@ -115,7 +115,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumDoor {
             get {
@@ -124,7 +124,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumFloor {
             get {
@@ -133,7 +133,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumFloorTrapdoor {
             get {
@@ -142,7 +142,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumHalfpieces {
             get {
@@ -151,7 +151,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumHalfpitches {
             get {
@@ -169,7 +169,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:2,Wood:2,SteelScrew:6) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:2,Wood:2,SteelScrew:6) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumLadder {
             get {
@@ -187,7 +187,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:2,Wood:2,SteelScrew:6) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:2,Wood:2,SteelScrew:6) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumRailing {
             get {
@@ -196,7 +196,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumRamp {
             get {
@@ -205,7 +205,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumRoof {
             get {
@@ -214,7 +214,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:2,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:2,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumRoofCorner {
             get {
@@ -223,7 +223,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumStairs {
             get {
@@ -232,7 +232,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumTrapdoor {
             get {
@@ -241,7 +241,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumWall {
             get {
@@ -250,7 +250,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:4,Wood:6,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumWallAngled {
             get {
@@ -259,7 +259,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:2,Wood:3,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:2,Wood:3,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumWindow {
             get {
@@ -963,6 +963,15 @@ namespace IcarusLib.Properties {
         /// <summary>
         ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
+        public static string CharacterCrafting {
+            get {
+                return ResourceManager.GetString("CharacterCrafting", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
         public static string Charcoal {
             get {
                 return ResourceManager.GetString("Charcoal", resourceCulture);
@@ -1141,7 +1150,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   ElectricFurnace(CompositePast:1) に類似しているローカライズされた文字列を検索します。
+        ///   ElectricFurnace(CompositePaste:1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Composites {
             get {
@@ -1240,7 +1249,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(AlminiumOre:2,Wood:2,SteelScrew:6) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(AluminiumOre:2,Wood:2,SteelScrew:6) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ConcreteRailing {
             get {
@@ -1510,7 +1519,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   MortarandPestle(Bone:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string CrushedBone {
             get {
@@ -1564,7 +1573,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Fabricator(SteelIngot:10,Electronics:4,SteelScrew:16,CopperIngot:5) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string DeepMiningOreScanner {
             get {
@@ -1600,7 +1609,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string DetoxifierModule {
             get {
@@ -1618,7 +1627,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string DoseupModule {
             get {
@@ -1753,7 +1762,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(RefinedGold:1,CopperIngot:3,OrganicResin:2,Epoxy:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Electronics {
             get {
@@ -2770,7 +2779,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string KickFallModule {
             get {
@@ -2797,7 +2806,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CraftingBench(IronIngot:8,Rope:4,Glass:12) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Lantern {
             get {
@@ -2806,7 +2815,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezAxe {
             get {
@@ -2815,7 +2824,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezHammer {
             get {
@@ -2824,7 +2833,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezKnife {
             get {
@@ -2833,7 +2842,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezMercenaryBackpack {
             get {
@@ -2842,7 +2851,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezPickaxe {
             get {
@@ -2851,7 +2860,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezSickle {
             get {
@@ -2860,7 +2869,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezSpear {
             get {
@@ -2869,7 +2878,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezTacticalBackpack {
             get {
@@ -2896,7 +2905,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   TextilesBench(Rope:8,Leather:20,Fiber:10) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LeatherBackpack {
             get {
@@ -3508,7 +3517,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   ConcreteFurnace(PlatinumOre:5) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string PlatinumIngot {
             get {
@@ -3594,6 +3603,15 @@ namespace IcarusLib.Properties {
         public static string PoisonPaste {
             get {
                 return ResourceManager.GetString("PoisonPaste", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string PoisonSack {
+            get {
+                return ResourceManager.GetString("PoisonSack", resourceCulture);
             }
         }
         
@@ -3706,7 +3724,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Fabricator(Composites:12,Glass:2,Electronics:10,SteelScrew:8,SteelIngot:12) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Radar {
             get {
@@ -3805,7 +3823,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(SteelIngot:8,Rope:8,AluminiumIngot:18,Epoxy:8,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string RecurveBow {
             get {
@@ -3823,7 +3841,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   ConcreteFurnace(GoldOre:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string RefinedGold {
             get {
@@ -3904,7 +3922,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(IronIngot:1,Gunpowder:1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string RifleRound {
             get {
@@ -3940,7 +3958,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CraftingBench(Fiber:12)|TextilesBench(Leather:5) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Rope {
             get {
@@ -3949,7 +3967,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Stick:1,Leather:1,SandwormScale:1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SandwormArrow {
             get {
@@ -3967,7 +3985,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Wood:2,Leather:2,SandwormScale:1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SandwormKnife {
             get {
@@ -3985,7 +4003,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Wood:16,Leather:4,SandwormScale:1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SandwormSpear {
             get {
@@ -4228,7 +4246,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(Wood:12,Leather:8,SteelIngot:26,Epoxy:4,SteelScrew:10) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Shotgun {
             get {
@@ -4237,7 +4255,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnvilBench(Wood:4,IronIngot:6) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Shovel {
             get {
@@ -4300,7 +4318,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(IronIngot:1,Stone:10) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SmokeGrenade {
             get {
@@ -4489,7 +4507,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnvilBench(Wood:5,Epoxy:4,SteelIngot:6,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SteelAxe {
             get {
@@ -4498,7 +4516,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   MortarandPestle(IronOre:6,CoalOre:1)|MortarandPestle(IronIngot:3,CoalOre:1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SteelBloom {
             get {
@@ -4507,7 +4525,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnvilBench(Wood:1,SteelIngot:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SteelBolt {
             get {
@@ -4516,7 +4534,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnvilBench(Wood:5,Epoxy:4,SteelIngot:6,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SteelHammer {
             get {
@@ -4525,7 +4543,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   ConcreteFurnace(SteelBloom:1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SteelIngot {
             get {
@@ -4534,7 +4552,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnvilBench(Wood:5,Epoxy:4,SteelIngot:6,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SteelKnife {
             get {
@@ -4543,7 +4561,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnvilBench(Wood:5,Epoxy:4,SteelIngot:6) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SteelPickaxe {
             get {
@@ -4552,7 +4570,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(SteelIngot:1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SteelRebar {
             get {
@@ -4570,7 +4588,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnvilBench(Wood:5,Epoxy:6,SteelIngot:24) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SteelSpear {
             get {
@@ -4588,7 +4606,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CarpentryBench(Wood:0.1)|CharacterCrafting(Wood:0.1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Stick {
             get {
@@ -4606,7 +4624,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:1,Stick:1,Stone:1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string StoneArrow {
             get {
@@ -4615,7 +4633,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:10,Stick:4,Stone:6) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string StoneAxe {
             get {
@@ -4687,7 +4705,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:2,Stick:2,Stone:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string StoneKnife {
             get {
@@ -4696,7 +4714,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:10,Stick:4,Stone:6) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string StonePickaxe {
             get {
@@ -4768,7 +4786,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string StrengthBoostModule {
             get {
@@ -4786,7 +4804,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SurvivalBackpack {
             get {
@@ -4813,7 +4831,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnvilBench(Wood:2,IronNail:2,IronIngot:6,Leather:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string TaxidermyKnife {
             get {
@@ -4984,7 +5002,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(Epoxy:8,Glass:4,SteelIngot:12) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Thermos {
             get {
@@ -5002,7 +5020,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Fabricator(Wood:2,Leather:4,TitaniumIngot:12) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string TitaniumAxe {
             get {
@@ -5020,7 +5038,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Fabricator(CarbonFiber:4,SteelScrew:10,Epoxy:4,TitaniumIngot:10) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string TitaniumHammer {
             get {
@@ -5029,7 +5047,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   ConcreteFurnace(TitaniumOre:5) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string TitaniumIngot {
             get {
@@ -5056,7 +5074,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Fabricator(CarbonFiber:4,SteelScrew:8,Epoxy:4,TitaniumIngot:12) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string TitaniumPickaxe {
             get {
@@ -5065,7 +5083,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Fabricator(CarbonFiber:4,SteelScrew:2,Epoxy:4,TitaniumIngot:10) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string TitaniumSickle {
             get {
@@ -5083,7 +5101,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   MortarandPestle(Stick:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string TreeSap {
             get {
@@ -5146,7 +5164,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Fabricator(CopperIngot:20,RefinedGold:8,CarbonFiber:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WaterPipeTool {
             get {
@@ -5164,7 +5182,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CraftingBench(Fiber:2,Leather:12,Bone:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Waterskin {
             get {
@@ -5227,7 +5245,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   GlassworkingBench(Glass:5) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WineBottle {
             get {
@@ -5263,7 +5281,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:30,Stick:24) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WoodBow {
             get {
@@ -5371,7 +5389,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:40,Stick:8) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WoodRagTorch {
             get {
@@ -5398,7 +5416,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:10,Stick:4,Stone:6) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WoodRepairHammer {
             get {
@@ -5425,7 +5443,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:12,Stick:18) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WoodSpear {
             get {
@@ -5452,7 +5470,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:40,Stick:8,Sulfur:8) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WoodTorch {
             get {
@@ -5499,6 +5517,15 @@ namespace IcarusLib.Properties {
         /// <summary>
         ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
+        public static string WorkShop {
+            get {
+                return ResourceManager.GetString("WorkShop", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        /// </summary>
         public static string WorkshopRepairKit {
             get {
                 return ResourceManager.GetString("WorkshopRepairKit", resourceCulture);
@@ -5506,11 +5533,20 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WorkshopRepairKitBundle {
             get {
                 return ResourceManager.GetString("WorkshopRepairKitBundle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string WormScale {
+            get {
+                return ResourceManager.GetString("WormScale", resourceCulture);
             }
         }
         

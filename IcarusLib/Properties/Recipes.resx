@@ -199,7 +199,7 @@
     <value />
   </data>
   <data name="Stick" xml:space="preserve">
-    <value />
+    <value>CarpentryBench(Wood:0.1)|CharacterCrafting(Wood:0.1)</value>
   </data>
   <data name="Leather" xml:space="preserve">
     <value />
@@ -709,7 +709,7 @@
     <value>BiofuelStove(RawFish:1,AnimalFat:1,BreadDough:1)</value>
   </data>
   <data name="CrushedBone" xml:space="preserve">
-    <value />
+    <value>MortarandPestle(Bone:2)</value>
   </data>
   <data name="CX-400ArmsArmor" xml:space="preserve">
     <value>WorkShop()</value>
@@ -727,7 +727,7 @@
     <value>WorkShop()</value>
   </data>
   <data name="DeepMiningOreScanner" xml:space="preserve">
-    <value />
+    <value>Fabricator(SteelIngot:10,Electronics:4,SteelScrew:16,CopperIngot:5)</value>
   </data>
   <data name="DeerHead" xml:space="preserve">
     <value />
@@ -739,13 +739,13 @@
     <value>MachiningBench(SteelIngot:12,Glass:4,CopperIngot:24,Epoxy:12,Electronics:20)</value>
   </data>
   <data name="DetoxifierModule" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="DirectionalWorklamp" xml:space="preserve">
     <value>Fabricator(AluminiumIngot:10,Glass:5,Composites:5,Electronics:2)</value>
   </data>
   <data name="DoseupModule" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="DriedFattyTbone" xml:space="preserve">
     <value>DryingRack(RawFattyTbone:1)</value>
@@ -790,7 +790,7 @@
     <value>Fabricator(CopperIngot:20,RefinedGold:8,CarbonFiber:4)</value>
   </data>
   <data name="Electronics" xml:space="preserve">
-    <value />
+    <value>MachiningBench(RefinedGold:1,CopperIngot:3,OrganicResin:2,Epoxy:2)</value>
   </data>
   <data name="Endurogel" xml:space="preserve">
     <value>WorkShop()</value>
@@ -1108,7 +1108,7 @@
     <value>TrophyBench(Stick:10,Wood:30,JaguarHead:1)</value>
   </data>
   <data name="KickFallModule" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="KitchenBench" xml:space="preserve">
     <value>MachiningBench(RefinedWood:30,IronIngot:8,Epoxy:20,CopperNail:20)</value>
@@ -1117,37 +1117,37 @@
     <value>MachiningBench(RefinedWood:30,IronIngot:2,Epoxy:20,CopperNail:12)</value>
   </data>
   <data name="Lantern" xml:space="preserve">
-    <value />
+    <value>CraftingBench(IronIngot:8,Rope:4,Glass:12)</value>
   </data>
   <data name="LarkwellMartinezAxe" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="LarkwellMartinezHammer" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="LarkwellMartinezKnife" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="LarkwellMartinezMercenaryBackpack" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="LarkwellMartinezPickaxe" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="LarkwellMartinezSickle" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="LarkwellMartinezSpear" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="LarkwellMartinezTacticalBackpack" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="LeatherArmsArmor" xml:space="preserve">
     <value>TextilesBench(Fiber:40,Leather:8)</value>
   </data>
   <data name="LeatherBackpack" xml:space="preserve">
-    <value />
+    <value>TextilesBench(Rope:8,Leather:20,Fiber:10)</value>
   </data>
   <data name="LeatherChestArmor" xml:space="preserve">
     <value>TextilesBench(Fiber:60,Leather:24)</value>
@@ -1345,7 +1345,7 @@
     <value>MachiningBench(Wood:5,Epoxy:4,PlatinumIngot:6,SteelScrew:2)</value>
   </data>
   <data name="PlatinumIngot" xml:space="preserve">
-    <value />
+    <value>ConcreteFurnace(PlatinumOre:5)</value>
   </data>
   <data name="PlatinumKnife" xml:space="preserve">
     <value>MachiningBench(Wood:2,Leather:4,PlatinumIngot:12)</value>
@@ -1405,16 +1405,16 @@
     <value>BiofuelStove(Pumpkin:1,BreadDough:1)</value>
   </data>
   <data name="Radar" xml:space="preserve">
-    <value />
+    <value>Fabricator(Composites:12,Glass:2,Electronics:10,SteelScrew:8,SteelIngot:12)</value>
   </data>
   <data name="RainReservoir" xml:space="preserve">
     <value>CraftingBench(Stick:8,Wood:24,Stone:80,Leather:8)</value>
   </data>
   <data name="RecurveBow" xml:space="preserve">
-    <value />
+    <value>MachiningBench(SteelIngot:8,Rope:8,AluminiumIngot:18,Epoxy:8,SteelScrew:4)</value>
   </data>
   <data name="RefinedGold" xml:space="preserve">
-    <value />
+    <value>ConcreteFurnace(GoldOre:2)</value>
   </data>
   <data name="RefinedWood" xml:space="preserve">
     <value />
@@ -1441,7 +1441,7 @@
     <value />
   </data>
   <data name="RifleRound" xml:space="preserve">
-    <value />
+    <value>MachiningBench(IronIngot:1,Gunpowder:1)</value>
   </data>
   <data name="RipeCoconut" xml:space="preserve">
     <value />
@@ -1453,22 +1453,22 @@
     <value>PotbellyStove(Pumpkin:1,Carrot:1,Squash:1)</value>
   </data>
   <data name="Rope" xml:space="preserve">
-    <value />
+    <value>CraftingBench(Fiber:12)|TextilesBench(Leather:5)</value>
   </data>
   <data name="SandwormArrow" xml:space="preserve">
-    <value />
+    <value>CharacterCrafting(Stick:1,Leather:1,SandwormScale:1)</value>
   </data>
   <data name="SandwormBow" xml:space="preserve">
     <value />
   </data>
   <data name="SandwormKnife" xml:space="preserve">
-    <value />
+    <value>CharacterCrafting(Wood:2,Leather:2,SandwormScale:1)</value>
   </data>
   <data name="SandwormScale" xml:space="preserve">
     <value />
   </data>
   <data name="SandwormSpear" xml:space="preserve">
-    <value />
+    <value>CharacterCrafting(Wood:16,Leather:4,SandwormScale:1)</value>
   </data>
   <data name="ScorpionHedgehog" xml:space="preserve">
     <value>CraftingBench(ScorpionTail:1,MediumWoodHedgehog:1)</value>
@@ -1549,10 +1549,10 @@
     <value>WorkShop()</value>
   </data>
   <data name="Shotgun" xml:space="preserve">
-    <value />
+    <value>MachiningBench(Wood:12,Leather:8,SteelIngot:26,Epoxy:4,SteelScrew:10)</value>
   </data>
   <data name="Shovel" xml:space="preserve">
-    <value />
+    <value>AnvilBench(Wood:4,IronIngot:6)</value>
   </data>
   <data name="SkinningBench" xml:space="preserve">
     <value>CraftingBench(Fiber:60,Wood:50,Stone:12,Leather:20)</value>
@@ -1570,7 +1570,7 @@
     <value>CarpentryBench(RefinedWood:12,Rope:2,CopperNail:2)</value>
   </data>
   <data name="SmokeGrenade" xml:space="preserve">
-    <value />
+    <value>MachiningBench(IronIngot:1,Stone:10)</value>
   </data>
   <data name="SnowLeopardHead" xml:space="preserve">
     <value />
@@ -1621,43 +1621,43 @@
     <value>HerbalismBench(ReedFlower:20,Wheat:20,TreeSap:10)</value>
   </data>
   <data name="SteelAxe" xml:space="preserve">
-    <value />
+    <value>AnvilBench(Wood:5,Epoxy:4,SteelIngot:6,SteelScrew:2)</value>
   </data>
   <data name="SteelBloom" xml:space="preserve">
-    <value />
+    <value>MortarandPestle(IronOre:6,CoalOre:1)|MortarandPestle(IronIngot:3,CoalOre:1)</value>
   </data>
   <data name="SteelBolt" xml:space="preserve">
-    <value />
+    <value>AnvilBench(Wood:1,SteelIngot:2)</value>
   </data>
   <data name="SteelHammer" xml:space="preserve">
-    <value />
+    <value>AnvilBench(Wood:5,Epoxy:4,SteelIngot:6,SteelScrew:2)</value>
   </data>
   <data name="SteelIngot" xml:space="preserve">
-    <value />
+    <value>ConcreteFurnace(SteelBloom:1)</value>
   </data>
   <data name="SteelKnife" xml:space="preserve">
-    <value />
+    <value>AnvilBench(Wood:5,Epoxy:4,SteelIngot:6,SteelScrew:2)</value>
   </data>
   <data name="SteelPickaxe" xml:space="preserve">
-    <value />
+    <value>AnvilBench(Wood:5,Epoxy:4,SteelIngot:6)</value>
   </data>
   <data name="SteelRebar" xml:space="preserve">
-    <value />
+    <value>MachiningBench(SteelIngot:1)</value>
   </data>
   <data name="SteelScrew" xml:space="preserve">
     <value>MachiningBench(SteelIngot:0.01)</value>
   </data>
   <data name="SteelSpear" xml:space="preserve">
-    <value />
+    <value>AnvilBench(Wood:5,Epoxy:6,SteelIngot:24)</value>
   </data>
   <data name="Stew" xml:space="preserve">
     <value>PotbellyStove(Water:100,Mushroom:1,Carrot:1,RawMeat:1)</value>
   </data>
   <data name="StoneArrow" xml:space="preserve">
-    <value />
+    <value>CharacterCrafting(Fiber:1,Stick:1,Stone:1)</value>
   </data>
   <data name="StoneAxe" xml:space="preserve">
-    <value />
+    <value>CharacterCrafting(Fiber:10,Stick:4,Stone:6)</value>
   </data>
   <data name="StoneBeam" xml:space="preserve">
     <value>MasonryBench(Wood:2,Stone:6,Leather:1,IronNail:6)</value>
@@ -1681,10 +1681,10 @@
     <value>MasonryBench(Wood:6,Stone:20,Leather:4,IronNail:6)</value>
   </data>
   <data name="StoneKnife" xml:space="preserve">
-    <value />
+    <value>CharacterCrafting(Fiber:2,Stick:2,Stone:4)</value>
   </data>
   <data name="StonePickaxe" xml:space="preserve">
-    <value />
+    <value>CharacterCrafting(Fiber:10,Stick:4,Stone:6)</value>
   </data>
   <data name="StonePile" xml:space="preserve">
     <value>CharacterCrafting(Stone:100)</value>
@@ -1708,10 +1708,10 @@
     <value>MasonryBench(Wood:3,Stone:10,Leather:2,IronNail:4)</value>
   </data>
   <data name="StrengthBoostModule" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="SurvivalBackpack" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="SutureKit" xml:space="preserve">
     <value>CharacterCrafting(Fiber:10,Bone:5,Leather:2)</value>
@@ -1720,7 +1720,7 @@
     <value>PotbellyStove(Water:100,Corn:1)</value>
   </data>
   <data name="TaxidermyKnife" xml:space="preserve">
-    <value />
+    <value>AnvilBench(Wood:2,IronNail:2,IronIngot:6,Leather:4)</value>
   </data>
   <data name="Tea" xml:space="preserve">
     <value />
@@ -1777,37 +1777,37 @@
     <value>CharacterCrafting(Fiber:10,Stick:4)</value>
   </data>
   <data name="Thermos" xml:space="preserve">
-    <value />
+    <value>MachiningBench(Epoxy:8,Glass:4,SteelIngot:12)</value>
   </data>
   <data name="TitaniumArrow" xml:space="preserve">
     <value>Fabricator(CarbonFiber:1,SteelScrew:2,TitaniumIngot:1)</value>
   </data>
   <data name="TitaniumAxe" xml:space="preserve">
-    <value />
+    <value>Fabricator(Wood:2,Leather:4,TitaniumIngot:12)</value>
   </data>
   <data name="TitaniumBolt" xml:space="preserve">
     <value>Fabricator(SteelScrew:4,TitaniumIngot:1,CarbonFiber:1)</value>
   </data>
   <data name="TitaniumHammer" xml:space="preserve">
-    <value />
+    <value>Fabricator(CarbonFiber:4,SteelScrew:10,Epoxy:4,TitaniumIngot:10)</value>
   </data>
   <data name="TitaniumIngot" xml:space="preserve">
-    <value />
+    <value>ConcreteFurnace(TitaniumOre:5)</value>
   </data>
   <data name="TitaniumKnife" xml:space="preserve">
     <value>Fabricator(CarbonFiber:4,SteelScrew:2,Epoxy:4,TitaniumIngot:8)</value>
   </data>
   <data name="TitaniumPickaxe" xml:space="preserve">
-    <value />
+    <value>Fabricator(CarbonFiber:4,SteelScrew:8,Epoxy:4,TitaniumIngot:12)</value>
   </data>
   <data name="TitaniumSickle" xml:space="preserve">
-    <value />
+    <value>Fabricator(CarbonFiber:4,SteelScrew:2,Epoxy:4,TitaniumIngot:10)</value>
   </data>
   <data name="TitaniumSpear" xml:space="preserve">
     <value>Fabricator(Wood:2,Leather:8,TitaniumIngot:24)</value>
   </data>
   <data name="TreeSap" xml:space="preserve">
-    <value />
+    <value>MortarandPestle(Stick:4)</value>
   </data>
   <data name="TrophyBench" xml:space="preserve">
     <value>CraftingBench(Wood:60,CopperNail:50,IronIngot:2,Rope:12)</value>
@@ -1825,7 +1825,7 @@
     <value>HerbalismBench(Sponge:1,Charcoal:2,ReedFlower:4)</value>
   </data>
   <data name="WaterPipeTool" xml:space="preserve">
-    <value />
+    <value>Fabricator(CopperIngot:20,RefinedGold:8,CarbonFiber:4)</value>
   </data>
   <data name="WaterPump" xml:space="preserve">
     <value>Fabricator(SteelIngot:24,Electronics:4,SteelScrew:16,ConcreteMix:20)</value>
@@ -1837,7 +1837,7 @@
     <value>Fabricator(AluminiumIngot:8,Composites:12,Epoxy:4)</value>
   </data>
   <data name="Waterskin" xml:space="preserve">
-    <value />
+    <value>CraftingBench(Fiber:2,Leather:12,Bone:4)</value>
   </data>
   <data name="WildSalad" xml:space="preserve">
     <value>CookingStation(Pumpkin:1,Squash:1)</value>
@@ -1846,7 +1846,7 @@
     <value>KitchenBench(WildBerry:10,ReedFlower:1,WineBottle:1)</value>
   </data>
   <data name="WineBottle" xml:space="preserve">
-    <value />
+    <value>GlassworkingBench(Glass:5)</value>
   </data>
   <data name="WoodBeam" xml:space="preserve">
     <value>CharacterCrafting(Fiber:4,Wood:6)</value>
@@ -1855,7 +1855,7 @@
     <value>CarpentryBench(RefinedWood:20,Fur:30,Leather:10,CopperNail:10)</value>
   </data>
   <data name="WoodBow" xml:space="preserve">
-    <value />
+    <value>CharacterCrafting(Fiber:30,Stick:24)</value>
   </data>
   <data name="WoodChair" xml:space="preserve">
     <value>CarpentryBench(RefinedWood:6,CopperNail:5)</value>
@@ -1891,7 +1891,7 @@
     <value>CharacterCrafting(Wood:100)</value>
   </data>
   <data name="WoodRagTorch" xml:space="preserve">
-    <value />
+    <value>CharacterCrafting(Fiber:40,Stick:8)</value>
   </data>
   <data name="WoodRailing" xml:space="preserve">
     <value>CharacterCrafting(Fiber:8,Wood:8)</value>
@@ -1900,7 +1900,7 @@
     <value>CharacterCrafting(Fiber:12,Wood:20)</value>
   </data>
   <data name="WoodRepairHammer" xml:space="preserve">
-    <value />
+    <value>CharacterCrafting(Fiber:10,Stick:4,Stone:6)</value>
   </data>
   <data name="WoodRoof" xml:space="preserve">
     <value>CharacterCrafting(Fiber:12,Wood:20)</value>
@@ -1909,7 +1909,7 @@
     <value>CharacterCrafting(Fiber:6,Wood:10)</value>
   </data>
   <data name="WoodSpear" xml:space="preserve">
-    <value />
+    <value>CharacterCrafting(Fiber:12,Stick:18)</value>
   </data>
   <data name="WoodStairs" xml:space="preserve">
     <value>CharacterCrafting(Fiber:12,Wood:20)</value>
@@ -1918,7 +1918,7 @@
     <value>CarpentryBench(RefinedWood:10,CopperNail:10)</value>
   </data>
   <data name="WoodTorch" xml:space="preserve">
-    <value />
+    <value>CharacterCrafting(Fiber:40,Stick:8,Sulfur:8)</value>
   </data>
   <data name="WoodTrapdoor" xml:space="preserve">
     <value>CharacterCrafting(Fiber:4,Wood:10)</value>
@@ -1933,10 +1933,10 @@
     <value>CharacterCrafting(Fiber:8,Wood:10)</value>
   </data>
   <data name="WorkshopRepairKit" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="WorkshopRepairKitBundle" xml:space="preserve">
-    <value />
+    <value>WorkShop()</value>
   </data>
   <data name="Watermelon" xml:space="preserve">
     <value />
@@ -1945,6 +1945,12 @@
     <value></value>
   </data>
   <data name="CharacterCrafting" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="WormScale" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="PoisonSack" xml:space="preserve">
     <value></value>
   </data>
 </root>

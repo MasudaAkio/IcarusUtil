@@ -13,9 +13,9 @@ using System.Globalization;
 using IcarusLib;
 using IcarusLib.Properties;
 
-namespace IcarusSample
+namespace WhatDoYouNeed
 {
-    public partial class IcarusSample : Form
+    public partial class WhatDoYouNeed : Form
     {
         private class ObjectItem : ListViewItem
         {
@@ -55,18 +55,18 @@ namespace IcarusSample
 
         private bool debug = false;
 
-        public IcarusSample()
+        public WhatDoYouNeed()
         {
             InitializeComponent();
 
             lvSouces.Items.AddRange(IcrObject.Keys
-                .OrderBy(k => k)
                 .Select(k => {
                     var obj = new IcrObject(k);
                     ObjectImagesLarge.Images.Add(obj.Key, obj.Image);
                     ObjectImagesSmall.Images.Add(obj.Key, obj.Image);
                     return new ObjectItem(obj, 0m, debug);
                 })
+                .OrderBy(it => it.Text)
                 .ToArray());
             ChangeView(View.SmallIcon);            
         }
@@ -88,8 +88,8 @@ namespace IcarusSample
             var all = string.IsNullOrEmpty(s);
             var filtered = IcrObject.Keys.Select(k => { var obj = new IcrObject(k); return obj.Name.Contains(s) ? obj : null; });
             lvSouces.Items.AddRange(filtered.Where(obj => !object.Equals(obj, null))
-                .OrderBy(m => m.Name)
                 .Select(m => new ObjectItem(m, 0m, debug))
+                .OrderBy(it => it.Text)
                 .ToArray());
         }
 
@@ -101,6 +101,7 @@ namespace IcarusSample
 
         private void lvSouces_SelectedIndexChanged(object sender, EventArgs e)
         {
+            ObjectItem CreateItem(string key, decimal vol = 0m) => new ObjectItem(new IcrObject(key), vol, false); // IcrObjectは軽量なのでバンバン作っても影響は小さい
             var selected = lvSouces.SelectedItems;
             if (selected.Count > 0)
             {
@@ -111,19 +112,16 @@ namespace IcarusSample
                 var r = item.Recipe;
                 if (r != null)
                 {
-                    var b = lvSouces.Items.Find(r.Bench.Key, false);
-                    if (b.Length > 0) lvRecipe.Items.Add((ObjectItem)b[0].Clone());
-                    foreach (var i in r.Items ?? new IcrObject.RecipeItem[] { })
-                    {
-                        var ii = lvSouces.Items.Find(i.Stuff.Key, false);
-                        if (ii.Length > 0)
-                        {
-                            var st = (ObjectItem)ii[0].Clone();
-                            st.Volume = i.Volume;
-                            lvRecipe.Items.Add(st);
-                        }
-                    }
+                    //if (IcarusLib.IcrObject.Keys.Contains(r.Bench.Key))
+                    //    lvRecipe.Items.Add(CreateItem(r.Bench.Key));
+                    var aggre = r.FinalRequirements();
+                    //foreach (var i in r.Items ?? new IcrObject.RecipeItem[] { }) // レシピはあるが、材料が空の場合に対応
+                    //    if (IcarusLib.IcrObject.Keys.Contains(i.Stuff.Key))
+                    //        lvRecipe.Items.Add(CreateItem(i.Stuff.Key, i.Volume));
+                    foreach (var i in aggre)
+                        lvRecipe.Items.Add(CreateItem(i.Stuff.Key, decimal.Ceiling(i.Volume)));
                 }
+
             }
         }
     }

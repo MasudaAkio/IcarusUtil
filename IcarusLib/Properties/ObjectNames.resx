@@ -1944,4 +1944,10 @@
   <data name="CharacterCrafting" xml:space="preserve">
     <value>Character Crafting</value>
   </data>
+  <data name="WormScale" xml:space="preserve">
+    <value>Worm Scale</value>
+  </data>
+  <data name="PoisonSack" xml:space="preserve">
+    <value>Poison Sack</value>
+  </data>
 </root>

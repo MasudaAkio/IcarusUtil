@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace IcarusSample
+namespace WhatDoYouNeed
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace IcarusSample
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new IcarusSample());
+            Application.Run(new WhatDoYouNeed());
         }
     }
 }
