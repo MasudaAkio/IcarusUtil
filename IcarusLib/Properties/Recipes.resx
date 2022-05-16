@@ -568,22 +568,22 @@
     <value />
   </data>
   <data name="CompositeArmsArmor" xml:space="preserve">
-    <value>Fabricator(AluminiumIngot:2,Compostes:8,SteelScrew:6,CarbonFiber:2,RefinedGold:2)</value>
+    <value>Fabricator(AluminiumIngot:2,Composites:8,SteelScrew:6,CarbonFiber:2,RefinedGold:2)</value>
   </data>
   <data name="CompositeArrow" xml:space="preserve">
     <value>Fabricator(Composites:1,SteelScrew:2)</value>
   </data>
   <data name="CompositeChestArmor" xml:space="preserve">
-    <value>Fabricator(AluminiumIngot:6,Compostes:24,SteelScrew:12,CarbonFiber:2,RefinedGold:2)</value>
+    <value>Fabricator(AluminiumIngot:6,Composites:24,SteelScrew:12,CarbonFiber:2,RefinedGold:2)</value>
   </data>
   <data name="CompositeFeetArmor" xml:space="preserve">
-    <value>Fabricator(AluminiumIngot:4,Compostes:12,SteelScrew:6,CarbonFiber:2,RefinedGold:2)</value>
+    <value>Fabricator(AluminiumIngot:4,Composites:12,SteelScrew:6,CarbonFiber:2,RefinedGold:2)</value>
   </data>
   <data name="CompositeHeadArmor" xml:space="preserve">
-    <value>Fabricator(AluminiumIngot:4,Compostes:12,SteelScrew:6,CarbonFiber:2,RefinedGold:2)</value>
+    <value>Fabricator(AluminiumIngot:4,Composites:12,SteelScrew:6,CarbonFiber:2,RefinedGold:2)</value>
   </data>
   <data name="CompositeLegsArmor" xml:space="preserve">
-    <value>Fabricator(AluminiumIngot:6,Compostes:18,SteelScrew:6,CarbonFiber:2,RefinedGold:2)</value>
+    <value>Fabricator(AluminiumIngot:6,Composites:18,SteelScrew:6,CarbonFiber:2,RefinedGold:2)</value>
   </data>
   <data name="CompositePaste" xml:space="preserve">
     <value>MaterialProcessor(IronOre:2,SilicaOre:1,OrganicResin:1,GoldOre:1)</value>

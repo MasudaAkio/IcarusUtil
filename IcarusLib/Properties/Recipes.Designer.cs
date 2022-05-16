@@ -1087,7 +1087,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:2,Compostes:8,SteelScrew:6,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
+        ///   Fabricator(AluminiumIngot:2,Composites:8,SteelScrew:6,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string CompositeArmsArmor {
             get {
@@ -1105,7 +1105,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:6,Compostes:24,SteelScrew:12,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
+        ///   Fabricator(AluminiumIngot:6,Composites:24,SteelScrew:12,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string CompositeChestArmor {
             get {
@@ -1114,7 +1114,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:4,Compostes:12,SteelScrew:6,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
+        ///   Fabricator(AluminiumIngot:4,Composites:12,SteelScrew:6,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string CompositeFeetArmor {
             get {
@@ -1123,7 +1123,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:4,Compostes:12,SteelScrew:6,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
+        ///   Fabricator(AluminiumIngot:4,Composites:12,SteelScrew:6,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string CompositeHeadArmor {
             get {
@@ -1132,7 +1132,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:6,Compostes:18,SteelScrew:6,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
+        ///   Fabricator(AluminiumIngot:6,Composites:18,SteelScrew:6,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string CompositeLegsArmor {
             get {

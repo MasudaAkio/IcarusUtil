@@ -101,6 +101,7 @@ class Recipes {
     + {static} CavewormKnife : string <<get>>
     + {static} CavewormSpear : string <<get>>
     + {static} CementMixer : string <<get>>
+    + {static} CharacterCrafting : string <<get>>
     + {static} Charcoal : string <<get>>
     + {static} CharredCorn : string <<get>>
     + {static} ChemistryBench : string <<get>>
@@ -394,6 +395,7 @@ class Recipes {
     + {static} PoisonArrow : string <<get>>
     + {static} PoisonedAnimalBait : string <<get>>
     + {static} PoisonPaste : string <<get>>
+    + {static} PoisonSack : string <<get>>
     + {static} PolarBearArmsArmor : string <<get>>
     + {static} PolarBearChestArmor : string <<get>>
     + {static} PolarBearFeetArmor : string <<get>>
@@ -605,8 +607,10 @@ class Recipes {
     + {static} WoodWall : string <<get>>
     + {static} WoodWallAngled : string <<get>>
     + {static} WoodWindow : string <<get>>
+    + {static} WorkShop : string <<get>>
     + {static} WorkshopRepairKit : string <<get>>
     + {static} WorkshopRepairKitBundle : string <<get>>
+    + {static} WormScale : string <<get>>
     + {static} Yeast : string <<get>>
     + {static} YoungCoconut : string <<get>>
 }

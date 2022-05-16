@@ -59,7 +59,7 @@ namespace IcarusLib
             public RecipeItem[] FinalRequirements()
             {
                 var gather = new List<RecipeItem>();
-                foreach (var ri in Items)
+                foreach (var ri in Items ?? new RecipeItem[] { })
                 {
                     var recipes = ri.Stuff.Recipes;
                     if (recipes != null && recipes.Length > 0)

@@ -1,0 +1,19 @@
+@startuml
+class IcrObject <<partial>> {
+}
+class RecipeItem {
+    + Volume : decimal <<get>>
+    + RecipeItem(iobj:IcrObject, vol:decimal)
+    + Multiply(times:decimal) : RecipeItem
+    + Clone() : RecipeItem
+}
+class Recipe {
+    - Recipe()
+    {static} <<internal>> Decode(recipe_str:string) : IEnumerable<Recipe>
+    + FinalRequirements() : RecipeItem[]
+}
+IcrObject +-- RecipeItem
+RecipeItem --> "Stuff" IcrObject
+IcrObject +-- Recipe
+Recipe --> "Bench" IcrObject
+@enduml

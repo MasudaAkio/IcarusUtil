@@ -101,6 +101,7 @@ class ObjectNames {
     + {static} CavewormKnife : string <<get>>
     + {static} CavewormSpear : string <<get>>
     + {static} CementMixer : string <<get>>
+    + {static} CharacterCrafting : string <<get>>
     + {static} Charcoal : string <<get>>
     + {static} CharredCorn : string <<get>>
     + {static} ChemistryBench : string <<get>>
@@ -366,7 +367,6 @@ class ObjectNames {
     + {static} NaneoLegsArmor : string <<get>>
     + {static} OmnidirectionalWorklamp : string <<get>>
     + {static} OrganicResin : string <<get>>
-    + {static} Oxide : string <<get>>
     + {static} Oxidizer : string <<get>>
     + {static} Oxite : string <<get>>
     + {static} OxiteDissolver : string <<get>>
@@ -395,6 +395,7 @@ class ObjectNames {
     + {static} PoisonArrow : string <<get>>
     + {static} PoisonedAnimalBait : string <<get>>
     + {static} PoisonPaste : string <<get>>
+    + {static} PoisonSack : string <<get>>
     + {static} PolarBearArmsArmor : string <<get>>
     + {static} PolarBearChestArmor : string <<get>>
     + {static} PolarBearFeetArmor : string <<get>>
@@ -428,7 +429,6 @@ class ObjectNames {
     + {static} ReinforcedRailing : string <<get>>
     + {static} ReinforcedTrapdoor : string <<get>>
     + {static} ReinforcedWindow : string <<get>>
-    + {static} Resources : string <<get>>
     + {static} RifleRound : string <<get>>
     + {static} RipeCoconut : string <<get>>
     + {static} RoastSquash : string <<get>>
@@ -606,8 +606,10 @@ class ObjectNames {
     + {static} WoodWall : string <<get>>
     + {static} WoodWallAngled : string <<get>>
     + {static} WoodWindow : string <<get>>
+    + {static} WorkShop : string <<get>>
     + {static} WorkshopRepairKit : string <<get>>
     + {static} WorkshopRepairKitBundle : string <<get>>
+    + {static} WormScale : string <<get>>
     + {static} Yeast : string <<get>>
     + {static} YoungCoconut : string <<get>>
 }

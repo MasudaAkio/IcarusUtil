@@ -59,10 +59,10 @@ namespace WhatDoYouNeed
             this.lvSouces.GridLines = true;
             this.lvSouces.HideSelection = false;
             this.lvSouces.LargeImageList = this.ObjectImagesLarge;
-            this.lvSouces.Location = new System.Drawing.Point(182, 24);
+            this.lvSouces.Location = new System.Drawing.Point(0, 51);
             this.lvSouces.Margin = new System.Windows.Forms.Padding(2);
             this.lvSouces.Name = "lvSouces";
-            this.lvSouces.Size = new System.Drawing.Size(1082, 557);
+            this.lvSouces.Size = new System.Drawing.Size(704, 441);
             this.lvSouces.SmallImageList = this.ObjectImagesSmall;
             this.lvSouces.TabIndex = 1;
             this.lvSouces.UseCompatibleStateImageBehavior = false;
@@ -86,25 +86,26 @@ namespace WhatDoYouNeed
             this.pnlUpper.BackColor = System.Drawing.Color.DarkGray;
             this.pnlUpper.Controls.Add(this.btnFilter);
             this.pnlUpper.Controls.Add(this.tbxFilter);
-            this.pnlUpper.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pnlUpper.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlUpper.Location = new System.Drawing.Point(0, 24);
             this.pnlUpper.Margin = new System.Windows.Forms.Padding(2);
             this.pnlUpper.Name = "pnlUpper";
-            this.pnlUpper.Size = new System.Drawing.Size(182, 557);
+            this.pnlUpper.Size = new System.Drawing.Size(704, 27);
             this.pnlUpper.TabIndex = 2;
             // 
             // btnFilter
             // 
             this.btnFilter.BackColor = System.Drawing.Color.LightYellow;
+            this.btnFilter.Dock = System.Windows.Forms.DockStyle.Right;
             this.btnFilter.FlatAppearance.BorderSize = 0;
             this.btnFilter.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnFilter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.GreenYellow;
             this.btnFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFilter.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFilter.Location = new System.Drawing.Point(125, 12);
+            this.btnFilter.Location = new System.Drawing.Point(595, 0);
             this.btnFilter.Margin = new System.Windows.Forms.Padding(2);
             this.btnFilter.Name = "btnFilter";
-            this.btnFilter.Size = new System.Drawing.Size(48, 24);
+            this.btnFilter.Size = new System.Drawing.Size(109, 27);
             this.btnFilter.TabIndex = 1;
             this.btnFilter.Text = "Filter";
             this.btnFilter.UseVisualStyleBackColor = false;
@@ -113,61 +114,67 @@ namespace WhatDoYouNeed
             // tbxFilter
             // 
             this.tbxFilter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbxFilter.Location = new System.Drawing.Point(8, 11);
+            this.tbxFilter.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbxFilter.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.tbxFilter.Location = new System.Drawing.Point(0, 0);
             this.tbxFilter.Margin = new System.Windows.Forms.Padding(2);
             this.tbxFilter.Name = "tbxFilter";
-            this.tbxFilter.Size = new System.Drawing.Size(113, 25);
+            this.tbxFilter.Size = new System.Drawing.Size(704, 27);
             this.tbxFilter.TabIndex = 0;
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.DarkRed;
             this.menuStrip1.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1264, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(704, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // toolStripMenuItem1
             // 
+            this.toolStripMenuItem1.AutoSize = false;
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.largeIconToolStripMenuItem,
             this.smallIconToolStripMenuItem,
             this.listToolStripMenuItem,
             this.tileToolStripMenuItem});
-            this.toolStripMenuItem1.Font = new System.Drawing.Font("Meiryo UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.toolStripMenuItem1.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.toolStripMenuItem1.ForeColor = System.Drawing.Color.White;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(41, 20);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(70, 20);
             this.toolStripMenuItem1.Text = "表示";
+            this.toolStripMenuItem1.ToolTipText = "アイコンの大きさと配置";
             // 
             // largeIconToolStripMenuItem
             // 
             this.largeIconToolStripMenuItem.Name = "largeIconToolStripMenuItem";
-            this.largeIconToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.largeIconToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.largeIconToolStripMenuItem.Text = "アイコン(大)";
             this.largeIconToolStripMenuItem.Click += new System.EventHandler(this.largeIconToolStripMenuItem_Click);
             // 
             // smallIconToolStripMenuItem
             // 
             this.smallIconToolStripMenuItem.Name = "smallIconToolStripMenuItem";
-            this.smallIconToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.smallIconToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.smallIconToolStripMenuItem.Text = "アイコン(小)";
             this.smallIconToolStripMenuItem.Click += new System.EventHandler(this.smallIconToolStripMenuItem_Click);
             // 
             // listToolStripMenuItem
             // 
             this.listToolStripMenuItem.Name = "listToolStripMenuItem";
-            this.listToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.listToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.listToolStripMenuItem.Text = "リスト";
             this.listToolStripMenuItem.Click += new System.EventHandler(this.listToolStripMenuItem_Click);
             // 
             // tileToolStripMenuItem
             // 
             this.tileToolStripMenuItem.Name = "tileToolStripMenuItem";
-            this.tileToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
+            this.tileToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.tileToolStripMenuItem.Text = "タイル";
             this.tileToolStripMenuItem.Click += new System.EventHandler(this.tileToolStripMenuItem_Click);
             // 
@@ -176,9 +183,9 @@ namespace WhatDoYouNeed
             this.pnlLower.Controls.Add(this.lvRecipe);
             this.pnlLower.Controls.Add(this.lvTarget);
             this.pnlLower.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlLower.Location = new System.Drawing.Point(0, 581);
+            this.pnlLower.Location = new System.Drawing.Point(0, 492);
             this.pnlLower.Name = "pnlLower";
-            this.pnlLower.Size = new System.Drawing.Size(1264, 100);
+            this.pnlLower.Size = new System.Drawing.Size(704, 189);
             this.pnlLower.TabIndex = 4;
             // 
             // lvRecipe
@@ -188,7 +195,7 @@ namespace WhatDoYouNeed
             this.lvRecipe.LargeImageList = this.ObjectImagesLarge;
             this.lvRecipe.Location = new System.Drawing.Point(182, 0);
             this.lvRecipe.Name = "lvRecipe";
-            this.lvRecipe.Size = new System.Drawing.Size(1082, 100);
+            this.lvRecipe.Size = new System.Drawing.Size(522, 189);
             this.lvRecipe.SmallImageList = this.ObjectImagesSmall;
             this.lvRecipe.TabIndex = 6;
             this.lvRecipe.UseCompatibleStateImageBehavior = false;
@@ -200,7 +207,7 @@ namespace WhatDoYouNeed
             this.lvTarget.LargeImageList = this.ObjectImagesLarge;
             this.lvTarget.Location = new System.Drawing.Point(0, 0);
             this.lvTarget.Name = "lvTarget";
-            this.lvTarget.Size = new System.Drawing.Size(182, 100);
+            this.lvTarget.Size = new System.Drawing.Size(182, 189);
             this.lvTarget.SmallImageList = this.ObjectImagesSmall;
             this.lvTarget.TabIndex = 5;
             this.lvTarget.UseCompatibleStateImageBehavior = false;
@@ -210,7 +217,7 @@ namespace WhatDoYouNeed
             this.AcceptButton = this.btnFilter;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.ClientSize = new System.Drawing.Size(704, 681);
             this.Controls.Add(this.lvSouces);
             this.Controls.Add(this.pnlUpper);
             this.Controls.Add(this.menuStrip1);

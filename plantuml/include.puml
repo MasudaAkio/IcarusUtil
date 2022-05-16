@@ -1,5 +1,7 @@
 @startuml
-!include .\\Elements.puml
+!include .\\IcrObject.puml
+!include .\\IcrObjectCore.puml
+!include .\\Recipe.puml
 !include .\\Properties\AssemblyInfo.puml
 !include .\\Properties\Images.Designer.puml
 !include .\\Properties\ObjectNames.Designer.puml
