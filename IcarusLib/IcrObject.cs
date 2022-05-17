@@ -1,5 +1,4 @@
-﻿using System;
-using System.Linq;
+﻿using System.Linq;
 using System.IO;
 using System.Collections.ObjectModel;
 using System.Text.RegularExpressions;
@@ -12,26 +11,6 @@ using IcarusLib.Properties;
 
 namespace IcarusLib
 {
-    [Flags]
-    public enum Attrs
-    {
-        Armors,
-        BuildingPieces,
-        Consumables,
-        Deplyables,
-        Environsuits,
-        Modules,
-        Resources,
-        Tools,
-        Weapons,
-        Food,
-        Drinks,
-        Medicine,
-        Benches,
-        CraftingBenches,
-        CookingBenches,
-        ClimateControl, // 気候制御
-    }
 
 
     public partial class IcrObject
@@ -43,7 +22,10 @@ namespace IcarusLib
         public string Name => Core.Name;
         public Image Image => Core.Image;
         public Recipe[] Recipes => Core.Recipes;
+        public IcrAttributes Attribute => Core.Attribute;
         public IcrObject(string key) => Key = key;
+
+        public int RecipeIndex { get => Core.RecipeIndex; set => Core.RecipeIndex = value; }
 
         private IcrObjectCore _core;
         private IcrObjectCore Core => _core ?? (_core = Cores[Key]); // singleton

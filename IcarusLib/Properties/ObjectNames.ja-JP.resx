@@ -1462,7 +1462,7 @@
     <value>サンドワームナイフ</value>
   </data>
   <data name="SandwormScale" xml:space="preserve">
-    <value>サンドワームの鱗</value>
+    <value>蚕の鱗</value>
   </data>
   <data name="SandwormSpear" xml:space="preserve">
     <value>サンドワーム スピア</value>
@@ -1949,5 +1949,8 @@
   </data>
   <data name="PoisonSack" xml:space="preserve">
     <value>ワームの毒嚢</value>
+  </data>
+  <data name="Water" xml:space="preserve">
+    <value>水</value>
   </data>
 </root>

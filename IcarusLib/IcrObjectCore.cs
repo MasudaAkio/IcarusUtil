@@ -19,8 +19,13 @@ namespace IcarusLib
             public string Key { get; private set; }
             public string Name { get; private set; }
             public Bitmap Image { get; private set; }
-            public Attrs Attributes { get; private set; }
+            public IcrAttributes Attribute { get; private set; }
 
+            private IcrAttributes Reconst(string attr_str)
+            {
+                var elems = attr_str.Split(new char[] { ',', ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+                return IcrObject.ReconstAttrs(elems);
+            }
             public IcrObjectCore(string key)
             {
                 Key = key;
@@ -28,9 +33,18 @@ namespace IcarusLib
                 if (string.IsNullOrEmpty(Name)) string.Join(" ", new Regex("[A-Z][a-z]+").Matches(key).OfType<string>());
 
                 Image = (Bitmap)(Images.ResourceManager.GetObject(key) ?? Images.ResourceManager.GetObject("NoImage"));
+
+                Attribute = Reconst(Attributes.ResourceManager.GetString(key));
             }
             private Recipe[] _recipes;
             public Recipe[] Recipes => _recipes ?? (_recipes = Recipe.Decode(Properties.Recipes.ResourceManager.GetString(Key)).ToArray());
+
+            private int _recipeIndex = 0;
+            public int RecipeIndex
+            {
+                get => Recipes.Length > _recipeIndex ? _recipeIndex : Recipes.Length - 1;
+                set => _recipeIndex = value;
+            }
 
             public bool HasAnyRecipes => Recipes.Length > 0;
 

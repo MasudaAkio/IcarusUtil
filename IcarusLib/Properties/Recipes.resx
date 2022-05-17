@@ -250,7 +250,7 @@
     <value>TrophyBench(Stick:10,Wood:30,AlphaWolfHead:1)</value>
   </data>
   <data name="AluminiumArrow" xml:space="preserve">
-    <value />
+    <value>MachiningBench(CopperIngot:1,AluminiumIngot:4,Epoxy:1)</value>
   </data>
   <data name="AluminiumBeam" xml:space="preserve">
     <value>MachiningBench(AluminiumOre:2,Wood:2,SteelScrew:2)</value>
@@ -379,7 +379,7 @@
     <value>WorkShop()</value>
   </data>
   <data name="BarbequeCarrot" xml:space="preserve">
-    <value>Campfile(Carrot:1)|Firepit(Carrot:1)|Fireplace(Carrot:1)</value>
+    <value>Campfire(Carrot:1)|Firepit(Carrot:1)|Fireplace(Carrot:1)</value>
   </data>
   <data name="BasicBandage" xml:space="preserve">
     <value>CharacterCrafting(Fiber:40)</value>
@@ -535,7 +535,7 @@
     <value />
   </data>
   <data name="CharredCorn" xml:space="preserve">
-    <value>Campfile(Corn:1)|Firepit(Corn:1)|Fireplace(Corn:1)</value>
+    <value>Campfire(Corn:1)|Firepit(Corn:1)|Fireplace(Corn:1)</value>
   </data>
   <data name="ChemistryBench" xml:space="preserve">
     <value>Fabricator(SteelIngot:20,Wood:30,Electronics:8,Composites:10,Glass:10)</value>
@@ -643,31 +643,31 @@
     <value>MachiningBench(SteelRebar:8,ConcreteMix:4,SteelScrew:4)</value>
   </data>
   <data name="CookedBacon" xml:space="preserve">
-    <value>Campfile(RawBacon:1)|Firepit(RawBacon:1)|Fireplace(RawBacon:1)</value>
+    <value>Campfire(RawBacon:1)|Firepit(RawBacon:1)|Fireplace(RawBacon:1)</value>
   </data>
   <data name="CookedFattyTbone" xml:space="preserve">
-    <value>Campfile(RawFattyTbone:1)|Firepit(RawFattyTbone:1)|Fireplace(RawFattyTbone:1)|BiofuelStove(RawFattyTbone:1)</value>
+    <value>Campfire(RawFattyTbone:1)|Firepit(RawFattyTbone:1)|Fireplace(RawFattyTbone:1)|BiofuelStove(RawFattyTbone:1)</value>
   </data>
   <data name="CookedFish" xml:space="preserve">
-    <value>Campfile(RawFish:1)|Firepit(RawFish:1)|Fireplace(RawFish:1)</value>
+    <value>Campfire(RawFish:1)|Firepit(RawFish:1)|Fireplace(RawFish:1)</value>
   </data>
   <data name="CookedGameMeat" xml:space="preserve">
-    <value>Campfile(RawGameMeat:1)|Firepit(RawGameMeat:1)|Fireplace(RawGameMeat:1)|BiofuelStove(RawGameMeat:1)</value>
+    <value>Campfire(RawGameMeat:1)|Firepit(RawGameMeat:1)|Fireplace(RawGameMeat:1)|BiofuelStove(RawGameMeat:1)</value>
   </data>
   <data name="CookedGiantSteak" xml:space="preserve">
-    <value>Campfile(RawGiantSteak:1)|Firepit(RawGiantSteak:1)|Fireplace(RawGiantSteak:1)|BiofuelStove(RawGiantSteak:1)</value>
+    <value>Campfire(RawGiantSteak:1)|Firepit(RawGiantSteak:1)|Fireplace(RawGiantSteak:1)|BiofuelStove(RawGiantSteak:1)</value>
   </data>
   <data name="CookedMeat" xml:space="preserve">
-    <value>Campfile(RawMeat:1)|Firepit(RawMeat:1)|Fireplace(RawMeat:1)</value>
+    <value>Campfire(RawMeat:1)|Firepit(RawMeat:1)|Fireplace(RawMeat:1)</value>
   </data>
   <data name="CookedSoftMeat" xml:space="preserve">
-    <value>Campfile(RawSoftMeat:1)|Firepit(RawSoftMeat:1)|Fireplace(RawSoftMeat:1)|BiofuelStove(RawSoftMeat:1)</value>
+    <value>Campfire(RawSoftMeat:1)|Firepit(RawSoftMeat:1)|Fireplace(RawSoftMeat:1)|BiofuelStove(RawSoftMeat:1)</value>
   </data>
   <data name="CookedStringyMeat" xml:space="preserve">
-    <value>Campfile(RawStringyMeat:1)|Firepit(RawStringyMeat:1)|Fireplace(RawStringyMeat:1)|BiofuelStove(RawStringyMeat:1)</value>
+    <value>Campfire(RawStringyMeat:1)|Firepit(RawStringyMeat:1)|Fireplace(RawStringyMeat:1)|BiofuelStove(RawStringyMeat:1)</value>
   </data>
   <data name="CookedWhiteMeat" xml:space="preserve">
-    <value>Campfile(RawWhiteMeat:1)|Firepit(RawWhiteMeat:1)|Fireplace(RawWhiteMeat:1)|BiofuelStove(RawWhiteMeat:1)</value>
+    <value>Campfire(RawWhiteMeat:1)|Firepit(RawWhiteMeat:1)|Fireplace(RawWhiteMeat:1)|BiofuelStove(RawWhiteMeat:1)</value>
   </data>
   <data name="CookingStation" xml:space="preserve">
     <value>CraftingBench(Fiber:8,Stick:8,Stone:24,IronIngot:4)</value>
@@ -1951,6 +1951,9 @@
     <value></value>
   </data>
   <data name="PoisonSack" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="Water" xml:space="preserve">
     <value></value>
   </data>
 </root>

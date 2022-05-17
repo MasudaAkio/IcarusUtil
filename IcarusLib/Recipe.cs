@@ -18,14 +18,14 @@ namespace IcarusLib
         {
             public IcrObject Stuff { get; private set; }
             public decimal Volume { get; private set; }
-
+            public decimal BaseVolume { get; private set; }
             public RecipeItem(IcrObject iobj, decimal vol)
             {
                 Stuff = iobj;
                 Volume = vol;
+                BaseVolume = vol;
             }
-
-            public RecipeItem Multiply(decimal times) { Volume *= times; return this; }
+            public RecipeItem Multiply(decimal times) { Volume = BaseVolume * times; return this; }
             public RecipeItem Clone() =>  new RecipeItem(Stuff, Volume);
         }
         public class Recipe
@@ -56,16 +56,24 @@ namespace IcarusLib
                 });
             }
 
-            public RecipeItem[] FinalRequirements()
+            public (RecipeItem[] aggregated, string[] benches) FinalRequirements()
             {
                 var gather = new List<RecipeItem>();
+                var benches = new List<string>();
                 foreach (var ri in Items ?? new RecipeItem[] { })
                 {
                     var recipes = ri.Stuff.Recipes;
                     if (recipes != null && recipes.Length > 0)
-                        gather.AddRange(recipes[0].FinalRequirements().Select(xi => xi.Clone().Multiply(ri.Volume)));
+                    {
+                        var result = recipes[ri.Stuff.RecipeIndex].FinalRequirements();
+                        gather.AddRange(result.aggregated.Select(xi => xi.Clone().Multiply(ri.Volume)));
+                        benches.AddRange(result.benches);
+                    }
                     else
+                    {
                         gather.Add(ri.Clone());
+                        benches.Add(Bench.Key);
+                    }
                 }
                 var aggre = new List<RecipeItem>();
                 foreach (var g in gather.GroupBy(ri => ri.Stuff.Key))
@@ -74,7 +82,14 @@ namespace IcarusLib
                     if (array.Length == 1) aggre.Add(array[0]);
                     else aggre.Add(new RecipeItem(new IcrObject(g.Key), g.Sum(ri => ri.Volume)));
                 }
-                return aggre.ToArray();
+                return (aggre.ToArray(), benches.Distinct().ToArray());
+            }
+
+            public override string ToString()
+            {
+                var bench = Bench.Core.Name;
+                var items = string.Join(",", Items.Select(ri => $"{ri.Stuff.Core.Name} x {ri.Volume}"));
+                return $"{bench}({items})";
             }
         }
     }

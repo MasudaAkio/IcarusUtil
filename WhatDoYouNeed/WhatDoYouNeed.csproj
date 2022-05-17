@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{E8CB7FB0-227D-4887-977D-B8ED94CC3B68}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WhatDoYouNeed</RootNamespace>
+    <RootNamespace>Icarus</RootNamespace>
     <AssemblyName>WhatDoYouNeed</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -26,7 +26,7 @@
     <InstallUrl>https://guiyh.z31.web.core.windows.net/WhatDoYouNeed/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>11</ApplicationRevision>
+    <ApplicationRevision>13</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -77,7 +77,7 @@
     <ApplicationIcon>落船 icon-sq-128.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>WhatDoYouNeed.Program</StartupObject>
+    <StartupObject>Icarus.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -95,8 +95,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ObjectItem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResultOne.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ResultOne.Designer.cs">
+      <DependentUpon>ResultOne.cs</DependentUpon>
+    </Compile>
     <Compile Include="WhatDoYouNeed.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +120,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ResultOne.resx">
+      <DependentUpon>ResultOne.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WhatDoYouNeed.resx">
       <DependentUpon>WhatDoYouNeed.cs</DependentUpon>
     </EmbeddedResource>

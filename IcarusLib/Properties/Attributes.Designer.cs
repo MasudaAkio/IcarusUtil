@@ -22,24 +22,24 @@ namespace IcarusLib.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Recipes {
+    internal class Attributes {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal Recipes() {
+        internal Attributes() {
         }
         
         /// <summary>
         ///   このクラスで使用されているキャッシュされた ResourceManager インスタンスを返します。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("IcarusLib.Properties.Recipes", typeof(Recipes).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("IcarusLib.Properties.Attributes", typeof(Attributes).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -51,7 +51,7 @@ namespace IcarusLib.Properties {
         ///   現在のスレッドの CurrentUICulture プロパティをオーバーライドします。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -61,1917 +61,1917 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Modules に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AdliftModule {
+        internal static string AdliftModule {
             get {
                 return ResourceManager.GetString("AdliftModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AdvancedDeepMiningOreScanner {
+        internal static string AdvancedDeepMiningOreScanner {
             get {
                 return ResourceManager.GetString("AdvancedDeepMiningOreScanner", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnimalHead に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AlphaWolfHead {
+        internal static string AlphaWolfHead {
             get {
                 return ResourceManager.GetString("AlphaWolfHead", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TrophyBench(Stick:10,Wood:30,AlphaWolfHead:1) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AlphaWolfTrophy {
+        internal static string AlphaWolfTrophy {
             get {
                 return ResourceManager.GetString("AlphaWolfTrophy", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(CopperIngot:1,AluminiumIngot:4,Epoxy:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumArrow {
+        internal static string AluminiumArrow {
             get {
                 return ResourceManager.GetString("AluminiumArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:2,Wood:2,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumBeam {
+        internal static string AluminiumBeam {
             get {
                 return ResourceManager.GetString("AluminiumBeam", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumDoor {
+        internal static string AluminiumDoor {
             get {
                 return ResourceManager.GetString("AluminiumDoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumFloor {
+        internal static string AluminiumFloor {
             get {
                 return ResourceManager.GetString("AluminiumFloor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumFloorTrapdoor {
+        internal static string AluminiumFloorTrapdoor {
             get {
                 return ResourceManager.GetString("AluminiumFloorTrapdoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumHalfpieces {
+        internal static string AluminiumHalfpieces {
             get {
                 return ResourceManager.GetString("AluminiumHalfpieces", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumHalfpitches {
+        internal static string AluminiumHalfpitches {
             get {
                 return ResourceManager.GetString("AluminiumHalfpitches", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(AluminiumOre:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ingot に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumIngot {
+        internal static string AluminiumIngot {
             get {
                 return ResourceManager.GetString("AluminiumIngot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:2,Wood:2,SteelScrew:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumLadder {
+        internal static string AluminiumLadder {
             get {
                 return ResourceManager.GetString("AluminiumLadder", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Ore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumOre {
+        internal static string AluminiumOre {
             get {
                 return ResourceManager.GetString("AluminiumOre", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:2,Wood:2,SteelScrew:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumRailing {
+        internal static string AluminiumRailing {
             get {
                 return ResourceManager.GetString("AluminiumRailing", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumRamp {
+        internal static string AluminiumRamp {
             get {
                 return ResourceManager.GetString("AluminiumRamp", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumRoof {
+        internal static string AluminiumRoof {
             get {
                 return ResourceManager.GetString("AluminiumRoof", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:2,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumRoofCorner {
+        internal static string AluminiumRoofCorner {
             get {
                 return ResourceManager.GetString("AluminiumRoofCorner", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumStairs {
+        internal static string AluminiumStairs {
             get {
                 return ResourceManager.GetString("AluminiumStairs", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumTrapdoor {
+        internal static string AluminiumTrapdoor {
             get {
                 return ResourceManager.GetString("AluminiumTrapdoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumWall {
+        internal static string AluminiumWall {
             get {
                 return ResourceManager.GetString("AluminiumWall", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumWallAngled {
+        internal static string AluminiumWallAngled {
             get {
                 return ResourceManager.GetString("AluminiumWallAngled", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:2,Wood:3,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AluminiumWindow {
+        internal static string AluminiumWindow {
             get {
                 return ResourceManager.GetString("AluminiumWindow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AnimalBait {
+        internal static string AnimalBait {
             get {
                 return ResourceManager.GetString("AnimalBait", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CookingStation(RawMeat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AnimalFat {
+        internal static string AnimalFat {
             get {
                 return ResourceManager.GetString("AnimalFat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Modules に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AnimalHealthbarModule {
+        internal static string AnimalHealthbarModule {
             get {
                 return ResourceManager.GetString("AnimalHealthbarModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Modules に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AnimalHighlightingModule {
+        internal static string AnimalHighlightingModule {
             get {
                 return ResourceManager.GetString("AnimalHighlightingModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(ReedFlower:1,Sulfur:1,Charcoal:1) に類似しているローカライズされた文字列を検索します。
+        ///   Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Anti_ParasiticPaste {
+        internal static string Anti_ParasiticPaste {
             get {
                 return ResourceManager.GetString("Anti-ParasiticPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   KitchenBench(Anti-ParasiticTonic:1,OrganicResin:1,Charcoal:5) に類似しているローカライズされた文字列を検索します。
+        ///   Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Anti_ParasiticPill {
+        internal static string Anti_ParasiticPill {
             get {
                 return ResourceManager.GetString("Anti-ParasiticPill", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(ReedFlower:1,OrganicResin:1,Charcoal:3) に類似しているローカライズされた文字列を検索します。
+        ///   Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Anti_ParasiticTonic {
+        internal static string Anti_ParasiticTonic {
             get {
                 return ResourceManager.GetString("Anti-ParasiticTonic", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Anti_ParasiticVaccineI {
+        internal static string Anti_ParasiticVaccineI {
             get {
                 return ResourceManager.GetString("Anti-ParasiticVaccineI", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Anti_ParasiticVaccineII {
+        internal static string Anti_ParasiticVaccineII {
             get {
                 return ResourceManager.GetString("Anti-ParasiticVaccineII", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Anti_ParasiticVaccineIII {
+        internal static string Anti_ParasiticVaccineIII {
             get {
                 return ResourceManager.GetString("Anti-ParasiticVaccineIII", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:1,SpoiledMeat:1,Charcoal:1) に類似しているローカライズされた文字列を検索します。
+        ///   Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Anti_PoisonPaste {
+        internal static string Anti_PoisonPaste {
             get {
                 return ResourceManager.GetString("Anti-PoisonPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   KitchenBench(AntibioticTonic:1,Epoxy:1,Charcoal:5) に類似しているローカライズされた文字列を検索します。
+        ///   Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Anti_PoisonPill {
+        internal static string Anti_PoisonPill {
             get {
                 return ResourceManager.GetString("Anti-PoisonPill", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(Fiber:1,PoisonPaste:1,Charcoal:3) に類似しているローカライズされた文字列を検索します。
+        ///   Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Anti_PoisonTonic {
+        internal static string Anti_PoisonTonic {
             get {
                 return ResourceManager.GetString("Anti-PoisonTonic", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Anti_PoisonVaccineI {
+        internal static string Anti_PoisonVaccineI {
             get {
                 return ResourceManager.GetString("Anti-PoisonVaccineI", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Anti_PoisonVaccineII {
+        internal static string Anti_PoisonVaccineII {
             get {
                 return ResourceManager.GetString("Anti-PoisonVaccineII", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Anti_PoisonVaccineIII {
+        internal static string Anti_PoisonVaccineIII {
             get {
                 return ResourceManager.GetString("Anti-PoisonVaccineIII", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Yeast:1,SilicaOre:1,Charcoal:1) に類似しているローカライズされた文字列を検索します。
+        ///   Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AntibioticPaste {
+        internal static string AntibioticPaste {
             get {
                 return ResourceManager.GetString("AntibioticPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   KitchenBench(AntibioticTonic:1,Epoxy:1,Charcoal:5) に類似しているローカライズされた文字列を検索します。
+        ///   Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AntibioticPill {
+        internal static string AntibioticPill {
             get {
                 return ResourceManager.GetString("AntibioticPill", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(Yeast:1,Epoxy:1,Charcoal:3) に類似しているローカライズされた文字列を検索します。
+        ///   Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AntibioticTonic {
+        internal static string AntibioticTonic {
             get {
                 return ResourceManager.GetString("AntibioticTonic", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(IronIngot:40,Wood:20,Stone:10) に類似しているローカライズされた文字列を検索します。
+        ///   Benches,Deployables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string AnvilBench {
+        internal static string AnvilBench {
             get {
                 return ResourceManager.GetString("AnvilBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ArchersBackpack {
+        internal static string ArchersBackpack {
             get {
                 return ResourceManager.GetString("ArchersBackpack", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BacterialVaccineI {
+        internal static string BacterialVaccineI {
             get {
                 return ResourceManager.GetString("BacterialVaccineI", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BacterialVaccineII {
+        internal static string BacterialVaccineII {
             get {
                 return ResourceManager.GetString("BacterialVaccineII", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BacterialVaccineIII {
+        internal static string BacterialVaccineIII {
             get {
                 return ResourceManager.GetString("BacterialVaccineIII", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(Carrot:1)|Firepit(Carrot:1)|Fireplace(Carrot:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BarbequeCarrot {
+        internal static string BarbequeCarrot {
             get {
                 return ResourceManager.GetString("BarbequeCarrot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:40) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BasicBandage {
+        internal static string BasicBandage {
             get {
                 return ResourceManager.GetString("BasicBandage", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:15,Glass:6,CopperIngot:10) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BasicCeilingLight {
+        internal static string BasicCeilingLight {
             get {
                 return ResourceManager.GetString("BasicCeilingLight", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WoodComposter(SpoiledPlants:10) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BasicFertilizer {
+        internal static string BasicFertilizer {
             get {
                 return ResourceManager.GetString("BasicFertilizer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:15,Glass:6,CopperIngot:10) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BasicWallLight {
+        internal static string BasicWallLight {
             get {
                 return ResourceManager.GetString("BasicWallLight", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnimalHead に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BearHead {
+        internal static string BearHead {
             get {
                 return ResourceManager.GetString("BearHead", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TrophyBench(Stick:10,Wood:30,BearHead:1) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BearTrophy {
+        internal static string BearTrophy {
             get {
                 return ResourceManager.GetString("BearTrophy", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:20,Stick:10,Fur:20,Leather:10) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Bedroll {
+        internal static string Bedroll {
             get {
                 return ResourceManager.GetString("Bedroll", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   KitchenBench(Wheat:20,Yeast:1,BeerBottle:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Drinks に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Beer {
+        internal static string Beer {
             get {
                 return ResourceManager.GetString("Beer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   GlassworkingBench(Glass:5) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BeerBottle {
+        internal static string BeerBottle {
             get {
                 return ResourceManager.GetString("BeerBottle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   KitchenBench(WildBerry:5,GlassJar:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BerryJam {
+        internal static string BerryJam {
             get {
                 return ResourceManager.GetString("BerryJam", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Rope:4,Glass:6,AluminiumIngot:6,Epoxy:2) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Binoculars {
+        internal static string Binoculars {
             get {
                 return ResourceManager.GetString("Binoculars", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:25) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BiofuelCan {
+        internal static string BiofuelCan {
             get {
                 return ResourceManager.GetString("BiofuelCan", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:20,CopperIngot:8,ConcreteMix:12,SteelScrew:20) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BiofuelComposter {
+        internal static string BiofuelComposter {
             get {
                 return ResourceManager.GetString("BiofuelComposter", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelIngot:12,CopperIngot:24,Electronics:10,Epoxy:12) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BiofuelDeep_MiningDrill {
+        internal static string BiofuelDeep_MiningDrill {
             get {
                 return ResourceManager.GetString("BiofuelDeep-MiningDrill", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(SteelIngot:20,CopperIngot:8,Electronics:12,SteelScrew:20,Glass:2) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BiofuelGenerator {
+        internal static string BiofuelGenerator {
             get {
                 return ResourceManager.GetString("BiofuelGenerator", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Rope:4,Glass:12,AluminiumIngot:8,Epoxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BiofuelLamp {
+        internal static string BiofuelLamp {
             get {
                 return ResourceManager.GetString("BiofuelLamp", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(RefinedWood:30,Epoxy:20,CopperNail:4,SteelIngot:24,SteelScrew:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BiofuelStove {
+        internal static string BiofuelStove {
             get {
                 return ResourceManager.GetString("BiofuelStove", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnimalHead に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BlackJaguarHead {
+        internal static string BlackJaguarHead {
             get {
                 return ResourceManager.GetString("BlackJaguarHead", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TrophyBench(Stick:10,Wood:30,BlackJaguarHead:1) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BlackJaguarTrophy {
+        internal static string BlackJaguarTrophy {
             get {
                 return ResourceManager.GetString("BlackJaguarTrophy", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Lily:1,Stick:10,Charcoal:1) に類似しているローカライズされた文字列を検索します。
+        ///   Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BloodThinningPaste {
+        internal static string BloodThinningPaste {
             get {
                 return ResourceManager.GetString("BloodThinningPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   KitchenBench(BloodThinningTonic:1,TreeSap:1,Charcoal:5) に類似しているローカライズされた文字列を検索します。
+        ///   Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BloodThinningPill {
+        internal static string BloodThinningPill {
             get {
                 return ResourceManager.GetString("BloodThinningPill", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(Lily:1,TreeSap:1,Charcoal:3) に類似しているローカライズされた文字列を検索します。
+        ///   Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BloodThinningTonic {
+        internal static string BloodThinningTonic {
             get {
                 return ResourceManager.GetString("BloodThinningTonic", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BloodThinningVaccineI {
+        internal static string BloodThinningVaccineI {
             get {
                 return ResourceManager.GetString("BloodThinningVaccineI", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BloodThinningVaccineII {
+        internal static string BloodThinningVaccineII {
             get {
                 return ResourceManager.GetString("BloodThinningVaccineII", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Medicine,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BloodThinningVaccineIII {
+        internal static string BloodThinningVaccineIII {
             get {
                 return ResourceManager.GetString("BloodThinningVaccineIII", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Wood:12,Leather:8,SteelIngot:40,Epoxy:4,SteelScrew:10) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Firearms に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BoltActionRifle {
+        internal static string BoltActionRifle {
             get {
                 return ResourceManager.GetString("BoltActionRifle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Bone {
+        internal static string Bone {
             get {
                 return ResourceManager.GetString("Bone", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Stick:1,Leather:1,Bone:5) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BoneArrow {
+        internal static string BoneArrow {
             get {
                 return ResourceManager.GetString("BoneArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Wood:2,Leather:2,Bone:20) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BoneKnife {
+        internal static string BoneKnife {
             get {
                 return ResourceManager.GetString("BoneKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Wood:2,Leather:2,Bone:20) に類似しているローカライズされた文字列を検索します。
+        ///   Sickle に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BoneSickle {
+        internal static string BoneSickle {
             get {
                 return ResourceManager.GetString("BoneSickle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Wood:18,Leather:4,Bone:40) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BoneSpear {
+        internal static string BoneSpear {
             get {
                 return ResourceManager.GetString("BoneSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(IronIngot:20,CopperIngot:4) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Brazier {
+        internal static string Brazier {
             get {
                 return ResourceManager.GetString("Brazier", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   BiofuelStove(BreadDough:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Bread {
+        internal static string Bread {
             get {
                 return ResourceManager.GetString("Bread", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   KitchenBench(Flour:5,Yeast:1) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BreadDough {
+        internal static string BreadDough {
             get {
                 return ResourceManager.GetString("BreadDough", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(x00BuckshotShell:1,CopperIngot:1,Epoxy:1,Gunpowder:6) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BuckshotShell {
+        internal static string BuckshotShell {
             get {
                 return ResourceManager.GetString("BuckshotShell", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnimalHead に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BuffaloHead {
+        internal static string BuffaloHead {
             get {
                 return ResourceManager.GetString("BuffaloHead", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TrophyBench(Stick:10,Wood:30,BuffaloHead:1) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BuffaloTrophy {
+        internal static string BuffaloTrophy {
             get {
                 return ResourceManager.GetString("BuffaloTrophy", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:10,Stick:4,Stone:6) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string BuildingUpgradeTool {
+        internal static string BuildingUpgradeTool {
             get {
                 return ResourceManager.GetString("BuildingUpgradeTool", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Stone:24,Fiber:8,Stick:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Campfire {
+        internal static string Campfire {
             get {
                 return ResourceManager.GetString("Campfire", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Leather:2,SteelIngot:8) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Canteen {
+        internal static string Canteen {
             get {
                 return ResourceManager.GetString("Canteen", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(CopperIngot:1,CarbonFiber:4,Epoxy:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CarbonArrow {
+        internal static string CarbonArrow {
             get {
                 return ResourceManager.GetString("CarbonArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   ConcreteFurnace(CarbonPaste:1)|ElectricFurnace(CarbonPaste:1) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CarbonFiber {
+        internal static string CarbonFiber {
             get {
                 return ResourceManager.GetString("CarbonFiber", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MortarandPestle(SilicaOre:1,AluminiumIngot:1,OrganicResin:4,Epoxy:2) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CarbonPaste {
+        internal static string CarbonPaste {
             get {
                 return ResourceManager.GetString("CarbonPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(CopperIngot:4,Epoxy:8,CarbonFiber:24) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CarbonSpear {
+        internal static string CarbonSpear {
             get {
                 return ResourceManager.GetString("CarbonSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Fiber:12,Rope:12,CopperNail:120) に類似しているローカライズされた文字列を検索します。
+        ///   Benches,Deployables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CarpentryBench {
+        internal static string CarpentryBench {
             get {
                 return ResourceManager.GetString("CarpentryBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Carrot {
+        internal static string Carrot {
             get {
                 return ResourceManager.GetString("Carrot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:10,RefinedGold:5,IronNail:12,CopperIngot:5) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CaveScanner {
+        internal static string CaveScanner {
             get {
                 return ResourceManager.GetString("CaveScanner", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Leather:5,Stick:5,WormScale:2,PoisonSack:5) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CavewormArrow {
+        internal static string CavewormArrow {
             get {
                 return ResourceManager.GetString("CavewormArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:10,Leather:25,WormScale:15,PoisonSack:10) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Bow に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CavewormBow {
+        internal static string CavewormBow {
             get {
                 return ResourceManager.GetString("CavewormBow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:2,Leather:2,WormScale:5,PoisonSack:5) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CavewormKnife {
+        internal static string CavewormKnife {
             get {
                 return ResourceManager.GetString("CavewormKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:16,Leather:4,WormScale:10,PoisonSack:10) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CavewormSpear {
+        internal static string CavewormSpear {
             get {
                 return ResourceManager.GetString("CavewormSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Wood:50,Stone:40,IronIngot:20,Rope:8,IronNail:8) に類似しているローカライズされた文字列を検索します。
+        ///   Benches,Deployables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CementMixer {
+        internal static string CementMixer {
             get {
                 return ResourceManager.GetString("CementMixer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CharacterCrafting {
+        internal static string CharacterCrafting {
             get {
                 return ResourceManager.GetString("CharacterCrafting", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Charcoal {
+        internal static string Charcoal {
             get {
                 return ResourceManager.GetString("Charcoal", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(Corn:1)|Firepit(Corn:1)|Fireplace(Corn:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CharredCorn {
+        internal static string CharredCorn {
             get {
                 return ResourceManager.GetString("CharredCorn", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(SteelIngot:20,Wood:30,Electronics:8,Composites:10,Glass:10) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ChemistryBench {
+        internal static string ChemistryBench {
             get {
                 return ResourceManager.GetString("ChemistryBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:80) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ClothArmsArmor {
+        internal static string ClothArmsArmor {
             get {
                 return ResourceManager.GetString("ClothArmsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:120) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ClothChestArmor {
+        internal static string ClothChestArmor {
             get {
                 return ResourceManager.GetString("ClothChestArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:40) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ClothFeetArmor {
+        internal static string ClothFeetArmor {
             get {
                 return ResourceManager.GetString("ClothFeetArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:80) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ClothHeadArmor {
+        internal static string ClothHeadArmor {
             get {
                 return ResourceManager.GetString("ClothHeadArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:120) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ClothLegsArmor {
+        internal static string ClothLegsArmor {
             get {
                 return ResourceManager.GetString("ClothLegsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Ore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CoalOre {
+        internal static string CoalOre {
             get {
                 return ResourceManager.GetString("CoalOre", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CocoaSeed {
+        internal static string CocoaSeed {
             get {
                 return ResourceManager.GetString("CocoaSeed", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CoffeeBean {
+        internal static string CoffeeBean {
             get {
                 return ResourceManager.GetString("CoffeeBean", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(SteelIngot:12,SteelScrew:2,CarbonFiber:2,Epoxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CombatKnife {
+        internal static string CombatKnife {
             get {
                 return ResourceManager.GetString("CombatKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Workshop に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CometCoal {
+        internal static string CometCoal {
             get {
                 return ResourceManager.GetString("CometCoal", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:2,Composites:8,SteelScrew:6,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CompositeArmsArmor {
+        internal static string CompositeArmsArmor {
             get {
                 return ResourceManager.GetString("CompositeArmsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(Composites:1,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CompositeArrow {
+        internal static string CompositeArrow {
             get {
                 return ResourceManager.GetString("CompositeArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:6,Composites:24,SteelScrew:12,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CompositeChestArmor {
+        internal static string CompositeChestArmor {
             get {
                 return ResourceManager.GetString("CompositeChestArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:4,Composites:12,SteelScrew:6,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CompositeFeetArmor {
+        internal static string CompositeFeetArmor {
             get {
                 return ResourceManager.GetString("CompositeFeetArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:4,Composites:12,SteelScrew:6,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CompositeHeadArmor {
+        internal static string CompositeHeadArmor {
             get {
                 return ResourceManager.GetString("CompositeHeadArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:6,Composites:18,SteelScrew:6,CarbonFiber:2,RefinedGold:2) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CompositeLegsArmor {
+        internal static string CompositeLegsArmor {
             get {
                 return ResourceManager.GetString("CompositeLegsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MaterialProcessor(IronOre:2,SilicaOre:1,OrganicResin:1,GoldOre:1) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CompositePaste {
+        internal static string CompositePaste {
             get {
                 return ResourceManager.GetString("CompositePaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   ElectricFurnace(CompositePaste:1) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Composites {
+        internal static string Composites {
             get {
                 return ResourceManager.GetString("Composites", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(IronIngot:4,AluminiumIngot:4,Composites:24) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CompositeSpear {
+        internal static string CompositeSpear {
             get {
                 return ResourceManager.GetString("CompositeSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(CarbonFiber:8,Composites:18,AluminiumIngot:16,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Bow に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CompoundBow {
+        internal static string CompoundBow {
             get {
                 return ResourceManager.GetString("CompoundBow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelRebar:8,ConcreteMix:2,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteBeam {
+        internal static string ConcreteBeam {
             get {
                 return ResourceManager.GetString("ConcreteBeam", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelRebar:10,ConcreteMix:4,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteFloor {
+        internal static string ConcreteFloor {
             get {
                 return ResourceManager.GetString("ConcreteFloor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelRebar:10,ConcreteMix:4,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteFloorTrapdoor {
+        internal static string ConcreteFloorTrapdoor {
             get {
                 return ResourceManager.GetString("ConcreteFloorTrapdoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelRebar:20,ConcreteMix:8,SteelScrew:10) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteFrame {
+        internal static string ConcreteFrame {
             get {
                 return ResourceManager.GetString("ConcreteFrame", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:12,Rope:8,Epoxy:12,ConcreteMix:20) に類似しているローカライズされた文字列を検索します。
+        ///   Benches,Deployables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteFurnace {
+        internal static string ConcreteFurnace {
             get {
                 return ResourceManager.GetString("ConcreteFurnace", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelRebar:10,ConcreteMix:4,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteHalfpieces {
+        internal static string ConcreteHalfpieces {
             get {
                 return ResourceManager.GetString("ConcreteHalfpieces", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelRebar:10,ConcreteMix:4,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteHalfpitches {
+        internal static string ConcreteHalfpitches {
             get {
                 return ResourceManager.GetString("ConcreteHalfpitches", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CementMixer(TreeSap:1,Stone:8,SilicaOre:4) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteMix {
+        internal static string ConcreteMix {
             get {
                 return ResourceManager.GetString("ConcreteMix", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(AluminiumOre:2,Wood:2,SteelScrew:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteRailing {
+        internal static string ConcreteRailing {
             get {
                 return ResourceManager.GetString("ConcreteRailing", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelRebar:12,ConcreteMix:4,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteRamp {
+        internal static string ConcreteRamp {
             get {
                 return ResourceManager.GetString("ConcreteRamp", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelRebar:12,ConcreteMix:4,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteRoof {
+        internal static string ConcreteRoof {
             get {
                 return ResourceManager.GetString("ConcreteRoof", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelRebar:8,ConcreteMix:4,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteRoofCorner {
+        internal static string ConcreteRoofCorner {
             get {
                 return ResourceManager.GetString("ConcreteRoofCorner", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelRebar:12,ConcreteMix:4,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteStairs {
+        internal static string ConcreteStairs {
             get {
                 return ResourceManager.GetString("ConcreteStairs", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelRebar:10,ConcreteMix:4,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteWall {
+        internal static string ConcreteWall {
             get {
                 return ResourceManager.GetString("ConcreteWall", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelRebar:8,ConcreteMix:4,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ConcreteWallAngled {
+        internal static string ConcreteWallAngled {
             get {
                 return ResourceManager.GetString("ConcreteWallAngled", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(RawBacon:1)|Firepit(RawBacon:1)|Fireplace(RawBacon:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CookedBacon {
+        internal static string CookedBacon {
             get {
                 return ResourceManager.GetString("CookedBacon", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(RawFattyTbone:1)|Firepit(RawFattyTbone:1)|Fireplace(RawFattyTbone:1)|BiofuelStove(RawFattyTbone:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CookedFattyTbone {
+        internal static string CookedFattyTbone {
             get {
                 return ResourceManager.GetString("CookedFattyTbone", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(RawFish:1)|Firepit(RawFish:1)|Fireplace(RawFish:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CookedFish {
+        internal static string CookedFish {
             get {
                 return ResourceManager.GetString("CookedFish", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(RawGameMeat:1)|Firepit(RawGameMeat:1)|Fireplace(RawGameMeat:1)|BiofuelStove(RawGameMeat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CookedGameMeat {
+        internal static string CookedGameMeat {
             get {
                 return ResourceManager.GetString("CookedGameMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(RawGiantSteak:1)|Firepit(RawGiantSteak:1)|Fireplace(RawGiantSteak:1)|BiofuelStove(RawGiantSteak:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CookedGiantSteak {
+        internal static string CookedGiantSteak {
             get {
                 return ResourceManager.GetString("CookedGiantSteak", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(RawMeat:1)|Firepit(RawMeat:1)|Fireplace(RawMeat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CookedMeat {
+        internal static string CookedMeat {
             get {
                 return ResourceManager.GetString("CookedMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(RawSoftMeat:1)|Firepit(RawSoftMeat:1)|Fireplace(RawSoftMeat:1)|BiofuelStove(RawSoftMeat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CookedSoftMeat {
+        internal static string CookedSoftMeat {
             get {
                 return ResourceManager.GetString("CookedSoftMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(RawStringyMeat:1)|Firepit(RawStringyMeat:1)|Fireplace(RawStringyMeat:1)|BiofuelStove(RawStringyMeat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CookedStringyMeat {
+        internal static string CookedStringyMeat {
             get {
                 return ResourceManager.GetString("CookedStringyMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(RawWhiteMeat:1)|Firepit(RawWhiteMeat:1)|Fireplace(RawWhiteMeat:1)|BiofuelStove(RawWhiteMeat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CookedWhiteMeat {
+        internal static string CookedWhiteMeat {
             get {
                 return ResourceManager.GetString("CookedWhiteMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Fiber:8,Stick:8,Stone:24,IronIngot:4) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CookingStation {
+        internal static string CookingStation {
             get {
                 return ResourceManager.GetString("CookingStation", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:40,Oxite:4,Charcoal:10) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CoolingBandage {
+        internal static string CoolingBandage {
             get {
                 return ResourceManager.GetString("CoolingBandage", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:1,CopperIngot:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CopperBolt {
+        internal static string CopperBolt {
             get {
                 return ResourceManager.GetString("CopperBolt", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   StoneFurnace(CopperOre:2) に類似しているローカライズされた文字列を検索します。
+        ///   Ingot に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CopperIngot {
+        internal static string CopperIngot {
             get {
                 return ResourceManager.GetString("CopperIngot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(CopperIngot:0.1) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CopperNail {
+        internal static string CopperNail {
             get {
                 return ResourceManager.GetString("CopperNail", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Ore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CopperOre {
+        internal static string CopperOre {
             get {
                 return ResourceManager.GetString("CopperOre", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Corn {
+        internal static string Corn {
             get {
                 return ResourceManager.GetString("Corn", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnimalHead に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CougarHead {
+        internal static string CougarHead {
             get {
                 return ResourceManager.GetString("CougarHead", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TrophyBench(Stick:10,Wood:30,CougarHead:1) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CougarTrophy {
+        internal static string CougarTrophy {
             get {
                 return ResourceManager.GetString("CougarTrophy", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:60,Wood:50,Stone:12,Leather:20) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CraftingBench {
+        internal static string CraftingBench {
             get {
                 return ResourceManager.GetString("CraftingBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CookingStation(Corn:1,AnimalFat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CreamedCorn {
+        internal static string CreamedCorn {
             get {
                 return ResourceManager.GetString("CreamedCorn", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   PotbellyStove(RawBacon:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CrispyBacon {
+        internal static string CrispyBacon {
             get {
                 return ResourceManager.GetString("CrispyBacon", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:18,Leather:12,IronIngot:12,IronNail:2) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Bow に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Crossbow {
+        internal static string Crossbow {
             get {
                 return ResourceManager.GetString("Crossbow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   BiofuelStove(RawFish:1,AnimalFat:1,BreadDough:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CrumbedFishFillet {
+        internal static string CrumbedFishFillet {
             get {
                 return ResourceManager.GetString("CrumbedFishFillet", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MortarandPestle(Bone:2) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CrushedBone {
+        internal static string CrushedBone {
             get {
                 return ResourceManager.GetString("CrushedBone", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CX_400ArmsArmor {
+        internal static string CX_400ArmsArmor {
             get {
                 return ResourceManager.GetString("CX-400ArmsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CX_400ChestArmor {
+        internal static string CX_400ChestArmor {
             get {
                 return ResourceManager.GetString("CX-400ChestArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CX_400FeetArmor {
+        internal static string CX_400FeetArmor {
             get {
                 return ResourceManager.GetString("CX-400FeetArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CX_400HeadArmor {
+        internal static string CX_400HeadArmor {
             get {
                 return ResourceManager.GetString("CX-400HeadArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string CX_400LegsArmor {
+        internal static string CX_400LegsArmor {
             get {
                 return ResourceManager.GetString("CX-400LegsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(SteelIngot:10,Electronics:4,SteelScrew:16,CopperIngot:5) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DeepMiningOreScanner {
+        internal static string DeepMiningOreScanner {
             get {
                 return ResourceManager.GetString("DeepMiningOreScanner", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnimalHead に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DeerHead {
+        internal static string DeerHead {
             get {
                 return ResourceManager.GetString("DeerHead", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TrophyBench(Stick:10,Wood:30,DeerHead:1) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DeerTrophy {
+        internal static string DeerTrophy {
             get {
                 return ResourceManager.GetString("DeerTrophy", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelIngot:12,Glass:4,CopperIngot:24,Epoxy:12,Electronics:20) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Dehumidifier {
+        internal static string Dehumidifier {
             get {
                 return ResourceManager.GetString("Dehumidifier", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Modules に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DetoxifierModule {
+        internal static string DetoxifierModule {
             get {
                 return ResourceManager.GetString("DetoxifierModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:10,Glass:5,Composites:5,Electronics:2) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DirectionalWorklamp {
+        internal static string DirectionalWorklamp {
             get {
                 return ResourceManager.GetString("DirectionalWorklamp", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Modules に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DoseupModule {
+        internal static string DoseupModule {
             get {
                 return ResourceManager.GetString("DoseupModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   DryingRack(RawFattyTbone:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DriedFattyTbone {
+        internal static string DriedFattyTbone {
             get {
                 return ResourceManager.GetString("DriedFattyTbone", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   DryingRack(RawGameMeat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DriedGameMeat {
+        internal static string DriedGameMeat {
             get {
                 return ResourceManager.GetString("DriedGameMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   DryingRack(RawGiantSteak:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DriedGiantSteak {
+        internal static string DriedGiantSteak {
             get {
                 return ResourceManager.GetString("DriedGiantSteak", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   DryingRack(RawSoftMeat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DriedSoftMeat {
+        internal static string DriedSoftMeat {
             get {
                 return ResourceManager.GetString("DriedSoftMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   DryingRack(RawStringyMeat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DriedStringyMeat {
+        internal static string DriedStringyMeat {
             get {
                 return ResourceManager.GetString("DriedStringyMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   DryingRack(RawWhiteMeat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DriedWhiteMeat {
+        internal static string DriedWhiteMeat {
             get {
                 return ResourceManager.GetString("DriedWhiteMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Wood:50,Stick:25,Fiber:50) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string DryingRack {
+        internal static string DryingRack {
             get {
                 return ResourceManager.GetString("DryingRack", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(SteelIngot:60,Composites:6,IronIngot:40,SteelScrew:10,Electronics:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ElectricCarpentryBench {
+        internal static string ElectricCarpentryBench {
             get {
                 return ResourceManager.GetString("ElectricCarpentryBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(Composites:20,SteelIngot:60,Electronics:10,ConcreteMix:100,SteelScrew:20) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ElectricComposter {
+        internal static string ElectricComposter {
             get {
                 return ResourceManager.GetString("ElectricComposter", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:25,Electronics:15,SteelScrew:12,TitaniumIngot:8,CarbonFiber:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ElectricDeep_MiningDrill {
+        internal static string ElectricDeep_MiningDrill {
             get {
                 return ResourceManager.GetString("ElectricDeep-MiningDrill", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:20,Glass:15,Composites:20,SteelScrew:12,Electronics:35) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ElectricDehumidifier {
+        internal static string ElectricDehumidifier {
             get {
                 return ResourceManager.GetString("ElectricDehumidifier", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(SteelIngot:30,Glass:4,Electronics:60,ConcreteMix:80,SteelScrew:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ElectricFurnace {
+        internal static string ElectricFurnace {
             get {
                 return ResourceManager.GetString("ElectricFurnace", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(CopperIngot:20,RefinedGold:8,CarbonFiber:4) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ElectricityTool {
+        internal static string ElectricityTool {
             get {
                 return ResourceManager.GetString("ElectricityTool", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(SteelIngot:60,Composites:6,ConcreteMix:100,SteelScrew:10,Electronics:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ElectricMasonryBench {
+        internal static string ElectricMasonryBench {
             get {
                 return ResourceManager.GetString("ElectricMasonryBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(RefinedGold:1,CopperIngot:3,OrganicResin:2,Epoxy:2) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Electronics {
+        internal static string Electronics {
             get {
                 return ResourceManager.GetString("Electronics", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Endurogel {
+        internal static string Endurogel {
             get {
                 return ResourceManager.GetString("Endurogel", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MortarandPestle(Sulfur:2,TreeSap:4)|MortarandPestle(CrushedBone:4) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Epoxy {
+        internal static string Epoxy {
             get {
                 return ResourceManager.GetString("Epoxy", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Ore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Exotics {
+        internal static string Exotics {
             get {
                 return ResourceManager.GetString("Exotics", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(IronIngot:20,Electronics:5) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Extractor {
+        internal static string Extractor {
             get {
                 return ResourceManager.GetString("Extractor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelIngot:8,AluminiumIngot:40,Electronics:60,SteelScrew:30,ConcreteMix:30,CarbonFiber:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Fabricator {
+        internal static string Fabricator {
             get {
                 return ResourceManager.GetString("Fabricator", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Fiber {
+        internal static string Fiber {
             get {
                 return ResourceManager.GetString("Fiber", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(StoneArrow:1,Gunpowder:2) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FireArrow {
+        internal static string FireArrow {
             get {
                 return ResourceManager.GetString("FireArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelIngot:20,CopperIngot:4,Sulfur:8,Epoxy:4,Oxite:8) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FireExtinguisher {
+        internal static string FireExtinguisher {
             get {
                 return ResourceManager.GetString("FireExtinguisher", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Stone:100,Wood:25) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Firepit {
+        internal static string Firepit {
             get {
                 return ResourceManager.GetString("Firepit", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Stone:120,Wood:30) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Fireplace {
+        internal static string Fireplace {
             get {
                 return ResourceManager.GetString("Fireplace", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:10,Stick:4,Stone:2) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FireWhacker {
+        internal static string FireWhacker {
             get {
                 return ResourceManager.GetString("FireWhacker", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   PotbellyStove(AnimalFat:1,SoyBean:1,RawFish:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FishCurry {
+        internal static string FishCurry {
             get {
                 return ResourceManager.GetString("FishCurry", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FishingRod {
+        internal static string FishingRod {
             get {
                 return ResourceManager.GetString("FishingRod", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FishingTrap {
+        internal static string FishingTrap {
             get {
                 return ResourceManager.GetString("FishingTrap", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(StoneArrow:1,Sulfur:2) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FlareArrow {
+        internal static string FlareArrow {
             get {
                 return ResourceManager.GetString("FlareArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(Electronics:2,Glass:4,AluminiumIngot:4,Epoxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Flashlight {
+        internal static string Flashlight {
             get {
                 return ResourceManager.GetString("Flashlight", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(FlatbreadDough:1)|Firepit(FlatbreadDough:1)|Fireplace(FlatbreadDough:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Flatbread {
+        internal static string Flatbread {
             get {
                 return ResourceManager.GetString("Flatbread", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(Flour:5) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FlatbreadDough {
+        internal static string FlatbreadDough {
             get {
                 return ResourceManager.GetString("FlatbreadDough", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Leather:1,Stick:1,IronOre:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FlintArrow {
+        internal static string FlintArrow {
             get {
                 return ResourceManager.GetString("FlintArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:20,Stick:8,Sulfur:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FloorTorch {
+        internal static string FloorTorch {
             get {
                 return ResourceManager.GetString("FloorTorch", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MortarandPestle(Wheat:10) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Flour {
+        internal static string Flour {
             get {
                 return ResourceManager.GetString("Flour", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(Sponge:1,Charcoal:2,Lily:4) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FoodConsumptionPaste {
+        internal static string FoodConsumptionPaste {
             get {
                 return ResourceManager.GetString("FoodConsumptionPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:1,Gunpowder:10) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FragGrenade {
+        internal static string FragGrenade {
             get {
                 return ResourceManager.GetString("FragGrenade", resourceCulture);
             }
@@ -1980,1933 +1980,1933 @@ namespace IcarusLib.Properties {
         /// <summary>
         ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FrozenRocks {
+        internal static string FrozenRocks {
             get {
                 return ResourceManager.GetString("FrozenRocks", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   BiofuelStove(Pastry:1,WildBerry:1,Watermelon:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FruitPie {
+        internal static string FruitPie {
             get {
                 return ResourceManager.GetString("FruitPie", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CookingStation(WildBerry:1,Watermelon:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FruitSalad {
+        internal static string FruitSalad {
             get {
                 return ResourceManager.GetString("FruitSalad", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Fur {
+        internal static string Fur {
             get {
                 return ResourceManager.GetString("Fur", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Leather:4,Fur:8,Rope:2) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FurArmsArmor {
+        internal static string FurArmsArmor {
             get {
                 return ResourceManager.GetString("FurArmsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Leather:8,Fur:24,Rope:6) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FurChestArmor {
+        internal static string FurChestArmor {
             get {
                 return ResourceManager.GetString("FurChestArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Leather:6,Fur:12,Rope:4) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FurFeetArmor {
+        internal static string FurFeetArmor {
             get {
                 return ResourceManager.GetString("FurFeetArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Leather:4,Fur:12,Rope:4) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FurHeadArmor {
+        internal static string FurHeadArmor {
             get {
                 return ResourceManager.GetString("FurHeadArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Leather:8,Fur:18,Rope:6) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string FurLegsArmor {
+        internal static string FurLegsArmor {
             get {
                 return ResourceManager.GetString("FurLegsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GatherersBackpack {
+        internal static string GatherersBackpack {
             get {
                 return ResourceManager.GetString("GatherersBackpack", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Fiber:120,Stick:4,Rope:2) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GhillieArmsArmor {
+        internal static string GhillieArmsArmor {
             get {
                 return ResourceManager.GetString("GhillieArmsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Fiber:160,Stick:8,Rope:6) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GhillieChestArmor {
+        internal static string GhillieChestArmor {
             get {
                 return ResourceManager.GetString("GhillieChestArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Fiber:80,Stick:6,Rope:4) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GhillieFeetArmor {
+        internal static string GhillieFeetArmor {
             get {
                 return ResourceManager.GetString("GhillieFeetArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Fiber:120,Stick:2,Rope:4) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GhillieHeadArmor {
+        internal static string GhillieHeadArmor {
             get {
                 return ResourceManager.GetString("GhillieHeadArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Fiber:160,Stick:8,Rope:6) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GhillieLegsArmor {
+        internal static string GhillieLegsArmor {
             get {
                 return ResourceManager.GetString("GhillieLegsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   ConcreteFurnace(SilicaOre:1)|ElectricFurnace(SilicaOre:1) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Glass {
+        internal static string Glass {
             get {
                 return ResourceManager.GetString("Glass", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   GlassworkingBench(IronIngot:6,Epoxy:12) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GlassBeam {
+        internal static string GlassBeam {
             get {
                 return ResourceManager.GetString("GlassBeam", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   GlassworkingBench(IronIngot:6,Glass:20,Epoxy:12) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GlassDoor {
+        internal static string GlassDoor {
             get {
                 return ResourceManager.GetString("GlassDoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   GlassworkingBench(IronIngot:1,Glass:1) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GlassJar {
+        internal static string GlassJar {
             get {
                 return ResourceManager.GetString("GlassJar", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   GlassworkingBench(IronIngot:6,Glass:20,Epoxy:12) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GlassRoof {
+        internal static string GlassRoof {
             get {
                 return ResourceManager.GetString("GlassRoof", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   GlassworkingBench(IronIngot:3,Glass:10,Epoxy:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GlassRoofCorner {
+        internal static string GlassRoofCorner {
             get {
                 return ResourceManager.GetString("GlassRoofCorner", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   GlassworkingBench(IronIngot:6,Glass:20,Epoxy:12) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GlassWall {
+        internal static string GlassWall {
             get {
                 return ResourceManager.GetString("GlassWall", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   GlassworkingBench(IronIngot:3,Glass:10,Epoxy:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GlassWallAngled {
+        internal static string GlassWallAngled {
             get {
                 return ResourceManager.GetString("GlassWallAngled", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   GlassworkingBench(Wood:12,Glass:18,Epoxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GlassWindow {
+        internal static string GlassWindow {
             get {
                 return ResourceManager.GetString("GlassWindow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:24,Wood:10,Epoxy:6,Rope:6,CopperNail:40) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GlassworkingBench {
+        internal static string GlassworkingBench {
             get {
                 return ResourceManager.GetString("GlassworkingBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Drinks に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Go {
+        internal static string Go {
             get {
                 return ResourceManager.GetString("Go", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Ore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GoldOre {
+        internal static string GoldOre {
             get {
                 return ResourceManager.GetString("GoldOre", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GorseFlower {
+        internal static string GorseFlower {
             get {
                 return ResourceManager.GetString("GorseFlower", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(GorseFlower:50,Thermos:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Drinks に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GorseTea {
+        internal static string GorseTea {
             get {
                 return ResourceManager.GetString("GorseTea", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(Pumplin:1)|Firepit(Pumplin:1)|Fireplace(Pumplin:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GrilledPumpkin {
+        internal static string GrilledPumpkin {
             get {
                 return ResourceManager.GetString("GrilledPumpkin", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   ChemistryBench(SilicaOre:1,BasicFertilizer:5) に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string GrowthFertilizer {
+        internal static string GrowthFertilizer {
             get {
                 return ResourceManager.GetString("GrowthFertilizer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MortarandPestle(Sulfur:1,Charcoal:3) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Gunpowder {
+        internal static string Gunpowder {
             get {
                 return ResourceManager.GetString("Gunpowder", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Modules に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HealingBoostModule {
+        internal static string HealingBoostModule {
             get {
                 return ResourceManager.GetString("HealingBoostModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(Lily:2,Wheat:2,TreeSap:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HealthBuffPaste {
+        internal static string HealthBuffPaste {
             get {
                 return ResourceManager.GetString("HealthBuffPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(Lily:2,TreeSap:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HealthRegenerationPaste {
+        internal static string HealthRegenerationPaste {
             get {
                 return ResourceManager.GetString("HealthRegenerationPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(Lily:20,Wheat:20,TreeSap:10) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HealthRestorationPaste {
+        internal static string HealthRestorationPaste {
             get {
                 return ResourceManager.GetString("HealthRestorationPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:40,Oxite:4,Charcoal:10) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HeatBandage {
+        internal static string HeatBandage {
             get {
                 return ResourceManager.GetString("HeatBandage", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:40,Electronics:20,SteelScrew:8,CarbonFiber:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HeavyAirConditioner {
+        internal static string HeavyAirConditioner {
             get {
                 return ResourceManager.GetString("HeavyAirConditioner", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   GlassworkingBench(IronIngot:12,Glass:18,Epoxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HeavyGlassWindow {
+        internal static string HeavyGlassWindow {
             get {
                 return ResourceManager.GetString("HeavyGlassWindow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:40,Electronics:20,SteelScrew:8,CarbonFiber:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HeavyHeater {
+        internal static string HeavyHeater {
             get {
                 return ResourceManager.GetString("HeavyHeater", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:12,SteelScrew:4,Epoxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HeavyTrapdoor {
+        internal static string HeavyTrapdoor {
             get {
                 return ResourceManager.GetString("HeavyTrapdoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:50,Stick:20,Fiber:12,Stone:12) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HerbalismBench {
+        internal static string HerbalismBench {
             get {
                 return ResourceManager.GetString("HerbalismBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   ChemistryBench(Sulfur:1,BasicFertilizer:5) に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string High_QualityFertilizer {
+        internal static string High_QualityFertilizer {
             get {
                 return ResourceManager.GetString("High-QualityFertilizer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(CocoaSeed:50,Thermos:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Drinks に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HotCocoa {
+        internal static string HotCocoa {
             get {
                 return ResourceManager.GetString("HotCocoa", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(CoffeeBean:50,Thermos:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Drinks に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HotCoffee {
+        internal static string HotCoffee {
             get {
                 return ResourceManager.GetString("HotCoffee", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(Tea:50,Thermos:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Drinks に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HotTea {
+        internal static string HotTea {
             get {
                 return ResourceManager.GetString("HotTea", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Fiber:120,Leather:8,Epxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HunterArmsArmor {
+        internal static string HunterArmsArmor {
             get {
                 return ResourceManager.GetString("HunterArmsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Fiber:160,Leather:20,Rope:6,Epxy:16) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HunterChestArmor {
+        internal static string HunterChestArmor {
             get {
                 return ResourceManager.GetString("HunterChestArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Fiber:80,Leather:12,Rope:4,Epxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HunterFeetArmor {
+        internal static string HunterFeetArmor {
             get {
                 return ResourceManager.GetString("HunterFeetArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Fiber:120,Rope:4,Epxy:8) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HunterHeadArmor {
+        internal static string HunterHeadArmor {
             get {
                 return ResourceManager.GetString("HunterHeadArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Fiber:160,Leather:20,Rope:6,Epxy:8) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HunterLegsArmor {
+        internal static string HunterLegsArmor {
             get {
                 return ResourceManager.GetString("HunterLegsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(Wood:12,Leather:8,TitaniumIngot:40,Epoxy:4,SteelScrew:16) に類似しているローカライズされた文字列を検索します。
+        ///   Firearms に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HuntingRifle {
+        internal static string HuntingRifle {
             get {
                 return ResourceManager.GetString("HuntingRifle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(Composites:20,SteelIngot:25,SteelScrew:10,Electronics:10) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string HydroponicCropPlot {
+        internal static string HydroponicCropPlot {
             get {
                 return ResourceManager.GetString("HydroponicCropPlot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Ice {
+        internal static string Ice {
             get {
                 return ResourceManager.GetString("Ice", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:40,Leather:24,IronIngot:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IceBox {
+        internal static string IceBox {
             get {
                 return ResourceManager.GetString("IceBox", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InarisArudaArrow {
+        internal static string InarisArudaArrow {
             get {
                 return ResourceManager.GetString("InarisArudaArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Axe,Workshop に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InarisDiasAxe {
+        internal static string InarisDiasAxe {
             get {
                 return ResourceManager.GetString("InarisDiasAxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InarisGrisSpear {
+        internal static string InarisGrisSpear {
             get {
                 return ResourceManager.GetString("InarisGrisSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Pickaxe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InarisNevesPickaxe {
+        internal static string InarisNevesPickaxe {
             get {
                 return ResourceManager.GetString("InarisNevesPickaxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InarisVenturaKnife {
+        internal static string InarisVenturaKnife {
             get {
                 return ResourceManager.GetString("InarisVenturaKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:1,Gunpowder:10) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IncendiaryRifleRound {
+        internal static string IncendiaryRifleRound {
             get {
                 return ResourceManager.GetString("IncendiaryRifleRound", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:6,CopperNail:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodBeam {
+        internal static string InteriorWoodBeam {
             get {
                 return ResourceManager.GetString("InteriorWoodBeam", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:40,Rope:8,Leather:8,CopperNail:20) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodCupboard {
+        internal static string InteriorWoodCupboard {
             get {
                 return ResourceManager.GetString("InteriorWoodCupboard", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(Rope:8,RefinedWood:10,CopperNail:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodDoor {
+        internal static string InteriorWoodDoor {
             get {
                 return ResourceManager.GetString("InteriorWoodDoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:20,CopperNail:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodFloor {
+        internal static string InteriorWoodFloor {
             get {
                 return ResourceManager.GetString("InteriorWoodFloor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:20,CopperNail:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodFloorTrapdoor {
+        internal static string InteriorWoodFloorTrapdoor {
             get {
                 return ResourceManager.GetString("InteriorWoodFloorTrapdoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:20,CopperNail:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodHalfpieces {
+        internal static string InteriorWoodHalfpieces {
             get {
                 return ResourceManager.GetString("InteriorWoodHalfpieces", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:20,CopperNail:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodHalfpitches {
+        internal static string InteriorWoodHalfpitches {
             get {
                 return ResourceManager.GetString("InteriorWoodHalfpitches", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:10,CopperNail:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodLadder {
+        internal static string InteriorWoodLadder {
             get {
                 return ResourceManager.GetString("InteriorWoodLadder", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:8,CopperNail:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodRailing {
+        internal static string InteriorWoodRailing {
             get {
                 return ResourceManager.GetString("InteriorWoodRailing", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:20,CopperNail:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodRamp {
+        internal static string InteriorWoodRamp {
             get {
                 return ResourceManager.GetString("InteriorWoodRamp", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:20,CopperNail:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodStairs {
+        internal static string InteriorWoodStairs {
             get {
                 return ResourceManager.GetString("InteriorWoodStairs", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(Rope:4,RefinedWood:10,CopperNail:2) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodTrapdoor {
+        internal static string InteriorWoodTrapdoor {
             get {
                 return ResourceManager.GetString("InteriorWoodTrapdoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:20,CopperNail:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodWall {
+        internal static string InteriorWoodWall {
             get {
                 return ResourceManager.GetString("InteriorWoodWall", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:10,CopperNail:2) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string InteriorWoodWallAngled {
+        internal static string InteriorWoodWallAngled {
             get {
                 return ResourceManager.GetString("InteriorWoodWallAngled", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:5,Leather:4,IronIngot:6,IronNail:2) に類似しているローカライズされた文字列を検索します。
+        ///   Axe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IronAxe {
+        internal static string IronAxe {
             get {
                 return ResourceManager.GetString("IronAxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:1,IronIngot:2) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IronBolt {
+        internal static string IronBolt {
             get {
                 return ResourceManager.GetString("IronBolt", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:10,CopperIngot:4,Sulfur:12,SteelScrew:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IronCropPlot {
+        internal static string IronCropPlot {
             get {
                 return ResourceManager.GetString("IronCropPlot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:40,Rope:4,Epoxy:12) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IronCupboard {
+        internal static string IronCupboard {
             get {
                 return ResourceManager.GetString("IronCupboard", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:4,Leather:4,IronIngot:10) に類似しているローカライズされた文字列を検索します。
+        ///   Hammer に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IronHammer {
+        internal static string IronHammer {
             get {
                 return ResourceManager.GetString("IronHammer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   StoneFurnace(IronOre:2) に類似しているローカライズされた文字列を検索します。
+        ///   Ingot に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IronIngot {
+        internal static string IronIngot {
             get {
                 return ResourceManager.GetString("IronIngot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:5,Leather:4,IronIngot:6,IronNail:2) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IronKnife {
+        internal static string IronKnife {
             get {
                 return ResourceManager.GetString("IronKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(IronIngot:0.1) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IronNail {
+        internal static string IronNail {
             get {
                 return ResourceManager.GetString("IronNail", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Ore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IronOre {
+        internal static string IronOre {
             get {
                 return ResourceManager.GetString("IronOre", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:5,Leather:4,IronIngot:6) に類似しているローカライズされた文字列を検索します。
+        ///   Pickaxe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IronPickaxe {
+        internal static string IronPickaxe {
             get {
                 return ResourceManager.GetString("IronPickaxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:4,Leather:4,IronIngot:10) に類似しているローカライズされた文字列を検索します。
+        ///   Sickle に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IronSickle {
+        internal static string IronSickle {
             get {
                 return ResourceManager.GetString("IronSickle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:5,Leather:6,ironIngot:24) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string IronSpear {
+        internal static string IronSpear {
             get {
                 return ResourceManager.GetString("IronSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnimalHead に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string JaguarHead {
+        internal static string JaguarHead {
             get {
                 return ResourceManager.GetString("JaguarHead", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TrophyBench(Stick:10,Wood:30,JaguarHead:1) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string JaguarTrophy {
+        internal static string JaguarTrophy {
             get {
                 return ResourceManager.GetString("JaguarTrophy", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Modules,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string KickFallModule {
+        internal static string KickFallModule {
             get {
                 return ResourceManager.GetString("KickFallModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(RefinedWood:30,IronIngot:8,Epoxy:20,CopperNail:20) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string KitchenBench {
+        internal static string KitchenBench {
             get {
                 return ResourceManager.GetString("KitchenBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(RefinedWood:30,IronIngot:2,Epoxy:20,CopperNail:12) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string KitchenStorageBlock {
+        internal static string KitchenStorageBlock {
             get {
                 return ResourceManager.GetString("KitchenStorageBlock", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(IronIngot:8,Rope:4,Glass:12) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Lantern {
+        internal static string Lantern {
             get {
                 return ResourceManager.GetString("Lantern", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Axe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LarkwellMartinezAxe {
+        internal static string LarkwellMartinezAxe {
             get {
                 return ResourceManager.GetString("LarkwellMartinezAxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Hammer に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LarkwellMartinezHammer {
+        internal static string LarkwellMartinezHammer {
             get {
                 return ResourceManager.GetString("LarkwellMartinezHammer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LarkwellMartinezKnife {
+        internal static string LarkwellMartinezKnife {
             get {
                 return ResourceManager.GetString("LarkwellMartinezKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LarkwellMartinezMercenaryBackpack {
+        internal static string LarkwellMartinezMercenaryBackpack {
             get {
                 return ResourceManager.GetString("LarkwellMartinezMercenaryBackpack", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Pickaxe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LarkwellMartinezPickaxe {
+        internal static string LarkwellMartinezPickaxe {
             get {
                 return ResourceManager.GetString("LarkwellMartinezPickaxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Sickle に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LarkwellMartinezSickle {
+        internal static string LarkwellMartinezSickle {
             get {
                 return ResourceManager.GetString("LarkwellMartinezSickle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LarkwellMartinezSpear {
+        internal static string LarkwellMartinezSpear {
             get {
                 return ResourceManager.GetString("LarkwellMartinezSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LarkwellMartinezTacticalBackpack {
+        internal static string LarkwellMartinezTacticalBackpack {
             get {
                 return ResourceManager.GetString("LarkwellMartinezTacticalBackpack", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Leather {
+        internal static string Leather {
             get {
                 return ResourceManager.GetString("Leather", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Fiber:40,Leather:8) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LeatherArmsArmor {
+        internal static string LeatherArmsArmor {
             get {
                 return ResourceManager.GetString("LeatherArmsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Rope:8,Leather:20,Fiber:10) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LeatherBackpack {
+        internal static string LeatherBackpack {
             get {
                 return ResourceManager.GetString("LeatherBackpack", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Fiber:60,Leather:24) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LeatherChestArmor {
+        internal static string LeatherChestArmor {
             get {
                 return ResourceManager.GetString("LeatherChestArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Fiber:20,Wood:5,Leather:15) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LeatherCurtainDoor {
+        internal static string LeatherCurtainDoor {
             get {
                 return ResourceManager.GetString("LeatherCurtainDoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Fiber:20,Wood:5,Leather:15) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LeatherCurtainWindow {
+        internal static string LeatherCurtainWindow {
             get {
                 return ResourceManager.GetString("LeatherCurtainWindow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Fiber:20,Leather:12) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LeatherFeetArmor {
+        internal static string LeatherFeetArmor {
             get {
                 return ResourceManager.GetString("LeatherFeetArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Fiber:40,Leather:12) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LeatherHeadArmor {
+        internal static string LeatherHeadArmor {
             get {
                 return ResourceManager.GetString("LeatherHeadArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Fiber:60,Leather:18) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LeatherLegsArmor {
+        internal static string LeatherLegsArmor {
             get {
                 return ResourceManager.GetString("LeatherLegsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(CopperIngot:10) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LightningRod {
+        internal static string LightningRod {
             get {
                 return ResourceManager.GetString("LightningRod", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Lily {
+        internal static string Lily {
             get {
                 return ResourceManager.GetString("Lily", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:24,Leather:32,Bone:4) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Bow に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Longbow {
+        internal static string Longbow {
             get {
                 return ResourceManager.GetString("Longbow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Modules,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string LowburnModule {
+        internal static string LowburnModule {
             get {
                 return ResourceManager.GetString("LowburnModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(IronIngot:12,Wood:4,Epoxy:4,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Machete {
+        internal static string Machete {
             get {
                 return ResourceManager.GetString("Machete", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:20,Stone:12,IronNail:120,IronIngot:40,Epoxy:10,Rope:24)|MachiningBench(Wood:20,Stone:12,IronNail:120,IronIngot:40,Epoxy:10,Rope:24) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MachiningBench {
+        internal static string MachiningBench {
             get {
                 return ResourceManager.GetString("MachiningBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnimalHead に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MammothHead {
+        internal static string MammothHead {
             get {
                 return ResourceManager.GetString("MammothHead", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TrophyBench(Stick:10,Wood:30,MammothHead:1) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MammothTrophy {
+        internal static string MammothTrophy {
             get {
                 return ResourceManager.GetString("MammothTrophy", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:80,Leather:12,IronNail:120,Rope:12) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MasonryBench {
+        internal static string MasonryBench {
             get {
                 return ResourceManager.GetString("MasonryBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Modules に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MassDampenerModule {
+        internal static string MassDampenerModule {
             get {
                 return ResourceManager.GetString("MassDampenerModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:30,Electronics:60,SteelScrew:12,TitaniumIngot:8,CarbonFiber:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MaterialProcessor {
+        internal static string MaterialProcessor {
             get {
                 return ResourceManager.GetString("MaterialProcessor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MatureCoconut {
+        internal static string MatureCoconut {
             get {
                 return ResourceManager.GetString("MatureCoconut", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   BiofuelStove(Pastry:1,Mushroom:1,Pumpkin:1,RawMeat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MeatPie {
+        internal static string MeatPie {
             get {
                 return ResourceManager.GetString("MeatPie", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:32,Rope:8,CopperNail:10) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MediumInteriorWoodCrate {
+        internal static string MediumInteriorWoodCrate {
             get {
                 return ResourceManager.GetString("MediumInteriorWoodCrate", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:32,Epoxy:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MediumIronCrate {
+        internal static string MediumIronCrate {
             get {
                 return ResourceManager.GetString("MediumIronCrate", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:32,Wood:32) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MediumWoodCrate {
+        internal static string MediumWoodCrate {
             get {
                 return ResourceManager.GetString("MediumWoodCrate", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:60,Rope:4) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MediumWoodHedgehog {
+        internal static string MediumWoodHedgehog {
             get {
                 return ResourceManager.GetString("MediumWoodHedgehog", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Ore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MetalOre {
+        internal static string MetalOre {
             get {
                 return ResourceManager.GetString("MetalOre", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelIngot:12,Glass:4,CopperIngot:24,Epoxy:12,Electronics:20) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MetalOxiteDissolver {
+        internal static string MetalOxiteDissolver {
             get {
                 return ResourceManager.GetString("MetalOxiteDissolver", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Food,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Micromeal {
+        internal static string Micromeal {
             get {
                 return ResourceManager.GetString("Micromeal", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(SilicaOre:4,Stone:12) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MortarandPestle {
+        internal static string MortarandPestle {
             get {
                 return ResourceManager.GetString("MortarandPestle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Mushroom {
+        internal static string Mushroom {
             get {
                 return ResourceManager.GetString("Mushroom", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   PotbellyStove(Water:100,Mushroom:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MushroomSoup {
+        internal static string MushroomSoup {
             get {
                 return ResourceManager.GetString("MushroomSoup", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Axe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCAxe {
+        internal static string MXCAxe {
             get {
                 return ResourceManager.GetString("MXCAxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCCampfire {
+        internal static string MXCCampfire {
             get {
                 return ResourceManager.GetString("MXCCampfire", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Deployables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCCrate {
+        internal static string MXCCrate {
             get {
                 return ResourceManager.GetString("MXCCrate", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCFirewhacker {
+        internal static string MXCFirewhacker {
             get {
                 return ResourceManager.GetString("MXCFirewhacker", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCFlangeArrow {
+        internal static string MXCFlangeArrow {
             get {
                 return ResourceManager.GetString("MXCFlangeArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCFurnace {
+        internal static string MXCFurnace {
             get {
                 return ResourceManager.GetString("MXCFurnace", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Hammer に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCHammer {
+        internal static string MXCHammer {
             get {
                 return ResourceManager.GetString("MXCHammer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCKnife {
+        internal static string MXCKnife {
             get {
                 return ResourceManager.GetString("MXCKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCNerveArrow {
+        internal static string MXCNerveArrow {
             get {
                 return ResourceManager.GetString("MXCNerveArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Pickaxe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCPickaxe {
+        internal static string MXCPickaxe {
             get {
                 return ResourceManager.GetString("MXCPickaxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Sickle に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCSickle {
+        internal static string MXCSickle {
             get {
                 return ResourceManager.GetString("MXCSickle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCSpear {
+        internal static string MXCSpear {
             get {
                 return ResourceManager.GetString("MXCSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string MXCVenomArrow {
+        internal static string MXCVenomArrow {
             get {
                 return ResourceManager.GetString("MXCVenomArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string NaneoArmsArmor {
+        internal static string NaneoArmsArmor {
             get {
                 return ResourceManager.GetString("NaneoArmsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string NaneoChestArmor {
+        internal static string NaneoChestArmor {
             get {
                 return ResourceManager.GetString("NaneoChestArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string NaneoFeetArmor {
+        internal static string NaneoFeetArmor {
             get {
                 return ResourceManager.GetString("NaneoFeetArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string NaneoHeadArmor {
+        internal static string NaneoHeadArmor {
             get {
                 return ResourceManager.GetString("NaneoHeadArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string NaneoLegsArmor {
+        internal static string NaneoLegsArmor {
             get {
                 return ResourceManager.GetString("NaneoLegsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:20,Glass:5,Composites:10,Electronics:2) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string OmnidirectionalWorklamp {
+        internal static string OmnidirectionalWorklamp {
             get {
                 return ResourceManager.GetString("OmnidirectionalWorklamp", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MortarandPestle(Wood:1,Oxite:1) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string OrganicResin {
+        internal static string OrganicResin {
             get {
                 return ResourceManager.GetString("OrganicResin", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Bone:10,Leather:20,Fiber:24,Stick:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Oxidizer {
+        internal static string Oxidizer {
             get {
                 return ResourceManager.GetString("Oxidizer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Ore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Oxite {
+        internal static string Oxite {
             get {
                 return ResourceManager.GetString("Oxite", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:12,Leather:80,Bone:12) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string OxiteDissolver {
+        internal static string OxiteDissolver {
             get {
                 return ResourceManager.GetString("OxiteDissolver", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Food,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Oxygel {
+        internal static string Oxygel {
             get {
                 return ResourceManager.GetString("Oxygel", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Fiber:20,Leather:30,Bone:8) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string OxygenBladder {
+        internal static string OxygenBladder {
             get {
                 return ResourceManager.GetString("OxygenBladder", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(Sponge:4,Charcoal:2) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string OxygenBuffPaste {
+        internal static string OxygenBuffPaste {
             get {
                 return ResourceManager.GetString("OxygenBuffPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(Sponge:1,Charcoal:2) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string OxygenConsumptionPaste {
+        internal static string OxygenConsumptionPaste {
             get {
                 return ResourceManager.GetString("OxygenConsumptionPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(Sponge:1,Charcoal:2,Oxite:2) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string OxygenRestorationPaste {
+        internal static string OxygenRestorationPaste {
             get {
                 return ResourceManager.GetString("OxygenRestorationPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelIngot:20,Epoxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string OxygenTank {
+        internal static string OxygenTank {
             get {
                 return ResourceManager.GetString("OxygenTank", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   KitchenBench(AnimalFat:1,Flour:1) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Pastry {
+        internal static string Pastry {
             get {
                 return ResourceManager.GetString("Pastry", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Modules に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PatcherIIModule {
+        internal static string PatcherIIModule {
             get {
                 return ResourceManager.GetString("PatcherIIModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Modules に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PatcherIModule {
+        internal static string PatcherIModule {
             get {
                 return ResourceManager.GetString("PatcherIModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   KitchenBench(Carrot:1,GlassJar:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PickledCarrot {
+        internal static string PickledCarrot {
             get {
                 return ResourceManager.GetString("PickledCarrot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Wood:6,Leather:8,SteelIngot:20,Epoxy:4,SteelScrew:8) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Firearms に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Pistol {
+        internal static string Pistol {
             get {
                 return ResourceManager.GetString("Pistol", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:1,Gunpowder:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PistolRound {
+        internal static string PistolRound {
             get {
                 return ResourceManager.GetString("PistolRound", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Wood:2,Leather:4,PlatinumIngot:12) に類似しているローカライズされた文字列を検索します。
+        ///   Axe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PlatinumAxe {
+        internal static string PlatinumAxe {
             get {
                 return ResourceManager.GetString("PlatinumAxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Epoxy:3,PlatinumIngot:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PlatinumBolt {
+        internal static string PlatinumBolt {
             get {
                 return ResourceManager.GetString("PlatinumBolt", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Wood:5,Epoxy:4,PlatinumIngot:6,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
+        ///   Hammer に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PlatinumHammer {
+        internal static string PlatinumHammer {
             get {
                 return ResourceManager.GetString("PlatinumHammer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   ConcreteFurnace(PlatinumOre:5) に類似しているローカライズされた文字列を検索します。
+        ///   Ingot に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PlatinumIngot {
+        internal static string PlatinumIngot {
             get {
                 return ResourceManager.GetString("PlatinumIngot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Wood:2,Leather:4,PlatinumIngot:12) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PlatinumKnife {
+        internal static string PlatinumKnife {
             get {
                 return ResourceManager.GetString("PlatinumKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Ore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PlatinumOre {
+        internal static string PlatinumOre {
             get {
                 return ResourceManager.GetString("PlatinumOre", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Wood:2,Leather:4,PlatinumIngot:12) に類似しているローカライズされた文字列を検索します。
+        ///   Pickaxe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PlatinumPickaxe {
+        internal static string PlatinumPickaxe {
             get {
                 return ResourceManager.GetString("PlatinumPickaxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Wood:4,Stick:2,PlatinumIngot:10) に類似しているローカライズされた文字列を検索します。
+        ///   Sickle に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PlatinumSickle {
+        internal static string PlatinumSickle {
             get {
                 return ResourceManager.GetString("PlatinumSickle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Wood:2,Leather:6,PlatinumIngot:24) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PlatinumSpear {
+        internal static string PlatinumSpear {
             get {
                 return ResourceManager.GetString("PlatinumSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Modules に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PlayerTrackerModule {
+        internal static string PlayerTrackerModule {
             get {
                 return ResourceManager.GetString("PlayerTrackerModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(StoneArrow:1,PoisonPaste:2) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PoisonArrow {
+        internal static string PoisonArrow {
             get {
                 return ResourceManager.GetString("PoisonArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PoisonedAnimalBait {
+        internal static string PoisonedAnimalBait {
             get {
                 return ResourceManager.GetString("PoisonedAnimalBait", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MortarandPestle(SpoiledMeat:2,Sulfur:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PoisonPaste {
+        internal static string PoisonPaste {
             get {
                 return ResourceManager.GetString("PoisonPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PoisonSack {
+        internal static string PoisonSack {
             get {
                 return ResourceManager.GetString("PoisonSack", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Leather:6,PolarBearPelt:8,Rope:6) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PolarBearArmsArmor {
+        internal static string PolarBearArmsArmor {
             get {
                 return ResourceManager.GetString("PolarBearArmsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Leather:10,PolarBearPelt:20,Rope:6) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PolarBearChestArmor {
+        internal static string PolarBearChestArmor {
             get {
                 return ResourceManager.GetString("PolarBearChestArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Leather:6,PolarBearPelt:14,Rope:4) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PolarBearFeetArmor {
+        internal static string PolarBearFeetArmor {
             get {
                 return ResourceManager.GetString("PolarBearFeetArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PolarBearHead {
+        internal static string PolarBearHead {
             get {
                 return ResourceManager.GetString("PolarBearHead", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Leather:6,PolarBearPelt:15,Rope:8) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PolarBearHeadArmor {
+        internal static string PolarBearHeadArmor {
             get {
                 return ResourceManager.GetString("PolarBearHeadArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TextilesBench(Leather:8,PolarBearPelt:18,Rope:8) に類似しているローカライズされた文字列を検索します。
+        ///   Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PolarBearLegsArmor {
+        internal static string PolarBearLegsArmor {
             get {
                 return ResourceManager.GetString("PolarBearLegsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PolarBearPelt {
+        internal static string PolarBearPelt {
             get {
                 return ResourceManager.GetString("PolarBearPelt", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TrophyBench(Stick:10,Wood:30,PolarBearHead:1) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PolarBearTrophy {
+        internal static string PolarBearTrophy {
             get {
                 return ResourceManager.GetString("PolarBearTrophy", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(Composites:20,Glass:12,Electronics:10,SteelScrew:8,CopperIngot:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PortableBeacon {
+        internal static string PortableBeacon {
             get {
                 return ResourceManager.GetString("PortableBeacon", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(IronIngot:40,CopperIngot:6,Epoxy:10) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PotbellyStove {
+        internal static string PotbellyStove {
             get {
                 return ResourceManager.GetString("PotbellyStove", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Pumpkin {
+        internal static string Pumpkin {
             get {
                 return ResourceManager.GetString("Pumpkin", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   BiofuelStove(Pumpkin:1,BreadDough:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string PumpkinBread {
+        internal static string PumpkinBread {
             get {
                 return ResourceManager.GetString("PumpkinBread", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(Composites:12,Glass:2,Electronics:10,SteelScrew:8,SteelIngot:12) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Radar {
+        internal static string Radar {
             get {
                 return ResourceManager.GetString("Radar", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Stick:8,Wood:24,Stone:80,Leather:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RainReservoir {
+        internal static string RainReservoir {
             get {
                 return ResourceManager.GetString("RainReservoir", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RawBacon {
+        internal static string RawBacon {
             get {
                 return ResourceManager.GetString("RawBacon", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RawFattyTbone {
+        internal static string RawFattyTbone {
             get {
                 return ResourceManager.GetString("RawFattyTbone", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RawFish {
+        internal static string RawFish {
             get {
                 return ResourceManager.GetString("RawFish", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RawGameMeat {
+        internal static string RawGameMeat {
             get {
                 return ResourceManager.GetString("RawGameMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RawGiantSteak {
+        internal static string RawGiantSteak {
             get {
                 return ResourceManager.GetString("RawGiantSteak", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RawMeat {
+        internal static string RawMeat {
             get {
                 return ResourceManager.GetString("RawMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RawSoftMeat {
+        internal static string RawSoftMeat {
             get {
                 return ResourceManager.GetString("RawSoftMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RawStringyMeat {
+        internal static string RawStringyMeat {
             get {
                 return ResourceManager.GetString("RawStringyMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RawWhiteMeat {
+        internal static string RawWhiteMeat {
             get {
                 return ResourceManager.GetString("RawWhiteMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelIngot:8,Rope:8,AluminiumIngot:18,Epoxy:8,SteelScrew:4) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Bow に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RecurveBow {
+        internal static string RecurveBow {
             get {
                 return ResourceManager.GetString("RecurveBow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ReedFlower {
+        internal static string ReedFlower {
             get {
                 return ResourceManager.GetString("ReedFlower", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   ConcreteFurnace(GoldOre:2) に類似しているローカライズされた文字列を検索します。
+        ///   Ingot に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RefinedGold {
+        internal static string RefinedGold {
             get {
                 return ResourceManager.GetString("RefinedGold", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RefinedWood {
+        internal static string RefinedWood {
             get {
                 return ResourceManager.GetString("RefinedWood", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:40,Electronics:20,CarbonFiber:8,SteelScrew:12) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Refrigerator {
+        internal static string Refrigerator {
             get {
                 return ResourceManager.GetString("Refrigerator", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:4,IronIngot:6,IronNail:8,Rope:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ReinforcedDoor {
+        internal static string ReinforcedDoor {
             get {
                 return ResourceManager.GetString("ReinforcedDoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:10,IronIngot:8,IronNail:8) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ReinforcedLadder {
+        internal static string ReinforcedLadder {
             get {
                 return ResourceManager.GetString("ReinforcedLadder", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:10,IronIngot:8,IronNail:8) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ReinforcedRailing {
+        internal static string ReinforcedRailing {
             get {
                 return ResourceManager.GetString("ReinforcedRailing", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:4,IronIngot:2,IronNail:4,Rope:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ReinforcedTrapdoor {
+        internal static string ReinforcedTrapdoor {
             get {
                 return ResourceManager.GetString("ReinforcedTrapdoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:4,IronIngot:2,IronNail:8,Rope:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ReinforcedWindow {
+        internal static string ReinforcedWindow {
             get {
                 return ResourceManager.GetString("ReinforcedWindow", resourceCulture);
             }
@@ -3915,547 +3915,547 @@ namespace IcarusLib.Properties {
         /// <summary>
         ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Resources {
+        internal static string Resources {
             get {
                 return ResourceManager.GetString("Resources", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:1,Gunpowder:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RifleRound {
+        internal static string RifleRound {
             get {
                 return ResourceManager.GetString("RifleRound", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RipeCoconut {
+        internal static string RipeCoconut {
             get {
                 return ResourceManager.GetString("RipeCoconut", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Campfire(Squash:1)|Firepit(Squash:1)|Fireplace(Squash:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RoastSquash {
+        internal static string RoastSquash {
             get {
                 return ResourceManager.GetString("RoastSquash", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   PotbellyStove(Pumpkin:1,Carrot:1,Squash:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string RoastVegetables {
+        internal static string RoastVegetables {
             get {
                 return ResourceManager.GetString("RoastVegetables", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Fiber:12)|TextilesBench(Leather:5) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Rope {
+        internal static string Rope {
             get {
                 return ResourceManager.GetString("Rope", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Stick:1,Leather:1,SandwormScale:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SandwormArrow {
+        internal static string SandwormArrow {
             get {
                 return ResourceManager.GetString("SandwormArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Bow に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SandwormBow {
+        internal static string SandwormBow {
             get {
                 return ResourceManager.GetString("SandwormBow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Wood:2,Leather:2,SandwormScale:1) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SandwormKnife {
+        internal static string SandwormKnife {
             get {
                 return ResourceManager.GetString("SandwormKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SandwormScale {
+        internal static string SandwormScale {
             get {
                 return ResourceManager.GetString("SandwormScale", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Wood:16,Leather:4,SandwormScale:1) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SandwormSpear {
+        internal static string SandwormSpear {
             get {
                 return ResourceManager.GetString("SandwormSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(ScorpionTail:1,MediumWoodHedgehog:1) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ScorpionHedgehog {
+        internal static string ScorpionHedgehog {
             get {
                 return ResourceManager.GetString("ScorpionHedgehog", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Stone:4,Stick:4,ScorpionPincer:4) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ScorpionPincerTrap {
+        internal static string ScorpionPincerTrap {
             get {
                 return ResourceManager.GetString("ScorpionPincerTrap", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Hammer に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongAkiraHammer {
+        internal static string ShengongAkiraHammer {
             get {
                 return ResourceManager.GetString("ShengongAkiraHammer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongDaokouKnife {
+        internal static string ShengongDaokouKnife {
             get {
                 return ResourceManager.GetString("ShengongDaokouKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongDidaSpear {
+        internal static string ShengongDidaSpear {
             get {
                 return ResourceManager.GetString("ShengongDidaSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Pickaxe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongDongPickaxe {
+        internal static string ShengongDongPickaxe {
             get {
                 return ResourceManager.GetString("ShengongDongPickaxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongGongBuSpear {
+        internal static string ShengongGongBuSpear {
             get {
                 return ResourceManager.GetString("ShengongGongBuSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Axe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongHeikeAxe {
+        internal static string ShengongHeikeAxe {
             get {
                 return ResourceManager.GetString("ShengongHeikeAxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongHuluCanteen {
+        internal static string ShengongHuluCanteen {
             get {
                 return ResourceManager.GetString("ShengongHuluCanteen", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Bow に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongJiBow {
+        internal static string ShengongJiBow {
             get {
                 return ResourceManager.GetString("ShengongJiBow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Bow に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongJijingBow {
+        internal static string ShengongJijingBow {
             get {
                 return ResourceManager.GetString("ShengongJijingBow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongJijuSpear {
+        internal static string ShengongJijuSpear {
             get {
                 return ResourceManager.GetString("ShengongJijuSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Pickaxe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongJushiPickaxe {
+        internal static string ShengongJushiPickaxe {
             get {
                 return ResourceManager.GetString("ShengongJushiPickaxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Pickaxe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongKuangPickaxe {
+        internal static string ShengongKuangPickaxe {
             get {
                 return ResourceManager.GetString("ShengongKuangPickaxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Axe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongLieAxe {
+        internal static string ShengongLieAxe {
             get {
                 return ResourceManager.GetString("ShengongLieAxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongLiweiO2Tank {
+        internal static string ShengongLiweiO2Tank {
             get {
                 return ResourceManager.GetString("ShengongLiweiO2Tank", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongQieKnife {
+        internal static string ShengongQieKnife {
             get {
                 return ResourceManager.GetString("ShengongQieKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Axe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongSenAxe {
+        internal static string ShengongSenAxe {
             get {
                 return ResourceManager.GetString("ShengongSenAxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongShuiKnife {
+        internal static string ShengongShuiKnife {
             get {
                 return ResourceManager.GetString("ShengongShuiKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongSichouKnife {
+        internal static string ShengongSichouKnife {
             get {
                 return ResourceManager.GetString("ShengongSichouKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Pickaxe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongSuiShiPickaxe {
+        internal static string ShengongSuiShiPickaxe {
             get {
                 return ResourceManager.GetString("ShengongSuiShiPickaxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Hammer に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongTetsuoHammer {
+        internal static string ShengongTetsuoHammer {
             get {
                 return ResourceManager.GetString("ShengongTetsuoHammer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongWenheArrow {
+        internal static string ShengongWenheArrow {
             get {
                 return ResourceManager.GetString("ShengongWenheArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongXingxingSpear {
+        internal static string ShengongXingxingSpear {
             get {
                 return ResourceManager.GetString("ShengongXingxingSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongYeyingBandage {
+        internal static string ShengongYeyingBandage {
             get {
                 return ResourceManager.GetString("ShengongYeyingBandage", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Weapons,Bow に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ShengongZhangHuBow {
+        internal static string ShengongZhangHuBow {
             get {
                 return ResourceManager.GetString("ShengongZhangHuBow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Wood:12,Leather:8,SteelIngot:26,Epoxy:4,SteelScrew:10) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Firearms に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Shotgun {
+        internal static string Shotgun {
             get {
                 return ResourceManager.GetString("Shotgun", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:4,IronIngot:6) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Shovel {
+        internal static string Shovel {
             get {
                 return ResourceManager.GetString("Shovel", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Ore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SilicaOre {
+        internal static string SilicaOre {
             get {
                 return ResourceManager.GetString("SilicaOre", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Fiber:60,Wood:50,Stone:12,Leather:20) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SkinningBench {
+        internal static string SkinningBench {
             get {
                 return ResourceManager.GetString("SkinningBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:24,Rope:4,CopperNail:5) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SmallInteriorWoodCrate {
+        internal static string SmallInteriorWoodCrate {
             get {
                 return ResourceManager.GetString("SmallInteriorWoodCrate", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:24,Epoxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SmallIronCrate {
+        internal static string SmallIronCrate {
             get {
                 return ResourceManager.GetString("SmallIronCrate", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:16,Wood:24) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SmallWoodCrate {
+        internal static string SmallWoodCrate {
             get {
                 return ResourceManager.GetString("SmallWoodCrate", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:12,Rope:2,CopperNail:2) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SmallWoodSign {
+        internal static string SmallWoodSign {
             get {
                 return ResourceManager.GetString("SmallWoodSign", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:1,Stone:10) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SmokeGrenade {
+        internal static string SmokeGrenade {
             get {
                 return ResourceManager.GetString("SmokeGrenade", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   AnimalHead に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SnowLeopardHead {
+        internal static string SnowLeopardHead {
             get {
                 return ResourceManager.GetString("SnowLeopardHead", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   TrophyBench(Stick:10,Wood:30,SnowLeopardHead:1) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SnowLeopardTrophy {
+        internal static string SnowLeopardTrophy {
             get {
                 return ResourceManager.GetString("SnowLeopardTrophy", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(Composites:18,CarbonFiber:8,Electronics:30,SteelScrew:10,Glass:60) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SolarPanel {
+        internal static string SolarPanel {
             get {
                 return ResourceManager.GetString("SolarPanel", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SoyBean {
+        internal static string SoyBean {
             get {
                 return ResourceManager.GetString("SoyBean", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   PotbellyStove(Mushroom:1,Carrot:1,SoyBean:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SoyBeanStir_Fry {
+        internal static string SoyBeanStir_Fry {
             get {
                 return ResourceManager.GetString("SoyBeanStir-Fry", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Wood:2,Stick:8,Rope:6) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Splint {
+        internal static string Splint {
             get {
                 return ResourceManager.GetString("Splint", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SpoiledMeat {
+        internal static string SpoiledMeat {
             get {
                 return ResourceManager.GetString("SpoiledMeat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SpoiledPlants {
+        internal static string SpoiledPlants {
             get {
                 return ResourceManager.GetString("SpoiledPlants", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Sponge {
+        internal static string Sponge {
             get {
                 return ResourceManager.GetString("Sponge", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Squash {
+        internal static string Squash {
             get {
                 return ResourceManager.GetString("Squash", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ST_700ArmsArmor {
+        internal static string ST_700ArmsArmor {
             get {
                 return ResourceManager.GetString("ST-700ArmsArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ST_700ChestArmor {
+        internal static string ST_700ChestArmor {
             get {
                 return ResourceManager.GetString("ST-700ChestArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ST_700FeetArmor {
+        internal static string ST_700FeetArmor {
             get {
                 return ResourceManager.GetString("ST-700FeetArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ST_700HeadArmor {
+        internal static string ST_700HeadArmor {
             get {
                 return ResourceManager.GetString("ST-700HeadArmor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Armors に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ST_700LegsArmor {
+        internal static string ST_700LegsArmor {
             get {
                 return ResourceManager.GetString("ST-700LegsArmor", resourceCulture);
             }
@@ -4464,736 +4464,736 @@ namespace IcarusLib.Properties {
         /// <summary>
         ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Stamina {
+        internal static string Stamina {
             get {
                 return ResourceManager.GetString("Stamina", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(ReedFlower:2,Wheat:2,TreeSap:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StaminaBuffPaste {
+        internal static string StaminaBuffPaste {
             get {
                 return ResourceManager.GetString("StaminaBuffPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(ReedFlower:2,TreeSap:2) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StaminaConsumptionPaste {
+        internal static string StaminaConsumptionPaste {
             get {
                 return ResourceManager.GetString("StaminaConsumptionPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(ReedFlower:2) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StaminaRegenerationPaste {
+        internal static string StaminaRegenerationPaste {
             get {
                 return ResourceManager.GetString("StaminaRegenerationPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(ReedFlower:20,Wheat:20,TreeSap:10) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StaminaRestorationPaste {
+        internal static string StaminaRestorationPaste {
             get {
                 return ResourceManager.GetString("StaminaRestorationPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:5,Epoxy:4,SteelIngot:6,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
+        ///   Axe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SteelAxe {
+        internal static string SteelAxe {
             get {
                 return ResourceManager.GetString("SteelAxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MortarandPestle(IronOre:6,CoalOre:1)|MortarandPestle(IronIngot:3,CoalOre:1) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SteelBloom {
+        internal static string SteelBloom {
             get {
                 return ResourceManager.GetString("SteelBloom", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:1,SteelIngot:2) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SteelBolt {
+        internal static string SteelBolt {
             get {
                 return ResourceManager.GetString("SteelBolt", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:5,Epoxy:4,SteelIngot:6,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
+        ///   Tools,Hammer に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SteelHammer {
+        internal static string SteelHammer {
             get {
                 return ResourceManager.GetString("SteelHammer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   ConcreteFurnace(SteelBloom:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ingot に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SteelIngot {
+        internal static string SteelIngot {
             get {
                 return ResourceManager.GetString("SteelIngot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:5,Epoxy:4,SteelIngot:6,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SteelKnife {
+        internal static string SteelKnife {
             get {
                 return ResourceManager.GetString("SteelKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:5,Epoxy:4,SteelIngot:6) に類似しているローカライズされた文字列を検索します。
+        ///   Pickaxe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SteelPickaxe {
+        internal static string SteelPickaxe {
             get {
                 return ResourceManager.GetString("SteelPickaxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelIngot:1) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SteelRebar {
+        internal static string SteelRebar {
             get {
                 return ResourceManager.GetString("SteelRebar", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(SteelIngot:0.01) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SteelScrew {
+        internal static string SteelScrew {
             get {
                 return ResourceManager.GetString("SteelScrew", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:5,Epoxy:6,SteelIngot:24) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SteelSpear {
+        internal static string SteelSpear {
             get {
                 return ResourceManager.GetString("SteelSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   PotbellyStove(Water:100,Mushroom:1,Carrot:1,RawMeat:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Stew {
+        internal static string Stew {
             get {
                 return ResourceManager.GetString("Stew", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(Wood:0.1)|CharacterCrafting(Wood:0.1) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Stick {
+        internal static string Stick {
             get {
                 return ResourceManager.GetString("Stick", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Stone {
+        internal static string Stone {
             get {
                 return ResourceManager.GetString("Stone", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:1,Stick:1,Stone:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneArrow {
+        internal static string StoneArrow {
             get {
                 return ResourceManager.GetString("StoneArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:10,Stick:4,Stone:6) に類似しているローカライズされた文字列を検索します。
+        ///   Axe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneAxe {
+        internal static string StoneAxe {
             get {
                 return ResourceManager.GetString("StoneAxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:2,Stone:6,Leather:1,IronNail:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneBeam {
+        internal static string StoneBeam {
             get {
                 return ResourceManager.GetString("StoneBeam", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:6,Stone:20,Leather:4,IronNail:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneFloor {
+        internal static string StoneFloor {
             get {
                 return ResourceManager.GetString("StoneFloor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:6,Stone:20,Leather:4,IronNail:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneFloorTrapdoor {
+        internal static string StoneFloorTrapdoor {
             get {
                 return ResourceManager.GetString("StoneFloorTrapdoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:12,Stone:40,Leather:4,IronNail:12) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneFrame {
+        internal static string StoneFrame {
             get {
                 return ResourceManager.GetString("StoneFrame", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(CopperOre:2,IronOre:2) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneFurnace {
+        internal static string StoneFurnace {
             get {
                 return ResourceManager.GetString("StoneFurnace", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:6,Stone:20,Leather:4,IronNail:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneHalfpieces {
+        internal static string StoneHalfpieces {
             get {
                 return ResourceManager.GetString("StoneHalfpieces", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:6,Stone:20,Leather:4,IronNail:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneHalfpitches {
+        internal static string StoneHalfpitches {
             get {
                 return ResourceManager.GetString("StoneHalfpitches", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:2,Stick:2,Stone:4) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneKnife {
+        internal static string StoneKnife {
             get {
                 return ResourceManager.GetString("StoneKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:10,Stick:4,Stone:6) に類似しているローカライズされた文字列を検索します。
+        ///   Pickaxe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StonePickaxe {
+        internal static string StonePickaxe {
             get {
                 return ResourceManager.GetString("StonePickaxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Stone:100) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StonePile {
+        internal static string StonePile {
             get {
                 return ResourceManager.GetString("StonePile", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:6,Stone:20,Leather:4,IronNail:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneRamp {
+        internal static string StoneRamp {
             get {
                 return ResourceManager.GetString("StoneRamp", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:6,Stone:20,Leather:4,IronNail:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneRoof {
+        internal static string StoneRoof {
             get {
                 return ResourceManager.GetString("StoneRoof", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:3,Stone:10,Leather:2,IronNail:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneRoofCorner {
+        internal static string StoneRoofCorner {
             get {
                 return ResourceManager.GetString("StoneRoofCorner", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:6,Stone:20,Leather:4,IronNail:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneStairs {
+        internal static string StoneStairs {
             get {
                 return ResourceManager.GetString("StoneStairs", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:6,Stone:20,Leather:4,IronNail:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneWall {
+        internal static string StoneWall {
             get {
                 return ResourceManager.GetString("StoneWall", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MasonryBench(Wood:3,Stone:10,Leather:2,IronNail:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StoneWallAngled {
+        internal static string StoneWallAngled {
             get {
                 return ResourceManager.GetString("StoneWallAngled", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools,Modules に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string StrengthBoostModule {
+        internal static string StrengthBoostModule {
             get {
                 return ResourceManager.GetString("StrengthBoostModule", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Ore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Sulfur {
+        internal static string Sulfur {
             get {
                 return ResourceManager.GetString("Sulfur", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SurvivalBackpack {
+        internal static string SurvivalBackpack {
             get {
                 return ResourceManager.GetString("SurvivalBackpack", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:10,Bone:5,Leather:2) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SutureKit {
+        internal static string SutureKit {
             get {
                 return ResourceManager.GetString("SutureKit", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   PotbellyStove(Water:100,Corn:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string SweetcornSoup {
+        internal static string SweetcornSoup {
             get {
                 return ResourceManager.GetString("SweetcornSoup", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:2,IronNail:2,IronIngot:6,Leather:4) に類似しているローカライズされた文字列を検索します。
+        ///   Tools,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TaxidermyKnife {
+        internal static string TaxidermyKnife {
             get {
                 return ResourceManager.GetString("TaxidermyKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Tea {
+        internal static string Tea {
             get {
                 return ResourceManager.GetString("Tea", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Fiber:60,Stick:20,Wood:50,Stone:12) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TextilesBench {
+        internal static string TextilesBench {
             get {
                 return ResourceManager.GetString("TextilesBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Stick:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchBeam {
+        internal static string ThatchBeam {
             get {
                 return ResourceManager.GetString("ThatchBeam", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:10,Stick:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchDoor {
+        internal static string ThatchDoor {
             get {
                 return ResourceManager.GetString("ThatchDoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:20,Stick:3) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchFloor {
+        internal static string ThatchFloor {
             get {
                 return ResourceManager.GetString("ThatchFloor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:20,Stick:3) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchFloorTrapdoor {
+        internal static string ThatchFloorTrapdoor {
             get {
                 return ResourceManager.GetString("ThatchFloorTrapdoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:20,Stick:3) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchHalfpieces {
+        internal static string ThatchHalfpieces {
             get {
                 return ResourceManager.GetString("ThatchHalfpieces", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:20,Stick:3) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchHalfpitches {
+        internal static string ThatchHalfpitches {
             get {
                 return ResourceManager.GetString("ThatchHalfpitches", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:6,Stick:10) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchLadder {
+        internal static string ThatchLadder {
             get {
                 return ResourceManager.GetString("ThatchLadder", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:8,Stick:2) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchRailing {
+        internal static string ThatchRailing {
             get {
                 return ResourceManager.GetString("ThatchRailing", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:20,Stick:3) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchRamp {
+        internal static string ThatchRamp {
             get {
                 return ResourceManager.GetString("ThatchRamp", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:20,Stick:3) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchRoof {
+        internal static string ThatchRoof {
             get {
                 return ResourceManager.GetString("ThatchRoof", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:10,Stick:2) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchRoofCorner {
+        internal static string ThatchRoofCorner {
             get {
                 return ResourceManager.GetString("ThatchRoofCorner", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:20,Stick:3) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchStairs {
+        internal static string ThatchStairs {
             get {
                 return ResourceManager.GetString("ThatchStairs", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:10,Stick:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchTrapdoor {
+        internal static string ThatchTrapdoor {
             get {
                 return ResourceManager.GetString("ThatchTrapdoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:20,Stick:3) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchWall {
+        internal static string ThatchWall {
             get {
                 return ResourceManager.GetString("ThatchWall", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:10,Stick:2) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchWallAngled {
+        internal static string ThatchWallAngled {
             get {
                 return ResourceManager.GetString("ThatchWallAngled", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:10,Stick:4) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string ThatchWindow {
+        internal static string ThatchWindow {
             get {
                 return ResourceManager.GetString("ThatchWindow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MachiningBench(Epoxy:8,Glass:4,SteelIngot:12) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Thermos {
+        internal static string Thermos {
             get {
                 return ResourceManager.GetString("Thermos", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(CarbonFiber:1,SteelScrew:2,TitaniumIngot:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TitaniumArrow {
+        internal static string TitaniumArrow {
             get {
                 return ResourceManager.GetString("TitaniumArrow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(Wood:2,Leather:4,TitaniumIngot:12) に類似しているローカライズされた文字列を検索します。
+        ///   Axe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TitaniumAxe {
+        internal static string TitaniumAxe {
             get {
                 return ResourceManager.GetString("TitaniumAxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(SteelScrew:4,TitaniumIngot:1,CarbonFiber:1) に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TitaniumBolt {
+        internal static string TitaniumBolt {
             get {
                 return ResourceManager.GetString("TitaniumBolt", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(CarbonFiber:4,SteelScrew:10,Epoxy:4,TitaniumIngot:10) に類似しているローカライズされた文字列を検索します。
+        ///   Hammer に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TitaniumHammer {
+        internal static string TitaniumHammer {
             get {
                 return ResourceManager.GetString("TitaniumHammer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   ConcreteFurnace(TitaniumOre:5) に類似しているローカライズされた文字列を検索します。
+        ///   Ingot に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TitaniumIngot {
+        internal static string TitaniumIngot {
             get {
                 return ResourceManager.GetString("TitaniumIngot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(CarbonFiber:4,SteelScrew:2,Epoxy:4,TitaniumIngot:8) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Knife に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TitaniumKnife {
+        internal static string TitaniumKnife {
             get {
                 return ResourceManager.GetString("TitaniumKnife", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Ore に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TitaniumOre {
+        internal static string TitaniumOre {
             get {
                 return ResourceManager.GetString("TitaniumOre", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(CarbonFiber:4,SteelScrew:8,Epoxy:4,TitaniumIngot:12) に類似しているローカライズされた文字列を検索します。
+        ///   Pickaxe に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TitaniumPickaxe {
+        internal static string TitaniumPickaxe {
             get {
                 return ResourceManager.GetString("TitaniumPickaxe", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(CarbonFiber:4,SteelScrew:2,Epoxy:4,TitaniumIngot:10) に類似しているローカライズされた文字列を検索します。
+        ///   Sickle に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TitaniumSickle {
+        internal static string TitaniumSickle {
             get {
                 return ResourceManager.GetString("TitaniumSickle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(Wood:2,Leather:8,TitaniumIngot:24) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TitaniumSpear {
+        internal static string TitaniumSpear {
             get {
                 return ResourceManager.GetString("TitaniumSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   MortarandPestle(Stick:4) に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TreeSap {
+        internal static string TreeSap {
             get {
                 return ResourceManager.GetString("TreeSap", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:60,CopperNail:50,IronIngot:2,Rope:12) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string TrophyBench {
+        internal static string TrophyBench {
             get {
                 return ResourceManager.GetString("TrophyBench", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Food,Consumables に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Ultrameal {
+        internal static string Ultrameal {
             get {
                 return ResourceManager.GetString("Ultrameal", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   BiofuelStove(Pastry:1,Squash:1,SoyBean:1,Corn:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string VegetablePie {
+        internal static string VegetablePie {
             get {
                 return ResourceManager.GetString("VegetablePie", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:4,Leather:8,Sulfur:8,IronIngot:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WallTorch {
+        internal static string WallTorch {
             get {
                 return ResourceManager.GetString("WallTorch", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Drinks に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Water {
+        internal static string Water {
             get {
                 return ResourceManager.GetString("Water", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   HerbalismBench(Sponge:1,Charcoal:2,ReedFlower:4) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Medicine に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WaterConsumptionPaste {
+        internal static string WaterConsumptionPaste {
             get {
                 return ResourceManager.GetString("WaterConsumptionPaste", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Watermelon {
+        internal static string Watermelon {
             get {
                 return ResourceManager.GetString("Watermelon", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(CopperIngot:20,RefinedGold:8,CarbonFiber:4) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WaterPipeTool {
+        internal static string WaterPipeTool {
             get {
                 return ResourceManager.GetString("WaterPipeTool", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(SteelIngot:24,Electronics:4,SteelScrew:16,ConcreteMix:20) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WaterPump {
+        internal static string WaterPump {
             get {
                 return ResourceManager.GetString("WaterPump", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Fiber:2,Leather:12,Bone:4) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Waterskin {
+        internal static string Waterskin {
             get {
                 return ResourceManager.GetString("Waterskin", resourceCulture);
             }
@@ -5202,376 +5202,376 @@ namespace IcarusLib.Properties {
         /// <summary>
         ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WaterSources {
+        internal static string WaterSources {
             get {
                 return ResourceManager.GetString("WaterSources", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Fabricator(AluminiumIngot:8,Composites:12,Epoxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WaterSprinkler {
+        internal static string WaterSprinkler {
             get {
                 return ResourceManager.GetString("WaterSprinkler", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Wheat {
+        internal static string Wheat {
             get {
                 return ResourceManager.GetString("Wheat", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WildBerry {
+        internal static string WildBerry {
             get {
                 return ResourceManager.GetString("WildBerry", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CookingStation(Pumpkin:1,Squash:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WildSalad {
+        internal static string WildSalad {
             get {
                 return ResourceManager.GetString("WildSalad", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   KitchenBench(WildBerry:10,ReedFlower:1,WineBottle:1) に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Drinks に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Wine {
+        internal static string Wine {
             get {
                 return ResourceManager.GetString("Wine", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   GlassworkingBench(Glass:5) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WineBottle {
+        internal static string WineBottle {
             get {
                 return ResourceManager.GetString("WineBottle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Wood {
+        internal static string Wood {
             get {
                 return ResourceManager.GetString("Wood", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:4,Wood:6) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodBeam {
+        internal static string WoodBeam {
             get {
                 return ResourceManager.GetString("WoodBeam", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:20,Fur:30,Leather:10,CopperNail:10) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodBed {
+        internal static string WoodBed {
             get {
                 return ResourceManager.GetString("WoodBed", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:30,Stick:24) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Bow に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodBow {
+        internal static string WoodBow {
             get {
                 return ResourceManager.GetString("WoodBow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:6,CopperNail:5) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodChair {
+        internal static string WoodChair {
             get {
                 return ResourceManager.GetString("WoodChair", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:25,Stone:10,SpoiledPlants:5,Sulfur:5) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodComposter {
+        internal static string WoodComposter {
             get {
                 return ResourceManager.GetString("WoodComposter", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:8,Sulfur:10) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodCropPlot {
+        internal static string WoodCropPlot {
             get {
                 return ResourceManager.GetString("WoodCropPlot", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:40,Leather:8,CopperNail:4,Rope:8) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodCupboard {
+        internal static string WoodCupboard {
             get {
                 return ResourceManager.GetString("WoodCupboard", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:8,Wood:10) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodDoor {
+        internal static string WoodDoor {
             get {
                 return ResourceManager.GetString("WoodDoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Wood:20) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodFloor {
+        internal static string WoodFloor {
             get {
                 return ResourceManager.GetString("WoodFloor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Wood:20) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodFloorTrapdoor {
+        internal static string WoodFloorTrapdoor {
             get {
                 return ResourceManager.GetString("WoodFloorTrapdoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Wood:20) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodHalfpieces {
+        internal static string WoodHalfpieces {
             get {
                 return ResourceManager.GetString("WoodHalfpieces", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Wood:20) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodHalfpitches {
+        internal static string WoodHalfpitches {
             get {
                 return ResourceManager.GetString("WoodHalfpitches", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:6,Wood:10) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodLadder {
+        internal static string WoodLadder {
             get {
                 return ResourceManager.GetString("WoodLadder", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Wood:100) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodPile {
+        internal static string WoodPile {
             get {
                 return ResourceManager.GetString("WoodPile", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:40,Stick:8) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodRagTorch {
+        internal static string WoodRagTorch {
             get {
                 return ResourceManager.GetString("WoodRagTorch", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:8,Wood:8) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodRailing {
+        internal static string WoodRailing {
             get {
                 return ResourceManager.GetString("WoodRailing", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Wood:20) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodRamp {
+        internal static string WoodRamp {
             get {
                 return ResourceManager.GetString("WoodRamp", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:10,Stick:4,Stone:6) に類似しているローカライズされた文字列を検索します。
+        ///   Hammer に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodRepairHammer {
+        internal static string WoodRepairHammer {
             get {
                 return ResourceManager.GetString("WoodRepairHammer", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Wood:20) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodRoof {
+        internal static string WoodRoof {
             get {
                 return ResourceManager.GetString("WoodRoof", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:6,Wood:10) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodRoofCorner {
+        internal static string WoodRoofCorner {
             get {
                 return ResourceManager.GetString("WoodRoofCorner", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Stick:18) に類似しているローカライズされた文字列を検索します。
+        ///   Weapons,Spear に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodSpear {
+        internal static string WoodSpear {
             get {
                 return ResourceManager.GetString("WoodSpear", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Wood:20) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodStairs {
+        internal static string WoodStairs {
             get {
                 return ResourceManager.GetString("WoodStairs", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CarpentryBench(RefinedWood:10,CopperNail:10) に類似しているローカライズされた文字列を検索します。
+        ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodTable {
+        internal static string WoodTable {
             get {
                 return ResourceManager.GetString("WoodTable", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:40,Stick:8,Sulfur:8) に類似しているローカライズされた文字列を検索します。
+        ///   Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodTorch {
+        internal static string WoodTorch {
             get {
                 return ResourceManager.GetString("WoodTorch", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:4,Wood:10) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodTrapdoor {
+        internal static string WoodTrapdoor {
             get {
                 return ResourceManager.GetString("WoodTrapdoor", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Wood:20) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodWall {
+        internal static string WoodWall {
             get {
                 return ResourceManager.GetString("WoodWall", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:6,Wood:10) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodWallAngled {
+        internal static string WoodWallAngled {
             get {
                 return ResourceManager.GetString("WoodWallAngled", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:8,Wood:10) に類似しているローカライズされた文字列を検索します。
+        ///   BuildingPieces に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WoodWindow {
+        internal static string WoodWindow {
             get {
                 return ResourceManager.GetString("WoodWindow", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WorkShop {
+        internal static string WorkShop {
             get {
                 return ResourceManager.GetString("WorkShop", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WorkshopRepairKit {
+        internal static string WorkshopRepairKit {
             get {
                 return ResourceManager.GetString("WorkshopRepairKit", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///   Workshop,Tools に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WorkshopRepairKitBundle {
+        internal static string WorkshopRepairKitBundle {
             get {
                 return ResourceManager.GetString("WorkshopRepairKitBundle", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string WormScale {
+        internal static string WormScale {
             get {
                 return ResourceManager.GetString("WormScale", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Materials に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string Yeast {
+        internal static string Yeast {
             get {
                 return ResourceManager.GetString("Yeast", resourceCulture);
             }
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Consumables,Food に類似しているローカライズされた文字列を検索します。
         /// </summary>
-        public static string YoungCoconut {
+        internal static string YoungCoconut {
             get {
                 return ResourceManager.GetString("YoungCoconut", resourceCulture);
             }
