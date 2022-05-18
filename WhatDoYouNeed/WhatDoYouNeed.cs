@@ -15,10 +15,40 @@ using IcarusLib.Properties;
 
 namespace Icarus
 {
+
     public partial class WhatDoYouNeed : Form
     {
-
         private bool debug = false;
+
+        private class ListItem
+        {
+            public IcrObject.IcrAttributes Attr { get; private set; }
+            public int Count { get; private set; }
+
+            public ListItem(IcrObject.IcrAttributes attr, int count)
+            {
+                Attr=attr;
+                Count=count;
+            } 
+
+            public override string ToString() => $"{Attr.ToString()}({Count})";
+
+            static public implicit operator IcrObject.IcrAttributes(ListItem i) => i.Attr;
+        }
+
+        private void CountCategory()
+        {
+            var attrs = IcrObject.Keys.Select(k => new IcrObject(k).Attribute).ToArray();
+            Enum.GetValues(typeof(IcrObject.IcrAttributes)).Cast<IcrObject.IcrAttributes>().Select(a => a);
+
+            var x = from IcrObject.IcrAttributes a in Enum.GetValues(typeof(IcrObject.IcrAttributes))
+                    let cnt = attrs.Count(a2 => a2.HasFlag(a))
+                    select (a, cnt);
+            var dic = x.Where(kv => kv.cnt > 0).ToDictionary(xx => xx.a, xx => xx.cnt);
+            clbxAttrs.Items.AddRange(dic.Select(kv => new ListItem(kv.Key, kv.Value)).ToArray());
+            // clbxAttrs.Items.AddRange()
+        }
+
 
         public WhatDoYouNeed()
         {
@@ -34,7 +64,9 @@ namespace Icarus
                 .OrderBy(it => it.Text)
                 .ToArray());
 
-            clbxAttrs.Items.AddRange(Enum.GetNames(typeof(IcrObject.IcrAttributes)));
+            //  clbxAttrs.Items.AddRange(Enum.GetNames(typeof(IcrObject.IcrAttributes)));
+            CountCategory();
+
             ChangeView(View.SmallIcon);
         }
 
@@ -58,8 +90,10 @@ namespace Icarus
         void Filter(string s)
         {
             var all = string.IsNullOrEmpty(s);
+            var selected = from ListItem li in clbxAttrs.CheckedItems
+                      select (IcrObject.IcrAttributes)li;
+            var attr_filter = (IcrObject.IcrAttributes)selected.Sum(a => (long)a);
 
-            var attr_filter = IcrObject.ReconstAttrs(clbxAttrs.CheckedItems.Cast<string>());
 
             bool Match(IcrObject.IcrAttributes a, IcrObject.IcrAttributes b) => b == IcrObject.IcrAttributes.None || (a & b) != 0;
 
@@ -81,13 +115,7 @@ namespace Icarus
         }
 
         private void remove_target(object sender, EventArgs args)
-        {
-            flpnlRecipes.Controls.Remove((Control)sender);
-        }
-
-        private void lvSouces_SelectedIndexChanged(object sender, EventArgs e)
-        {
-        }
+            => flpnlRecipes.Controls.Remove((Control)sender);
 
         private void WhatDoYouNeed_SizeChanged(object sender, EventArgs e)
         {
@@ -96,9 +124,7 @@ namespace Icarus
         }
 
         private void clbxAttrs_ItemCheck(object sender, ItemCheckEventArgs e)
-        {
-            BeginInvoke(new MethodInvoker(() => btnFilter.PerformClick()));
-        }
+            => BeginInvoke(new MethodInvoker(() => btnFilter.PerformClick()));
 
         private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
         {
@@ -119,6 +145,8 @@ namespace Icarus
             var mi = (ToolStripMenuItem)sender;
             var oi = (ObjectItem)mi.Tag;
             new IcrObject(oi.Name).RecipeIndex = int.Parse(mi.Name);
+            foreach (var ro in flpnlRecipes.Controls.OfType<ResultOne>())
+                ro.ReCalc();
         }
 
         private void lvSouces_MouseClick(object sender, MouseEventArgs e)

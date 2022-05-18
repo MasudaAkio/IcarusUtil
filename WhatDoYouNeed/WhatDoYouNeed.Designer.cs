@@ -32,6 +32,7 @@ namespace Icarus
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(WhatDoYouNeed));
             this.lvSouces = new System.Windows.Forms.ListView();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.ObjectImagesLarge = new System.Windows.Forms.ImageList(this.components);
             this.ObjectImagesSmall = new System.Windows.Forms.ImageList(this.components);
             this.pnlUpper = new System.Windows.Forms.Panel();
@@ -48,7 +49,6 @@ namespace Icarus
             this.clbxAttrs = new System.Windows.Forms.CheckedListBox();
             this.pnlMiddle = new System.Windows.Forms.Panel();
             this.splitter1 = new System.Windows.Forms.Splitter();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.pnlUpper.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.pnlLower.SuspendLayout();
@@ -64,16 +64,21 @@ namespace Icarus
             this.lvSouces.GridLines = true;
             this.lvSouces.HideSelection = false;
             this.lvSouces.LargeImageList = this.ObjectImagesLarge;
-            this.lvSouces.Location = new System.Drawing.Point(120, 0);
+            this.lvSouces.Location = new System.Drawing.Point(153, 0);
             this.lvSouces.Margin = new System.Windows.Forms.Padding(2);
             this.lvSouces.Name = "lvSouces";
-            this.lvSouces.Size = new System.Drawing.Size(584, 441);
+            this.lvSouces.Size = new System.Drawing.Size(551, 441);
             this.lvSouces.SmallImageList = this.ObjectImagesSmall;
             this.lvSouces.TabIndex = 1;
             this.lvSouces.UseCompatibleStateImageBehavior = false;
             this.lvSouces.View = System.Windows.Forms.View.List;
-            this.lvSouces.SelectedIndexChanged += new System.EventHandler(this.lvSouces_SelectedIndexChanged);
             this.lvSouces.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lvSouces_MouseClick);
+            // 
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // ObjectImagesLarge
             // 
@@ -208,10 +213,11 @@ namespace Icarus
             this.clbxAttrs.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.clbxAttrs.CheckOnClick = true;
             this.clbxAttrs.Dock = System.Windows.Forms.DockStyle.Left;
+            this.clbxAttrs.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clbxAttrs.FormattingEnabled = true;
             this.clbxAttrs.Location = new System.Drawing.Point(0, 0);
             this.clbxAttrs.Name = "clbxAttrs";
-            this.clbxAttrs.Size = new System.Drawing.Size(120, 441);
+            this.clbxAttrs.Size = new System.Drawing.Size(153, 441);
             this.clbxAttrs.Sorted = true;
             this.clbxAttrs.TabIndex = 2;
             this.clbxAttrs.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.clbxAttrs_ItemCheck);
@@ -235,12 +241,6 @@ namespace Icarus
             this.splitter1.Size = new System.Drawing.Size(704, 3);
             this.splitter1.TabIndex = 6;
             this.splitter1.TabStop = false;
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(181, 26);
-            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // WhatDoYouNeed
             // 

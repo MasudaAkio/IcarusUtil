@@ -14,24 +14,24 @@ namespace IcarusLib
 {
     public partial class IcrObject
     {
-        public class RecipeItem
+        public class Stuff
         {
-            public IcrObject Stuff { get; private set; }
+            public IcrObject Item { get; private set; }
             public decimal Volume { get; private set; }
             public decimal BaseVolume { get; private set; }
-            public RecipeItem(IcrObject iobj, decimal vol)
+            public Stuff(IcrObject iobj, decimal vol)
             {
-                Stuff = iobj;
+                Item = iobj;
                 Volume = vol;
                 BaseVolume = vol;
             }
-            public RecipeItem Multiply(decimal times) { Volume = BaseVolume * times; return this; }
-            public RecipeItem Clone() =>  new RecipeItem(Stuff, Volume);
+            public Stuff Multiply(decimal times) { Volume = BaseVolume * times; return this; }
+            public Stuff Clone() =>  new Stuff(Item, Volume);
         }
         public class Recipe
         {
             public IcrObject Bench { get; private set; }
-            public RecipeItem[] Items { get; private set; }
+            public Stuff[] Stuffs { get; private set; }
             private Recipe() { }
 
             static internal IEnumerable<Recipe> Decode(string recipe_str)
@@ -39,48 +39,46 @@ namespace IcarusLib
                 string[] spli(char del, string str) => str.Split(new char[] { del }, StringSplitOptions.RemoveEmptyEntries);
                 var rex = new Regex(@"^(\S+)\((.*)\)$");
                 return spli('|', recipe_str).Select(s =>
-                { /* s CraftingBench(Fiber:20,Leather:30,Bone:8) */
+                { /* CraftingBench(Fiber:20,Leather:30,Bone:8) */
                     var m = rex.Match(s);
                     var elems = m.Groups.Cast<Group>().Skip(1).Select(g => g.Value).ToArray(); /* [ "CraftingBench", "Fiber:20,Leather:30,Bone:8" ] */
                     var rec = new Recipe();
                     rec.Bench = new IcrObject(elems[0]);
                     if (elems[1] != "")
                     {
-                        rec.Items = elems[1].Split(',').Select(ss =>
+                        rec.Stuffs = elems[1].Split(',').Select(ss =>
                         { /* Fiber:20 */
                             var sv = ss.Split(':');
-                            return new RecipeItem(new IcrObject(sv[0]), decimal.Parse(sv[1].Trim()));
+                            return new Stuff(new IcrObject(sv[0]), decimal.Parse(sv[1].Trim()));
                         }).ToArray();
                     }
                     return rec;
                 });
             }
 
-            public (RecipeItem[] aggregated, string[] benches) FinalRequirements()
+            public (Stuff[] aggregated, string[] benches) FinalRequirements()
             {
-                var gather = new List<RecipeItem>();
+                var gather = new List<Stuff>();
                 var benches = new List<string>();
-                foreach (var ri in Items ?? new RecipeItem[] { })
+                benches.Add(Bench.Key);
+                foreach (var st in Stuffs ?? new Stuff[] { })
                 {
-                    var recipes = ri.Stuff.Recipes;
+                    var recipes = st.Item.Recipes;
                     if (recipes != null && recipes.Length > 0)
                     {
-                        var result = recipes[ri.Stuff.RecipeIndex].FinalRequirements();
-                        gather.AddRange(result.aggregated.Select(xi => xi.Clone().Multiply(ri.Volume)));
+                        var result = recipes[st.Item.RecipeIndex].FinalRequirements();
+                        gather.AddRange(result.aggregated.Select(xi => xi.Clone().Multiply(st.Volume)));
                         benches.AddRange(result.benches);
                     }
                     else
-                    {
-                        gather.Add(ri.Clone());
-                        benches.Add(Bench.Key);
-                    }
+                        gather.Add(st.Clone());
                 }
-                var aggre = new List<RecipeItem>();
-                foreach (var g in gather.GroupBy(ri => ri.Stuff.Key))
+                var aggre = new List<Stuff>();
+                foreach (var g in gather.GroupBy(ri => ri.Item.Key))
                 {
                     var array = g.ToArray();
                     if (array.Length == 1) aggre.Add(array[0]);
-                    else aggre.Add(new RecipeItem(new IcrObject(g.Key), g.Sum(ri => ri.Volume)));
+                    else aggre.Add(new Stuff(new IcrObject(g.Key), g.Sum(ri => ri.Volume)));
                 }
                 return (aggre.ToArray(), benches.Distinct().ToArray());
             }
@@ -88,7 +86,7 @@ namespace IcarusLib
             public override string ToString()
             {
                 var bench = Bench.Core.Name;
-                var items = string.Join(",", Items.Select(ri => $"{ri.Stuff.Core.Name} x {ri.Volume}"));
+                var items = string.Join(",", Stuffs.Select(ri => $"{ri.Item.Core.Name} x {ri.Volume}"));
                 return $"{bench}({items})";
             }
         }

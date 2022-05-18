@@ -211,31 +211,31 @@
     <value>毛皮</value>
   </data>
   <data name="RawFish" xml:space="preserve">
-    <value>生魚</value>
+    <value>魚</value>
   </data>
   <data name="RawMeat" xml:space="preserve">
     <value>生肉</value>
   </data>
   <data name="RawGiantSteak" xml:space="preserve">
-    <value>巨大な精肉</value>
+    <value>精肉</value>
   </data>
   <data name="RawBacon" xml:space="preserve">
-    <value>生ベーコン</value>
+    <value>ベーコン</value>
   </data>
   <data name="RawFattyTbone" xml:space="preserve">
-    <value>生の脂肪の骨</value>
+    <value>脂ののったTボーン肉</value>
   </data>
   <data name="RawGameMeat" xml:space="preserve">
-    <value>生ゲームミート</value>
+    <value>ゲームミート</value>
   </data>
   <data name="RawSoftMeat" xml:space="preserve">
-    <value>生ソフトミート</value>
+    <value>ソフトミート</value>
   </data>
   <data name="RawStringyMeat" xml:space="preserve">
-    <value>生のスジ肉</value>
+    <value>スジ肉</value>
   </data>
   <data name="RawWhiteMeat" xml:space="preserve">
-    <value>生のホワイトミート</value>
+    <value>ホワイトミート</value>
   </data>
   <data name="AdliftModule" xml:space="preserve">
     <value>アドリフトモジュール</value>
@@ -493,7 +493,7 @@
     <value>建築物アップグレードツール</value>
   </data>
   <data name="Campfire" xml:space="preserve">
-    <value>たき火穴</value>
+    <value>たき火</value>
   </data>
   <data name="Canteen" xml:space="preserve">
     <value>水筒</value>
@@ -652,22 +652,22 @@
     <value>調理した魚</value>
   </data>
   <data name="CookedGameMeat" xml:space="preserve">
-    <value>ゲームミート</value>
+    <value>調理したゲームミート</value>
   </data>
   <data name="CookedGiantSteak" xml:space="preserve">
-    <value>精肉</value>
+    <value>調理した精肉</value>
   </data>
   <data name="CookedMeat" xml:space="preserve">
     <value>調理した肉</value>
   </data>
   <data name="CookedSoftMeat" xml:space="preserve">
-    <value>ソフトミート</value>
+    <value>調理したソフトミート</value>
   </data>
   <data name="CookedStringyMeat" xml:space="preserve">
-    <value>筋のある肉</value>
+    <value>調理したスジ肉</value>
   </data>
   <data name="CookedWhiteMeat" xml:space="preserve">
-    <value>白身肉</value>
+    <value>調理したホワイトミート</value>
   </data>
   <data name="CookingStation" xml:space="preserve">
     <value>調理台</value>
@@ -1417,7 +1417,7 @@
     <value>精錬ゴールド</value>
   </data>
   <data name="RefinedWood" xml:space="preserve">
-    <value>木</value>
+    <value>洗練された木</value>
   </data>
   <data name="Refrigerator" xml:space="preserve">
     <value>冷蔵庫</value>
@@ -1462,7 +1462,7 @@
     <value>サンドワームナイフ</value>
   </data>
   <data name="SandwormScale" xml:space="preserve">
-    <value>蚕の鱗</value>
+    <value>サンドワームの鱗</value>
   </data>
   <data name="SandwormSpear" xml:space="preserve">
     <value>サンドワーム スピア</value>
@@ -1474,76 +1474,76 @@
     <value>スコーピオンピンサートラップ</value>
   </data>
   <data name="ShengongAkiraHammer" xml:space="preserve">
-    <value>シェンゴン社製明ハンマー</value>
+    <value>シェンゴン社製「アキラ」ハンマー</value>
   </data>
   <data name="ShengongDaokouKnife" xml:space="preserve">
-    <value>シェンゴン社製大光包丁</value>
+    <value>シェンゴン社製「ダオコウ」包丁</value>
   </data>
   <data name="ShengongDidaSpear" xml:space="preserve">
-    <value>シェンゴン社製陀槍</value>
+    <value>シェンゴン社製「ディーダ」槍</value>
   </data>
   <data name="ShengongDongPickaxe" xml:space="preserve">
-    <value>シェンゴン社製董卓斧</value>
+    <value>シェンゴン社製「ドン」斧</value>
   </data>
   <data name="ShengongGongBuSpear" xml:space="preserve">
-    <value>シェンゴン社製功夫槍</value>
+    <value>シェンゴン社製「ゴンブー」槍</value>
   </data>
   <data name="ShengongHeikeAxe" xml:space="preserve">
-    <value>シェンゴン社製平家斧</value>
+    <value>シェンゴン社製「ヘイケ」斧</value>
   </data>
   <data name="ShengongHuluCanteen" xml:space="preserve">
-    <value>シェンゴン社製胡盧餐飲</value>
+    <value>シェンゴン社製「フールー」水筒</value>
   </data>
   <data name="ShengongJiBow" xml:space="preserve">
-    <value>シェンゴン社製智弓</value>
+    <value>シェンゴン社製「ジー」弓</value>
   </data>
   <data name="ShengongJijingBow" xml:space="preserve">
-    <value>シェンゴン社製之弓</value>
+    <value>シェンゴン社製「ジージン」弓</value>
   </data>
   <data name="ShengongJijuSpear" xml:space="preserve">
-    <value>シェンゴン社製集鎗</value>
+    <value>シェンゴン社製「ジジュ」鎗</value>
   </data>
   <data name="ShengongJushiPickaxe" xml:space="preserve">
-    <value>シェンゴン社製柔斧</value>
+    <value>シェンゴン社製「ジュシー」斧</value>
   </data>
   <data name="ShengongKuangPickaxe" xml:space="preserve">
-    <value>シェンゴン社製つるはし</value>
+    <value>シェンゴン社製「クアン」つるはし</value>
   </data>
   <data name="ShengongLieAxe" xml:space="preserve">
-    <value>シェンゴン社製李斧</value>
+    <value>シェンゴン社製「りー」斧</value>
   </data>
   <data name="ShengongLiweiO2Tank" xml:space="preserve">
-    <value>シェンゴン社製李維O2タンク</value>
+    <value>シェンゴン社製「リーイー」O2タンク</value>
   </data>
   <data name="ShengongQieKnife" xml:space="preserve">
-    <value>シェンゴン社製羯磨刀</value>
+    <value>シェンゴン社製「チー」ナイフ</value>
   </data>
   <data name="ShengongSenAxe" xml:space="preserve">
-    <value>シェンゴン社製仙斧</value>
+    <value>シェンゴン社製「セン」斧</value>
   </data>
   <data name="ShengongShuiKnife" xml:space="preserve">
-    <value>シェンゴン社製水ナイフ</value>
+    <value>シェンゴン社製「シュイ」ナイフ</value>
   </data>
   <data name="ShengongSichouKnife" xml:space="preserve">
-    <value>シェンゴン社製四川包丁</value>
+    <value>シェンゴン社製「シチョウ」ナイフ</value>
   </data>
   <data name="ShengongSuiShiPickaxe" xml:space="preserve">
-    <value>シェンゴン社製水石つるはし</value>
+    <value>シェンゴン社製「スイ・シー」つるはし</value>
   </data>
   <data name="ShengongTetsuoHammer" xml:space="preserve">
-    <value>シェンゴン社製鉄鎚</value>
+    <value>シェンゴン社製「テツオ」ハンマー</value>
   </data>
   <data name="ShengongWenheArrow" xml:space="preserve">
-    <value>シェンゴン社製文和矢</value>
+    <value>シェンゴン社製「ウエンヘー」矢</value>
   </data>
   <data name="ShengongXingxingSpear" xml:space="preserve">
-    <value>シェンゴン社製興業槍</value>
+    <value>シェンゴン社製「ジンジン」槍</value>
   </data>
   <data name="ShengongYeyingBandage" xml:space="preserve">
-    <value>シェンゴン社製玉英包帯</value>
+    <value>シェンゴン社製「イエンイン」包帯</value>
   </data>
   <data name="ShengongZhangHuBow" xml:space="preserve">
-    <value>シェンゴン社製張惠妹弓</value>
+    <value>シェンゴン社製「ジャン・フー」弓</value>
   </data>
   <data name="Shotgun" xml:space="preserve">
     <value>ショットガン</value>

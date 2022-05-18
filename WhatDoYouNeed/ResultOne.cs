@@ -38,7 +38,7 @@ namespace Icarus
             {
                 var aggre = rcp.FinalRequirements();
                 foreach (var i in aggre.aggregated)
-                    lvStuffs.Items.Add(CreateItem(i.Stuff.Key, decimal.Ceiling(i.Volume)));
+                    lvStuffs.Items.Add(CreateItem(i.Item.Key, decimal.Ceiling(i.Volume)));
                 lvBenches.Items.AddRange(aggre.benches.Select(k => new ObjectItem(new IcrObject(k))).ToArray());
             }
         }
@@ -63,7 +63,7 @@ namespace Icarus
                     lblName.Text = _obj.Name;
                     nupdnValue.Value = 1;
                     picObject.Image = new Bitmap(_obj.Image, picObject.Size);
-                    if (_obj.Recipes.Length > 0) SetRecipe(_obj.Recipes[0]);
+                    if (_obj.Recipes.Length > 0) SetRecipe(_obj.Recipes[_obj.RecipeIndex]);
                 }
                 else
                 {
@@ -72,6 +72,11 @@ namespace Icarus
                     picObject.Image = null;
                 }
             }
+        }
+
+        public void ReCalc()
+        {
+            if (_obj.Recipes.Length > 0) SetRecipe(_obj.Recipes[_obj.RecipeIndex]);
         }
 
         public delegate void RemoveEventHandler(object sender, EventArgs e);
