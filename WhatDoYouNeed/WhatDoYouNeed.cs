@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Globalization;
+using System.Deployment.Application;
 
 using IcarusLib;
 using IcarusLib.Properties;
@@ -54,6 +55,13 @@ namespace Icarus
         {
             InitializeComponent();
 
+            Text = $"Survive ICARUS : What do you need";
+            if (ApplicationDeployment.IsNetworkDeployed)
+            {
+                var str_ver = ApplicationDeployment.CurrentDeployment.CurrentVersion;
+                 Text += $" ({str_ver})";
+            }
+
             lvSouces.Items.AddRange(IcrObject.Keys
                 .Select(k => {
                     var obj = new IcrObject(k);
@@ -66,7 +74,7 @@ namespace Icarus
 
             //  clbxAttrs.Items.AddRange(Enum.GetNames(typeof(IcrObject.IcrAttributes)));
             CountCategory();
-
+            roTotal.SetImageLists(ObjectImagesLarge, ObjectImagesSmall);
             ChangeView(View.SmallIcon);
         }
 
@@ -76,6 +84,7 @@ namespace Icarus
             lvSouces.View = v;
             foreach (ResultOne ro in flpnlRecipes.Controls)
                 ro.ListViewStyle = v;
+            roTotal.ListViewStyle = v;
         }
         private void largeIconToolStripMenuItem_Click(object sender, EventArgs e) => ChangeView(View.LargeIcon);
 
@@ -93,7 +102,6 @@ namespace Icarus
             var selected = from ListItem li in clbxAttrs.CheckedItems
                       select (IcrObject.IcrAttributes)li;
             var attr_filter = (IcrObject.IcrAttributes)selected.Sum(a => (long)a);
-
 
             bool Match(IcrObject.IcrAttributes a, IcrObject.IcrAttributes b) => b == IcrObject.IcrAttributes.None || (a & b) != 0;
 
@@ -115,7 +123,10 @@ namespace Icarus
         }
 
         private void remove_target(object sender, EventArgs args)
-            => flpnlRecipes.Controls.Remove((Control)sender);
+        {
+            flpnlRecipes.Controls.Remove((Control)sender);
+            CalcTotal();
+        }
 
         private void WhatDoYouNeed_SizeChanged(object sender, EventArgs e)
         {
@@ -147,11 +158,11 @@ namespace Icarus
             new IcrObject(oi.Name).RecipeIndex = int.Parse(mi.Name);
             foreach (var ro in flpnlRecipes.Controls.OfType<ResultOne>())
                 ro.ReCalc();
+            CalcTotal();
         }
 
         private void lvSouces_MouseClick(object sender, MouseEventArgs e)
         {
-            // ObjectItem CreateItem(string key, decimal vol = 0m) => new ObjectItem(new IcrObject(key), vol, false); // IcrObjectは軽量なのでバンバン作っても影響は小さい
             if (e.Button != MouseButtons.Right)
             {
                 var selected = lvSouces.SelectedItems;
@@ -170,9 +181,31 @@ namespace Icarus
                         ro.Target = new IcrObject(key);
                         ro.ListViewStyle = _view;
                         ro.Remove += remove_target;
+                        ro.ValueChanged = () => CalcTotal();
                     }
+                    CalcTotal();
                 }
             }
+        }
+
+        private void CalcTotal()
+        {
+            var benches = new List<ObjectItem>();
+            var stuffs = new List<ObjectItem>();
+            foreach (var ro in flpnlRecipes.Controls.OfType<ResultOne>())
+            {
+                var rcp = ro.Recipe;
+                benches.AddRange(rcp.benches);
+                stuffs.AddRange(rcp.stuffs);
+            }
+            var b = benches
+                    .Select(oi => oi.Name)
+                    .Distinct()
+                    .Select(k => new ObjectItem(new IcrObject(k)));
+            var s = from oi in stuffs
+                    group oi by oi.Name into g
+                    select new ObjectItem(new IcrObject(g.Key), g.Sum(oi => oi.Volume));
+            roTotal.Recipe = (b.ToArray(), s.ToArray());
         }
     }
 }

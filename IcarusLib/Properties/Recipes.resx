@@ -271,7 +271,7 @@
     <value>MachiningBench(AluminiumOre:4,Wood:6,SteelScrew:4)</value>
   </data>
   <data name="AluminiumIngot" xml:space="preserve">
-    <value>CraftingBench(AluminiumOre:1)</value>
+    <value>ConcreteFurnace(AluminiumOre:1)</value>
   </data>
   <data name="AluminiumLadder" xml:space="preserve">
     <value>MachiningBench(AluminiumOre:2,Wood:2,SteelScrew:6)</value>
@@ -1180,7 +1180,7 @@
     <value>Fabricator(IronIngot:12,Wood:4,Epoxy:4,SteelScrew:2)</value>
   </data>
   <data name="MachiningBench" xml:space="preserve">
-    <value>CraftingBench(Wood:20,Stone:12,IronNail:120,IronIngot:40,Epoxy:10,Rope:24)|MachiningBench(Wood:20,Stone:12,IronNail:120,IronIngot:40,Epoxy:10,Rope:24)</value>
+    <value>CraftingBench(Wood:20,Stone:12,IronNail:120,IronIngot:40,Epoxy:10,Rope:24)</value>
   </data>
   <data name="MammothHead" xml:space="preserve">
     <value />

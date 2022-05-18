@@ -12,15 +12,18 @@ namespace Icarus
         public decimal Volume
         {
             get => _volume;
-            set { _volume = value; Text = basetext + $"{(value > 1 ? $" x {value}" : "")}"; }
+            set { _volume = value;  Text = MakeTextWithVolume(basetext, value); }
         }
 
         private decimal basevolume { get; set; }
 
         private string basetext { get; set; }
 
-        private static string MakeTextWithVolume(IcarusLib.IcrObject obj, decimal volume, bool debug)
-            => $"{obj.Name} {(volume > 0 ? $"x {volume}" : "")}";
+        private static string MakeTextWithVolume(string basetext, decimal volume)
+        {
+            var ceiling = decimal.Ceiling(volume);
+            return basetext + $"{(ceiling > 1 ? $" x {ceiling}" : "")}"; 
+        }
 
         public ObjectItem() { }
         public ObjectItem(IcarusLib.IcrObject obj, decimal volume = 0m, bool debug = false)

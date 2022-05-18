@@ -1096,7 +1096,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   Armors に類似しているローカライズされた文字列を検索します。
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string CompositeArrow {
             get {

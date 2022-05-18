@@ -34,12 +34,13 @@ namespace Icarus
             this.lblName = new System.Windows.Forms.Label();
             this.nupdnValue = new System.Windows.Forms.NumericUpDown();
             this.pnlTarget = new System.Windows.Forms.Panel();
+            this.btnRemove = new System.Windows.Forms.Button();
             this.pnlRecipe = new System.Windows.Forms.Panel();
             this.lvStuffs = new System.Windows.Forms.ListView();
             this.lvBenches = new System.Windows.Forms.ListView();
             this.ImagesLarge = new System.Windows.Forms.ImageList(this.components);
             this.ImagesSmall = new System.Windows.Forms.ImageList(this.components);
-            this.btnRemove = new System.Windows.Forms.Button();
+            this.lblTotal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picObject)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupdnValue)).BeginInit();
             this.pnlTarget.SuspendLayout();
@@ -53,7 +54,7 @@ namespace Icarus
             this.picObject.Location = new System.Drawing.Point(3, 3);
             this.picObject.Margin = new System.Windows.Forms.Padding(0);
             this.picObject.Name = "picObject";
-            this.picObject.Size = new System.Drawing.Size(42, 43);
+            this.picObject.Size = new System.Drawing.Size(42, 44);
             this.picObject.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.picObject.TabIndex = 0;
             this.picObject.TabStop = false;
@@ -73,7 +74,7 @@ namespace Icarus
             this.nupdnValue.Location = new System.Drawing.Point(44, 23);
             this.nupdnValue.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.nupdnValue.Name = "nupdnValue";
-            this.nupdnValue.Size = new System.Drawing.Size(96, 23);
+            this.nupdnValue.Size = new System.Drawing.Size(98, 23);
             this.nupdnValue.TabIndex = 2;
             this.nupdnValue.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.nupdnValue.ValueChanged += new System.EventHandler(this.nupdnValue_ValueChanged);
@@ -85,14 +86,29 @@ namespace Icarus
             this.pnlTarget.Controls.Add(this.picObject);
             this.pnlTarget.Controls.Add(this.lblName);
             this.pnlTarget.Controls.Add(this.nupdnValue);
+            this.pnlTarget.Controls.Add(this.lblTotal);
             this.pnlTarget.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlTarget.Location = new System.Drawing.Point(0, 0);
             this.pnlTarget.Margin = new System.Windows.Forms.Padding(0);
             this.pnlTarget.MinimumSize = new System.Drawing.Size(143, 42);
             this.pnlTarget.Name = "pnlTarget";
-            this.pnlTarget.Padding = new System.Windows.Forms.Padding(3);
             this.pnlTarget.Size = new System.Drawing.Size(143, 70);
             this.pnlTarget.TabIndex = 3;
+            // 
+            // btnRemove
+            // 
+            this.btnRemove.FlatAppearance.BorderSize = 0;
+            this.btnRemove.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRemove.Font = new System.Drawing.Font("Meiryo UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.btnRemove.Location = new System.Drawing.Point(3, 46);
+            this.btnRemove.Margin = new System.Windows.Forms.Padding(0);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(138, 21);
+            this.btnRemove.TabIndex = 3;
+            this.btnRemove.Text = "Remove";
+            this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // pnlRecipe
             // 
@@ -139,20 +155,22 @@ namespace Icarus
             this.ImagesSmall.ImageSize = new System.Drawing.Size(16, 16);
             this.ImagesSmall.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // btnRemove
+            // lblTotal
             // 
-            this.btnRemove.FlatAppearance.BorderSize = 0;
-            this.btnRemove.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            this.btnRemove.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRemove.Font = new System.Drawing.Font("Meiryo UI", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.btnRemove.Location = new System.Drawing.Point(3, 46);
-            this.btnRemove.Margin = new System.Windows.Forms.Padding(0);
-            this.btnRemove.Name = "btnRemove";
-            this.btnRemove.Size = new System.Drawing.Size(138, 19);
-            this.btnRemove.TabIndex = 3;
-            this.btnRemove.Text = "Remove";
-            this.btnRemove.UseVisualStyleBackColor = true;
-            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
+            this.lblTotal.BackColor = System.Drawing.Color.MidnightBlue;
+            this.lblTotal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblTotal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblTotal.Font = new System.Drawing.Font("Cascadia Code", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.ForeColor = System.Drawing.Color.Moccasin;
+            this.lblTotal.Location = new System.Drawing.Point(0, 0);
+            this.lblTotal.Margin = new System.Windows.Forms.Padding(0);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Padding = new System.Windows.Forms.Padding(8);
+            this.lblTotal.Size = new System.Drawing.Size(143, 70);
+            this.lblTotal.TabIndex = 4;
+            this.lblTotal.Text = "total";
+            this.lblTotal.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.lblTotal.Visible = false;
             // 
             // ResultOne
             // 
@@ -184,5 +202,6 @@ namespace Icarus
         private System.Windows.Forms.ImageList ImagesLarge;
         private System.Windows.Forms.ImageList ImagesSmall;
         private System.Windows.Forms.Button btnRemove;
+        private System.Windows.Forms.Label lblTotal;
     }
 }

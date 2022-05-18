@@ -160,7 +160,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   CraftingBench(AluminiumOre:1) に類似しているローカライズされた文字列を検索します。
+        ///   ConcreteFurnace(AluminiumOre:1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AluminiumIngot {
             get {
@@ -3013,7 +3013,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   CraftingBench(Wood:20,Stone:12,IronNail:120,IronIngot:40,Epoxy:10,Rope:24)|MachiningBench(Wood:20,Stone:12,IronNail:120,IronIngot:40,Epoxy:10,Rope:24) に類似しているローカライズされた文字列を検索します。
+        ///   CraftingBench(Wood:20,Stone:12,IronNail:120,IronIngot:40,Epoxy:10,Rope:24) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MachiningBench {
             get {

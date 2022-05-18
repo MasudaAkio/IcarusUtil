@@ -19,6 +19,14 @@ namespace Icarus
             InitializeComponent();
         }
 
+        public void SetImageLists(ImageList large, ImageList small)
+        {
+            lvBenches.LargeImageList = large;
+            lvBenches.SmallImageList = small;
+            lvStuffs.LargeImageList = large;
+            lvStuffs.SmallImageList = small;
+        }
+
         public ResultOne(ImageList large, ImageList small) : this()
         {
             lvBenches.LargeImageList = large;
@@ -38,11 +46,24 @@ namespace Icarus
             {
                 var aggre = rcp.FinalRequirements();
                 foreach (var i in aggre.aggregated)
-                    lvStuffs.Items.Add(CreateItem(i.Item.Key, decimal.Ceiling(i.Volume)));
+                    lvStuffs.Items.Add(CreateItem(i.Item.Key, /* decimal.Ceiling(i.Volume) */ i.Volume));
                 lvBenches.Items.AddRange(aggre.benches.Select(k => new ObjectItem(new IcrObject(k))).ToArray());
             }
         }
 
+        public (ObjectItem[] benches, ObjectItem[] stuffs) Recipe
+        {
+            get
+            => (benches: lvBenches.Items.OfType<ObjectItem>().ToArray(),
+                stuffs: lvStuffs.Items.OfType<ObjectItem>().ToArray());
+            set
+            {
+                lvBenches.Items?.Clear();
+                lvBenches.Items?.AddRange(value.benches);
+                lvStuffs.Items?.Clear();
+                lvStuffs.Items?.AddRange(value.stuffs);
+            }
+        }
 
         public View ListViewStyle
         {
@@ -74,6 +95,17 @@ namespace Icarus
             }
         }
 
+        // private Label lblTotal = new Label() { Text = "TOTAL", AutoSize = false, TextAlign = ContentAlignment.MiddleCenter, Dock = DockStyle.Fill };
+        private bool _is_for_total = false;
+        public bool IsForTotal { get => _is_for_total; set
+            {
+                _is_for_total = value;
+                foreach (var ctr in pnlTarget.Controls.OfType<Control>())
+                    if (ctr.Name != "lblTotal") ctr.Visible = !_is_for_total;
+                lblTotal.Visible = _is_for_total;
+            }
+        }
+
         public void ReCalc()
         {
             if (_obj.Recipes.Length > 0) SetRecipe(_obj.Recipes[_obj.RecipeIndex]);
@@ -84,6 +116,8 @@ namespace Icarus
         protected virtual void RaiseRemoveEvent() => Remove?.Invoke(this, new EventArgs());
 
         private void btnRemove_Click(object sender, EventArgs e) => RaiseRemoveEvent();
+
+        public Action ValueChanged { get; set; }
         public decimal Increment(decimal deff = 1.0m)
         {
             nupdnValue.Value += deff;
@@ -99,6 +133,7 @@ namespace Icarus
                 foreach (var it in lvStuffs.Items.OfType<ObjectItem>())
                     it.Multiply(current);
             }
+            ValueChanged?.Invoke();
         
         }
     }

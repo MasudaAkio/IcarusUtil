@@ -49,10 +49,13 @@ namespace Icarus
             this.clbxAttrs = new System.Windows.Forms.CheckedListBox();
             this.pnlMiddle = new System.Windows.Forms.Panel();
             this.splitter1 = new System.Windows.Forms.Splitter();
+            this.pnlTotal = new System.Windows.Forms.Panel();
+            this.roTotal = new Icarus.ResultOne();
             this.pnlUpper.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.pnlLower.SuspendLayout();
             this.pnlMiddle.SuspendLayout();
+            this.pnlTotal.SuspendLayout();
             this.SuspendLayout();
             // 
             // lvSouces
@@ -67,7 +70,7 @@ namespace Icarus
             this.lvSouces.Location = new System.Drawing.Point(153, 0);
             this.lvSouces.Margin = new System.Windows.Forms.Padding(2);
             this.lvSouces.Name = "lvSouces";
-            this.lvSouces.Size = new System.Drawing.Size(551, 441);
+            this.lvSouces.Size = new System.Drawing.Size(551, 371);
             this.lvSouces.SmallImageList = this.ObjectImagesSmall;
             this.lvSouces.TabIndex = 1;
             this.lvSouces.UseCompatibleStateImageBehavior = false;
@@ -135,7 +138,7 @@ namespace Icarus
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.DarkRed;
+            this.menuStrip1.BackColor = System.Drawing.Color.MidnightBlue;
             this.menuStrip1.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1});
@@ -193,7 +196,7 @@ namespace Icarus
             // 
             this.pnlLower.Controls.Add(this.flpnlRecipes);
             this.pnlLower.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlLower.Location = new System.Drawing.Point(0, 492);
+            this.pnlLower.Location = new System.Drawing.Point(0, 422);
             this.pnlLower.Name = "pnlLower";
             this.pnlLower.Size = new System.Drawing.Size(704, 189);
             this.pnlLower.TabIndex = 4;
@@ -217,7 +220,7 @@ namespace Icarus
             this.clbxAttrs.FormattingEnabled = true;
             this.clbxAttrs.Location = new System.Drawing.Point(0, 0);
             this.clbxAttrs.Name = "clbxAttrs";
-            this.clbxAttrs.Size = new System.Drawing.Size(153, 441);
+            this.clbxAttrs.Size = new System.Drawing.Size(153, 371);
             this.clbxAttrs.Sorted = true;
             this.clbxAttrs.TabIndex = 2;
             this.clbxAttrs.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.clbxAttrs_ItemCheck);
@@ -229,18 +232,40 @@ namespace Icarus
             this.pnlMiddle.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlMiddle.Location = new System.Drawing.Point(0, 51);
             this.pnlMiddle.Name = "pnlMiddle";
-            this.pnlMiddle.Size = new System.Drawing.Size(704, 441);
+            this.pnlMiddle.Size = new System.Drawing.Size(704, 371);
             this.pnlMiddle.TabIndex = 5;
             // 
             // splitter1
             // 
-            this.splitter1.BackColor = System.Drawing.Color.DarkRed;
+            this.splitter1.BackColor = System.Drawing.Color.MidnightBlue;
             this.splitter1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.splitter1.Location = new System.Drawing.Point(0, 489);
+            this.splitter1.Location = new System.Drawing.Point(0, 419);
             this.splitter1.Name = "splitter1";
             this.splitter1.Size = new System.Drawing.Size(704, 3);
             this.splitter1.TabIndex = 6;
             this.splitter1.TabStop = false;
+            // 
+            // pnlTotal
+            // 
+            this.pnlTotal.Controls.Add(this.roTotal);
+            this.pnlTotal.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlTotal.Location = new System.Drawing.Point(0, 611);
+            this.pnlTotal.Name = "pnlTotal";
+            this.pnlTotal.Size = new System.Drawing.Size(704, 70);
+            this.pnlTotal.TabIndex = 3;
+            // 
+            // roTotal
+            // 
+            this.roTotal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.roTotal.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.roTotal.IsForTotal = true;
+            this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
+            this.roTotal.Location = new System.Drawing.Point(0, 0);
+            this.roTotal.Margin = new System.Windows.Forms.Padding(0);
+            this.roTotal.Name = "roTotal";
+            this.roTotal.Size = new System.Drawing.Size(704, 70);
+            this.roTotal.TabIndex = 0;
+            this.roTotal.Target = null;
             // 
             // WhatDoYouNeed
             // 
@@ -253,6 +278,7 @@ namespace Icarus
             this.Controls.Add(this.pnlUpper);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.pnlLower);
+            this.Controls.Add(this.pnlTotal);
             this.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -265,6 +291,7 @@ namespace Icarus
             this.menuStrip1.PerformLayout();
             this.pnlLower.ResumeLayout(false);
             this.pnlMiddle.ResumeLayout(false);
+            this.pnlTotal.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -289,6 +316,8 @@ namespace Icarus
         private System.Windows.Forms.FlowLayoutPanel flpnlRecipes;
         private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Panel pnlTotal;
+        private ResultOne roTotal;
     }
 }
 
