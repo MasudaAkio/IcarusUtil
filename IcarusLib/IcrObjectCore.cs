@@ -37,7 +37,17 @@ namespace IcarusLib
                 Attribute = Reconst(Attributes.ResourceManager.GetString(key));
             }
             private Recipe[] _recipes;
-            public Recipe[] Recipes => _recipes ?? (_recipes = Recipe.Decode(Properties.Recipes.ResourceManager.GetString(Key)).ToArray());
+            // Recipsリソースの該当キーの値が "" の場合は空の配列になる。
+            public Recipe[] Recipes
+            {
+                get
+                {
+                    if (_recipes == null)
+                    {
+                        _recipes = Recipe.Decode(Properties.Recipes.ResourceManager.GetString(Key)).ToArray();
+                    }
+                    return _recipes; }
+            }
 
             private int _recipeIndex = 0;
             public int RecipeIndex
@@ -46,7 +56,7 @@ namespace IcarusLib
                 set => _recipeIndex = value;
             }
 
-            public bool HasAnyRecipes => Recipes.Length > 0;
+            public Recipe SelectedRecipe => Recipes[RecipeIndex];
 
             private static CultureInfo calture { get => CultureInfo.CurrentCulture; }
             public static IEnumerable<string> Keys
@@ -55,6 +65,8 @@ namespace IcarusLib
                         .ResourceManager
                         .GetResourceSet(calture, true, true).Cast<DictionaryEntry>().Select(e => e.Key.ToString());
             }
+            public override string ToString() => $"Key:{Key}(Name:{Name})";
+
         }
         private class IcrObjectCores : KeyedCollection<string, IcrObjectCore>
         {

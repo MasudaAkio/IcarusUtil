@@ -26,7 +26,7 @@
     <InstallUrl>https://guiyh.z31.web.core.windows.net/WhatDoYouNeed/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>16</ApplicationRevision>
+    <ApplicationRevision>17</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -110,6 +110,9 @@
     <Compile Include="WhatDoYouNeed.Designer.cs">
       <DependentUpon>WhatDoYouNeed.cs</DependentUpon>
     </Compile>
+    <Compile Include="WhatDoYouNeedEventHandlers.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -123,8 +126,12 @@
     <EmbeddedResource Include="ResultOne.resx">
       <DependentUpon>ResultOne.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WhatDoYouNeed.ja-JP.resx">
+      <DependentUpon>WhatDoYouNeed.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WhatDoYouNeed.resx">
       <DependentUpon>WhatDoYouNeed.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <None Include="IcarusSample_TemporaryKey.pfx" />
     <None Include="Properties\app.manifest" />
@@ -160,7 +167,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\返信矢印.png" />
     <Content Include="落船 icon-sq-128.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -18,17 +18,22 @@ namespace IcarusLib
         static private IcrObjectCores Cores = new IcrObjectCores();
         static public IEnumerable<string> Keys => Cores.Select(obj => obj.Key);
 
-        public string Key { get; private set; }
+        public string Key => Core.Key;
         public string Name => Core.Name;
         public Image Image => Core.Image;
         public Recipe[] Recipes => Core.Recipes;
         public IcrAttributes Attribute => Core.Attribute;
-        public IcrObject(string key) => Key = key;
+
+        private readonly string _key;
+        public IcrObject(string key) => _key = key;
 
         public int RecipeIndex { get => Core.RecipeIndex; set => Core.RecipeIndex = value; }
+        public Recipe SelectedRecipe => Core.SelectedRecipe;
 
         private IcrObjectCore _core;
-        private IcrObjectCore Core => _core ?? (_core = Cores[Key]); // singleton
+        private IcrObjectCore Core => _core ?? (_core = Cores[_key]); // singleton
+
+        public override string ToString() => $"Key:{Key}(Name:{Name})";
 
         // public static implicit operator IcrObjectCore(IcrObject icobj) => icobj.Core;
     }

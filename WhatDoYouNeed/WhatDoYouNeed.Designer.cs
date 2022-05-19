@@ -36,8 +36,8 @@ namespace Icarus
             this.ObjectImagesLarge = new System.Windows.Forms.ImageList(this.components);
             this.ObjectImagesSmall = new System.Windows.Forms.ImageList(this.components);
             this.pnlUpper = new System.Windows.Forms.Panel();
-            this.btnFilter = new System.Windows.Forms.Button();
             this.tbxFilter = new System.Windows.Forms.TextBox();
+            this.btnFilter = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.largeIconToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,28 +51,31 @@ namespace Icarus
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.pnlTotal = new System.Windows.Forms.Panel();
             this.roTotal = new Icarus.ResultOne();
+            this.pnlLeftSide = new System.Windows.Forms.Panel();
+            this.pnlRightSide = new System.Windows.Forms.Panel();
+            this.lvHavingBenches = new System.Windows.Forms.ListView();
+            this.btnConbine = new System.Windows.Forms.Button();
+            this.btnHavingBenchesAllorNone = new System.Windows.Forms.Button();
+            this.lblHavingBenches = new System.Windows.Forms.Label();
             this.pnlUpper.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.pnlLower.SuspendLayout();
             this.pnlMiddle.SuspendLayout();
             this.pnlTotal.SuspendLayout();
+            this.pnlLeftSide.SuspendLayout();
+            this.pnlRightSide.SuspendLayout();
             this.SuspendLayout();
             // 
             // lvSouces
             // 
             this.lvSouces.BackColor = System.Drawing.SystemColors.Window;
             this.lvSouces.ContextMenuStrip = this.contextMenuStrip1;
-            this.lvSouces.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lvSouces.Font = new System.Drawing.Font("メイリオ", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            resources.ApplyResources(this.lvSouces, "lvSouces");
             this.lvSouces.GridLines = true;
             this.lvSouces.HideSelection = false;
             this.lvSouces.LargeImageList = this.ObjectImagesLarge;
-            this.lvSouces.Location = new System.Drawing.Point(153, 0);
-            this.lvSouces.Margin = new System.Windows.Forms.Padding(2);
             this.lvSouces.Name = "lvSouces";
-            this.lvSouces.Size = new System.Drawing.Size(551, 371);
             this.lvSouces.SmallImageList = this.ObjectImagesSmall;
-            this.lvSouces.TabIndex = 1;
             this.lvSouces.UseCompatibleStateImageBehavior = false;
             this.lvSouces.View = System.Windows.Forms.View.List;
             this.lvSouces.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lvSouces_MouseClick);
@@ -80,210 +83,204 @@ namespace Icarus
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // ObjectImagesLarge
             // 
             this.ObjectImagesLarge.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.ObjectImagesLarge.ImageSize = new System.Drawing.Size(40, 40);
+            resources.ApplyResources(this.ObjectImagesLarge, "ObjectImagesLarge");
             this.ObjectImagesLarge.TransparentColor = System.Drawing.Color.Transparent;
             // 
             // ObjectImagesSmall
             // 
             this.ObjectImagesSmall.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.ObjectImagesSmall.ImageSize = new System.Drawing.Size(16, 16);
+            resources.ApplyResources(this.ObjectImagesSmall, "ObjectImagesSmall");
             this.ObjectImagesSmall.TransparentColor = System.Drawing.Color.Transparent;
             // 
             // pnlUpper
             // 
             this.pnlUpper.BackColor = System.Drawing.Color.DarkGray;
-            this.pnlUpper.Controls.Add(this.btnFilter);
             this.pnlUpper.Controls.Add(this.tbxFilter);
-            this.pnlUpper.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pnlUpper.Location = new System.Drawing.Point(0, 24);
-            this.pnlUpper.Margin = new System.Windows.Forms.Padding(2);
+            this.pnlUpper.Controls.Add(this.btnFilter);
+            resources.ApplyResources(this.pnlUpper, "pnlUpper");
             this.pnlUpper.Name = "pnlUpper";
-            this.pnlUpper.Size = new System.Drawing.Size(704, 27);
-            this.pnlUpper.TabIndex = 2;
-            // 
-            // btnFilter
-            // 
-            this.btnFilter.BackColor = System.Drawing.Color.LightYellow;
-            this.btnFilter.Dock = System.Windows.Forms.DockStyle.Right;
-            this.btnFilter.FlatAppearance.BorderSize = 0;
-            this.btnFilter.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
-            this.btnFilter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.GreenYellow;
-            this.btnFilter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnFilter.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFilter.Location = new System.Drawing.Point(595, 0);
-            this.btnFilter.Margin = new System.Windows.Forms.Padding(2);
-            this.btnFilter.Name = "btnFilter";
-            this.btnFilter.Size = new System.Drawing.Size(109, 27);
-            this.btnFilter.TabIndex = 1;
-            this.btnFilter.Text = "Filter";
-            this.btnFilter.UseVisualStyleBackColor = false;
-            this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
             // 
             // tbxFilter
             // 
             this.tbxFilter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.tbxFilter.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tbxFilter.Font = new System.Drawing.Font("メイリオ", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.tbxFilter.Location = new System.Drawing.Point(0, 0);
-            this.tbxFilter.Margin = new System.Windows.Forms.Padding(2);
+            resources.ApplyResources(this.tbxFilter, "tbxFilter");
             this.tbxFilter.Name = "tbxFilter";
-            this.tbxFilter.Size = new System.Drawing.Size(704, 27);
-            this.tbxFilter.TabIndex = 0;
+            // 
+            // btnFilter
+            // 
+            this.btnFilter.BackColor = System.Drawing.Color.LightYellow;
+            resources.ApplyResources(this.btnFilter, "btnFilter");
+            this.btnFilter.FlatAppearance.BorderSize = 0;
+            this.btnFilter.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.btnFilter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.GreenYellow;
+            this.btnFilter.Name = "btnFilter";
+            this.btnFilter.UseVisualStyleBackColor = false;
+            this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
             // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.MidnightBlue;
-            this.menuStrip1.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(704, 24);
-            this.menuStrip1.TabIndex = 3;
-            this.menuStrip1.Text = "menuStrip1";
             // 
             // toolStripMenuItem1
             // 
-            this.toolStripMenuItem1.AutoSize = false;
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.largeIconToolStripMenuItem,
             this.smallIconToolStripMenuItem,
             this.listToolStripMenuItem,
             this.tileToolStripMenuItem});
-            this.toolStripMenuItem1.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.toolStripMenuItem1.ForeColor = System.Drawing.Color.White;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(70, 20);
-            this.toolStripMenuItem1.Text = "表示";
-            this.toolStripMenuItem1.ToolTipText = "アイコンの大きさと配置";
             // 
             // largeIconToolStripMenuItem
             // 
             this.largeIconToolStripMenuItem.Name = "largeIconToolStripMenuItem";
-            this.largeIconToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.largeIconToolStripMenuItem.Text = "アイコン(大)";
+            resources.ApplyResources(this.largeIconToolStripMenuItem, "largeIconToolStripMenuItem");
             this.largeIconToolStripMenuItem.Click += new System.EventHandler(this.largeIconToolStripMenuItem_Click);
             // 
             // smallIconToolStripMenuItem
             // 
             this.smallIconToolStripMenuItem.Name = "smallIconToolStripMenuItem";
-            this.smallIconToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.smallIconToolStripMenuItem.Text = "アイコン(小)";
+            resources.ApplyResources(this.smallIconToolStripMenuItem, "smallIconToolStripMenuItem");
             this.smallIconToolStripMenuItem.Click += new System.EventHandler(this.smallIconToolStripMenuItem_Click);
             // 
             // listToolStripMenuItem
             // 
             this.listToolStripMenuItem.Name = "listToolStripMenuItem";
-            this.listToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.listToolStripMenuItem.Text = "リスト";
+            resources.ApplyResources(this.listToolStripMenuItem, "listToolStripMenuItem");
             this.listToolStripMenuItem.Click += new System.EventHandler(this.listToolStripMenuItem_Click);
             // 
             // tileToolStripMenuItem
             // 
             this.tileToolStripMenuItem.Name = "tileToolStripMenuItem";
-            this.tileToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
-            this.tileToolStripMenuItem.Text = "タイル";
+            resources.ApplyResources(this.tileToolStripMenuItem, "tileToolStripMenuItem");
             this.tileToolStripMenuItem.Click += new System.EventHandler(this.tileToolStripMenuItem_Click);
             // 
             // pnlLower
             // 
             this.pnlLower.Controls.Add(this.flpnlRecipes);
-            this.pnlLower.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlLower.Location = new System.Drawing.Point(0, 422);
+            resources.ApplyResources(this.pnlLower, "pnlLower");
             this.pnlLower.Name = "pnlLower";
-            this.pnlLower.Size = new System.Drawing.Size(704, 189);
-            this.pnlLower.TabIndex = 4;
             // 
             // flpnlRecipes
             // 
-            this.flpnlRecipes.AutoScroll = true;
-            this.flpnlRecipes.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.flpnlRecipes.Location = new System.Drawing.Point(0, 0);
-            this.flpnlRecipes.Margin = new System.Windows.Forms.Padding(0);
+            resources.ApplyResources(this.flpnlRecipes, "flpnlRecipes");
             this.flpnlRecipes.Name = "flpnlRecipes";
-            this.flpnlRecipes.Size = new System.Drawing.Size(704, 189);
-            this.flpnlRecipes.TabIndex = 0;
             // 
             // clbxAttrs
             // 
             this.clbxAttrs.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.clbxAttrs.CheckOnClick = true;
-            this.clbxAttrs.Dock = System.Windows.Forms.DockStyle.Left;
-            this.clbxAttrs.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            resources.ApplyResources(this.clbxAttrs, "clbxAttrs");
             this.clbxAttrs.FormattingEnabled = true;
-            this.clbxAttrs.Location = new System.Drawing.Point(0, 0);
             this.clbxAttrs.Name = "clbxAttrs";
-            this.clbxAttrs.Size = new System.Drawing.Size(153, 371);
             this.clbxAttrs.Sorted = true;
-            this.clbxAttrs.TabIndex = 2;
             this.clbxAttrs.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.clbxAttrs_ItemCheck);
             // 
             // pnlMiddle
             // 
             this.pnlMiddle.Controls.Add(this.lvSouces);
             this.pnlMiddle.Controls.Add(this.clbxAttrs);
-            this.pnlMiddle.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlMiddle.Location = new System.Drawing.Point(0, 51);
+            resources.ApplyResources(this.pnlMiddle, "pnlMiddle");
             this.pnlMiddle.Name = "pnlMiddle";
-            this.pnlMiddle.Size = new System.Drawing.Size(704, 371);
-            this.pnlMiddle.TabIndex = 5;
             // 
             // splitter1
             // 
             this.splitter1.BackColor = System.Drawing.Color.MidnightBlue;
-            this.splitter1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.splitter1.Location = new System.Drawing.Point(0, 419);
+            resources.ApplyResources(this.splitter1, "splitter1");
             this.splitter1.Name = "splitter1";
-            this.splitter1.Size = new System.Drawing.Size(704, 3);
-            this.splitter1.TabIndex = 6;
             this.splitter1.TabStop = false;
             // 
             // pnlTotal
             // 
             this.pnlTotal.Controls.Add(this.roTotal);
-            this.pnlTotal.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pnlTotal.Location = new System.Drawing.Point(0, 611);
+            resources.ApplyResources(this.pnlTotal, "pnlTotal");
             this.pnlTotal.Name = "pnlTotal";
-            this.pnlTotal.Size = new System.Drawing.Size(704, 70);
-            this.pnlTotal.TabIndex = 3;
             // 
             // roTotal
             // 
-            this.roTotal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.roTotal.Font = new System.Drawing.Font("Meiryo UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            resources.ApplyResources(this.roTotal, "roTotal");
             this.roTotal.IsForTotal = true;
             this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
-            this.roTotal.Location = new System.Drawing.Point(0, 0);
-            this.roTotal.Margin = new System.Windows.Forms.Padding(0);
             this.roTotal.Name = "roTotal";
-            this.roTotal.Size = new System.Drawing.Size(704, 70);
-            this.roTotal.TabIndex = 0;
             this.roTotal.Target = null;
+            this.roTotal.ValueChanged = null;
+            // 
+            // pnlLeftSide
+            // 
+            this.pnlLeftSide.Controls.Add(this.splitter1);
+            this.pnlLeftSide.Controls.Add(this.pnlMiddle);
+            this.pnlLeftSide.Controls.Add(this.pnlUpper);
+            this.pnlLeftSide.Controls.Add(this.pnlLower);
+            this.pnlLeftSide.Controls.Add(this.pnlTotal);
+            resources.ApplyResources(this.pnlLeftSide, "pnlLeftSide");
+            this.pnlLeftSide.Name = "pnlLeftSide";
+            // 
+            // pnlRightSide
+            // 
+            this.pnlRightSide.Controls.Add(this.lvHavingBenches);
+            this.pnlRightSide.Controls.Add(this.btnConbine);
+            this.pnlRightSide.Controls.Add(this.btnHavingBenchesAllorNone);
+            this.pnlRightSide.Controls.Add(this.lblHavingBenches);
+            resources.ApplyResources(this.pnlRightSide, "pnlRightSide");
+            this.pnlRightSide.Name = "pnlRightSide";
+            // 
+            // lvHavingBenches
+            // 
+            this.lvHavingBenches.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lvHavingBenches.CheckBoxes = true;
+            resources.ApplyResources(this.lvHavingBenches, "lvHavingBenches");
+            this.lvHavingBenches.HideSelection = false;
+            this.lvHavingBenches.LargeImageList = this.ObjectImagesLarge;
+            this.lvHavingBenches.Name = "lvHavingBenches";
+            this.lvHavingBenches.SmallImageList = this.ObjectImagesSmall;
+            this.lvHavingBenches.UseCompatibleStateImageBehavior = false;
+            // 
+            // btnConbine
+            // 
+            this.btnConbine.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.btnConbine, "btnConbine");
+            this.btnConbine.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnConbine.Image = global::Icarus.Properties.Resources.返信矢印;
+            this.btnConbine.Name = "btnConbine";
+            this.btnConbine.UseVisualStyleBackColor = true;
+            this.btnConbine.Click += new System.EventHandler(this.btnConbine_Click);
+            // 
+            // btnHavingBenchesAllorNone
+            // 
+            this.btnHavingBenchesAllorNone.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.btnHavingBenchesAllorNone, "btnHavingBenchesAllorNone");
+            this.btnHavingBenchesAllorNone.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.btnHavingBenchesAllorNone.Name = "btnHavingBenchesAllorNone";
+            this.btnHavingBenchesAllorNone.UseVisualStyleBackColor = true;
+            this.btnHavingBenchesAllorNone.Click += new System.EventHandler(this.btnHavingBenchesAllorNone_Click);
+            // 
+            // lblHavingBenches
+            // 
+            this.lblHavingBenches.BackColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.lblHavingBenches, "lblHavingBenches");
+            this.lblHavingBenches.ForeColor = System.Drawing.Color.White;
+            this.lblHavingBenches.Name = "lblHavingBenches";
             // 
             // WhatDoYouNeed
             // 
             this.AcceptButton = this.btnFilter;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 18F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(704, 681);
-            this.Controls.Add(this.splitter1);
-            this.Controls.Add(this.pnlMiddle);
-            this.Controls.Add(this.pnlUpper);
+            this.Controls.Add(this.pnlLeftSide);
+            this.Controls.Add(this.pnlRightSide);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.pnlLower);
-            this.Controls.Add(this.pnlTotal);
-            this.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "WhatDoYouNeed";
-            this.Text = "Icarus:What do you need";
             this.SizeChanged += new System.EventHandler(this.WhatDoYouNeed_SizeChanged);
             this.pnlUpper.ResumeLayout(false);
             this.pnlUpper.PerformLayout();
@@ -292,6 +289,8 @@ namespace Icarus
             this.pnlLower.ResumeLayout(false);
             this.pnlMiddle.ResumeLayout(false);
             this.pnlTotal.ResumeLayout(false);
+            this.pnlLeftSide.ResumeLayout(false);
+            this.pnlRightSide.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -318,6 +317,12 @@ namespace Icarus
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Panel pnlTotal;
         private ResultOne roTotal;
+        private System.Windows.Forms.Panel pnlLeftSide;
+        private System.Windows.Forms.Panel pnlRightSide;
+        private System.Windows.Forms.Button btnHavingBenchesAllorNone;
+        private System.Windows.Forms.ListView lvHavingBenches;
+        private System.Windows.Forms.Label lblHavingBenches;
+        private System.Windows.Forms.Button btnConbine;
     }
 }
 

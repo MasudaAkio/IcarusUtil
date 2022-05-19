@@ -34,26 +34,31 @@ namespace IcarusLib
             public Stuff[] Stuffs { get; private set; }
             private Recipe() { }
 
-            static internal IEnumerable<Recipe> Decode(string recipe_str)
+            public bool IsEmpty => Bench == null || Stuffs == null;
+
+            public static readonly Recipe Empty = new Recipe();
+
+            static internal IEnumerable<Recipe> Decode(string recipe_str) // recipe_str が "" なら空の列挙が返る
             {
                 string[] spli(char del, string str) => str.Split(new char[] { del }, StringSplitOptions.RemoveEmptyEntries);
                 var rex = new Regex(@"^(\S+)\((.*)\)$");
                 return spli('|', recipe_str).Select(s =>
-                { /* CraftingBench(Fiber:20,Leather:30,Bone:8) */
-                    var m = rex.Match(s);
-                    var elems = m.Groups.Cast<Group>().Skip(1).Select(g => g.Value).ToArray(); /* [ "CraftingBench", "Fiber:20,Leather:30,Bone:8" ] */
-                    var rec = new Recipe();
-                    rec.Bench = new IcrObject(elems[0]);
-                    if (elems[1] != "")
-                    {
-                        rec.Stuffs = elems[1].Split(',').Select(ss =>
-                        { /* Fiber:20 */
-                            var sv = ss.Split(':');
-                            return new Stuff(new IcrObject(sv[0]), decimal.Parse(sv[1].Trim()));
-                        }).ToArray();
-                    }
-                    return rec;
-                });
+                    { /* CraftingBench(Fiber:20,Leather:30,Bone:8) */
+                        var m = rex.Match(s);
+                        var elems = m.Groups.Cast<Group>().Skip(1).Select(g => g.Value).ToArray(); /* [ "CraftingBench", "Fiber:20,Leather:30,Bone:8" ] */
+                        var rec = new Recipe();
+                        rec.Bench = new IcrObject(elems[0]);
+                        if (elems[1] != "")
+                        {
+                            rec.Stuffs = elems[1].Split(',').Select(ss =>
+                            { /* Fiber:20 */
+                                var sv = ss.Split(':');
+                                return new Stuff(new IcrObject(sv[0]), decimal.Parse(sv[1].Trim()));
+                            }).ToArray();
+                        }
+                        return rec;
+                    }).DefaultIfEmpty(Empty);
+
             }
 
             public (Stuff[] aggregated, string[] benches) FinalRequirements()
@@ -63,10 +68,10 @@ namespace IcarusLib
                 benches.Add(Bench.Key);
                 foreach (var st in Stuffs ?? new Stuff[] { })
                 {
-                    var recipes = st.Item.Recipes;
-                    if (recipes != null && recipes.Length > 0)
+                    var recipe = st.Item.SelectedRecipe;
+                    if (!recipe.IsEmpty)
                     {
-                        var result = recipes[st.Item.RecipeIndex].FinalRequirements();
+                        var result =recipe.FinalRequirements();
                         gather.AddRange(result.aggregated.Select(xi => xi.Clone().Multiply(st.Volume)));
                         benches.AddRange(result.benches);
                     }

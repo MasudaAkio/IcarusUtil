@@ -61,7 +61,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AdliftModule {
             get {
@@ -70,7 +70,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AdvancedDeepMiningOreScanner {
             get {
@@ -286,7 +286,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AnimalHealthbarModule {
             get {
@@ -295,7 +295,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string AnimalHighlightingModule {
             get {
@@ -331,7 +331,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Anti_ParasiticVaccineI {
             get {
@@ -340,7 +340,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Anti_ParasiticVaccineII {
             get {
@@ -349,7 +349,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Anti_ParasiticVaccineIII {
             get {
@@ -385,7 +385,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Anti_PoisonVaccineI {
             get {
@@ -394,7 +394,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Anti_PoisonVaccineII {
             get {
@@ -403,7 +403,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Anti_PoisonVaccineIII {
             get {
@@ -448,7 +448,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ArchersBackpack {
             get {
@@ -457,7 +457,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string BacterialVaccineI {
             get {
@@ -466,7 +466,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string BacterialVaccineII {
             get {
@@ -475,7 +475,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string BacterialVaccineIII {
             get {
@@ -691,7 +691,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string BloodThinningVaccineI {
             get {
@@ -700,7 +700,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string BloodThinningVaccineII {
             get {
@@ -709,7 +709,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string BloodThinningVaccineIII {
             get {
@@ -1528,7 +1528,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string CX_400ArmsArmor {
             get {
@@ -1537,7 +1537,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string CX_400ChestArmor {
             get {
@@ -1546,7 +1546,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string CX_400FeetArmor {
             get {
@@ -1555,7 +1555,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string CX_400HeadArmor {
             get {
@@ -1564,7 +1564,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string CX_400LegsArmor {
             get {
@@ -1609,7 +1609,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string DetoxifierModule {
             get {
@@ -1627,7 +1627,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string DoseupModule {
             get {
@@ -1771,7 +1771,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Endurogel {
             get {
@@ -2059,7 +2059,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string GatherersBackpack {
             get {
@@ -2203,7 +2203,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Go {
             get {
@@ -2266,7 +2266,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string HealingBoostModule {
             get {
@@ -2473,7 +2473,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string InarisArudaArrow {
             get {
@@ -2482,7 +2482,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string InarisDiasAxe {
             get {
@@ -2491,7 +2491,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string InarisGrisSpear {
             get {
@@ -2500,7 +2500,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string InarisNevesPickaxe {
             get {
@@ -2509,7 +2509,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string InarisVenturaKnife {
             get {
@@ -2779,7 +2779,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string KickFallModule {
             get {
@@ -2815,7 +2815,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezAxe {
             get {
@@ -2824,7 +2824,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezHammer {
             get {
@@ -2833,7 +2833,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezKnife {
             get {
@@ -2842,7 +2842,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezMercenaryBackpack {
             get {
@@ -2851,7 +2851,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezPickaxe {
             get {
@@ -2860,7 +2860,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezSickle {
             get {
@@ -2869,7 +2869,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezSpear {
             get {
@@ -2878,7 +2878,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LarkwellMartinezTacticalBackpack {
             get {
@@ -2995,7 +2995,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string LowburnModule {
             get {
@@ -3049,7 +3049,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MassDampenerModule {
             get {
@@ -3139,7 +3139,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Micromeal {
             get {
@@ -3175,7 +3175,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCAxe {
             get {
@@ -3184,7 +3184,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCCampfire {
             get {
@@ -3193,7 +3193,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCCrate {
             get {
@@ -3202,7 +3202,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCFirewhacker {
             get {
@@ -3211,7 +3211,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCFlangeArrow {
             get {
@@ -3220,7 +3220,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCFurnace {
             get {
@@ -3229,7 +3229,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCHammer {
             get {
@@ -3238,7 +3238,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCKnife {
             get {
@@ -3247,7 +3247,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCNerveArrow {
             get {
@@ -3256,7 +3256,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCPickaxe {
             get {
@@ -3265,7 +3265,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCSickle {
             get {
@@ -3274,7 +3274,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCSpear {
             get {
@@ -3283,7 +3283,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string MXCVenomArrow {
             get {
@@ -3292,7 +3292,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string NaneoArmsArmor {
             get {
@@ -3301,7 +3301,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string NaneoChestArmor {
             get {
@@ -3310,7 +3310,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string NaneoFeetArmor {
             get {
@@ -3319,7 +3319,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string NaneoHeadArmor {
             get {
@@ -3328,7 +3328,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string NaneoLegsArmor {
             get {
@@ -3382,7 +3382,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Oxygel {
             get {
@@ -3445,7 +3445,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string PatcherIIModule {
             get {
@@ -3454,7 +3454,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string PatcherIModule {
             get {
@@ -3571,7 +3571,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string PlayerTrackerModule {
             get {
@@ -4030,7 +4030,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongAkiraHammer {
             get {
@@ -4039,7 +4039,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongDaokouKnife {
             get {
@@ -4048,7 +4048,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongDidaSpear {
             get {
@@ -4057,7 +4057,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongDongPickaxe {
             get {
@@ -4066,7 +4066,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongGongBuSpear {
             get {
@@ -4075,7 +4075,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongHeikeAxe {
             get {
@@ -4084,7 +4084,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongHuluCanteen {
             get {
@@ -4093,7 +4093,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongJiBow {
             get {
@@ -4102,7 +4102,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongJijingBow {
             get {
@@ -4111,7 +4111,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongJijuSpear {
             get {
@@ -4120,7 +4120,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongJushiPickaxe {
             get {
@@ -4129,7 +4129,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongKuangPickaxe {
             get {
@@ -4138,7 +4138,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongLieAxe {
             get {
@@ -4147,7 +4147,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongLiweiO2Tank {
             get {
@@ -4156,7 +4156,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongQieKnife {
             get {
@@ -4165,7 +4165,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongSenAxe {
             get {
@@ -4174,7 +4174,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongShuiKnife {
             get {
@@ -4183,7 +4183,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongSichouKnife {
             get {
@@ -4192,7 +4192,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongSuiShiPickaxe {
             get {
@@ -4201,7 +4201,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongTetsuoHammer {
             get {
@@ -4210,7 +4210,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongWenheArrow {
             get {
@@ -4219,7 +4219,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongXingxingSpear {
             get {
@@ -4228,7 +4228,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongYeyingBandage {
             get {
@@ -4237,7 +4237,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ShengongZhangHuBow {
             get {
@@ -4417,7 +4417,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ST_700ArmsArmor {
             get {
@@ -4426,7 +4426,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ST_700ChestArmor {
             get {
@@ -4435,7 +4435,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ST_700FeetArmor {
             get {
@@ -4444,7 +4444,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ST_700HeadArmor {
             get {
@@ -4453,7 +4453,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ST_700LegsArmor {
             get {
@@ -4786,7 +4786,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string StrengthBoostModule {
             get {
@@ -4804,7 +4804,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SurvivalBackpack {
             get {
@@ -5119,7 +5119,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Ultrameal {
             get {
@@ -5533,7 +5533,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WorkshopRepairKit {
             get {
@@ -5542,7 +5542,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   WorkShop() に類似しているローカライズされた文字列を検索します。
+        ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WorkshopRepairKitBundle {
             get {

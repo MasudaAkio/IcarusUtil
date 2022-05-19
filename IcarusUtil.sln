@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32413.511
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcarusLib", "IcarusLib\IcarusLib.csproj", "{050FC3A3-B4C3-4B65-88F8-41C1843D636B}"
 EndProject
@@ -110,9 +110,11 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		RESX_Rules = {"EnabledRules":["StringFormat","WhiteSpaceLead","PunctuationLead","PunctuationTail"]}
-		RESX_DuplicateKeyHandling = Fail
-		RESX_AutoCreateNewLanguageFiles = True
+		RESX_RemoveEmptyEntries = True
+		RESX_ExcelExportMode = MultipleSheets
 		SolutionGuid = {E3E514C4-55D8-4833-8F00-5E55E99D9A0C}
+		RESX_AutoCreateNewLanguageFiles = True
+		RESX_DuplicateKeyHandling = Fail
+		RESX_Rules = {"EnabledRules":["StringFormat","WhiteSpaceLead","PunctuationLead","PunctuationTail"]}
 	EndGlobalSection
 EndGlobal

@@ -51,6 +51,7 @@ namespace Icarus
             }
         }
 
+        [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public (ObjectItem[] benches, ObjectItem[] stuffs) Recipe
         {
             get
