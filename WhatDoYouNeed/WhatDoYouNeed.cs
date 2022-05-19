@@ -37,10 +37,20 @@ namespace Icarus
             static public implicit operator IcrObject.IcrAttributes(CategoryItem i) => i.Attr;
         }
 
+        private IcrObject[] can_be_crafted
+            => (from k in IcrObject.Keys
+               let io = new IcrObject(k)
+               where !io.SelectedRecipe.IsEmpty
+               select io)
+            .ToArray();
+
         private void CountCategory()
         {
-            var attrs = IcrObject.Keys.Select(k => new IcrObject(k).Attribute).ToArray();
-            var x = from IcrObject.IcrAttributes a in Enum.GetValues(typeof(IcrObject.IcrAttributes))
+            var attrs = can_be_crafted.Select(io => io.Attribute).ToArray();
+            var categories = Enum.GetValues(typeof(IcrObject.IcrAttributes))
+                                    .OfType<IcrObject.IcrAttributes>()
+                                    .Except(new[] { IcrObject.IcrAttributes.None });
+            var x = from IcrObject.IcrAttributes a in categories
                     let cnt = attrs.Count(a2 => a2.HasFlag(a))
                     select (a, cnt);
             var dic = x.Where(kv => kv.cnt > 0).ToDictionary(xx => xx.a, xx => xx.cnt);
@@ -56,11 +66,6 @@ namespace Icarus
                 ro.ListViewStyle = v;
             roTotal.ListViewStyle = v;
         }
-        private IEnumerable<IcrObject> can_be_crafted
-            => from k in IcrObject.Keys
-               let io = new IcrObject(k)
-               where !io.SelectedRecipe.IsEmpty
-               select io;
 
         void SetHavingBenches()
         {
@@ -108,7 +113,7 @@ namespace Icarus
             bool Match(IcrObject.IcrAttributes a, IcrObject.IcrAttributes b) => b == IcrObject.IcrAttributes.None || (a & b) != 0;
 
             var filtered = from obj in can_be_crafted
-                    where obj.Name.Contains(s) && Match(obj.Attribute, attr_filter)
+                    where (all || obj.Name.Contains(s)) && Match(obj.Attribute, attr_filter)
                     select obj;
 
             lvSouces.Items.AddRange(filtered

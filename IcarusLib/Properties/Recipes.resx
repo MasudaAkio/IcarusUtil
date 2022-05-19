@@ -1375,7 +1375,7 @@
     <value>ConcreteFurnace(GoldOre:2)</value>
   </data>
   <data name="RefinedWood" xml:space="preserve">
-    <value></value>
+    <value>CarpentryBench(Wood:0.1)</value>
   </data>
   <data name="Refrigerator" xml:space="preserve">
     <value>Fabricator(AluminiumIngot:40,Electronics:20,CarbonFiber:8,SteelScrew:12)</value>

@@ -3850,7 +3850,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   CarpentryBench(Wood:0.1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string RefinedWood {
             get {

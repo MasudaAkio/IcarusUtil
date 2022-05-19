@@ -130,7 +130,7 @@
     <value>金鉱石</value>
   </data>
   <data name="CoalOre" xml:space="preserve">
-    <value>石炭鉱石</value>
+    <value>石炭</value>
   </data>
   <data name="PlatinumOre" xml:space="preserve">
     <value>プラチナ鉱石</value>
@@ -142,7 +142,7 @@
     <value>エキゾチック</value>
   </data>
   <data name="Stone" xml:space="preserve">
-    <value>石材</value>
+    <value>石</value>
   </data>
   <data name="Ice" xml:space="preserve">
     <value>氷</value>
@@ -181,7 +181,7 @@
     <value>ニンジン</value>
   </data>
   <data name="YoungCoconut" xml:space="preserve">
-    <value>ヤングココナッツ</value>
+    <value>早熟ココナッツ</value>
   </data>
   <data name="Mushroom" xml:space="preserve">
     <value>マッシュルーム</value>
@@ -196,7 +196,7 @@
     <value>腐った肉</value>
   </data>
   <data name="Fiber" xml:space="preserve">
-    <value>ファイバー</value>
+    <value>繊維</value>
   </data>
   <data name="Stick" xml:space="preserve">
     <value>木の枝</value>
@@ -460,7 +460,7 @@
     <value>ボルトアクションライフル</value>
   </data>
   <data name="BoneArrow" xml:space="preserve">
-    <value>ボーンの矢</value>
+    <value>骨の矢</value>
   </data>
   <data name="BoneKnife" xml:space="preserve">
     <value>骨のナイフ</value>
@@ -775,7 +775,7 @@
     <value>電動コンポスター</value>
   </data>
   <data name="ElectricDeep-MiningDrill" xml:space="preserve">
-    <value>電動深堀りドリル</value>
+    <value>電動深部掘削ドリル</value>
   </data>
   <data name="ElectricDehumidifier" xml:space="preserve">
     <value>電気式除湿器</value>
@@ -784,7 +784,7 @@
     <value>電気溶炉</value>
   </data>
   <data name="ElectricMasonryBench" xml:space="preserve">
-    <value>電動石工用ベンチ</value>
+    <value>電動石工台</value>
   </data>
   <data name="ElectricityTool" xml:space="preserve">
     <value>電動工具</value>
@@ -796,7 +796,7 @@
     <value>エンデュロゲル</value>
   </data>
   <data name="Epoxy" xml:space="preserve">
-    <value>エポキシ樹脂</value>
+    <value>エポキシ</value>
   </data>
   <data name="Extractor" xml:space="preserve">
     <value>抽出機</value>
@@ -841,7 +841,7 @@
     <value>フラットブレッド生地</value>
   </data>
   <data name="FlintArrow" xml:space="preserve">
-    <value>フリントの矢</value>
+    <value>石の矢</value>
   </data>
   <data name="FloorTorch" xml:space="preserve">
     <value>フロアトーチ</value>
@@ -850,7 +850,7 @@
     <value>小麦粉</value>
   </data>
   <data name="FoodConsumptionPaste" xml:space="preserve">
-    <value>食品消費用ペースト</value>
+    <value>食品消費ペースト</value>
   </data>
   <data name="FragGrenade" xml:space="preserve">
     <value>フラググレネード</value>
@@ -907,7 +907,7 @@
     <value>ガラスドア</value>
   </data>
   <data name="GlassJar" xml:space="preserve">
-    <value>ガラスジャー</value>
+    <value>ガラス瓶</value>
   </data>
   <data name="GlassRoof" xml:space="preserve">
     <value>ガラスの屋根</value>
@@ -958,7 +958,7 @@
     <value>ヘルスリストアリングペースト</value>
   </data>
   <data name="HeatBandage" xml:space="preserve">
-    <value>ヒートバンテージ</value>
+    <value>温熱包帯</value>
   </data>
   <data name="HeavyAirConditioner" xml:space="preserve">
     <value>ヘビーエアコン</value>
@@ -1006,7 +1006,7 @@
     <value>ハンティングライフル</value>
   </data>
   <data name="HydroponicCropPlot" xml:space="preserve">
-    <value>水耕栽培の作物</value>
+    <value>水耕栽培の畑棚</value>
   </data>
   <data name="IceBox" xml:space="preserve">
     <value>アイスボックス</value>
@@ -1027,16 +1027,16 @@
     <value>イナリスベンチュラナイフ</value>
   </data>
   <data name="IncendiaryRifleRound" xml:space="preserve">
-    <value>焼夷弾ライフル</value>
+    <value>焼夷弾</value>
   </data>
   <data name="InteriorWoodBeam" xml:space="preserve">
     <value>インテリア木製の梁</value>
   </data>
   <data name="InteriorWoodCupboard" xml:space="preserve">
-    <value>内装用木製食器棚</value>
+    <value>インテリア木製食器棚</value>
   </data>
   <data name="InteriorWoodDoor" xml:space="preserve">
-    <value>内装用木製ドア</value>
+    <value>インテリア木製ドア</value>
   </data>
   <data name="InteriorWoodFloor" xml:space="preserve">
     <value>インテリア木製フロア</value>
@@ -1072,7 +1072,7 @@
     <value>インテリア木製の三角壁</value>
   </data>
   <data name="IronAxe" xml:space="preserve">
-    <value>アイアンアックス</value>
+    <value>鉄の斧</value>
   </data>
   <data name="IronBolt" xml:space="preserve">
     <value>鉄のボルト</value>
@@ -1093,7 +1093,7 @@
     <value>鉄の釘</value>
   </data>
   <data name="IronPickaxe" xml:space="preserve">
-    <value>鉄のつるはし</value>
+    <value>鉄のツルハシ</value>
   </data>
   <data name="IronSickle" xml:space="preserve">
     <value>鉄の鎌</value>
@@ -1189,22 +1189,22 @@
     <value>マンモス・トロフィー</value>
   </data>
   <data name="MasonryBench" xml:space="preserve">
-    <value>メイソンリーベンチ</value>
+    <value>石工台</value>
   </data>
   <data name="MassDampenerModule" xml:space="preserve">
-    <value>マスダンプナーモジュール</value>
+    <value>マスダンパーモジュール</value>
   </data>
   <data name="MaterialProcessor" xml:space="preserve">
     <value>マテリアルプロセッサー</value>
   </data>
   <data name="MatureCoconut" xml:space="preserve">
-    <value>マチュアココナッツ</value>
+    <value>完熟ココナッツ</value>
   </data>
   <data name="MeatPie" xml:space="preserve">
     <value>ミートパイ</value>
   </data>
   <data name="MediumInteriorWoodCrate" xml:space="preserve">
-    <value>ミディアムインテリア木製クレート</value>
+    <value>インテリア木製クレート(中型)</value>
   </data>
   <data name="MediumIronCrate" xml:space="preserve">
     <value>中型の鉄箱</value>
@@ -1219,7 +1219,7 @@
     <value>金属鉱石</value>
   </data>
   <data name="MetalOxiteDissolver" xml:space="preserve">
-    <value>メタルオキサイトディゾルバー</value>
+    <value>金属製オキサイト分解機</value>
   </data>
   <data name="Micromeal" xml:space="preserve">
     <value>マイクロミール</value>
@@ -1231,7 +1231,7 @@
     <value>キノコスープ</value>
   </data>
   <data name="MXCAxe" xml:space="preserve">
-    <value>MXCAxe</value>
+    <value>MXC斧</value>
   </data>
   <data name="MXCCampfire" xml:space="preserve">
     <value>MXCキャンプファイヤー</value>
@@ -1246,7 +1246,7 @@
     <value>MXC フランジの矢</value>
   </data>
   <data name="MXCFurnace" xml:space="preserve">
-    <value>MXCファーネス</value>
+    <value>MXC溶炉</value>
   </data>
   <data name="MXCHammer" xml:space="preserve">
     <value>MXCHammer</value>
@@ -1258,13 +1258,13 @@
     <value>MXCナーブの矢</value>
   </data>
   <data name="MXCPickaxe" xml:space="preserve">
-    <value>MXCPickaxe</value>
+    <value>MXCツルハシ</value>
   </data>
   <data name="MXCSickle" xml:space="preserve">
-    <value>MXCSickle</value>
+    <value>MXC鎌</value>
   </data>
   <data name="MXCSpear" xml:space="preserve">
-    <value>MXCスピア</value>
+    <value>MXC槍</value>
   </data>
   <data name="MXCVenomArrow" xml:space="preserve">
     <value>MXCベノムの矢</value>
@@ -1273,7 +1273,7 @@
     <value>ナネオアームアーマー</value>
   </data>
   <data name="NaneoChestArmor" xml:space="preserve">
-    <value>ナノイー胸部アーマー</value>
+    <value>ナネオチェストアーマー</value>
   </data>
   <data name="NaneoFeetArmor" xml:space="preserve">
     <value>ナネオフットアーマー</value>
@@ -1282,7 +1282,7 @@
     <value>ナネオヘッドアーマー</value>
   </data>
   <data name="NaneoLegsArmor" xml:space="preserve">
-    <value>ナネオレッグスアーマー</value>
+    <value>ナネオレッグアーマー</value>
   </data>
   <data name="OmnidirectionalWorklamp" xml:space="preserve">
     <value>全方位型ワークランプ</value>
@@ -1351,22 +1351,22 @@
     <value>プラチナ・ナイフ</value>
   </data>
   <data name="PlatinumPickaxe" xml:space="preserve">
-    <value>プラチナつるはし</value>
+    <value>プラチナのツルハシ</value>
   </data>
   <data name="PlatinumSickle" xml:space="preserve">
     <value>プラチナ・シックル</value>
   </data>
   <data name="PlatinumSpear" xml:space="preserve">
-    <value>プラチナスピアー</value>
+    <value>プラチナの槍</value>
   </data>
   <data name="PlayerTrackerModule" xml:space="preserve">
     <value>プレイヤートラッカーモジュール</value>
   </data>
   <data name="PoisonArrow" xml:space="preserve">
-    <value>ポイズンの矢</value>
+    <value>毒の矢</value>
   </data>
   <data name="PoisonPaste" xml:space="preserve">
-    <value>ポイズンペースト</value>
+    <value>毒ペースト</value>
   </data>
   <data name="PoisonedAnimalBait" xml:space="preserve">
     <value>毒動物のエサ</value>
@@ -1507,7 +1507,7 @@
     <value>シェンゴン社製「ジュシー」斧</value>
   </data>
   <data name="ShengongKuangPickaxe" xml:space="preserve">
-    <value>シェンゴン社製「クアン」つるはし</value>
+    <value>シェンゴン社製「クアン」ツルハシ</value>
   </data>
   <data name="ShengongLieAxe" xml:space="preserve">
     <value>シェンゴン社製「りー」斧</value>
@@ -1528,7 +1528,7 @@
     <value>シェンゴン社製「シチョウ」ナイフ</value>
   </data>
   <data name="ShengongSuiShiPickaxe" xml:space="preserve">
-    <value>シェンゴン社製「スイ・シー」つるはし</value>
+    <value>シェンゴン社製「スイ・シー」ツルハシ</value>
   </data>
   <data name="ShengongTetsuoHammer" xml:space="preserve">
     <value>シェンゴン社製「テツオ」ハンマー</value>
@@ -1630,22 +1630,22 @@
     <value>スティールハンマー</value>
   </data>
   <data name="SteelIngot" xml:space="preserve">
-    <value>鋼鉄のインゴット</value>
+    <value>鋼のインゴット</value>
   </data>
   <data name="SteelKnife" xml:space="preserve">
-    <value>鋼鉄のナイフ</value>
+    <value>鋼のナイフ</value>
   </data>
   <data name="SteelPickaxe" xml:space="preserve">
-    <value>鋼鉄のつるはし</value>
+    <value>鋼のツルハシ</value>
   </data>
   <data name="SteelRebar" xml:space="preserve">
-    <value>鋼鉄鉄筋</value>
+    <value>鋼の鉄筋</value>
   </data>
   <data name="SteelScrew" xml:space="preserve">
-    <value>鋼鉄製のネジ</value>
+    <value>鋼のネジ</value>
   </data>
   <data name="SteelSpear" xml:space="preserve">
-    <value>鋼鉄の槍</value>
+    <value>鋼の槍</value>
   </data>
   <data name="Stew" xml:space="preserve">
     <value>シチュー</value>
@@ -1663,46 +1663,46 @@
     <value>石の床</value>
   </data>
   <data name="StoneFloorTrapdoor" xml:space="preserve">
-    <value>石床トラップドア</value>
+    <value>石の床・トラップドア</value>
   </data>
   <data name="StoneFrame" xml:space="preserve">
-    <value>石フレーム</value>
+    <value>石のフレーム</value>
   </data>
   <data name="StoneFurnace" xml:space="preserve">
     <value>石の溶炉</value>
   </data>
   <data name="StoneHalfpieces" xml:space="preserve">
-    <value>石材ハーフピース</value>
+    <value>石のハーフピース</value>
   </data>
   <data name="StoneHalfpitches" xml:space="preserve">
-    <value>石材三角壁(ハーフ)</value>
+    <value>石の三角壁(ハーフ)</value>
   </data>
   <data name="StoneKnife" xml:space="preserve">
-    <value>石製ナイフ</value>
+    <value>石のナイフ</value>
   </data>
   <data name="StonePickaxe" xml:space="preserve">
-    <value>石のつるはし</value>
+    <value>石のツルハシ</value>
   </data>
   <data name="StonePile" xml:space="preserve">
-    <value>石積み</value>
+    <value>石の山</value>
   </data>
   <data name="StoneRamp" xml:space="preserve">
-    <value>石のスロープ</value>
+    <value>石の斜面</value>
   </data>
   <data name="StoneRoof" xml:space="preserve">
-    <value>石屋根</value>
+    <value>石の屋根</value>
   </data>
   <data name="StoneRoofCorner" xml:space="preserve">
     <value>石の屋根(角)</value>
   </data>
   <data name="StoneStairs" xml:space="preserve">
-    <value>石階段</value>
+    <value>石の階段</value>
   </data>
   <data name="StoneWall" xml:space="preserve">
-    <value>石垣</value>
+    <value>石の壁</value>
   </data>
   <data name="StoneWallAngled" xml:space="preserve">
-    <value>石垣の角度</value>
+    <value>石の三角壁</value>
   </data>
   <data name="StrengthBoostModule" xml:space="preserve">
     <value>ストレングスブーストモジュール</value>
@@ -1792,16 +1792,16 @@
     <value>チタンインゴット</value>
   </data>
   <data name="TitaniumKnife" xml:space="preserve">
-    <value>チタン製ナイフ</value>
+    <value>チタンのナイフ</value>
   </data>
   <data name="TitaniumPickaxe" xml:space="preserve">
-    <value>チタン製つるはし</value>
+    <value>チタンのツルハシ</value>
   </data>
   <data name="TitaniumSickle" xml:space="preserve">
-    <value>チタン鎌</value>
+    <value>チタンの鎌</value>
   </data>
   <data name="TitaniumSpear" xml:space="preserve">
-    <value>チタンスピア</value>
+    <value>チタンの槍</value>
   </data>
   <data name="TreeSap" xml:space="preserve">
     <value>樹液</value>
@@ -1831,7 +1831,7 @@
     <value>水源</value>
   </data>
   <data name="WaterSprinkler" xml:space="preserve">
-    <value>水スプリンクラー</value>
+    <value>スプリンクラー</value>
   </data>
   <data name="Waterskin" xml:space="preserve">
     <value>水袋</value>
@@ -1849,76 +1849,76 @@
     <value>木の梁</value>
   </data>
   <data name="WoodBed" xml:space="preserve">
-    <value>木製ベッド</value>
+    <value>木のベッド</value>
   </data>
   <data name="WoodBow" xml:space="preserve">
-    <value>木製の弓</value>
+    <value>木の弓</value>
   </data>
   <data name="WoodChair" xml:space="preserve">
-    <value>木製チェア</value>
+    <value>木のチェア</value>
   </data>
   <data name="WoodComposter" xml:space="preserve">
-    <value>木製コンポスター</value>
+    <value>木のコンポスター</value>
   </data>
   <data name="WoodCropPlot" xml:space="preserve">
-    <value>木製クロッププロット</value>
+    <value>木のクロッププロット</value>
   </data>
   <data name="WoodCupboard" xml:space="preserve">
-    <value>木製の食器棚</value>
+    <value>木の食器棚</value>
   </data>
   <data name="WoodDoor" xml:space="preserve">
     <value>木の扉</value>
   </data>
   <data name="WoodFloor" xml:space="preserve">
-    <value>木製フロア</value>
+    <value>木のフロア</value>
   </data>
   <data name="WoodFloorTrapdoor" xml:space="preserve">
-    <value>木製フロアトラップドア</value>
+    <value>木のフロアトラップドア</value>
   </data>
   <data name="WoodHalfpieces" xml:space="preserve">
-    <value>木製ハーフピース</value>
+    <value>木のハーフピース</value>
   </data>
   <data name="WoodHalfpitches" xml:space="preserve">
-    <value>木製三角壁(ハーフ)</value>
+    <value>木の三角壁(ハーフ)</value>
   </data>
   <data name="WoodLadder" xml:space="preserve">
-    <value>木製はしご</value>
+    <value>木のはしご</value>
   </data>
   <data name="WoodPile" xml:space="preserve">
     <value>木の山</value>
   </data>
   <data name="WoodRagTorch" xml:space="preserve">
-    <value>木製ラグ・トーチ</value>
+    <value>木のラグ・トーチ</value>
   </data>
   <data name="WoodRailing" xml:space="preserve">
-    <value>木製の手すり</value>
+    <value>木の手すり</value>
   </data>
   <data name="WoodRamp" xml:space="preserve">
-    <value>木製のスロープ</value>
+    <value>木のスロープ</value>
   </data>
   <data name="WoodRepairHammer" xml:space="preserve">
-    <value>木製ハンマー</value>
+    <value>木のハンマー</value>
   </data>
   <data name="WoodRoof" xml:space="preserve">
-    <value>木製の屋根</value>
+    <value>木の屋根</value>
   </data>
   <data name="WoodRoofCorner" xml:space="preserve">
-    <value>木製の屋根(角)</value>
+    <value>木の屋根(角)</value>
   </data>
   <data name="WoodSpear" xml:space="preserve">
-    <value>木製の槍</value>
+    <value>木の槍</value>
   </data>
   <data name="WoodStairs" xml:space="preserve">
-    <value>木製の階段</value>
+    <value>木の階段</value>
   </data>
   <data name="WoodTable" xml:space="preserve">
-    <value>木製のテーブル</value>
+    <value>木のテーブル</value>
   </data>
   <data name="WoodTorch" xml:space="preserve">
-    <value>木製のトーチ</value>
+    <value>木のトーチ</value>
   </data>
   <data name="WoodTrapdoor" xml:space="preserve">
-    <value>木製トラップドア</value>
+    <value>木のトラップドア</value>
   </data>
   <data name="WoodWall" xml:space="preserve">
     <value>木の壁</value>
@@ -1927,7 +1927,7 @@
     <value>木の三角壁</value>
   </data>
   <data name="WoodWindow" xml:space="preserve">
-    <value>木製ウィンドウ</value>
+    <value>木のウィンドウ</value>
   </data>
   <data name="WorkshopRepairKit" xml:space="preserve">
     <value>ワークショップ・リペアキット</value>
