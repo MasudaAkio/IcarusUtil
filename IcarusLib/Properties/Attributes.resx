@@ -356,7 +356,7 @@
     <value>Tools</value>
   </data>
   <data name="Campfire" xml:space="preserve">
-    <value>Deployables,</value>
+    <value>Deployables,Benches</value>
   </data>
   <data name="Canteen" xml:space="preserve">
     <value>Tools</value>

@@ -3958,7 +3958,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   CraftingBench(Fiber:12)|TextilesBench(Leather:5) に類似しているローカライズされた文字列を検索します。
+        ///   CraftingBench(Fiber:12)|TextilesBench(Leather:5)|CharacterCrafting(Leather:5) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Rope {
             get {
@@ -4624,7 +4624,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   CarpentryBench(Wood:0.1)|CharacterCrafting(Wood:0.1) に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Wood:0.1)|CarpentryBench(Wood:0.1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Stick {
             get {

@@ -1411,7 +1411,7 @@
     <value>PotbellyStove(Pumpkin:1,Carrot:1,Squash:1)</value>
   </data>
   <data name="Rope" xml:space="preserve">
-    <value>CraftingBench(Fiber:12)|TextilesBench(Leather:5)</value>
+    <value>CraftingBench(Fiber:12)|TextilesBench(Leather:5)|CharacterCrafting(Leather:5)</value>
   </data>
   <data name="SandwormArrow" xml:space="preserve">
     <value>CharacterCrafting(Stick:1,Leather:1,SandwormScale:1)</value>
@@ -1627,7 +1627,7 @@
     <value>PotbellyStove(Water:100,Mushroom:1,Carrot:1,RawMeat:1)</value>
   </data>
   <data name="Stick" xml:space="preserve">
-    <value>CarpentryBench(Wood:0.1)|CharacterCrafting(Wood:0.1)</value>
+    <value>CharacterCrafting(Wood:0.1)|CarpentryBench(Wood:0.1)</value>
   </data>
   <data name="Stone" xml:space="preserve">
     <value></value>

@@ -50,6 +50,7 @@ namespace Icarus
             this.pnlMiddle = new System.Windows.Forms.Panel();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.pnlTotal = new System.Windows.Forms.Panel();
+            this.roTotal = new Icarus.ResultOne();
             this.pnlLeftSide = new System.Windows.Forms.Panel();
             this.pnlRightSide = new System.Windows.Forms.Panel();
             this.lvHavingBenches = new System.Windows.Forms.ListView();
@@ -57,7 +58,6 @@ namespace Icarus
             this.btnHavingBenchesAllorNone = new System.Windows.Forms.Button();
             this.lblHavingBenches = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.roTotal = new Icarus.ResultOne();
             this.pnlUpper.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.pnlLower.SuspendLayout();
@@ -209,6 +209,15 @@ namespace Icarus
             resources.ApplyResources(this.pnlTotal, "pnlTotal");
             this.pnlTotal.Name = "pnlTotal";
             // 
+            // roTotal
+            // 
+            resources.ApplyResources(this.roTotal, "roTotal");
+            this.roTotal.IsForTotal = true;
+            this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
+            this.roTotal.Name = "roTotal";
+            this.roTotal.Target = null;
+            this.roTotal.ValueChanged = null;
+            // 
             // pnlLeftSide
             // 
             this.pnlLeftSide.Controls.Add(this.splitter1);
@@ -264,15 +273,6 @@ namespace Icarus
             resources.ApplyResources(this.lblHavingBenches, "lblHavingBenches");
             this.lblHavingBenches.ForeColor = System.Drawing.Color.White;
             this.lblHavingBenches.Name = "lblHavingBenches";
-            // 
-            // roTotal
-            // 
-            resources.ApplyResources(this.roTotal, "roTotal");
-            this.roTotal.IsForTotal = true;
-            this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
-            this.roTotal.Name = "roTotal";
-            this.roTotal.Target = null;
-            this.roTotal.ValueChanged = null;
             // 
             // WhatDoYouNeed
             // 

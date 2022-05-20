@@ -90,9 +90,14 @@ namespace IcarusLib
 
             public override string ToString()
             {
-                var bench = Bench.Core.Name;
-                var items = string.Join(",", Stuffs.Select(ri => $"{ri.Item.Core.Name} x {ri.Volume}"));
-                return $"{bench}({items})";
+                if (IsEmpty)
+                    return "no recipe";
+                else
+                {
+                    var bench = Bench.Core.Name;
+                    var items = string.Join(",", Stuffs.Select(ri => $"{ri.Item.Core.Name} x {ri.Volume}"));
+                    return $"{bench}({items})";
+                }
             }
         }
     }

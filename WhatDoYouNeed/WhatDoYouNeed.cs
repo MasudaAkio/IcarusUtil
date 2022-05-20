@@ -42,6 +42,7 @@ namespace Icarus
                let io = new IcrObject(k)
                where !io.SelectedRecipe.IsEmpty
                select io)
+            .OrderBy(io => io.Name)
             .ToArray();
 
         private void CountCategory()

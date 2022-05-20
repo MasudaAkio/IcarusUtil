@@ -835,7 +835,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   Deployables, に類似しているローカライズされた文字列を検索します。
+        ///   Deployables,Benches に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string Campfire {
             get {
