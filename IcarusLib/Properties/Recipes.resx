@@ -364,7 +364,7 @@
     <value>KitchenBench(Flour:5,Yeast:1)</value>
   </data>
   <data name="BuckshotShell" xml:space="preserve">
-    <value>MachiningBench(x00BuckshotShell:1,CopperIngot:1,Epoxy:1,Gunpowder:6)</value>
+    <value>MachiningBench(CopperIngot:1,Epoxy:1,Gunpowder:6)</value>
   </data>
   <data name="BuffaloHead" xml:space="preserve">
     <value></value>
@@ -841,7 +841,7 @@
     <value>Campfire(GorseFlower:50,Thermos:1)</value>
   </data>
   <data name="GrilledPumpkin" xml:space="preserve">
-    <value>Campfire(Pumplin:1)|Firepit(Pumplin:1)|Fireplace(Pumplin:1)</value>
+    <value>Campfire(Pumpkin:1)|Firepit(Pumpkin:1)|Fireplace(Pumpkin:1)</value>
   </data>
   <data name="GrowthFertilizer" xml:space="preserve">
     <value>ChemistryBench(SilicaOre:1,BasicFertilizer:5)</value>
@@ -892,19 +892,19 @@
     <value>Campfire(Tea:50,Thermos:1)</value>
   </data>
   <data name="HunterArmsArmor" xml:space="preserve">
-    <value>MachiningBench(Fiber:120,Leather:8,Epxy:4)</value>
+    <value>MachiningBench(Fiber:120,Leather:8,Epoxy:4)</value>
   </data>
   <data name="HunterChestArmor" xml:space="preserve">
-    <value>MachiningBench(Fiber:160,Leather:20,Rope:6,Epxy:16)</value>
+    <value>MachiningBench(Fiber:160,Leather:20,Rope:6,Epoxy:16)</value>
   </data>
   <data name="HunterFeetArmor" xml:space="preserve">
-    <value>MachiningBench(Fiber:80,Leather:12,Rope:4,Epxy:4)</value>
+    <value>MachiningBench(Fiber:80,Leather:12,Rope:4,Epoxy:4)</value>
   </data>
   <data name="HunterHeadArmor" xml:space="preserve">
-    <value>MachiningBench(Fiber:120,Rope:4,Epxy:8)</value>
+    <value>MachiningBench(Fiber:120,Rope:4,Epoxy:8)</value>
   </data>
   <data name="HunterLegsArmor" xml:space="preserve">
-    <value>MachiningBench(Fiber:160,Leather:20,Rope:6,Epxy:8)</value>
+    <value>MachiningBench(Fiber:160,Leather:20,Rope:6,Epoxy:8)</value>
   </data>
   <data name="HuntingRifle" xml:space="preserve">
     <value>Fabricator(Wood:12,Leather:8,TitaniumIngot:40,Epoxy:4,SteelScrew:16)</value>
@@ -1012,7 +1012,7 @@
     <value>AnvilBench(Wood:4,Leather:4,IronIngot:10)</value>
   </data>
   <data name="IronSpear" xml:space="preserve">
-    <value>AnvilBench(Wood:5,Leather:6,ironIngot:24)</value>
+    <value>AnvilBench(Wood:5,Leather:6,IronIngot:24)</value>
   </data>
   <data name="JaguarHead" xml:space="preserve">
     <value></value>
@@ -1651,7 +1651,7 @@
     <value>MasonryBench(Wood:12,Stone:40,Leather:4,IronNail:12)</value>
   </data>
   <data name="StoneFurnace" xml:space="preserve">
-    <value>CraftingBench(CopperOre:2,IronOre:2)</value>
+    <value>CraftingBench(Stick:4,Wood:12,Stone:80,Leather:12)</value>
   </data>
   <data name="StoneHalfpieces" xml:space="preserve">
     <value>MasonryBench(Wood:6,Stone:20,Leather:4,IronNail:6)</value>
@@ -1954,6 +1954,12 @@
     <value></value>
   </data>
   <data name="Water" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ScorpionTail" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="ScorpionPincer" xml:space="preserve">
     <value></value>
   </data>
 </root>

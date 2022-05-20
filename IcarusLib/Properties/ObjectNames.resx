@@ -1953,4 +1953,10 @@
   <data name="Water" xml:space="preserve">
     <value>Water</value>
   </data>
+  <data name="ScorpionTail" xml:space="preserve">
+    <value>Scorpion Tail</value>
+  </data>
+  <data name="ScorpionPincer" xml:space="preserve">
+    <value>Scorpion Pincer</value>
+  </data>
 </root>

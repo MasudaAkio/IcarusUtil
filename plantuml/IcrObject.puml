@@ -1,32 +1,19 @@
 @startuml
-enum Attrs {
-    Armors,
-    BuildingPieces,
-    Consumables,
-    Deplyables,
-    Environsuits,
-    Modules,
-    Resources,
-    Tools,
-    Weapons,
-    Food,
-    Drinks,
-    Medicine,
-    Benches,
-    CraftingBenches,
-    CookingBenches,
-    ClimateControl,
-}
 class IcrObject <<partial>> {
     + Key : string <<get>>
     + Name : string <<get>>
+    - <<readonly>> _key : string
     + IcrObject(key:string)
+    + RecipeIndex : int <<get>> <<set>>
+    + <<override>> ToString() : string
 }
 class "IEnumerable`1"<T> {
 }
 IcrObject o-> "Cores" IcrObjectCores
 IcrObject --> "Keys<string>" "IEnumerable`1"
 IcrObject --> "Image" Image
+IcrObject --> "Attribute" IcrAttributes
+IcrObject --> "SelectedRecipe" Recipe
 IcrObject --> "_core" IcrObjectCore
 IcrObject --> "Core" IcrObjectCore
 @enduml

@@ -4,8 +4,11 @@ class IcrObject <<partial>> {
 class IcrObjectCore {
     + Key : string <<get>>
     + Name : string <<get>>
+    - Reconst(attr_str:string) : IcrAttributes
     + IcrObjectCore(key:string)
-    + HasAnyRecipes : bool <<get>>
+    - _recipeIndex : int = 0
+    + RecipeIndex : int <<get>> <<set>>
+    + <<override>> ToString() : string
 }
 class IcrObjectCores {
     + IcrObjectCores()
@@ -17,7 +20,8 @@ class "KeyedCollection`2"<T1,T2> {
 }
 IcrObject +-- IcrObjectCore
 IcrObjectCore --> "Image" Bitmap
-IcrObjectCore --> "Attributes" Attrs
+IcrObjectCore --> "Attribute" IcrAttributes
+IcrObjectCore --> "SelectedRecipe" Recipe
 IcrObjectCore --> "calture" CultureInfo
 IcrObjectCore --> "Keys<string>" "IEnumerable`1"
 IcrObject +-- IcrObjectCores

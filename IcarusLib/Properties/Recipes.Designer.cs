@@ -799,7 +799,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(x00BuckshotShell:1,CopperIngot:1,Epoxy:1,Gunpowder:6) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(CopperIngot:1,Epoxy:1,Gunpowder:6) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string BuckshotShell {
             get {
@@ -2239,7 +2239,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   Campfire(Pumplin:1)|Firepit(Pumplin:1)|Fireplace(Pumplin:1) に類似しているローカライズされた文字列を検索します。
+        ///   Campfire(Pumpkin:1)|Firepit(Pumpkin:1)|Fireplace(Pumpkin:1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string GrilledPumpkin {
             get {
@@ -2392,7 +2392,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(Fiber:120,Leather:8,Epxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(Fiber:120,Leather:8,Epoxy:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string HunterArmsArmor {
             get {
@@ -2401,7 +2401,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(Fiber:160,Leather:20,Rope:6,Epxy:16) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(Fiber:160,Leather:20,Rope:6,Epoxy:16) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string HunterChestArmor {
             get {
@@ -2410,7 +2410,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(Fiber:80,Leather:12,Rope:4,Epxy:4) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(Fiber:80,Leather:12,Rope:4,Epoxy:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string HunterFeetArmor {
             get {
@@ -2419,7 +2419,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(Fiber:120,Rope:4,Epxy:8) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(Fiber:120,Rope:4,Epoxy:8) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string HunterHeadArmor {
             get {
@@ -2428,7 +2428,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(Fiber:160,Leather:20,Rope:6,Epxy:8) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(Fiber:160,Leather:20,Rope:6,Epoxy:8) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string HunterLegsArmor {
             get {
@@ -2752,7 +2752,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   AnvilBench(Wood:5,Leather:6,ironIngot:24) に類似しているローカライズされた文字列を検索します。
+        ///   AnvilBench(Wood:5,Leather:6,IronIngot:24) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string IronSpear {
             get {
@@ -4021,11 +4021,29 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ScorpionPincer {
+            get {
+                return ResourceManager.GetString("ScorpionPincer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   CraftingBench(Stone:4,Stick:4,ScorpionPincer:4) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ScorpionPincerTrap {
             get {
                 return ResourceManager.GetString("ScorpionPincerTrap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///    に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ScorpionTail {
+            get {
+                return ResourceManager.GetString("ScorpionTail", resourceCulture);
             }
         }
         
@@ -4678,7 +4696,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   CraftingBench(CopperOre:2,IronOre:2) に類似しているローカライズされた文字列を検索します。
+        ///   CraftingBench(Stick:4,Wood:12,Stone:80,Leather:12) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string StoneFurnace {
             get {

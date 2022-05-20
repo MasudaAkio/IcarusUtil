@@ -566,6 +566,7 @@ class Recipes {
     + {static} Ultrameal : string <<get>>
     + {static} VegetablePie : string <<get>>
     + {static} WallTorch : string <<get>>
+    + {static} Water : string <<get>>
     + {static} WaterConsumptionPaste : string <<get>>
     + {static} Watermelon : string <<get>>
     + {static} WaterPipeTool : string <<get>>

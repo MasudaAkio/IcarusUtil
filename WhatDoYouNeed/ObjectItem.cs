@@ -34,6 +34,7 @@ namespace Icarus
             Volume = volume;
             basevolume = volume;
             Recipes = obj.Recipes;
+            ToolTipText = obj.SelectedRecipe.ToString();
             if (obj.Recipes.Length > 1) Font = new Font(Font, FontStyle.Underline);
         }
 

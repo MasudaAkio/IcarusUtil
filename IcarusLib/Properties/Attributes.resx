@@ -1936,4 +1936,10 @@
   <data name="Water" xml:space="preserve">
     <value>Consumables,Drinks</value>
   </data>
+  <data name="ScorpionTail" xml:space="preserve">
+    <value>Materials</value>
+  </data>
+  <data name="ScorpionPincer" xml:space="preserve">
+    <value>Materials</value>
+  </data>
 </root>

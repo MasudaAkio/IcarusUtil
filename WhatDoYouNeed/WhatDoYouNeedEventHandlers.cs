@@ -55,8 +55,6 @@ namespace Icarus
 
         private void Add2RecipeView(string key)
         {
-            //var obj = (ObjectItem)selected[0];
-            //var key = obj.Name;
             var exists = flpnlRecipes.Controls.OfType<ResultOne>().SingleOrDefault(o => o.Target.Key == key);
             if (exists != null)
                 exists.Increment();
@@ -91,6 +89,28 @@ namespace Icarus
                 oi.Checked = toggle_all_or_none;
             toggle_all_or_none = !toggle_all_or_none;
         }
+        private IEnumerable<string> UnownedBenches =>
+                                            from ObjectItem oi in lvHavingBenches.Items
+                                            where !oi.Checked
+                                            select oi.Name;
 
+        private void btnConbine_Click(object sender, EventArgs e)
+        {
+            var added = 0;
+            var unowned = UnownedBenches.ToArray();
+            do
+            {
+                var ordered = flpnlRecipes.Controls
+                                    .OfType<ResultOne>()
+                                    .Select(ro => ro.Target.Key).ToArray();
+                var conbinings = roTotal.Recipe.benches
+                                    .Select(oi => oi.Name)
+                                    .Intersect(UnownedBenches)
+                                    .Except(ordered);
+                added = 0;
+                foreach (var k in conbinings) { Add2RecipeView(k); added++; }
+                CalcTotal();
+            } while (added > 0);
+        }
     }
 }

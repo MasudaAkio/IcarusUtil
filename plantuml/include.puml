@@ -1,10 +1,13 @@
 @startuml
+!include .\\IcrAttributes.puml
 !include .\\IcrObject.puml
 !include .\\IcrObjectCore.puml
 !include .\\Recipe.puml
 !include .\\Properties\AssemblyInfo.puml
+!include .\\Properties\Attributes.Designer.puml
 !include .\\Properties\Images.Designer.puml
 !include .\\Properties\ObjectNames.Designer.puml
 !include .\\Properties\Recipes.Designer.puml
 !include .\\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.puml
+!include .\\obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.puml
 @enduml

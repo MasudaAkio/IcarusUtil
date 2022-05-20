@@ -4021,11 +4021,29 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///   Materials に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ScorpionPincer {
+            get {
+                return ResourceManager.GetString("ScorpionPincer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string ScorpionPincerTrap {
             get {
                 return ResourceManager.GetString("ScorpionPincerTrap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Materials に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ScorpionTail {
+            get {
+                return ResourceManager.GetString("ScorpionTail", resourceCulture);
             }
         }
         

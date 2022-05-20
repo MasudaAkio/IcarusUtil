@@ -4012,11 +4012,29 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///   Scorpion Pincer に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ScorpionPincer {
+            get {
+                return ResourceManager.GetString("ScorpionPincer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Scorpion Pincer Trap に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string ScorpionPincerTrap {
             get {
                 return ResourceManager.GetString("ScorpionPincerTrap", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Scorpion Tail に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string ScorpionTail {
+            get {
+                return ResourceManager.GetString("ScorpionTail", resourceCulture);
             }
         }
         

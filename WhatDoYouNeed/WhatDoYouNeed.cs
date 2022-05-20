@@ -135,7 +135,9 @@ namespace Icarus
         {
             var mi = (ToolStripMenuItem)sender;
             var oi = (ObjectItem)mi.Tag;
-            new IcrObject(oi.Name).RecipeIndex = int.Parse(mi.Name);
+            var io = new IcrObject(oi.Name);
+            io.RecipeIndex = int.Parse(mi.Name);
+            oi.ToolTipText = io.SelectedRecipe.ToString();
             foreach (var ro in flpnlRecipes.Controls.OfType<ResultOne>())
                 ro.ReCalc();
             CalcTotal();
@@ -159,30 +161,6 @@ namespace Icarus
                     group oi by oi.Name into g
                     select new ObjectItem(new IcrObject(g.Key), g.Sum(oi => oi.Volume));
             roTotal.Recipe = (b.ToArray(), s.ToArray());
-        }
-
-        private IEnumerable<string> UnownedBenches => 
-            from ObjectItem oi in lvHavingBenches.Items
-            where !oi.Checked
-            select oi.Name;
-
-        private void btnConbine_Click(object sender, EventArgs e)
-        {
-            var added = 0;
-            var unowned = UnownedBenches.ToArray();
-            do
-            {
-                var ordered = flpnlRecipes.Controls
-                                    .OfType<ResultOne>()
-                                    .Select(ro => ro.Target.Key).ToArray();
-                var conbinings = roTotal.Recipe.benches
-                                    .Select(oi => oi.Name)
-                                    .Intersect(UnownedBenches)
-                                    .Except(ordered);
-                added = 0;
-                foreach (var k in conbinings) { Add2RecipeView(k); added++; }
-                CalcTotal();
-            } while (added > 0);
         }
     }
 }

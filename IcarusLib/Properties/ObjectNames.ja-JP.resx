@@ -202,7 +202,7 @@
     <value>木の枝</value>
   </data>
   <data name="Leather" xml:space="preserve">
-    <value>レザー</value>
+    <value>皮革</value>
   </data>
   <data name="Bone" xml:space="preserve">
     <value>骨</value>
@@ -1180,7 +1180,7 @@
     <value>マチェーテ</value>
   </data>
   <data name="MachiningBench" xml:space="preserve">
-    <value>マシニングベンチ</value>
+    <value>機械作業台</value>
   </data>
   <data name="MammothHead" xml:space="preserve">
     <value>マンモスヘッド</value>
@@ -1339,22 +1339,22 @@
     <value>プラチナの斧</value>
   </data>
   <data name="PlatinumBolt" xml:space="preserve">
-    <value>プラチナボルト</value>
+    <value>プラチナのボルト</value>
   </data>
   <data name="PlatinumHammer" xml:space="preserve">
-    <value>プラチナハンマー</value>
+    <value>プラチナのハンマー</value>
   </data>
   <data name="PlatinumIngot" xml:space="preserve">
-    <value>プラチナインゴット</value>
+    <value>プラチナのインゴット</value>
   </data>
   <data name="PlatinumKnife" xml:space="preserve">
-    <value>プラチナ・ナイフ</value>
+    <value>プラチナのナイフ</value>
   </data>
   <data name="PlatinumPickaxe" xml:space="preserve">
     <value>プラチナのツルハシ</value>
   </data>
   <data name="PlatinumSickle" xml:space="preserve">
-    <value>プラチナ・シックル</value>
+    <value>プラチナの鎌</value>
   </data>
   <data name="PlatinumSpear" xml:space="preserve">
     <value>プラチナの槍</value>
@@ -1952,5 +1952,11 @@
   </data>
   <data name="Water" xml:space="preserve">
     <value>水</value>
+  </data>
+  <data name="ScorpionTail" xml:space="preserve">
+    <value>スコーピオンの尾</value>
+  </data>
+  <data name="ScorpionPincer" xml:space="preserve">
+    <value>スコーピオンのはさみ</value>
   </data>
 </root>

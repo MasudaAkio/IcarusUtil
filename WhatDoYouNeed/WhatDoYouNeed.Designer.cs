@@ -50,13 +50,14 @@ namespace Icarus
             this.pnlMiddle = new System.Windows.Forms.Panel();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.pnlTotal = new System.Windows.Forms.Panel();
-            this.roTotal = new Icarus.ResultOne();
             this.pnlLeftSide = new System.Windows.Forms.Panel();
             this.pnlRightSide = new System.Windows.Forms.Panel();
             this.lvHavingBenches = new System.Windows.Forms.ListView();
             this.btnConbine = new System.Windows.Forms.Button();
             this.btnHavingBenchesAllorNone = new System.Windows.Forms.Button();
             this.lblHavingBenches = new System.Windows.Forms.Label();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.roTotal = new Icarus.ResultOne();
             this.pnlUpper.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.pnlLower.SuspendLayout();
@@ -75,6 +76,7 @@ namespace Icarus
             this.lvSouces.HideSelection = false;
             this.lvSouces.LargeImageList = this.ObjectImagesLarge;
             this.lvSouces.Name = "lvSouces";
+            this.lvSouces.ShowItemToolTips = true;
             this.lvSouces.SmallImageList = this.ObjectImagesSmall;
             this.lvSouces.UseCompatibleStateImageBehavior = false;
             this.lvSouces.View = System.Windows.Forms.View.List;
@@ -207,15 +209,6 @@ namespace Icarus
             resources.ApplyResources(this.pnlTotal, "pnlTotal");
             this.pnlTotal.Name = "pnlTotal";
             // 
-            // roTotal
-            // 
-            resources.ApplyResources(this.roTotal, "roTotal");
-            this.roTotal.IsForTotal = true;
-            this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
-            this.roTotal.Name = "roTotal";
-            this.roTotal.Target = null;
-            this.roTotal.ValueChanged = null;
-            // 
             // pnlLeftSide
             // 
             this.pnlLeftSide.Controls.Add(this.splitter1);
@@ -272,6 +265,15 @@ namespace Icarus
             this.lblHavingBenches.ForeColor = System.Drawing.Color.White;
             this.lblHavingBenches.Name = "lblHavingBenches";
             // 
+            // roTotal
+            // 
+            resources.ApplyResources(this.roTotal, "roTotal");
+            this.roTotal.IsForTotal = true;
+            this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
+            this.roTotal.Name = "roTotal";
+            this.roTotal.Target = null;
+            this.roTotal.ValueChanged = null;
+            // 
             // WhatDoYouNeed
             // 
             this.AcceptButton = this.btnFilter;
@@ -323,6 +325,7 @@ namespace Icarus
         private System.Windows.Forms.ListView lvHavingBenches;
         private System.Windows.Forms.Label lblHavingBenches;
         private System.Windows.Forms.Button btnConbine;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 
