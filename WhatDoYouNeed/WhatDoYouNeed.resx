@@ -150,7 +150,7 @@
     <value>2, 2, 2, 2</value>
   </data>
   <data name="lvSouces.Size" type="System.Drawing.Size, System.Drawing">
-    <value>617, 306</value>
+    <value>617, 262</value>
   </data>
   <metadata name="ObjectImagesSmall.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>174, 17</value>
@@ -352,7 +352,7 @@
     <value>0, 0, 0, 0</value>
   </data>
   <data name="flpnlRecipes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 158</value>
+    <value>770, 170</value>
   </data>
   <data name="flpnlRecipes.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -373,13 +373,13 @@
     <value>Bottom</value>
   </data>
   <data name="pnlLower.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 328</value>
+    <value>0, 284</value>
   </data>
   <data name="pnlLower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="pnlLower.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 158</value>
+    <value>770, 170</value>
   </data>
   <data name="pnlLower.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -409,7 +409,7 @@
     <value>3, 2, 3, 2</value>
   </data>
   <data name="clbxAttrs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 306</value>
+    <value>153, 262</value>
   </data>
   <data name="clbxAttrs.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -436,7 +436,7 @@
     <value>3, 2, 3, 2</value>
   </data>
   <data name="pnlMiddle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 306</value>
+    <value>770, 262</value>
   </data>
   <data name="pnlMiddle.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -460,7 +460,7 @@
     <value>NoControl</value>
   </data>
   <data name="splitter1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 326</value>
+    <value>0, 282</value>
   </data>
   <data name="splitter1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -496,7 +496,7 @@
     <value>0, 0, 0, 0</value>
   </data>
   <data name="roTotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 58</value>
+    <value>770, 90</value>
   </data>
   <data name="roTotal.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -517,13 +517,13 @@
     <value>Bottom</value>
   </data>
   <data name="pnlTotal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 486</value>
+    <value>0, 454</value>
   </data>
   <data name="pnlTotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="pnlTotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 58</value>
+    <value>770, 90</value>
   </data>
   <data name="pnlTotal.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>

@@ -16,6 +16,8 @@ namespace Icarus
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            // System.Threading.Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo("en-US");
+
             Application.Run(new WhatDoYouNeed());
         }
     }

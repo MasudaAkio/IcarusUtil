@@ -1015,10 +1015,10 @@
     <value>イナリスアルーダの矢</value>
   </data>
   <data name="InarisDiasAxe" xml:space="preserve">
-    <value>イナリスディアスアックス</value>
+    <value>イナリスディアス斧</value>
   </data>
   <data name="InarisGrisSpear" xml:space="preserve">
-    <value>イナリスグリススピア</value>
+    <value>イナリスグリス槍</value>
   </data>
   <data name="InarisNevesPickaxe" xml:space="preserve">
     <value>イナリスネベスツルハシ</value>
@@ -1120,7 +1120,7 @@
     <value>ランタン</value>
   </data>
   <data name="LarkwellMartinezAxe" xml:space="preserve">
-    <value>ラークウェル・マルチネス・アックス</value>
+    <value>ラークウェル・マルチネス・斧</value>
   </data>
   <data name="LarkwellMartinezHammer" xml:space="preserve">
     <value>ラークウェルマルチネスハンマー</value>
@@ -1135,10 +1135,10 @@
     <value>ラークウェルマルチネス ツルハシ</value>
   </data>
   <data name="LarkwellMartinezSickle" xml:space="preserve">
-    <value>ラークウェルマルチネス シックル</value>
+    <value>ラークウェルマルチネス 鎌</value>
   </data>
   <data name="LarkwellMartinezSpear" xml:space="preserve">
-    <value>ラークウェル・マルチネス・スピア</value>
+    <value>ラークウェル・マルチネス・槍</value>
   </data>
   <data name="LarkwellMartinezTacticalBackpack" xml:space="preserve">
     <value>ラークウェルマルチネス タクティカルバックパック</value>
@@ -1618,16 +1618,16 @@
     <value>スタミナ回復ペースト</value>
   </data>
   <data name="SteelAxe" xml:space="preserve">
-    <value>スティールアックス</value>
+    <value>鋼の斧</value>
   </data>
   <data name="SteelBloom" xml:space="preserve">
-    <value>スティールブルーム</value>
+    <value>鋼粉</value>
   </data>
   <data name="SteelBolt" xml:space="preserve">
-    <value>スティールボルト</value>
+    <value>鋼のボルト</value>
   </data>
   <data name="SteelHammer" xml:space="preserve">
-    <value>スティールハンマー</value>
+    <value>鋼のハンマー</value>
   </data>
   <data name="SteelIngot" xml:space="preserve">
     <value>鋼のインゴット</value>
@@ -1780,10 +1780,10 @@
     <value>チタンの矢</value>
   </data>
   <data name="TitaniumAxe" xml:space="preserve">
-    <value>チタンアックス</value>
+    <value>チタンの斧</value>
   </data>
   <data name="TitaniumBolt" xml:space="preserve">
-    <value>チタンボルト</value>
+    <value>チタンのボルト</value>
   </data>
   <data name="TitaniumHammer" xml:space="preserve">
     <value>チタンハンマー</value>

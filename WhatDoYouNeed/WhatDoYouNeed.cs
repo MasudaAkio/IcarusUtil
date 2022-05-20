@@ -54,7 +54,10 @@ namespace Icarus
                     let cnt = attrs.Count(a2 => a2.HasFlag(a))
                     select (a, cnt);
             var dic = x.Where(kv => kv.cnt > 0).ToDictionary(xx => xx.a, xx => xx.cnt);
-            clbxAttrs.Items.AddRange(dic.Select(kv => new CategoryItem(kv.Key, kv.Value)).ToArray());
+            clbxAttrs.Items.AddRange(dic
+                                    .OrderBy(kv => kv.Key)
+                                    .Select(kv => new CategoryItem(kv.Key, kv.Value))
+                                    .ToArray());
         }
         private View _view = View.SmallIcon;
         private void ChangeView(View v)
