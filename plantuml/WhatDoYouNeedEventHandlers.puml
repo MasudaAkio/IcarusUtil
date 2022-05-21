@@ -1,0 +1,20 @@
+@startuml
+class WhatDoYouNeed <<partial>> {
+    - largeIconToolStripMenuItem_Click(sender:object, e:EventArgs) : void
+    - smallIconToolStripMenuItem_Click(sender:object, e:EventArgs) : void
+    - listToolStripMenuItem_Click(sender:object, e:EventArgs) : void
+    - tileToolStripMenuItem_Click(sender:object, e:EventArgs) : void
+    - btnFilter_Click(sender:object, e:EventArgs) : void
+    - WhatDoYouNeed_SizeChanged(sender:object, e:EventArgs) : void
+    - clbxAttrs_ItemCheck(sender:object, e:ItemCheckEventArgs) : void
+    - contextMenuStrip1_Opening(sender:object, e:CancelEventArgs) : void
+    - Add2RecipeView(key:string) : void
+    - lvSouces_MouseClick(sender:object, e:MouseEventArgs) : void
+    - toggle_all_or_none : bool = false
+    - btnHavingBenchesAllorNone_Click(sender:object, e:EventArgs) : void
+    - btnConbine_Click(sender:object, e:EventArgs) : void
+}
+class "IEnumerable`1"<T> {
+}
+WhatDoYouNeed --> "UnownedBenches<string>" "IEnumerable`1"
+@enduml

@@ -440,7 +440,9 @@ class ObjectNames {
     + {static} SandwormScale : string <<get>>
     + {static} SandwormSpear : string <<get>>
     + {static} ScorpionHedgehog : string <<get>>
+    + {static} ScorpionPincer : string <<get>>
     + {static} ScorpionPincerTrap : string <<get>>
+    + {static} ScorpionTail : string <<get>>
     + {static} ShengongAkiraHammer : string <<get>>
     + {static} ShengongDaokouKnife : string <<get>>
     + {static} ShengongDidaSpear : string <<get>>

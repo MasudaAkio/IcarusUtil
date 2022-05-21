@@ -1959,4 +1959,7 @@
   <data name="ScorpionPincer" xml:space="preserve">
     <value>Scorpion Pincer</value>
   </data>
+  <data name="BiofuelRadar" xml:space="preserve">
+    <value>Biofuel Radar</value>
+  </data>
 </root>

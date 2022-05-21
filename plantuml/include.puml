@@ -1,13 +1,91 @@
 @startuml
-!include .\\IcrAttributes.puml
-!include .\\IcrObject.puml
-!include .\\IcrObjectCore.puml
-!include .\\Recipe.puml
-!include .\\Properties\AssemblyInfo.puml
-!include .\\Properties\Attributes.Designer.puml
-!include .\\Properties\Images.Designer.puml
-!include .\\Properties\ObjectNames.Designer.puml
-!include .\\Properties\Recipes.Designer.puml
-!include .\\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.puml
-!include .\\obj\Release\.NETFramework,Version=v4.7.2.AssemblyAttributes.puml
+class ObjectItem {
+    - _volume : decimal = 0m
+    + Volume : decimal <<get>> <<set>>
+    - basevolume : decimal <<get>> <<set>>
+    - basetext : string <<get>> <<set>>
+    - {static} MakeTextWithVolume(basetext:string, volume:decimal) : string
+    + ObjectItem()
+    + ObjectItem(obj:IcarusLib.IcrObject, volume:decimal, debug:bool)
+    + Multiply(times:decimal) : decimal
+    <<override>> + Clone() : object
+    + Copy() : ObjectItem
+}
+ListViewItem <|-- ObjectItem
+class Program <<static>> {
+    {static} Main() : void
+}
+class ResultOne <<partial>> {
+    + ResultOne()
+    + SetImageLists(large:ImageList, small:ImageList) : void
+    + ResultOne(large:ImageList, small:ImageList)
+    - SetRecipe(rcp:IcrObject.Recipe) : void
+    - _is_for_total : bool = false
+    + IsForTotal : bool <<get>> <<set>>
+    + ReCalc() : void
+    +  <<event>> Remove : RemoveEventHandler 
+    # <<virtual>> RaiseRemoveEvent() : void
+    - btnRemove_Click(sender:object, e:EventArgs) : void
+    + Increment(deff:decimal) : decimal
+    - nupdnValue_ValueChanged(sender:object, e:EventArgs) : void
+}
+UserControl <|-- ResultOne
+ResultOne --> "_obj" IcrObject
+ResultOne --> "_view" View
+ResultOne --> "ListViewStyle" View
+ResultOne --> "Target" IcrObject
+ResultOne --> "ValueChanged" Action
+class ResultOne <<partial>> {
+    # <<override>> Dispose(disposing:bool) : void
+    - InitializeComponent() : void
+}
+class WhatDoYouNeed <<partial>> {
+    - <<readonly>> debug : bool = false
+    - CountCategory() : void
+    - ChangeView(v:View) : void
+    SetHavingBenches() : void
+    + WhatDoYouNeed()
+    Filter(s:string) : void
+    - RemoveTarget(sender:object, args:EventArgs) : void
+    - RecipeSelected(sender:Object, args:EventArgs) : void
+    - CalcTotal() : void
+}
+class CategoryItem {
+    + Count : int <<get>>
+    + CategoryItem(attr:IcrObject.IcrAttributes, count:int)
+    + <<override>> ToString() : string
+}
+Form <|-- WhatDoYouNeed
+WhatDoYouNeed o-> "_view" View
+WhatDoYouNeed +-- CategoryItem
+class WhatDoYouNeed <<partial>> {
+    # <<override>> Dispose(disposing:bool) : void
+    - InitializeComponent() : void
+}
+WhatDoYouNeed --> "roTotal" ResultOne
+class WhatDoYouNeed <<partial>> {
+    - largeIconToolStripMenuItem_Click(sender:object, e:EventArgs) : void
+    - smallIconToolStripMenuItem_Click(sender:object, e:EventArgs) : void
+    - listToolStripMenuItem_Click(sender:object, e:EventArgs) : void
+    - tileToolStripMenuItem_Click(sender:object, e:EventArgs) : void
+    - btnFilter_Click(sender:object, e:EventArgs) : void
+    - WhatDoYouNeed_SizeChanged(sender:object, e:EventArgs) : void
+    - clbxAttrs_ItemCheck(sender:object, e:ItemCheckEventArgs) : void
+    - contextMenuStrip1_Opening(sender:object, e:CancelEventArgs) : void
+    - Add2RecipeView(key:string) : void
+    - lvSouces_MouseClick(sender:object, e:MouseEventArgs) : void
+    - toggle_all_or_none : bool = false
+    - btnHavingBenchesAllorNone_Click(sender:object, e:EventArgs) : void
+    - btnConbine_Click(sender:object, e:EventArgs) : void
+}
+class "IEnumerable`1"<T> {
+}
+WhatDoYouNeed --> "UnownedBenches<string>" "IEnumerable`1"
+class Resources {
+    <<internal>> Resources()
+}
+class Settings <<sealed>> <<partial>> {
+}
+Settings o-> "defaultInstance" Settings
+Settings --> "Default" Settings
 @enduml

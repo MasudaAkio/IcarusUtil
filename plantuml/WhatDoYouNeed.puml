@@ -1,0 +1,21 @@
+@startuml
+class WhatDoYouNeed <<partial>> {
+    - <<readonly>> debug : bool = false
+    - CountCategory() : void
+    - ChangeView(v:View) : void
+    SetHavingBenches() : void
+    + WhatDoYouNeed()
+    Filter(s:string) : void
+    - RemoveTarget(sender:object, args:EventArgs) : void
+    - RecipeSelected(sender:Object, args:EventArgs) : void
+    - CalcTotal() : void
+}
+class CategoryItem {
+    + Count : int <<get>>
+    + CategoryItem(attr:IcrObject.IcrAttributes, count:int)
+    + <<override>> ToString() : string
+}
+Form <|-- WhatDoYouNeed
+WhatDoYouNeed o-> "_view" View
+WhatDoYouNeed +-- CategoryItem
+@enduml

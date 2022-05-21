@@ -637,6 +637,15 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///   MachiningBench(IronIngot:12,CopperIngot:12,RefinedGold:10,IronNail:8,Glass:8) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string BiofuelRadar {
+            get {
+                return ResourceManager.GetString("BiofuelRadar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   MachiningBench(RefinedWood:30,Epoxy:20,CopperNail:4,SteelIngot:24,SteelScrew:8) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string BiofuelStove {

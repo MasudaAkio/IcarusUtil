@@ -1942,4 +1942,7 @@
   <data name="ScorpionPincer" xml:space="preserve">
     <value>Materials</value>
   </data>
+  <data name="BiofuelRadar" xml:space="preserve">
+    <value>Deployables,Tools</value>
+  </data>
 </root>

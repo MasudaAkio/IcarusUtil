@@ -65,7 +65,7 @@ namespace Icarus
         {
             _view = v;
             lvSouces.View = v;
-            lvHavingBenches.View = v;
+            if (v != View.Tile) lvHavingBenches.View = v; // Tile View はチェックボックスをサポートしていないため
             foreach (ResultOne ro in flpnlRecipes.Controls)
                 ro.ListViewStyle = v;
             roTotal.ListViewStyle = v;

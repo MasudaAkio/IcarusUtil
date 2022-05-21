@@ -441,7 +441,9 @@ class Attributes {
     <<internal>> {static} SandwormScale : string <<get>>
     <<internal>> {static} SandwormSpear : string <<get>>
     <<internal>> {static} ScorpionHedgehog : string <<get>>
+    <<internal>> {static} ScorpionPincer : string <<get>>
     <<internal>> {static} ScorpionPincerTrap : string <<get>>
+    <<internal>> {static} ScorpionTail : string <<get>>
     <<internal>> {static} ShengongAkiraHammer : string <<get>>
     <<internal>> {static} ShengongDaokouKnife : string <<get>>
     <<internal>> {static} ShengongDidaSpear : string <<get>>

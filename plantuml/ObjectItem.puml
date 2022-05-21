@@ -1,0 +1,15 @@
+@startuml
+class ObjectItem {
+    - _volume : decimal = 0m
+    + Volume : decimal <<get>> <<set>>
+    - basevolume : decimal <<get>> <<set>>
+    - basetext : string <<get>> <<set>>
+    - {static} MakeTextWithVolume(basetext:string, volume:decimal) : string
+    + ObjectItem()
+    + ObjectItem(obj:IcarusLib.IcrObject, volume:decimal, debug:bool)
+    + Multiply(times:decimal) : decimal
+    <<override>> + Clone() : object
+    + Copy() : ObjectItem
+}
+ListViewItem <|-- ObjectItem
+@enduml

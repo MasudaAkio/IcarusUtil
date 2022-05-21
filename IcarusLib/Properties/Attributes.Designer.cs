@@ -637,6 +637,15 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///   Deployables,Tools に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string BiofuelRadar {
+            get {
+                return ResourceManager.GetString("BiofuelRadar", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Deployables, に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string BiofuelStove {

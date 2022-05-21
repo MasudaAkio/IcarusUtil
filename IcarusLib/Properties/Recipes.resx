@@ -1962,4 +1962,7 @@
   <data name="ScorpionPincer" xml:space="preserve">
     <value></value>
   </data>
+  <data name="BiofuelRadar" xml:space="preserve">
+    <value>MachiningBench(IronIngot:12,CopperIngot:12,RefinedGold:10,IronNail:8,Glass:8)</value>
+  </data>
 </root>

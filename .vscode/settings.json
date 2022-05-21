@@ -1,4 +1,5 @@
 {
-    "csharp2plantuml.inputPath": "IcarusLib",
-    "csharp2plantuml.public": false
+    "csharp2plantuml.inputPath": "WhatDoYouNeed",
+    "csharp2plantuml.public": false,
+    "csharp2plantuml.allInOne": true
 }

@@ -1,0 +1,22 @@
+@startuml
+class ResultOne <<partial>> {
+    + ResultOne()
+    + SetImageLists(large:ImageList, small:ImageList) : void
+    + ResultOne(large:ImageList, small:ImageList)
+    - SetRecipe(rcp:IcrObject.Recipe) : void
+    - _is_for_total : bool = false
+    + IsForTotal : bool <<get>> <<set>>
+    + ReCalc() : void
+    +  <<event>> Remove : RemoveEventHandler 
+    # <<virtual>> RaiseRemoveEvent() : void
+    - btnRemove_Click(sender:object, e:EventArgs) : void
+    + Increment(deff:decimal) : decimal
+    - nupdnValue_ValueChanged(sender:object, e:EventArgs) : void
+}
+UserControl <|-- ResultOne
+ResultOne --> "_obj" IcrObject
+ResultOne --> "_view" View
+ResultOne --> "ListViewStyle" View
+ResultOne --> "Target" IcrObject
+ResultOne --> "ValueChanged" Action
+@enduml
