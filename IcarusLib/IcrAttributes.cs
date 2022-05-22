@@ -49,6 +49,9 @@ namespace IcarusLib
             Workshop = 1 << 28,
             Ammo = 1 << 29,
         }
+
+        public static string GetName(IcrAttributes attr)
+             => miscellaneous.ResourceManager.GetString(Enum.GetName(typeof(IcrAttributes), attr));
         public static IcrAttributes ReconstAttrs(IEnumerable<string> attr_strs)
         {
             var result = IcrAttributes.None;

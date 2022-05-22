@@ -26,13 +26,16 @@ namespace Icarus
             public IcrObject.IcrAttributes Attr { get; private set; }
             public int Count { get; private set; }
 
-            public CategoryItem(IcrObject.IcrAttributes attr, int count)
+            public string Name { get; private set; }
+
+            public CategoryItem(IcrObject.IcrAttributes attr, string name, int count)
             {
+                Name = name;
                 Attr=attr;
                 Count=count;
             } 
 
-            public override string ToString() => $"{Attr.ToString()}({Count})";
+            public override string ToString() => $"{Name}({Count})";
 
             static public implicit operator IcrObject.IcrAttributes(CategoryItem i) => i.Attr;
         }
@@ -57,7 +60,7 @@ namespace Icarus
             var dic = x.Where(kv => kv.cnt > 0).ToDictionary(xx => xx.a, xx => xx.cnt);
             clbxAttrs.Items.AddRange(dic
                                     .OrderBy(kv => kv.Key)
-                                    .Select(kv => new CategoryItem(kv.Key, kv.Value))
+                                    .Select(kv => new CategoryItem(kv.Key, IcrObject.GetName(kv.Key),  kv.Value))
                                     .ToArray());
         }
         private View _view = View.SmallIcon;
@@ -132,14 +135,21 @@ namespace Icarus
             CalcTotal();
         }
 
-        private void RecipeSelectedInner(ObjectItem oi, int rindex)
+        private void RecipeSelectedInner(IcrObject io, int rindex)
         {
-            var io = new IcrObject(oi.Name);
             io.RecipeIndex = rindex;
-            oi.ToolTipText = io.SelectedRecipe.ToString();
+
             foreach (var ro in flpnlRecipes.Controls.OfType<ResultOne>())
                 ro.ReCalc();
             CalcTotal();
+        }
+
+        private void RecipeSelectedInner(ObjectItem oi, int rindex)
+        {
+            var io = new IcrObject(oi.Name);
+            RecipeSelectedInner(io, rindex);
+            if (oi != null)
+                oi.ToolTipText = io.SelectedRecipe.ToString();
         }
 
         private void RecipeSelected(Object sender, EventArgs args)

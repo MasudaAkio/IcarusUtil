@@ -56,6 +56,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Images.resx</DependentUpon>
     </Compile>
+    <Compile Include="Properties\miscellaneous.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>miscellaneous.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\ObjectNames.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -76,6 +81,11 @@
     <EmbeddedResource Include="Properties\Images.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Images.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\miscellaneous.ja-JP.resx" />
+    <EmbeddedResource Include="Properties\miscellaneous.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>miscellaneous.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\ObjectNames.ja-JP.resx">
       <SubType>Designer</SubType>

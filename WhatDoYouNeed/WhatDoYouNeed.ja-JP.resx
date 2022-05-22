@@ -209,6 +209,9 @@
   <data name="flpnlRecipes.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 179</value>
   </data>
+  <data name="clbxAttrs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
   <data name="clbxAttrs.Size" type="System.Drawing.Size, System.Drawing">
     <value>175, 346</value>
   </data>
@@ -232,6 +235,18 @@
   </data>
   <data name="roTotal.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 66</value>
+  </data>
+  <data name="splitter2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="splitter2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 369</value>
+  </data>
+  <data name="splitter2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="splitter2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 2</value>
   </data>
   <data name="pnlLeftSide.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 618</value>
@@ -277,18 +292,6 @@
   </data>
   <data name="lblHavingBenches.Text" xml:space="preserve">
     <value>所有済の作業台</value>
-  </data>
-  <data name="splitter2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="splitter2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="splitter2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="splitter2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 2</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 17</value>

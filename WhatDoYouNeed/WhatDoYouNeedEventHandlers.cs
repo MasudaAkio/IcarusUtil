@@ -118,11 +118,12 @@ namespace Icarus
             foreach (var k in new[] { "WoodRoof", "WoodFloor", "WoodWall", "WoodWallAngled" })
             {
                 var io = new IcrObject(k);
-                var oi = lvSouces.Items.OfType<ObjectItem>().FirstOrDefault(i => i.Name == k);
                 var target = use_carpentry_bench ? "CarpentryBench" : "CharacterCrafting";
                 int index = io.Recipes.SingleOrDefault(r => r.Bench.Key == target)?.Index ?? 0;
 
-                RecipeSelectedInner(oi, index);
+                var oi = lvSouces.Items.OfType<ObjectItem>().FirstOrDefault(i => i.Name == k);
+                if (oi != null) RecipeSelectedInner(oi, index);
+                else RecipeSelectedInner(io, index);
             }
         }
 
