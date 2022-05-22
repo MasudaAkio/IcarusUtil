@@ -117,734 +117,770 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>445, 17</value>
+  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>944, 568</value>
+  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 4</value>
   </data>
-  <data name="roTotal.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
+  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
+    <value>contextMenuStrip1</value>
   </data>
-  <data name="tileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
-  </data>
-  <data name="flpnlRecipes.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="pnlLeftSide.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;makingWoodBuildingPiecesByMyselfToolStripMenuItem.Name" xml:space="preserve">
-    <value>makingWoodBuildingPiecesByMyselfToolStripMenuItem</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="roTotal.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;tbxFilter.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 20</value>
-  </data>
-  <data name="ObjectImagesLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
-    <value>40, 40</value>
-  </data>
-  <data name="&gt;&gt;shortcutsToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lvHavingBenches.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;listToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;flpnlRecipes.Name" xml:space="preserve">
-    <value>flpnlRecipes</value>
-  </data>
-  <data name="pnlUpper.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="clbxAttrs.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="pnlTotal.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="lblHavingBenches.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lvHavingBenches.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="clbxAttrs.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 9pt</value>
-  </data>
-  <data name="roTotal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="btnFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 22</value>
-  </data>
-  <data name="&gt;&gt;splitter1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;roTotal.Type" xml:space="preserve">
-    <value>Icarus.ResultOne, WhatDoYouNeed, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
-  </data>
-  <data name="&gt;&gt;largeIconToolStripMenuItem.Name" xml:space="preserve">
-    <value>largeIconToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;pnlMiddle.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="lvSouces.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;makingWoodBuildingPiecesByMyselfToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="flpnlRecipes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="roTotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 90</value>
-  </data>
-  <data name="lvSouces.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;splitter2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;btnFilter.Parent" xml:space="preserve">
-    <value>pnlUpper</value>
-  </data>
-  <data name="pnlLower.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="flpnlRecipes.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 170</value>
-  </data>
-  <data name="pnlRightSide.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="btnFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
-  </data>
-  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnHavingBenchesAllorNone.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 27</value>
-  </data>
-  <data name="splitter1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 450</value>
-  </data>
-  <data name="tileToolStripMenuItem.Text" xml:space="preserve">
-    <value>Tile</value>
-  </data>
-  <data name="roTotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="&gt;&gt;tbxFilter.Parent" xml:space="preserve">
-    <value>pnlUpper</value>
-  </data>
-  <data name="pnlLower.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="btnHavingBenchesAllorNone.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;pnlMiddle.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;splitter1.Name" xml:space="preserve">
-    <value>splitter1</value>
-  </data>
-  <data name="&gt;&gt;pnlLeftSide.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Name" xml:space="preserve">
-    <value>makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem</value>
-  </data>
-  <data name="tbxFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;lvHavingBenches.Name" xml:space="preserve">
-    <value>lvHavingBenches</value>
-  </data>
-  <data name="btnHavingBenchesAllorNone.Text" xml:space="preserve">
-    <value>All/None</value>
-  </data>
-  <data name="&gt;&gt;splitter2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;splitter2.Name" xml:space="preserve">
-    <value>splitter2</value>
-  </data>
-  <data name="btnFilter.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lvSouces.Location" type="System.Drawing.Point, System.Drawing">
-    <value>153, 0</value>
-  </data>
-  <data name="pnlTotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="flpnlRecipes.AutoScroll" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblHavingBenches.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="lvSouces.Size" type="System.Drawing.Size, System.Drawing">
-    <value>617, 258</value>
-  </data>
-  <data name="pnlRightSide.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="&gt;&gt;splitter1.Parent" xml:space="preserve">
-    <value>pnlLeftSide</value>
-  </data>
-  <data name="roTotal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;pnlLeftSide.Name" xml:space="preserve">
-    <value>pnlLeftSide</value>
-  </data>
-  <data name="btnFilter.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 9pt</value>
-  </data>
-  <data name="lblHavingBenches.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="makingWoodBuildingPiecesByMyselfToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>370, 22</value>
   </data>
   <data name="lvSouces.Font" type="System.Drawing.Font, System.Drawing">
     <value>メイリオ, 8.25pt</value>
   </data>
-  <data name="tbxFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <metadata name="ObjectImagesLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="ObjectImagesLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>40, 40</value>
   </data>
-  <data name="btnFilter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;pnlTotal.Parent" xml:space="preserve">
-    <value>pnlLeftSide</value>
-  </data>
-  <data name="makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>370, 22</value>
-  </data>
-  <data name="pnlMiddle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 258</value>
-  </data>
-  <data name="clbxAttrs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 258</value>
-  </data>
-  <data name="pnlMiddle.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;pnlTotal.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;lvSouces.Name" xml:space="preserve">
-    <value>lvSouces</value>
+  <data name="lvSouces.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 0</value>
   </data>
   <data name="lvSouces.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
   </data>
-  <data name="&gt;&gt;btnFilter.Name" xml:space="preserve">
-    <value>btnFilter</value>
+  <data name="lvSouces.Size" type="System.Drawing.Size, System.Drawing">
+    <value>617, 258</value>
   </data>
-  <data name="clbxAttrs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <metadata name="ObjectImagesSmall.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>174, 17</value>
+  </metadata>
+  <data name="ObjectImagesSmall.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
   </data>
-  <data name="&gt;&gt;pnlLower.Name" xml:space="preserve">
-    <value>pnlLower</value>
-  </data>
-  <data name="pnlRightSide.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="toolStripMenuItem1.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;flpnlRecipes.Parent" xml:space="preserve">
-    <value>pnlLower</value>
-  </data>
-  <data name="pnlUpper.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="largeIconToolStripMenuItem.Text" xml:space="preserve">
-    <value>Large Icon</value>
-  </data>
-  <data name="&gt;&gt;btnFilter.ZOrder" xml:space="preserve">
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lvSouces.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="btnFilter.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;lvSouces.Name" xml:space="preserve">
+    <value>lvSouces</value>
   </data>
-  <data name="shortcutsToolStripMenuItem.Text" xml:space="preserve">
-    <value>Shortcuts</value>
+  <data name="&gt;&gt;lvSouces.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lvHavingBenches.Parent" xml:space="preserve">
-    <value>pnlRightSide</value>
+  <data name="&gt;&gt;lvSouces.Parent" xml:space="preserve">
+    <value>pnlMiddle</value>
   </data>
-  <data name="pnlLower.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;lblHavingBenches.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="pnlLeftSide.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;pnlUpper.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;lvSouces.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;tbxFilter.Name" xml:space="preserve">
     <value>tbxFilter</value>
   </data>
-  <data name="btnHavingBenchesAllorNone.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;tbxFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxFilter.Parent" xml:space="preserve">
+    <value>pnlUpper</value>
+  </data>
+  <data name="&gt;&gt;tbxFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnFilter.Name" xml:space="preserve">
+    <value>btnFilter</value>
+  </data>
+  <data name="&gt;&gt;btnFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFilter.Parent" xml:space="preserve">
+    <value>pnlUpper</value>
+  </data>
+  <data name="&gt;&gt;btnFilter.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="pnlUpper.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="pnlUpper.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pnlUpper.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="pnlUpper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 22</value>
+  </data>
+  <data name="pnlUpper.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;pnlUpper.Name" xml:space="preserve">
     <value>pnlUpper</value>
   </data>
-  <data name="pnlLeftSide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 26</value>
+  <data name="&gt;&gt;pnlUpper.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="flpnlRecipes.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;pnlUpper.Parent" xml:space="preserve">
+    <value>pnlLeftSide</value>
+  </data>
+  <data name="&gt;&gt;pnlUpper.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbxFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tbxFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tbxFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="tbxFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>661, 21</value>
+  </data>
+  <data name="tbxFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbxFilter.Name" xml:space="preserve">
+    <value>tbxFilter</value>
+  </data>
+  <data name="&gt;&gt;tbxFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbxFilter.Parent" xml:space="preserve">
+    <value>pnlUpper</value>
+  </data>
+  <data name="&gt;&gt;tbxFilter.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="btnFilter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnFilter.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="btnFilter.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnFilter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 0</value>
+  </data>
+  <data name="btnFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
+  <data name="btnFilter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 22</value>
+  </data>
+  <data name="btnFilter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnFilter.Text" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="&gt;&gt;btnFilter.Name" xml:space="preserve">
+    <value>btnFilter</value>
+  </data>
+  <data name="&gt;&gt;btnFilter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnFilter.Parent" xml:space="preserve">
+    <value>pnlUpper</value>
+  </data>
+  <data name="&gt;&gt;btnFilter.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>330, 17</value>
+  </metadata>
+  <data name="menuStrip1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 2, 0, 2</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>944, 26</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="toolStripMenuItem1.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="toolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 20</value>
+  </data>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="toolStripMenuItem1.ToolTipText" xml:space="preserve">
+    <value>Icon size and layout</value>
+  </data>
+  <data name="largeIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="largeIconToolStripMenuItem.Text" xml:space="preserve">
+    <value>Large Icon</value>
+  </data>
+  <data name="smallIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="smallIconToolStripMenuItem.Text" xml:space="preserve">
+    <value>Small Icon</value>
+  </data>
+  <data name="listToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="listToolStripMenuItem.Text" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="tileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>136, 22</value>
+  </data>
+  <data name="tileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tile</value>
+  </data>
+  <data name="shortcutsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 22</value>
+  </data>
+  <data name="shortcutsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Shortcuts</value>
+  </data>
+  <data name="makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 22</value>
+  </data>
+  <data name="makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Text" xml:space="preserve">
+    <value>Making Wood Building Pieces at a Carpentry Bench</value>
+  </data>
+  <data name="makingWoodBuildingPiecesByMyselfToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 22</value>
+  </data>
+  <data name="makingWoodBuildingPiecesByMyselfToolStripMenuItem.Text" xml:space="preserve">
+    <value>Making Wood Building Pieces by myself</value>
+  </data>
+  <data name="flpnlRecipes.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="flpnlRecipes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="flpnlRecipes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="flpnlRecipes.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="flpnlRecipes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 170</value>
+  </data>
+  <data name="flpnlRecipes.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;flpnlRecipes.Name" xml:space="preserve">
+    <value>flpnlRecipes</value>
+  </data>
+  <data name="&gt;&gt;flpnlRecipes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;flpnlRecipes.Parent" xml:space="preserve">
+    <value>pnlLower</value>
+  </data>
+  <data name="&gt;&gt;flpnlRecipes.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlLower.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="pnlLower.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 280</value>
+  </data>
+  <data name="pnlLower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="pnlLower.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 170</value>
+  </data>
+  <data name="pnlLower.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;pnlLower.Name" xml:space="preserve">
+    <value>pnlLower</value>
+  </data>
+  <data name="&gt;&gt;pnlLower.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlLower.Parent" xml:space="preserve">
+    <value>pnlLeftSide</value>
+  </data>
+  <data name="&gt;&gt;pnlLower.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="clbxAttrs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="clbxAttrs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
+  </data>
+  <data name="clbxAttrs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="clbxAttrs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="clbxAttrs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 258</value>
+  </data>
+  <data name="clbxAttrs.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;clbxAttrs.Name" xml:space="preserve">
+    <value>clbxAttrs</value>
+  </data>
+  <data name="&gt;&gt;clbxAttrs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clbxAttrs.Parent" xml:space="preserve">
+    <value>pnlMiddle</value>
+  </data>
+  <data name="&gt;&gt;clbxAttrs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlMiddle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlMiddle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
+  </data>
+  <data name="pnlMiddle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="pnlMiddle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 258</value>
+  </data>
+  <data name="pnlMiddle.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;pnlMiddle.Name" xml:space="preserve">
+    <value>pnlMiddle</value>
+  </data>
+  <data name="&gt;&gt;pnlMiddle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlMiddle.Parent" xml:space="preserve">
+    <value>pnlLeftSide</value>
+  </data>
+  <data name="&gt;&gt;pnlMiddle.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="splitter1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
   <data name="splitter1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
-  <data name="pnlLeftSide.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="splitter1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 450</value>
   </data>
-  <data name="tbxFilter.TabIndex" type="System.Int32, mscorlib">
+  <data name="splitter1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="splitter1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 2</value>
+  </data>
+  <data name="splitter1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Name" xml:space="preserve">
+    <value>splitter1</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;splitter1.Parent" xml:space="preserve">
+    <value>pnlLeftSide</value>
+  </data>
+  <data name="&gt;&gt;splitter1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;roTotal.Name" xml:space="preserve">
+    <value>roTotal</value>
+  </data>
+  <data name="&gt;&gt;roTotal.Type" xml:space="preserve">
+    <value>Icarus.ResultOne, WhatDoYouNeed, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;roTotal.Parent" xml:space="preserve">
+    <value>pnlTotal</value>
+  </data>
+  <data name="&gt;&gt;roTotal.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="pnlTotal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Bottom</value>
   </data>
-  <data name="&gt;&gt;lblHavingBenches.Parent" xml:space="preserve">
-    <value>pnlRightSide</value>
+  <data name="pnlTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 452</value>
   </data>
-  <data name="lvHavingBenches.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 65</value>
-  </data>
-  <data name="&gt;&gt;pnlLower.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 9pt</value>
-  </data>
-  <data name="&gt;&gt;smallIconToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="btnConbine.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="pnlMiddle.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="&gt;&gt;flpnlRecipes.Type" xml:space="preserve">
-    <value>System.Windows.Forms.FlowLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="flpnlRecipes.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
-  </data>
-  <data name="&gt;&gt;clbxAttrs.Name" xml:space="preserve">
-    <value>clbxAttrs</value>
-  </data>
-  <data name="pnlTotal.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="&gt;&gt;pnlUpper.Parent" xml:space="preserve">
-    <value>pnlLeftSide</value>
-  </data>
-  <data name="&gt;&gt;pnlLower.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Icarus:What do you need</value>
-  </data>
-  <data name="pnlMiddle.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="pnlTotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="splitter2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 22</value>
+  <data name="pnlTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 90</value>
   </data>
-  <data name="&gt;&gt;lvHavingBenches.ZOrder" xml:space="preserve">
+  <data name="pnlTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pnlTotal.Name" xml:space="preserve">
+    <value>pnlTotal</value>
+  </data>
+  <data name="&gt;&gt;pnlTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlTotal.Parent" xml:space="preserve">
+    <value>pnlLeftSide</value>
+  </data>
+  <data name="&gt;&gt;pnlTotal.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="roTotal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="roTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
+  <data name="roTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="roTotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="roTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 90</value>
+  </data>
+  <data name="roTotal.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="$this.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;roTotal.Name" xml:space="preserve">
+    <value>roTotal</value>
   </data>
-  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
-    <value>toolStripMenuItem1</value>
+  <data name="&gt;&gt;roTotal.Type" xml:space="preserve">
+    <value>Icarus.ResultOne, WhatDoYouNeed, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
-  <data name="&gt;&gt;pnlRightSide.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnHavingBenchesAllorNone.Parent" xml:space="preserve">
-    <value>pnlRightSide</value>
-  </data>
-  <data name="splitter2.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnHavingBenchesAllorNone.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="&gt;&gt;lvSouces.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;roTotal.Parent" xml:space="preserve">
+    <value>pnlTotal</value>
   </data>
   <data name="&gt;&gt;roTotal.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;splitter1.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="splitter2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="splitter2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 22</value>
   </data>
-  <data name="pnlLower.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 170</value>
+  <data name="splitter2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>3, 258</value>
   </data>
-  <data name="lblHavingBenches.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
+  <data name="splitter2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
-  <data name="shortcutsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 22</value>
+  <data name="&gt;&gt;splitter2.Name" xml:space="preserve">
+    <value>splitter2</value>
   </data>
-  <data name="pnlMiddle.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+  <data name="&gt;&gt;splitter2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Splitter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ObjectImagesSmall.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;splitter2.Parent" xml:space="preserve">
+    <value>pnlLeftSide</value>
   </data>
-  <data name="&gt;&gt;pnlRightSide.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;splitter2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlLeftSide.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlLeftSide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 26</value>
+  </data>
+  <data name="pnlLeftSide.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="pnlLeftSide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>770, 542</value>
+  </data>
+  <data name="pnlLeftSide.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pnlLeftSide.Name" xml:space="preserve">
+    <value>pnlLeftSide</value>
+  </data>
+  <data name="&gt;&gt;pnlLeftSide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlLeftSide.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlLeftSide.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lvHavingBenches.Name" xml:space="preserve">
+    <value>lvHavingBenches</value>
+  </data>
+  <data name="&gt;&gt;lvHavingBenches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvHavingBenches.Parent" xml:space="preserve">
+    <value>pnlRightSide</value>
+  </data>
+  <data name="&gt;&gt;lvHavingBenches.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnConbine.Name" xml:space="preserve">
+    <value>btnConbine</value>
+  </data>
+  <data name="&gt;&gt;btnConbine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConbine.Parent" xml:space="preserve">
+    <value>pnlRightSide</value>
+  </data>
+  <data name="&gt;&gt;btnConbine.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnHavingBenchesAllorNone.Name" xml:space="preserve">
+    <value>btnHavingBenchesAllorNone</value>
+  </data>
+  <data name="&gt;&gt;btnHavingBenchesAllorNone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHavingBenchesAllorNone.Parent" xml:space="preserve">
+    <value>pnlRightSide</value>
+  </data>
+  <data name="&gt;&gt;btnHavingBenchesAllorNone.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="pnlUpper.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;lblHavingBenches.Name" xml:space="preserve">
+    <value>lblHavingBenches</value>
   </data>
-  <data name="pnlUpper.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;lblHavingBenches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;ObjectImagesLarge.Name" xml:space="preserve">
-    <value>ObjectImagesLarge</value>
+  <data name="&gt;&gt;lblHavingBenches.Parent" xml:space="preserve">
+    <value>pnlRightSide</value>
   </data>
-  <data name="&gt;&gt;pnlUpper.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lblHavingBenches.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pnlRightSide.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="pnlRightSide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>770, 26</value>
+  </data>
+  <data name="pnlRightSide.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="pnlRightSide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 542</value>
+  </data>
+  <data name="pnlRightSide.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;pnlRightSide.Name" xml:space="preserve">
     <value>pnlRightSide</value>
   </data>
-  <data name="&gt;&gt;tbxFilter.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;pnlRightSide.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="btnFilter.Text" xml:space="preserve">
-    <value>Filter</value>
+  <data name="&gt;&gt;pnlRightSide.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
-  <data name="btnConbine.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;pnlRightSide.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="btnFilter.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Right</value>
+  <data name="lvHavingBenches.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="btnConbine.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="lvHavingBenches.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 65</value>
   </data>
-  <data name="btnConbine.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+  <data name="lvHavingBenches.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="lvHavingBenches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 419</value>
+  </data>
+  <data name="lvHavingBenches.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lvHavingBenches.Name" xml:space="preserve">
+    <value>lvHavingBenches</value>
+  </data>
+  <data name="&gt;&gt;lvHavingBenches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lvHavingBenches.Parent" xml:space="preserve">
+    <value>pnlRightSide</value>
+  </data>
+  <data name="&gt;&gt;lvHavingBenches.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnConbine.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="btnConbine.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
   <data name="btnConbine.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleLeft</value>
   </data>
-  <data name="clbxAttrs.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="btnConbine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConbine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 484</value>
+  </data>
+  <data name="btnConbine.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btnConbine.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="btnConbine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 58</value>
+  </data>
+  <data name="btnConbine.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnConbine.Text" xml:space="preserve">
+    <value>Combine Unowned Benches</value>
+  </data>
+  <data name="btnConbine.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btnConbine.Name" xml:space="preserve">
+    <value>btnConbine</value>
+  </data>
+  <data name="&gt;&gt;btnConbine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConbine.Parent" xml:space="preserve">
+    <value>pnlRightSide</value>
+  </data>
+  <data name="&gt;&gt;btnConbine.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnHavingBenchesAllorNone.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="btnHavingBenchesAllorNone.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnHavingBenchesAllorNone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHavingBenchesAllorNone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 38</value>
+  </data>
+  <data name="btnHavingBenchesAllorNone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="btnHavingBenchesAllorNone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>174, 27</value>
+  </data>
+  <data name="btnHavingBenchesAllorNone.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnHavingBenchesAllorNone.Text" xml:space="preserve">
+    <value>All/None</value>
+  </data>
+  <data name="&gt;&gt;btnHavingBenchesAllorNone.Name" xml:space="preserve">
+    <value>btnHavingBenchesAllorNone</value>
+  </data>
+  <data name="&gt;&gt;btnHavingBenchesAllorNone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHavingBenchesAllorNone.Parent" xml:space="preserve">
+    <value>pnlRightSide</value>
+  </data>
+  <data name="&gt;&gt;btnHavingBenchesAllorNone.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblHavingBenches.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblHavingBenches.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt, style=Bold</value>
+  </data>
+  <data name="lblHavingBenches.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHavingBenches.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
   <data name="lblHavingBenches.Size" type="System.Drawing.Size, System.Drawing">
     <value>174, 38</value>
   </data>
-  <data name="&gt;&gt;ObjectImagesLarge.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="lblHavingBenches.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
   </data>
-  <data name="&gt;&gt;roTotal.Name" xml:space="preserve">
-    <value>roTotal</value>
-  </data>
-  <data name="tbxFilter.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="pnlRightSide.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lvSouces.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnHavingBenchesAllorNone.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="listToolStripMenuItem.Text" xml:space="preserve">
-    <value>List</value>
-  </data>
-  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="&gt;&gt;listToolStripMenuItem.Name" xml:space="preserve">
-    <value>listToolStripMenuItem</value>
-  </data>
-  <data name="&gt;&gt;btnConbine.Name" xml:space="preserve">
-    <value>btnConbine</value>
-  </data>
-  <data name="pnlMiddle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 22</value>
-  </data>
-  <data name="tbxFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>661, 21</value>
-  </data>
-  <data name="&gt;&gt;splitter2.Parent" xml:space="preserve">
-    <value>pnlLeftSide</value>
-  </data>
-  <data name="pnlRightSide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>770, 26</value>
-  </data>
-  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="toolStripMenuItem1.ToolTipText" xml:space="preserve">
-    <value>Icon size and layout</value>
-  </data>
-  <data name="menuStrip1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnConbine.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 58</value>
-  </data>
-  <data name="btnFilter.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="pnlTotal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 452</value>
-  </data>
-  <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>61, 4</value>
-  </data>
-  <data name="makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Text" xml:space="preserve">
-    <value>Making Wood Building Pieces at a Carpentry Bench</value>
-  </data>
-  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 2, 0, 2</value>
-  </data>
-  <data name="splitter1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="largeIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
-  </data>
-  <data name="pnlRightSide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 542</value>
-  </data>
-  <data name="makingWoodBuildingPiecesByMyselfToolStripMenuItem.Text" xml:space="preserve">
-    <value>Making Wood Building Pieces by myself</value>
-  </data>
-  <data name="splitter1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 2</value>
-  </data>
-  <data name="toolStripMenuItem1.Text" xml:space="preserve">
-    <value>View</value>
-  </data>
-  <data name="ObjectImagesSmall.ImageSize" type="System.Drawing.Size, System.Drawing">
-    <value>16, 16</value>
-  </data>
-  <data name="lblHavingBenches.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="lblHavingBenches.Text" xml:space="preserve">
+    <value>Owned Workbenches</value>
   </data>
   <data name="lblHavingBenches.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;tileToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnHavingBenchesAllorNone.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="splitter1.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="lvHavingBenches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 419</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>WhatDoYouNeed</value>
-  </data>
   <data name="&gt;&gt;lblHavingBenches.Name" xml:space="preserve">
     <value>lblHavingBenches</value>
-  </data>
-  <data name="lblHavingBenches.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Arial, 9pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;clbxAttrs.Parent" xml:space="preserve">
-    <value>pnlMiddle</value>
-  </data>
-  <data name="pnlUpper.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 22</value>
-  </data>
-  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
-    <value>toolTip1</value>
-  </data>
-  <data name="btnConbine.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="splitter2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>3, 258</value>
-  </data>
-  <data name="&gt;&gt;btnConbine.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnConbine.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;contextMenuStrip1.Name" xml:space="preserve">
-    <value>contextMenuStrip1</value>
-  </data>
-  <data name="&gt;&gt;ObjectImagesSmall.Name" xml:space="preserve">
-    <value>ObjectImagesSmall</value>
-  </data>
-  <data name="&gt;&gt;pnlLeftSide.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnConbine.Parent" xml:space="preserve">
-    <value>pnlRightSide</value>
-  </data>
-  <data name="smallIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
-  </data>
-  <data name="&gt;&gt;largeIconToolStripMenuItem.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnConbine.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="listToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
-  </data>
-  <data name="contextMenuStrip1.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="lvSouces.ToolTip" xml:space="preserve">
-    <value />
-  </data>
-  <data name="btnConbine.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 484</value>
-  </data>
-  <data name="pnlLower.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="btnConbine.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
-  </data>
-  <data name="btnHavingBenchesAllorNone.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 38</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>944, 26</value>
-  </data>
-  <data name="smallIconToolStripMenuItem.Text" xml:space="preserve">
-    <value>Small Icon</value>
-  </data>
-  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="btnHavingBenchesAllorNone.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="btnHavingBenchesAllorNone.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="pnlLower.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 280</value>
-  </data>
-  <data name="&gt;&gt;btnHavingBenchesAllorNone.Name" xml:space="preserve">
-    <value>btnHavingBenchesAllorNone</value>
-  </data>
-  <data name="&gt;&gt;roTotal.Parent" xml:space="preserve">
-    <value>pnlTotal</value>
-  </data>
-  <data name="pnlLeftSide.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="splitter2.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="toolStripMenuItem1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
-  </data>
-  <data name="lvHavingBenches.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pnlLeftSide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 542</value>
-  </data>
-  <data name="btnConbine.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;btnHavingBenchesAllorNone.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;pnlMiddle.Name" xml:space="preserve">
-    <value>pnlMiddle</value>
-  </data>
-  <data name="&gt;&gt;lvSouces.Parent" xml:space="preserve">
-    <value>pnlMiddle</value>
-  </data>
-  <data name="splitter1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="&gt;&gt;lvHavingBenches.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;smallIconToolStripMenuItem.Name" xml:space="preserve">
-    <value>smallIconToolStripMenuItem</value>
   </data>
   <data name="&gt;&gt;lblHavingBenches.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;clbxAttrs.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;lblHavingBenches.Parent" xml:space="preserve">
+    <value>pnlRightSide</value>
   </data>
-  <data name="&gt;&gt;clbxAttrs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckedListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;lblHavingBenches.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="lvHavingBenches.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>600, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>168</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
   </data>
-  <data name="tbxFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>944, 568</value>
   </data>
-  <data name="splitter2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 9pt</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1978,97 +2014,79 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
-  <data name="splitter1.ToolTip" xml:space="preserve">
-    <value />
+  <data name="$this.Text" xml:space="preserve">
+    <value>Icarus:What do you need</value>
   </data>
-  <data name="btnFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>661, 0</value>
+  <data name="&gt;&gt;ObjectImagesLarge.Name" xml:space="preserve">
+    <value>ObjectImagesLarge</value>
   </data>
-  <data name="&gt;&gt;pnlTotal.Name" xml:space="preserve">
-    <value>pnlTotal</value>
+  <data name="&gt;&gt;ObjectImagesLarge.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="pnlUpper.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+  <data name="&gt;&gt;ObjectImagesSmall.Name" xml:space="preserve">
+    <value>ObjectImagesSmall</value>
   </data>
-  <data name="&gt;&gt;pnlRightSide.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;ObjectImagesSmall.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
+    <value>toolStripMenuItem1</value>
   </data>
-  <data name="&gt;&gt;pnlTotal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="menuStrip1.Text" xml:space="preserve">
-    <value>menuStrip1</value>
-  </data>
-  <data name="&gt;&gt;makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;toolStripMenuItem1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="clbxAttrs.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;largeIconToolStripMenuItem.Name" xml:space="preserve">
+    <value>largeIconToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;flpnlRecipes.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;largeIconToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="clbxAttrs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
+  <data name="&gt;&gt;smallIconToolStripMenuItem.Name" xml:space="preserve">
+    <value>smallIconToolStripMenuItem</value>
   </data>
-  <data name="btnConbine.Text" xml:space="preserve">
-    <value>Combine Unowned Benches</value>
+  <data name="&gt;&gt;smallIconToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;shortcutsToolStripMenuItem.Name" xml:space="preserve">
-    <value>shortcutsToolStripMenuItem</value>
+  <data name="&gt;&gt;listToolStripMenuItem.Name" xml:space="preserve">
+    <value>listToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;pnlLeftSide.ZOrder" xml:space="preserve">
-    <value>1</value>
+  <data name="&gt;&gt;listToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;tileToolStripMenuItem.Name" xml:space="preserve">
     <value>tileToolStripMenuItem</value>
   </data>
-  <data name="flpnlRecipes.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
+  <data name="&gt;&gt;tileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblHavingBenches.Text" xml:space="preserve">
-    <value>Owned Workbenches</value>
+  <data name="&gt;&gt;shortcutsToolStripMenuItem.Name" xml:space="preserve">
+    <value>shortcutsToolStripMenuItem</value>
   </data>
-  <data name="roTotal.ToolTip" xml:space="preserve">
-    <value />
+  <data name="&gt;&gt;shortcutsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="pnlTotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>770, 90</value>
+  <data name="&gt;&gt;makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Name" xml:space="preserve">
+    <value>makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem</value>
   </data>
-  <data name="menuStrip1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>メイリオ, 9pt</value>
+  <data name="&gt;&gt;makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlLower.Parent" xml:space="preserve">
-    <value>pnlLeftSide</value>
+  <data name="&gt;&gt;makingWoodBuildingPiecesByMyselfToolStripMenuItem.Name" xml:space="preserve">
+    <value>makingWoodBuildingPiecesByMyselfToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;pnlMiddle.Parent" xml:space="preserve">
-    <value>pnlLeftSide</value>
+  <data name="&gt;&gt;makingWoodBuildingPiecesByMyselfToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <metadata name="ObjectImagesLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ja-JP</value>
-  </metadata>
-  <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>445, 17</value>
-  </metadata>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>600, 17</value>
-  </metadata>
-  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>330, 17</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="ObjectImagesSmall.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>174, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>168</value>
-  </metadata>
+  <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
+    <value>toolTip1</value>
+  </data>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>WhatDoYouNeed</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>

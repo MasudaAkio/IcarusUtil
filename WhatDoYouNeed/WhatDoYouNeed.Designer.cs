@@ -73,25 +73,23 @@ namespace Icarus
             // 
             // lvSouces
             // 
-            resources.ApplyResources(this.lvSouces, "lvSouces");
             this.lvSouces.BackColor = System.Drawing.SystemColors.Window;
             this.lvSouces.ContextMenuStrip = this.contextMenuStrip1;
+            resources.ApplyResources(this.lvSouces, "lvSouces");
             this.lvSouces.GridLines = true;
             this.lvSouces.HideSelection = false;
             this.lvSouces.LargeImageList = this.ObjectImagesLarge;
             this.lvSouces.Name = "lvSouces";
             this.lvSouces.ShowItemToolTips = true;
             this.lvSouces.SmallImageList = this.ObjectImagesSmall;
-            this.toolTip1.SetToolTip(this.lvSouces, resources.GetString("lvSouces.ToolTip"));
             this.lvSouces.UseCompatibleStateImageBehavior = false;
             this.lvSouces.View = System.Windows.Forms.View.List;
             this.lvSouces.MouseClick += new System.Windows.Forms.MouseEventHandler(this.lvSouces_MouseClick);
             // 
             // contextMenuStrip1
             // 
-            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.toolTip1.SetToolTip(this.contextMenuStrip1, resources.GetString("contextMenuStrip1.ToolTip"));
+            resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
             // 
             // ObjectImagesLarge
@@ -108,41 +106,37 @@ namespace Icarus
             // 
             // pnlUpper
             // 
-            resources.ApplyResources(this.pnlUpper, "pnlUpper");
             this.pnlUpper.BackColor = System.Drawing.Color.DarkGray;
             this.pnlUpper.Controls.Add(this.tbxFilter);
             this.pnlUpper.Controls.Add(this.btnFilter);
+            resources.ApplyResources(this.pnlUpper, "pnlUpper");
             this.pnlUpper.Name = "pnlUpper";
-            this.toolTip1.SetToolTip(this.pnlUpper, resources.GetString("pnlUpper.ToolTip"));
             // 
             // tbxFilter
             // 
-            resources.ApplyResources(this.tbxFilter, "tbxFilter");
             this.tbxFilter.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resources.ApplyResources(this.tbxFilter, "tbxFilter");
             this.tbxFilter.Name = "tbxFilter";
-            this.toolTip1.SetToolTip(this.tbxFilter, resources.GetString("tbxFilter.ToolTip"));
             // 
             // btnFilter
             // 
-            resources.ApplyResources(this.btnFilter, "btnFilter");
             this.btnFilter.BackColor = System.Drawing.Color.LightYellow;
+            resources.ApplyResources(this.btnFilter, "btnFilter");
             this.btnFilter.FlatAppearance.BorderSize = 0;
             this.btnFilter.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.btnFilter.FlatAppearance.MouseOverBackColor = System.Drawing.Color.GreenYellow;
             this.btnFilter.Name = "btnFilter";
-            this.toolTip1.SetToolTip(this.btnFilter, resources.GetString("btnFilter.ToolTip"));
             this.btnFilter.UseVisualStyleBackColor = false;
             this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
             // 
             // menuStrip1
             // 
-            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.BackColor = System.Drawing.Color.MidnightBlue;
+            resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.shortcutsToolStripMenuItem});
             this.menuStrip1.Name = "menuStrip1";
-            this.toolTip1.SetToolTip(this.menuStrip1, resources.GetString("menuStrip1.ToolTip"));
             // 
             // toolStripMenuItem1
             // 
@@ -157,95 +151,90 @@ namespace Icarus
             // 
             // largeIconToolStripMenuItem
             // 
-            resources.ApplyResources(this.largeIconToolStripMenuItem, "largeIconToolStripMenuItem");
             this.largeIconToolStripMenuItem.Name = "largeIconToolStripMenuItem";
+            resources.ApplyResources(this.largeIconToolStripMenuItem, "largeIconToolStripMenuItem");
             this.largeIconToolStripMenuItem.Click += new System.EventHandler(this.largeIconToolStripMenuItem_Click);
             // 
             // smallIconToolStripMenuItem
             // 
-            resources.ApplyResources(this.smallIconToolStripMenuItem, "smallIconToolStripMenuItem");
             this.smallIconToolStripMenuItem.Name = "smallIconToolStripMenuItem";
+            resources.ApplyResources(this.smallIconToolStripMenuItem, "smallIconToolStripMenuItem");
             this.smallIconToolStripMenuItem.Click += new System.EventHandler(this.smallIconToolStripMenuItem_Click);
             // 
             // listToolStripMenuItem
             // 
-            resources.ApplyResources(this.listToolStripMenuItem, "listToolStripMenuItem");
             this.listToolStripMenuItem.Name = "listToolStripMenuItem";
+            resources.ApplyResources(this.listToolStripMenuItem, "listToolStripMenuItem");
             this.listToolStripMenuItem.Click += new System.EventHandler(this.listToolStripMenuItem_Click);
             // 
             // tileToolStripMenuItem
             // 
-            resources.ApplyResources(this.tileToolStripMenuItem, "tileToolStripMenuItem");
             this.tileToolStripMenuItem.Name = "tileToolStripMenuItem";
+            resources.ApplyResources(this.tileToolStripMenuItem, "tileToolStripMenuItem");
             this.tileToolStripMenuItem.Click += new System.EventHandler(this.tileToolStripMenuItem_Click);
             // 
             // shortcutsToolStripMenuItem
             // 
-            resources.ApplyResources(this.shortcutsToolStripMenuItem, "shortcutsToolStripMenuItem");
             this.shortcutsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem,
             this.makingWoodBuildingPiecesByMyselfToolStripMenuItem});
             this.shortcutsToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.shortcutsToolStripMenuItem.Name = "shortcutsToolStripMenuItem";
+            resources.ApplyResources(this.shortcutsToolStripMenuItem, "shortcutsToolStripMenuItem");
             // 
             // makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem
             // 
-            resources.ApplyResources(this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem, "makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem");
             this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Name = "makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem";
+            resources.ApplyResources(this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem, "makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem");
             this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Click += new System.EventHandler(this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem_Click);
             // 
             // makingWoodBuildingPiecesByMyselfToolStripMenuItem
             // 
-            resources.ApplyResources(this.makingWoodBuildingPiecesByMyselfToolStripMenuItem, "makingWoodBuildingPiecesByMyselfToolStripMenuItem");
             this.makingWoodBuildingPiecesByMyselfToolStripMenuItem.Name = "makingWoodBuildingPiecesByMyselfToolStripMenuItem";
+            resources.ApplyResources(this.makingWoodBuildingPiecesByMyselfToolStripMenuItem, "makingWoodBuildingPiecesByMyselfToolStripMenuItem");
             this.makingWoodBuildingPiecesByMyselfToolStripMenuItem.Click += new System.EventHandler(this.makingWoodBuildingPiecesByMyselfToolStripMenuItem_Click);
             // 
             // pnlLower
             // 
-            resources.ApplyResources(this.pnlLower, "pnlLower");
             this.pnlLower.Controls.Add(this.flpnlRecipes);
+            resources.ApplyResources(this.pnlLower, "pnlLower");
             this.pnlLower.Name = "pnlLower";
-            this.toolTip1.SetToolTip(this.pnlLower, resources.GetString("pnlLower.ToolTip"));
             // 
             // flpnlRecipes
             // 
             resources.ApplyResources(this.flpnlRecipes, "flpnlRecipes");
+            this.flpnlRecipes.BackColor = System.Drawing.Color.LightYellow;
             this.flpnlRecipes.Name = "flpnlRecipes";
-            this.toolTip1.SetToolTip(this.flpnlRecipes, resources.GetString("flpnlRecipes.ToolTip"));
             // 
             // clbxAttrs
             // 
-            resources.ApplyResources(this.clbxAttrs, "clbxAttrs");
             this.clbxAttrs.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.clbxAttrs.CheckOnClick = true;
+            resources.ApplyResources(this.clbxAttrs, "clbxAttrs");
             this.clbxAttrs.FormattingEnabled = true;
             this.clbxAttrs.Name = "clbxAttrs";
             this.clbxAttrs.Sorted = true;
-            this.toolTip1.SetToolTip(this.clbxAttrs, resources.GetString("clbxAttrs.ToolTip"));
             this.clbxAttrs.ItemCheck += new System.Windows.Forms.ItemCheckEventHandler(this.clbxAttrs_ItemCheck);
             // 
             // pnlMiddle
             // 
-            resources.ApplyResources(this.pnlMiddle, "pnlMiddle");
             this.pnlMiddle.Controls.Add(this.lvSouces);
             this.pnlMiddle.Controls.Add(this.clbxAttrs);
+            resources.ApplyResources(this.pnlMiddle, "pnlMiddle");
             this.pnlMiddle.Name = "pnlMiddle";
-            this.toolTip1.SetToolTip(this.pnlMiddle, resources.GetString("pnlMiddle.ToolTip"));
             // 
             // splitter1
             // 
-            resources.ApplyResources(this.splitter1, "splitter1");
             this.splitter1.BackColor = System.Drawing.Color.MidnightBlue;
+            resources.ApplyResources(this.splitter1, "splitter1");
             this.splitter1.Name = "splitter1";
             this.splitter1.TabStop = false;
-            this.toolTip1.SetToolTip(this.splitter1, resources.GetString("splitter1.ToolTip"));
             // 
             // pnlTotal
             // 
-            resources.ApplyResources(this.pnlTotal, "pnlTotal");
             this.pnlTotal.Controls.Add(this.roTotal);
+            resources.ApplyResources(this.pnlTotal, "pnlTotal");
             this.pnlTotal.Name = "pnlTotal";
-            this.toolTip1.SetToolTip(this.pnlTotal, resources.GetString("pnlTotal.ToolTip"));
             // 
             // roTotal
             // 
@@ -254,79 +243,71 @@ namespace Icarus
             this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
             this.roTotal.Name = "roTotal";
             this.roTotal.Target = null;
-            this.toolTip1.SetToolTip(this.roTotal, resources.GetString("roTotal.ToolTip"));
             this.roTotal.ValueChanged = null;
             // 
             // pnlLeftSide
             // 
-            resources.ApplyResources(this.pnlLeftSide, "pnlLeftSide");
             this.pnlLeftSide.Controls.Add(this.splitter2);
             this.pnlLeftSide.Controls.Add(this.pnlMiddle);
             this.pnlLeftSide.Controls.Add(this.pnlUpper);
             this.pnlLeftSide.Controls.Add(this.pnlLower);
             this.pnlLeftSide.Controls.Add(this.splitter1);
             this.pnlLeftSide.Controls.Add(this.pnlTotal);
+            resources.ApplyResources(this.pnlLeftSide, "pnlLeftSide");
             this.pnlLeftSide.Name = "pnlLeftSide";
-            this.toolTip1.SetToolTip(this.pnlLeftSide, resources.GetString("pnlLeftSide.ToolTip"));
             // 
             // splitter2
             // 
-            resources.ApplyResources(this.splitter2, "splitter2");
             this.splitter2.BackColor = System.Drawing.Color.MidnightBlue;
+            resources.ApplyResources(this.splitter2, "splitter2");
             this.splitter2.Name = "splitter2";
             this.splitter2.TabStop = false;
-            this.toolTip1.SetToolTip(this.splitter2, resources.GetString("splitter2.ToolTip"));
             // 
             // pnlRightSide
             // 
-            resources.ApplyResources(this.pnlRightSide, "pnlRightSide");
             this.pnlRightSide.Controls.Add(this.lvHavingBenches);
             this.pnlRightSide.Controls.Add(this.btnConbine);
             this.pnlRightSide.Controls.Add(this.btnHavingBenchesAllorNone);
             this.pnlRightSide.Controls.Add(this.lblHavingBenches);
+            resources.ApplyResources(this.pnlRightSide, "pnlRightSide");
             this.pnlRightSide.Name = "pnlRightSide";
-            this.toolTip1.SetToolTip(this.pnlRightSide, resources.GetString("pnlRightSide.ToolTip"));
             // 
             // lvHavingBenches
             // 
-            resources.ApplyResources(this.lvHavingBenches, "lvHavingBenches");
             this.lvHavingBenches.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lvHavingBenches.CheckBoxes = true;
+            resources.ApplyResources(this.lvHavingBenches, "lvHavingBenches");
             this.lvHavingBenches.HideSelection = false;
             this.lvHavingBenches.LargeImageList = this.ObjectImagesLarge;
             this.lvHavingBenches.Name = "lvHavingBenches";
             this.lvHavingBenches.SmallImageList = this.ObjectImagesSmall;
-            this.toolTip1.SetToolTip(this.lvHavingBenches, resources.GetString("lvHavingBenches.ToolTip"));
             this.lvHavingBenches.UseCompatibleStateImageBehavior = false;
             // 
             // btnConbine
             // 
-            resources.ApplyResources(this.btnConbine, "btnConbine");
             this.btnConbine.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.btnConbine, "btnConbine");
             this.btnConbine.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnConbine.Image = global::Icarus.Properties.Resources.返信矢印;
             this.btnConbine.Name = "btnConbine";
-            this.toolTip1.SetToolTip(this.btnConbine, resources.GetString("btnConbine.ToolTip"));
             this.btnConbine.UseVisualStyleBackColor = true;
             this.btnConbine.Click += new System.EventHandler(this.btnConbine_Click);
             // 
             // btnHavingBenchesAllorNone
             // 
-            resources.ApplyResources(this.btnHavingBenchesAllorNone, "btnHavingBenchesAllorNone");
             this.btnHavingBenchesAllorNone.Cursor = System.Windows.Forms.Cursors.Default;
+            resources.ApplyResources(this.btnHavingBenchesAllorNone, "btnHavingBenchesAllorNone");
             this.btnHavingBenchesAllorNone.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btnHavingBenchesAllorNone.Name = "btnHavingBenchesAllorNone";
-            this.toolTip1.SetToolTip(this.btnHavingBenchesAllorNone, resources.GetString("btnHavingBenchesAllorNone.ToolTip"));
             this.btnHavingBenchesAllorNone.UseVisualStyleBackColor = true;
             this.btnHavingBenchesAllorNone.Click += new System.EventHandler(this.btnHavingBenchesAllorNone_Click);
             // 
             // lblHavingBenches
             // 
-            resources.ApplyResources(this.lblHavingBenches, "lblHavingBenches");
             this.lblHavingBenches.BackColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.lblHavingBenches, "lblHavingBenches");
             this.lblHavingBenches.ForeColor = System.Drawing.Color.White;
             this.lblHavingBenches.Name = "lblHavingBenches";
-            this.toolTip1.SetToolTip(this.lblHavingBenches, resources.GetString("lblHavingBenches.ToolTip"));
             // 
             // WhatDoYouNeed
             // 
@@ -337,7 +318,6 @@ namespace Icarus
             this.Controls.Add(this.pnlRightSide);
             this.Controls.Add(this.menuStrip1);
             this.Name = "WhatDoYouNeed";
-            this.toolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
             this.SizeChanged += new System.EventHandler(this.WhatDoYouNeed_SizeChanged);
             this.pnlUpper.ResumeLayout(false);
             this.pnlUpper.PerformLayout();

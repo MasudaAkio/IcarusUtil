@@ -93,6 +93,8 @@ namespace Icarus
                 Text += $" ({str_ver})";
             }
 
+            flpnlRecipes.Padding += new Padding(RecipePanelRightPadding, 0, 0, 0);
+
             lvSouces.Items.AddRange(can_be_crafted
                 .Select(obj => new ObjectItem(obj, 0m, debug))
                 .OrderBy(it => it.Text)

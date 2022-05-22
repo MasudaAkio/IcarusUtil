@@ -18,6 +18,9 @@ namespace Icarus
 {
     public partial class WhatDoYouNeed
     {
+        private static int RecipeViewBothPadding = 15;
+        private static int ResultOneMargine = RecipeViewBothPadding * 2 + 10; // 10: スクロールバーの幅のつもり
+        private static int RecipePanelRightPadding = RecipeViewBothPadding;
         private void largeIconToolStripMenuItem_Click(object sender, EventArgs e) => ChangeView(View.LargeIcon);
         private void smallIconToolStripMenuItem_Click(object sender, EventArgs e) => ChangeView(View.SmallIcon);
         // private void detailsToolStripMenuItem_Click(object sender, EventArgs e) => listView1.View = View.Details;
@@ -33,7 +36,7 @@ namespace Icarus
         private void WhatDoYouNeed_SizeChanged(object sender, EventArgs e)
         {
             foreach (ResultOne ro in flpnlRecipes.Controls)
-                ro.Width = flpnlRecipes.Width;
+                ro.Width = flpnlRecipes.Width - ResultOneMargine;
         }
 
         private void clbxAttrs_ItemCheck(object sender, ItemCheckEventArgs e)
@@ -62,7 +65,7 @@ namespace Icarus
             {
                 var ro = new ResultOne(ObjectImagesLarge, ObjectImagesSmall);
                 flpnlRecipes.Controls.Add(ro);
-                ro.Width = flpnlRecipes.Width;
+                ro.Width = flpnlRecipes.Width - ResultOneMargine;
                 ro.Target = new IcrObject(key);
                 ro.ListViewStyle = _view;
                 ro.Remove += RemoveTarget;

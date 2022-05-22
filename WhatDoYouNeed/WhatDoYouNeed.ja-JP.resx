@@ -124,9 +124,6 @@
   <data name="lvSouces.Size" type="System.Drawing.Size, System.Drawing">
     <value>705, 346</value>
   </data>
-  <data name="pnlUpper.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 25</value>
-  </data>
   <data name="tbxFilter.Font" type="System.Drawing.Font, System.Drawing">
     <value>メイリオ, 9pt</value>
   </data>
@@ -145,18 +142,8 @@
   <data name="btnFilter.Text" xml:space="preserve">
     <value>フィルター</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>5, 2, 0, 2</value>
-  </data>
-  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1079, 26</value>
-  </data>
-  <data name="toolStripMenuItem1.Text" xml:space="preserve">
-    <value>表示</value>
-  </data>
-  <data name="toolStripMenuItem1.ToolTipText" xml:space="preserve">
-    <value>アイコンの大きさと配置</value>
+  <data name="pnlUpper.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 25</value>
   </data>
   <data name="largeIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>131, 22</value>
@@ -182,11 +169,11 @@
   <data name="tileToolStripMenuItem.Text" xml:space="preserve">
     <value>タイル</value>
   </data>
-  <data name="shortcutsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 22</value>
+  <data name="toolStripMenuItem1.Text" xml:space="preserve">
+    <value>表示</value>
   </data>
-  <data name="shortcutsToolStripMenuItem.Text" xml:space="preserve">
-    <value>ショートカット</value>
+  <data name="toolStripMenuItem1.ToolTipText" xml:space="preserve">
+    <value>アイコンの大きさと配置</value>
   </data>
   <data name="makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>314, 22</value>
@@ -200,13 +187,26 @@
   <data name="makingWoodBuildingPiecesByMyselfToolStripMenuItem.Text" xml:space="preserve">
     <value>木製建材(屋根・壁・床・三角壁)は自分で</value>
   </data>
+  <data name="shortcutsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 22</value>
+  </data>
+  <data name="shortcutsToolStripMenuItem.Text" xml:space="preserve">
+    <value>ショートカット</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>5, 2, 0, 2</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1079, 26</value>
+  </data>
+  <data name="flpnlRecipes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 179</value>
+  </data>
   <data name="pnlLower.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 371</value>
   </data>
   <data name="pnlLower.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 179</value>
-  </data>
-  <data name="flpnlRecipes.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 179</value>
   </data>
   <data name="clbxAttrs.Font" type="System.Drawing.Font, System.Drawing">
@@ -227,13 +227,13 @@
   <data name="splitter1.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 2</value>
   </data>
+  <data name="roTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 66</value>
+  </data>
   <data name="pnlTotal.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 552</value>
   </data>
   <data name="pnlTotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 66</value>
-  </data>
-  <data name="roTotal.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 66</value>
   </data>
   <data name="splitter2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
@@ -250,12 +250,6 @@
   </data>
   <data name="pnlLeftSide.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 618</value>
-  </data>
-  <data name="pnlRightSide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>880, 26</value>
-  </data>
-  <data name="pnlRightSide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 618</value>
   </data>
   <data name="lvHavingBenches.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 64</value>
@@ -292,6 +286,12 @@
   </data>
   <data name="lblHavingBenches.Text" xml:space="preserve">
     <value>所有済の作業台</value>
+  </data>
+  <data name="pnlRightSide.Location" type="System.Drawing.Point, System.Drawing">
+    <value>880, 26</value>
+  </data>
+  <data name="pnlRightSide.Size" type="System.Drawing.Size, System.Drawing">
+    <value>199, 618</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 17</value>

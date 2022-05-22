@@ -26,7 +26,7 @@
     <InstallUrl>https://guiyh.z31.web.core.windows.net/WhatDoYouNeed/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>26</ApplicationRevision>
+    <ApplicationRevision>28</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -128,6 +128,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WhatDoYouNeed.ja-JP.resx">
       <DependentUpon>WhatDoYouNeed.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="WhatDoYouNeed.resx">
       <DependentUpon>WhatDoYouNeed.cs</DependentUpon>
