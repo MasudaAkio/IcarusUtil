@@ -276,7 +276,7 @@
   <data name="BearHead" xml:space="preserve">
     <value></value>
   </data>
-  <data name="BearTrophy" xml:space="preserve">
+  <data name="sou" xml:space="preserve">
     <value>TrophyBench(Stick:10,Wood:30,BearHead:1)</value>
   </data>
   <data name="Bedroll" xml:space="preserve">
@@ -1627,7 +1627,7 @@
     <value>PotbellyStove(Water:100,Mushroom:1,Carrot:1,RawMeat:1)</value>
   </data>
   <data name="Stick" xml:space="preserve">
-    <value>CharacterCrafting(Wood:0.1)|CarpentryBench(Wood:0.1)</value>
+    <value>NotToBeCrafted()|CharacterCrafting(Wood:0.1)|CarpentryBench(Wood:0.1)</value>
   </data>
   <data name="Stone" xml:space="preserve">
     <value></value>
@@ -1963,6 +1963,12 @@
     <value></value>
   </data>
   <data name="BiofuelRadar" xml:space="preserve">
-    <value>MachiningBench(IronIngot:12,CopperIngot:12,RefinedGold:10,IronNail:8,Glass:8)</value>
+    <value>MachiningBench(IronIngot:12,CopperIngot:12,RefinedGold:10,IronNail:8,Glass:2)</value>
+  </data>
+  <data name="BiofuelExtractor" xml:space="preserve">
+    <value>MachiningBench(IronIngot:15,RefinedGold:5,CopperNail:8)</value>
+  </data>
+  <data name="BearTrophy" xml:space="preserve">
+    <value>TrophyBench(Stick:10,Wood:30,BearHead:1)</value>
   </data>
 </root>

@@ -43,7 +43,7 @@ namespace Icarus
         private IcrObject[] can_be_crafted
             => (from k in IcrObject.Keys
                let io = new IcrObject(k)
-               where !io.SelectedRecipe.IsEmpty
+               where io.Recipes.Any(r => !r.IsEmpty)
                select io)
             .OrderBy(io => io.Name)
             .ToArray();
@@ -94,6 +94,7 @@ namespace Icarus
             }
 
             flpnlRecipes.Padding += new Padding(RecipePanelRightPadding, 0, 0, 0);
+            pnlTotal.Padding += new Padding(RecipePanelRightPadding, 0, ResultOneMargine - RecipeViewBothPadding, 0); // recipe flowlayout-panel に合わせるためにちょっと面倒な計算をしている
 
             lvSouces.Items.AddRange(can_be_crafted
                 .Select(obj => new ObjectItem(obj, 0m, debug))

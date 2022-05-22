@@ -225,7 +225,7 @@ namespace Icarus
             // 
             // splitter1
             // 
-            this.splitter1.BackColor = System.Drawing.Color.MidnightBlue;
+            this.splitter1.BackColor = System.Drawing.Color.DarkRed;
             resources.ApplyResources(this.splitter1, "splitter1");
             this.splitter1.Name = "splitter1";
             this.splitter1.TabStop = false;
@@ -258,7 +258,8 @@ namespace Icarus
             // 
             // splitter2
             // 
-            this.splitter2.BackColor = System.Drawing.Color.MidnightBlue;
+            this.splitter2.BackColor = System.Drawing.Color.DarkRed;
+            this.splitter2.Cursor = System.Windows.Forms.Cursors.HSplit;
             resources.ApplyResources(this.splitter2, "splitter2");
             this.splitter2.Name = "splitter2";
             this.splitter2.TabStop = false;

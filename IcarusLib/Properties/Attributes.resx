@@ -1945,4 +1945,7 @@
   <data name="BiofuelRadar" xml:space="preserve">
     <value>Deployables,Tools</value>
   </data>
+  <data name="BiofuelExtractor" xml:space="preserve">
+    <value>Deployables,Tools</value>
+  </data>
 </root>

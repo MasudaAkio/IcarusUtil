@@ -619,6 +619,15 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///   MachiningBench(IronIngot:15,RefinedGold:5,CopperNail:8) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string BiofuelExtractor {
+            get {
+                return ResourceManager.GetString("BiofuelExtractor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Fabricator(SteelIngot:20,CopperIngot:8,Electronics:12,SteelScrew:20,Glass:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string BiofuelGenerator {
@@ -637,7 +646,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:12,CopperIngot:12,RefinedGold:10,IronNail:8,Glass:8) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(IronIngot:12,CopperIngot:12,RefinedGold:10,IronNail:8,Glass:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string BiofuelRadar {
             get {
@@ -4381,6 +4390,15 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///   TrophyBench(Stick:10,Wood:30,BearHead:1) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string sou {
+            get {
+                return ResourceManager.GetString("sou", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///    に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SoyBean {
@@ -4633,7 +4651,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   CharacterCrafting(Wood:0.1)|CarpentryBench(Wood:0.1) に類似しているローカライズされた文字列を検索します。
+        ///   NotToBeCrafted()|CharacterCrafting(Wood:0.1)|CarpentryBench(Wood:0.1) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Stick {
             get {

@@ -190,4 +190,7 @@
   <data name="Ammo" xml:space="preserve">
     <value>Ammo</value>
   </data>
+  <data name="NotToBeCrafted" xml:space="preserve">
+    <value>sourcing locally</value>
+  </data>
 </root>

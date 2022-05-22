@@ -49,15 +49,18 @@ namespace IcarusLib
                         var elems = m.Groups.Cast<Group>().Skip(1).Select(g => g.Value).ToArray(); /* [ "CraftingBench", "Fiber:20,Leather:30,Bone:8" ] */
                         var rec = new Recipe();
                         rec.Index = i;
-                        rec.Bench = new IcrObject(elems[0]);
-                        if (elems[1] != "")
+                        if (elems[0] != "NotToBeCrafted")
                         {
-                            rec.Stuffs = elems[1].Split(',').Select(ss =>
-                            { /* Fiber:20 */
-                                var sv = ss.Split(':');
-                                return new Stuff(new IcrObject(sv[0]), decimal.Parse(sv[1].Trim()));
-                            }).ToArray();
-                        }
+                            rec.Bench = new IcrObject(elems[0]);
+                            if (elems[1] != "")
+                            {
+                                rec.Stuffs = elems[1].Split(',').Select(ss =>
+                                { /* Fiber:20 */
+                                    var sv = ss.Split(':');
+                                    return new Stuff(new IcrObject(sv[0]), decimal.Parse(sv[1].Trim()));
+                                }).ToArray();
+                            }
+                        } else { /* do nothing, rec is Empty */ }
                         return rec;
                     }).DefaultIfEmpty(Empty);
 
@@ -93,7 +96,7 @@ namespace IcarusLib
             public override string ToString()
             {
                 if (IsEmpty)
-                    return "no recipe";
+                    return miscellaneous.ResourceManager.GetString("NotToBeCrafted");
                 else
                 {
                     var bench = Bench.Core.Name;

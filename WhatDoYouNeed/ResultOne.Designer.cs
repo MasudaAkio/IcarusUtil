@@ -35,12 +35,12 @@ namespace Icarus
             this.nupdnValue = new System.Windows.Forms.NumericUpDown();
             this.pnlTarget = new System.Windows.Forms.Panel();
             this.btnRemove = new System.Windows.Forms.Button();
+            this.lblTotal = new System.Windows.Forms.Label();
             this.pnlRecipe = new System.Windows.Forms.Panel();
             this.lvStuffs = new System.Windows.Forms.ListView();
             this.lvBenches = new System.Windows.Forms.ListView();
             this.ImagesLarge = new System.Windows.Forms.ImageList(this.components);
             this.ImagesSmall = new System.Windows.Forms.ImageList(this.components);
-            this.lblTotal = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picObject)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupdnValue)).BeginInit();
             this.pnlTarget.SuspendLayout();
@@ -110,6 +110,23 @@ namespace Icarus
             this.btnRemove.UseVisualStyleBackColor = true;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
+            // lblTotal
+            // 
+            this.lblTotal.BackColor = System.Drawing.Color.MidnightBlue;
+            this.lblTotal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblTotal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lblTotal.Font = new System.Drawing.Font("Cascadia Code", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.ForeColor = System.Drawing.Color.Moccasin;
+            this.lblTotal.Location = new System.Drawing.Point(0, 0);
+            this.lblTotal.Margin = new System.Windows.Forms.Padding(0);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Padding = new System.Windows.Forms.Padding(8);
+            this.lblTotal.Size = new System.Drawing.Size(143, 70);
+            this.lblTotal.TabIndex = 4;
+            this.lblTotal.Text = "total";
+            this.lblTotal.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+            this.lblTotal.Visible = false;
+            // 
             // pnlRecipe
             // 
             this.pnlRecipe.Controls.Add(this.lvStuffs);
@@ -138,6 +155,7 @@ namespace Icarus
             this.lvBenches.HideSelection = false;
             this.lvBenches.Location = new System.Drawing.Point(0, 0);
             this.lvBenches.Name = "lvBenches";
+            this.lvBenches.ShowItemToolTips = true;
             this.lvBenches.Size = new System.Drawing.Size(119, 70);
             this.lvBenches.TabIndex = 0;
             this.lvBenches.UseCompatibleStateImageBehavior = false;
@@ -154,23 +172,6 @@ namespace Icarus
             this.ImagesSmall.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
             this.ImagesSmall.ImageSize = new System.Drawing.Size(16, 16);
             this.ImagesSmall.TransparentColor = System.Drawing.Color.Transparent;
-            // 
-            // lblTotal
-            // 
-            this.lblTotal.BackColor = System.Drawing.Color.MidnightBlue;
-            this.lblTotal.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblTotal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lblTotal.Font = new System.Drawing.Font("Cascadia Code", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.ForeColor = System.Drawing.Color.Moccasin;
-            this.lblTotal.Location = new System.Drawing.Point(0, 0);
-            this.lblTotal.Margin = new System.Windows.Forms.Padding(0);
-            this.lblTotal.Name = "lblTotal";
-            this.lblTotal.Padding = new System.Windows.Forms.Padding(8);
-            this.lblTotal.Size = new System.Drawing.Size(143, 70);
-            this.lblTotal.TabIndex = 4;
-            this.lblTotal.Text = "total";
-            this.lblTotal.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.lblTotal.Visible = false;
             // 
             // ResultOne
             // 

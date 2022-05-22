@@ -619,6 +619,15 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///   Biofuel Extractor に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string BiofuelExtractor {
+            get {
+                return ResourceManager.GetString("BiofuelExtractor", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Biofuel Generator に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string BiofuelGenerator {

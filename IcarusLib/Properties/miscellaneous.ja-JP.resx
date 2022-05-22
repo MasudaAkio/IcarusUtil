@@ -210,4 +210,7 @@
   <data name="Ammo" xml:space="preserve">
     <value>弾薬など</value>
   </data>
+  <data name="NotToBeCrafted" xml:space="preserve">
+    <value>現地調達</value>
+  </data>
 </root>

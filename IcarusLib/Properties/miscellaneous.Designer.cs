@@ -59,5 +59,293 @@ namespace IcarusLib.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Ammo {
+            get {
+                return ResourceManager.GetString("Ammo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   AnimalHead に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string AnimalHead {
+            get {
+                return ResourceManager.GetString("AnimalHead", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Armors に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Armors {
+            get {
+                return ResourceManager.GetString("Armors", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Axe に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Axe {
+            get {
+                return ResourceManager.GetString("Axe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Benches に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Benches {
+            get {
+                return ResourceManager.GetString("Benches", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Bow に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Bow {
+            get {
+                return ResourceManager.GetString("Bow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Building Pieces に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string BuildingPieces {
+            get {
+                return ResourceManager.GetString("BuildingPieces", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Climate Control に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ClimateControl {
+            get {
+                return ResourceManager.GetString("ClimateControl", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consumables に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Consumables {
+            get {
+                return ResourceManager.GetString("Consumables", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Cooking Benches に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string CookingBenches {
+            get {
+                return ResourceManager.GetString("CookingBenches", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Crafting Benches に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string CraftingBenches {
+            get {
+                return ResourceManager.GetString("CraftingBenches", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Deployables に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Deployables {
+            get {
+                return ResourceManager.GetString("Deployables", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Drinks に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Drinks {
+            get {
+                return ResourceManager.GetString("Drinks", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Environsuits に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Environsuits {
+            get {
+                return ResourceManager.GetString("Environsuits", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Firearms に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Firearms {
+            get {
+                return ResourceManager.GetString("Firearms", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Food に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Food {
+            get {
+                return ResourceManager.GetString("Food", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Hammer に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Hammer {
+            get {
+                return ResourceManager.GetString("Hammer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ingot に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Ingot {
+            get {
+                return ResourceManager.GetString("Ingot", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Knife に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Knife {
+            get {
+                return ResourceManager.GetString("Knife", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Materials に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Materials {
+            get {
+                return ResourceManager.GetString("Materials", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Medicine に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Medicine {
+            get {
+                return ResourceManager.GetString("Medicine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Modules に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Modules {
+            get {
+                return ResourceManager.GetString("Modules", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   None に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string None {
+            get {
+                return ResourceManager.GetString("None", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   sourcing locally に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotToBeCrafted {
+            get {
+                return ResourceManager.GetString("NotToBeCrafted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Ore に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Ore {
+            get {
+                return ResourceManager.GetString("Ore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Pickaxe に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Pickaxe {
+            get {
+                return ResourceManager.GetString("Pickaxe", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Resources に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Resources {
+            get {
+                return ResourceManager.GetString("Resources", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Sickle に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Sickle {
+            get {
+                return ResourceManager.GetString("Sickle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Spear に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Spear {
+            get {
+                return ResourceManager.GetString("Spear", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Tools に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Tools {
+            get {
+                return ResourceManager.GetString("Tools", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Weapons に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Weapons {
+            get {
+                return ResourceManager.GetString("Weapons", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Workshop に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string Workshop {
+            get {
+                return ResourceManager.GetString("Workshop", resourceCulture);
+            }
+        }
     }
 }
