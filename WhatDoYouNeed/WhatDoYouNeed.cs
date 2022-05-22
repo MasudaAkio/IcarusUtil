@@ -132,16 +132,22 @@ namespace Icarus
             CalcTotal();
         }
 
-        private void RecipeSelected(Object sender, EventArgs args)
+        private void RecipeSelectedInner(ObjectItem oi, int rindex)
         {
-            var mi = (ToolStripMenuItem)sender;
-            var oi = (ObjectItem)mi.Tag;
             var io = new IcrObject(oi.Name);
-            io.RecipeIndex = int.Parse(mi.Name);
+            io.RecipeIndex = rindex;
             oi.ToolTipText = io.SelectedRecipe.ToString();
             foreach (var ro in flpnlRecipes.Controls.OfType<ResultOne>())
                 ro.ReCalc();
             CalcTotal();
+        }
+
+        private void RecipeSelected(Object sender, EventArgs args)
+        {
+            var mi = (ToolStripMenuItem)sender;
+            var oi = (ObjectItem)mi.Tag;
+            var rindex = int.Parse(mi.Name);
+            RecipeSelectedInner(oi, rindex);
         }
 
         private void CalcTotal()

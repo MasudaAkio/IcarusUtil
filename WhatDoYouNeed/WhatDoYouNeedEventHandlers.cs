@@ -112,5 +112,25 @@ namespace Icarus
                 CalcTotal();
             } while (added > 0);
         }
+
+        private void ChangeWoodBuildingPieceRecipes(bool use_carpentry_bench = false)
+        {
+            foreach (var k in new[] { "WoodRoof", "WoodFloor", "WoodWall", "WoodWallAngled" })
+            {
+                var io = new IcrObject(k);
+                var oi = lvSouces.Items.OfType<ObjectItem>().FirstOrDefault(i => i.Name == k);
+                var target = use_carpentry_bench ? "CarpentryBench" : "CharacterCrafting";
+                int index = io.Recipes.SingleOrDefault(r => r.Bench.Key == target)?.Index ?? 0;
+
+                RecipeSelectedInner(oi, index);
+            }
+        }
+
+        private void makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem_Click(object sender, EventArgs e)
+            => ChangeWoodBuildingPieceRecipes(true);
+
+        private void makingWoodBuildingPiecesByMyselfToolStripMenuItem_Click(object sender, EventArgs e)
+            => ChangeWoodBuildingPieceRecipes();
+
     }
 }

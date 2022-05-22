@@ -122,7 +122,7 @@
     <value>175, 0</value>
   </data>
   <data name="lvSouces.Size" type="System.Drawing.Size, System.Drawing">
-    <value>705, 350</value>
+    <value>705, 346</value>
   </data>
   <data name="pnlUpper.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 25</value>
@@ -150,7 +150,7 @@
     <value>5, 2, 0, 2</value>
   </data>
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1079, 24</value>
+    <value>1079, 26</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>表示</value>
@@ -182,8 +182,26 @@
   <data name="tileToolStripMenuItem.Text" xml:space="preserve">
     <value>タイル</value>
   </data>
+  <data name="shortcutsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 22</value>
+  </data>
+  <data name="shortcutsToolStripMenuItem.Text" xml:space="preserve">
+    <value>ショートカット</value>
+  </data>
+  <data name="makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 22</value>
+  </data>
+  <data name="makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Text" xml:space="preserve">
+    <value>木製建材(屋根・壁・床・三角壁)は木工台で</value>
+  </data>
+  <data name="makingWoodBuildingPiecesByMyselfToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 22</value>
+  </data>
+  <data name="makingWoodBuildingPiecesByMyselfToolStripMenuItem.Text" xml:space="preserve">
+    <value>木製建材(屋根・壁・床・三角壁)は自分で</value>
+  </data>
   <data name="pnlLower.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 375</value>
+    <value>0, 371</value>
   </data>
   <data name="pnlLower.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 179</value>
@@ -192,22 +210,22 @@
     <value>880, 179</value>
   </data>
   <data name="clbxAttrs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 350</value>
+    <value>175, 346</value>
   </data>
   <data name="pnlMiddle.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 25</value>
   </data>
   <data name="pnlMiddle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 350</value>
+    <value>880, 346</value>
   </data>
   <data name="splitter1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 373</value>
+    <value>0, 550</value>
   </data>
   <data name="splitter1.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 2</value>
   </data>
   <data name="pnlTotal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 554</value>
+    <value>0, 552</value>
   </data>
   <data name="pnlTotal.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 66</value>
@@ -216,22 +234,22 @@
     <value>880, 66</value>
   </data>
   <data name="pnlLeftSide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 620</value>
+    <value>880, 618</value>
   </data>
   <data name="pnlRightSide.Location" type="System.Drawing.Point, System.Drawing">
-    <value>880, 24</value>
+    <value>880, 26</value>
   </data>
   <data name="pnlRightSide.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 620</value>
+    <value>199, 618</value>
   </data>
   <data name="lvHavingBenches.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 64</value>
   </data>
   <data name="lvHavingBenches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 490</value>
+    <value>199, 488</value>
   </data>
   <data name="btnConbine.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 554</value>
+    <value>0, 552</value>
   </data>
   <data name="btnConbine.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 66</value>
@@ -259,6 +277,18 @@
   </data>
   <data name="lblHavingBenches.Text" xml:space="preserve">
     <value>所有済の作業台</value>
+  </data>
+  <data name="splitter2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
+  </data>
+  <data name="splitter2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="splitter2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="splitter2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>880, 2</value>
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 17</value>

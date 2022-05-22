@@ -30,6 +30,7 @@ namespace IcarusLib
         }
         public class Recipe
         {
+            public int Index { get; private set; }
             public IcrObject Bench { get; private set; }
             public Stuff[] Stuffs { get; private set; }
             private Recipe() { }
@@ -42,11 +43,12 @@ namespace IcarusLib
             {
                 string[] spli(char del, string str) => str.Split(new char[] { del }, StringSplitOptions.RemoveEmptyEntries);
                 var rex = new Regex(@"^(\S+)\((.*)\)$");
-                return spli('|', recipe_str).Select(s =>
+                return spli('|', recipe_str).Select((s, i) =>
                     { /* CraftingBench(Fiber:20,Leather:30,Bone:8) */
                         var m = rex.Match(s);
                         var elems = m.Groups.Cast<Group>().Skip(1).Select(g => g.Value).ToArray(); /* [ "CraftingBench", "Fiber:20,Leather:30,Bone:8" ] */
                         var rec = new Recipe();
+                        rec.Index = i;
                         rec.Bench = new IcrObject(elems[0]);
                         if (elems[1] != "")
                         {

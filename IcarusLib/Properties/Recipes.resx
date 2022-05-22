@@ -1870,7 +1870,7 @@
     <value>CharacterCrafting(Fiber:8,Wood:10)</value>
   </data>
   <data name="WoodFloor" xml:space="preserve">
-    <value>CharacterCrafting(Fiber:12,Wood:20)</value>
+    <value>CharacterCrafting(Fiber:12,Wood:20)|CarpentryBench(Fiber:4,Wood:15)</value>
   </data>
   <data name="WoodFloorTrapdoor" xml:space="preserve">
     <value>CharacterCrafting(Fiber:12,Wood:20)</value>
@@ -1900,7 +1900,7 @@
     <value>CharacterCrafting(Fiber:10,Stick:4,Stone:6)</value>
   </data>
   <data name="WoodRoof" xml:space="preserve">
-    <value>CharacterCrafting(Fiber:12,Wood:20)</value>
+    <value>CharacterCrafting(Fiber:12,Wood:20)|CarpentryBench(Fiber:4,Wood:15)</value>
   </data>
   <data name="WoodRoofCorner" xml:space="preserve">
     <value>CharacterCrafting(Fiber:6,Wood:10)</value>
@@ -1921,10 +1921,10 @@
     <value>CharacterCrafting(Fiber:4,Wood:10)</value>
   </data>
   <data name="WoodWall" xml:space="preserve">
-    <value>CharacterCrafting(Fiber:12,Wood:20)</value>
+    <value>CharacterCrafting(Fiber:12,Wood:20)|CarpentryBench(Fiber:4,Wood:15)</value>
   </data>
   <data name="WoodWallAngled" xml:space="preserve">
-    <value>CharacterCrafting(Fiber:6,Wood:10)</value>
+    <value>CharacterCrafting(Fiber:6,Wood:10)|CarpentryBench(Fiber:2,Wood:8)</value>
   </data>
   <data name="WoodWindow" xml:space="preserve">
     <value>CharacterCrafting(Fiber:8,Wood:10)</value>

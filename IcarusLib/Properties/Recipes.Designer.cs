@@ -5371,7 +5371,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Wood:20) に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:12,Wood:20)|CarpentryBench(Fiber:4,Wood:15) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WoodFloor {
             get {
@@ -5461,7 +5461,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Wood:20) に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:12,Wood:20)|CarpentryBench(Fiber:4,Wood:15) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WoodRoof {
             get {
@@ -5524,7 +5524,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:12,Wood:20) に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:12,Wood:20)|CarpentryBench(Fiber:4,Wood:15) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WoodWall {
             get {
@@ -5533,7 +5533,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   CharacterCrafting(Fiber:6,Wood:10) に類似しているローカライズされた文字列を検索します。
+        ///   CharacterCrafting(Fiber:6,Wood:10)|CarpentryBench(Fiber:2,Wood:8) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string WoodWallAngled {
             get {
