@@ -41,6 +41,7 @@ namespace Icarus
             this.lvBenches = new System.Windows.Forms.ListView();
             this.ImagesLarge = new System.Windows.Forms.ImageList(this.components);
             this.ImagesSmall = new System.Windows.Forms.ImageList(this.components);
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.picObject)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupdnValue)).BeginInit();
             this.pnlTarget.SuspendLayout();
@@ -204,5 +205,6 @@ namespace Icarus
         private System.Windows.Forms.ImageList ImagesSmall;
         private System.Windows.Forms.Button btnRemove;
         private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }

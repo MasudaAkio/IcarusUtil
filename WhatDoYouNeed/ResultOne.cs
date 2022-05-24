@@ -44,6 +44,9 @@ namespace Icarus
             lvStuffs.Items.Clear();
             if (rcp != null)
             {
+                var rcp_str = rcp.ToString();
+                toolTip1.SetToolTip(picObject, rcp_str);
+                toolTip1.SetToolTip(lblName, rcp_str);
                 var aggre = rcp.FinalRequirements();
                 foreach (var i in aggre.aggregated)
                     lvStuffs.Items.Add(CreateItem(i.Item.Key, /* decimal.Ceiling(i.Volume) */ i.Volume));
