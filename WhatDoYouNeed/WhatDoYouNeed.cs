@@ -110,7 +110,14 @@ namespace Icarus
             SetHavingBenches();
             CountCategory();
             roTotal.SetImageLists(ObjectImagesLarge, ObjectImagesSmall);
+            roTotal.Remove += RoTotal_Remove;
             ChangeView(View.SmallIcon);
+        }
+
+        private void RoTotal_Remove(object sender, EventArgs e)
+        {
+            foreach (var ro in flpnlRecipes.Controls.OfType<ResultOne>().ToArray()) // イテレート対象をいじるので固定化は必要
+                RemoveTarget(ro, new EventArgs());
         }
 
         void Filter(string s)
@@ -181,6 +188,16 @@ namespace Icarus
                     group oi by oi.Name into g
                     select new ObjectItem(new IcrObject(g.Key), g.Sum(oi => oi.Volume));
             roTotal.Recipe = (b.ToArray(), s.ToArray());
+        }
+
+        private void exportToExcelFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var res = svfDlog.ShowDialog(this);
+            if (res == DialogResult.OK)
+            {
+                Export.CreateSample(svfDlog.FileName, flpnlRecipes.Controls.OfType<ResultOne>(), roTotal);
+                MessageBox.Show("done.");
+            }
         }
     }
 }

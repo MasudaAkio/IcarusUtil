@@ -619,7 +619,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///   MachiningBench(IronIngot:15,RefinedGold:5,CopperNail:8) に類似しているローカライズされた文字列を検索します。
+        ///   MachiningBench(IronIngot:15,RefinedGold:5,CopperNail:10) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string BiofuelExtractor {
             get {

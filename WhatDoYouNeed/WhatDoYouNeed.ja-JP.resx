@@ -117,18 +117,27 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="contextMenuStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="lvSouces.Location" type="System.Drawing.Point, System.Drawing">
     <value>175, 0</value>
   </data>
   <data name="lvSouces.Size" type="System.Drawing.Size, System.Drawing">
-    <value>705, 346</value>
+    <value>705, 319</value>
+  </data>
+  <data name="lvSouces.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="tbxFilter.Font" type="System.Drawing.Font, System.Drawing">
     <value>メイリオ, 9pt</value>
   </data>
   <data name="tbxFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>755, 25</value>
+  </data>
+  <data name="tbxFilter.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="btnFilter.Font" type="System.Drawing.Font, System.Drawing">
     <value>Meiryo UI, 9pt</value>
@@ -142,8 +151,14 @@
   <data name="btnFilter.Text" xml:space="preserve">
     <value>フィルター</value>
   </data>
+  <data name="btnFilter.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="pnlUpper.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 25</value>
+  </data>
+  <data name="pnlUpper.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="largeIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>131, 22</value>
@@ -169,6 +184,9 @@
   <data name="tileToolStripMenuItem.Text" xml:space="preserve">
     <value>タイル</value>
   </data>
+  <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 22</value>
+  </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>表示</value>
   </data>
@@ -193,6 +211,18 @@
   <data name="shortcutsToolStripMenuItem.Text" xml:space="preserve">
     <value>ショートカット</value>
   </data>
+  <data name="exportToExcelFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="exportToExcelFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>エクスポート(*.xlsx)</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 22</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>ファイル</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 2, 0, 2</value>
@@ -200,47 +230,68 @@
   <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
     <value>1079, 26</value>
   </data>
+  <data name="menuStrip1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="flpnlRecipes.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 179</value>
   </data>
+  <data name="flpnlRecipes.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="pnlLower.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 371</value>
+    <value>0, 344</value>
   </data>
   <data name="pnlLower.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 179</value>
+  </data>
+  <data name="pnlLower.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="clbxAttrs.Font" type="System.Drawing.Font, System.Drawing">
     <value>Meiryo UI, 9pt</value>
   </data>
   <data name="clbxAttrs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>175, 346</value>
+    <value>175, 319</value>
+  </data>
+  <data name="clbxAttrs.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="pnlMiddle.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 25</value>
   </data>
   <data name="pnlMiddle.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 346</value>
+    <value>880, 319</value>
+  </data>
+  <data name="pnlMiddle.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="splitter1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 550</value>
+    <value>0, 523</value>
   </data>
   <data name="splitter1.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 2</value>
   </data>
+  <data name="splitter1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="roTotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 66</value>
+    <value>880, 93</value>
+  </data>
+  <data name="roTotal.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="pnlTotal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 552</value>
+    <value>0, 525</value>
   </data>
   <data name="pnlTotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>880, 66</value>
+    <value>880, 93</value>
   </data>
-  <data name="splitter2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
+  <data name="pnlTotal.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="splitter2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 369</value>
+    <value>0, 342</value>
   </data>
   <data name="splitter2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -248,14 +299,23 @@
   <data name="splitter2.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 2</value>
   </data>
+  <data name="splitter2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="pnlLeftSide.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 618</value>
+  </data>
+  <data name="pnlLeftSide.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="lvHavingBenches.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 64</value>
   </data>
   <data name="lvHavingBenches.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 488</value>
+  </data>
+  <data name="lvHavingBenches.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="btnConbine.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 552</value>
@@ -265,6 +325,9 @@
   </data>
   <data name="btnConbine.Text" xml:space="preserve">
     <value>未所有の作業台を追加</value>
+  </data>
+  <data name="btnConbine.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="btnHavingBenchesAllorNone.Font" type="System.Drawing.Font, System.Drawing">
     <value>Meiryo UI, 9pt</value>
@@ -278,6 +341,9 @@
   <data name="btnHavingBenchesAllorNone.Text" xml:space="preserve">
     <value>全選択/全解除</value>
   </data>
+  <data name="btnHavingBenchesAllorNone.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="lblHavingBenches.Font" type="System.Drawing.Font, System.Drawing">
     <value>Meiryo UI, 9pt, style=Bold</value>
   </data>
@@ -287,11 +353,17 @@
   <data name="lblHavingBenches.Text" xml:space="preserve">
     <value>所有済の作業台</value>
   </data>
+  <data name="lblHavingBenches.ToolTip" xml:space="preserve">
+    <value />
+  </data>
   <data name="pnlRightSide.Location" type="System.Drawing.Point, System.Drawing">
     <value>880, 26</value>
   </data>
   <data name="pnlRightSide.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 618</value>
+  </data>
+  <data name="pnlRightSide.ToolTip" xml:space="preserve">
+    <value />
   </data>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 17</value>
@@ -1433,5 +1505,8 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
 </root>

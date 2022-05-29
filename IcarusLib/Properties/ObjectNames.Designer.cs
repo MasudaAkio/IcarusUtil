@@ -3175,7 +3175,7 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
-        ///    に類似しているローカライズされた文字列を検索します。
+        ///   Mushroom に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string Mushroom {
             get {

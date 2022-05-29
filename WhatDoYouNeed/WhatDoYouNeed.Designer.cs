@@ -47,13 +47,14 @@ namespace Icarus
             this.shortcutsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.makingWoodBuildingPiecesByMyselfToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportToExcelFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlLower = new System.Windows.Forms.Panel();
             this.flpnlRecipes = new System.Windows.Forms.FlowLayoutPanel();
             this.clbxAttrs = new System.Windows.Forms.CheckedListBox();
             this.pnlMiddle = new System.Windows.Forms.Panel();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.pnlTotal = new System.Windows.Forms.Panel();
-            this.roTotal = new Icarus.ResultOne();
             this.pnlLeftSide = new System.Windows.Forms.Panel();
             this.splitter2 = new System.Windows.Forms.Splitter();
             this.pnlRightSide = new System.Windows.Forms.Panel();
@@ -62,6 +63,8 @@ namespace Icarus
             this.btnHavingBenchesAllorNone = new System.Windows.Forms.Button();
             this.lblHavingBenches = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.svfDlog = new System.Windows.Forms.SaveFileDialog();
+            this.roTotal = new Icarus.ResultOne();
             this.pnlUpper.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.pnlLower.SuspendLayout();
@@ -134,19 +137,20 @@ namespace Icarus
             this.menuStrip1.BackColor = System.Drawing.Color.MidnightBlue;
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
             this.toolStripMenuItem1,
             this.shortcutsToolStripMenuItem});
             this.menuStrip1.Name = "menuStrip1";
             // 
             // toolStripMenuItem1
             // 
-            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.largeIconToolStripMenuItem,
             this.smallIconToolStripMenuItem,
             this.listToolStripMenuItem,
             this.tileToolStripMenuItem});
-            this.toolStripMenuItem1.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.toolStripMenuItem1, "toolStripMenuItem1");
+            this.toolStripMenuItem1.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             // 
             // largeIconToolStripMenuItem
@@ -178,7 +182,7 @@ namespace Icarus
             this.shortcutsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem,
             this.makingWoodBuildingPiecesByMyselfToolStripMenuItem});
-            this.shortcutsToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.shortcutsToolStripMenuItem.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.shortcutsToolStripMenuItem.Name = "shortcutsToolStripMenuItem";
             resources.ApplyResources(this.shortcutsToolStripMenuItem, "shortcutsToolStripMenuItem");
             // 
@@ -193,6 +197,20 @@ namespace Icarus
             this.makingWoodBuildingPiecesByMyselfToolStripMenuItem.Name = "makingWoodBuildingPiecesByMyselfToolStripMenuItem";
             resources.ApplyResources(this.makingWoodBuildingPiecesByMyselfToolStripMenuItem, "makingWoodBuildingPiecesByMyselfToolStripMenuItem");
             this.makingWoodBuildingPiecesByMyselfToolStripMenuItem.Click += new System.EventHandler(this.makingWoodBuildingPiecesByMyselfToolStripMenuItem_Click);
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exportToExcelFileToolStripMenuItem});
+            this.fileToolStripMenuItem.ForeColor = System.Drawing.Color.LightSteelBlue;
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
+            // 
+            // exportToExcelFileToolStripMenuItem
+            // 
+            this.exportToExcelFileToolStripMenuItem.Name = "exportToExcelFileToolStripMenuItem";
+            resources.ApplyResources(this.exportToExcelFileToolStripMenuItem, "exportToExcelFileToolStripMenuItem");
+            this.exportToExcelFileToolStripMenuItem.Click += new System.EventHandler(this.exportToExcelFileToolStripMenuItem_Click);
             // 
             // pnlLower
             // 
@@ -235,15 +253,6 @@ namespace Icarus
             this.pnlTotal.Controls.Add(this.roTotal);
             resources.ApplyResources(this.pnlTotal, "pnlTotal");
             this.pnlTotal.Name = "pnlTotal";
-            // 
-            // roTotal
-            // 
-            resources.ApplyResources(this.roTotal, "roTotal");
-            this.roTotal.IsForTotal = true;
-            this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
-            this.roTotal.Name = "roTotal";
-            this.roTotal.Target = null;
-            this.roTotal.ValueChanged = null;
             // 
             // pnlLeftSide
             // 
@@ -310,6 +319,19 @@ namespace Icarus
             this.lblHavingBenches.ForeColor = System.Drawing.Color.White;
             this.lblHavingBenches.Name = "lblHavingBenches";
             // 
+            // svfDlog
+            // 
+            resources.ApplyResources(this.svfDlog, "svfDlog");
+            // 
+            // roTotal
+            // 
+            resources.ApplyResources(this.roTotal, "roTotal");
+            this.roTotal.IsForTotal = true;
+            this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
+            this.roTotal.Name = "roTotal";
+            this.roTotal.Target = null;
+            this.roTotal.ValueChanged = null;
+            // 
             // WhatDoYouNeed
             // 
             this.AcceptButton = this.btnFilter;
@@ -366,6 +388,9 @@ namespace Icarus
         private System.Windows.Forms.ToolStripMenuItem makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem makingWoodBuildingPiecesByMyselfToolStripMenuItem;
         private System.Windows.Forms.Splitter splitter2;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exportToExcelFileToolStripMenuItem;
+        private System.Windows.Forms.SaveFileDialog svfDlog;
     }
 }
 

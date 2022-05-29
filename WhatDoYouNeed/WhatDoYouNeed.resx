@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <metadata name="contextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>445, 17</value>
+    <value>538, 17</value>
   </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="contextMenuStrip1.Size" type="System.Drawing.Size, System.Drawing">
@@ -138,7 +138,7 @@
     <value>メイリオ, 8.25pt</value>
   </data>
   <metadata name="ObjectImagesLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
+    <value>110, 17</value>
   </metadata>
   <data name="ObjectImagesLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
     <value>40, 40</value>
@@ -153,7 +153,7 @@
     <value>617, 257</value>
   </data>
   <metadata name="ObjectImagesSmall.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>174, 17</value>
+    <value>267, 17</value>
   </metadata>
   <data name="ObjectImagesSmall.ImageSize" type="System.Drawing.Size, System.Drawing">
     <value>16, 16</value>
@@ -268,34 +268,43 @@
     <value>2</value>
   </data>
   <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>330, 17</value>
+    <value>423, 17</value>
   </metadata>
   <data name="menuStrip1.Font" type="System.Drawing.Font, System.Drawing">
     <value>メイリオ, 9pt</value>
   </data>
-  <data name="toolStripMenuItem1.AutoSize" type="System.Boolean, mscorlib">
-    <value>False</value>
+  <data name="exportToExcelFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="exportToExcelFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Export(*.xlsx)</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
   </data>
   <data name="largeIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="largeIconToolStripMenuItem.Text" xml:space="preserve">
     <value>Large Icon</value>
   </data>
   <data name="smallIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="smallIconToolStripMenuItem.Text" xml:space="preserve">
     <value>Small Icon</value>
   </data>
   <data name="listToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="listToolStripMenuItem.Text" xml:space="preserve">
     <value>List</value>
   </data>
   <data name="tileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>136, 22</value>
+    <value>180, 22</value>
   </data>
   <data name="tileToolStripMenuItem.Text" xml:space="preserve">
     <value>Tile</value>
@@ -304,7 +313,7 @@
     <value>Meiryo UI, 9pt</value>
   </data>
   <data name="toolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>70, 20</value>
+    <value>47, 22</value>
   </data>
   <data name="toolStripMenuItem1.Text" xml:space="preserve">
     <value>View</value>
@@ -784,8 +793,14 @@
     <value>2</value>
   </data>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>600, 17</value>
+    <value>693, 17</value>
   </metadata>
+  <metadata name="svfDlog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="svfDlog.Filter" xml:space="preserve">
+    <value>Excelファイル(*.xlsx)|*.xlsx</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -1933,6 +1948,9 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Icarus:What do you need</value>
   </data>
@@ -1996,11 +2014,29 @@
   <data name="&gt;&gt;makingWoodBuildingPiecesByMyselfToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportToExcelFileToolStripMenuItem.Name" xml:space="preserve">
+    <value>exportToExcelFileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exportToExcelFileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
     <value>toolTip1</value>
   </data>
   <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;svfDlog.Name" xml:space="preserve">
+    <value>svfDlog</value>
+  </data>
+  <data name="&gt;&gt;svfDlog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>WhatDoYouNeed</value>

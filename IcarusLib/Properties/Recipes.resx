@@ -1966,7 +1966,7 @@
     <value>MachiningBench(IronIngot:12,CopperIngot:12,RefinedGold:10,IronNail:8,Glass:2)</value>
   </data>
   <data name="BiofuelExtractor" xml:space="preserve">
-    <value>MachiningBench(IronIngot:15,RefinedGold:5,CopperNail:8)</value>
+    <value>MachiningBench(IronIngot:15,RefinedGold:5,CopperNail:10)</value>
   </data>
   <data name="BearTrophy" xml:space="preserve">
     <value>TrophyBench(Stick:10,Wood:30,BearHead:1)</value>

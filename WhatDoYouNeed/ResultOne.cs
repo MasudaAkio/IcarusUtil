@@ -105,8 +105,18 @@ namespace Icarus
             {
                 _is_for_total = value;
                 foreach (var ctr in pnlTarget.Controls.OfType<Control>())
-                    if (ctr.Name != "lblTotal") ctr.Visible = !_is_for_total;
-                lblTotal.Visible = _is_for_total;
+                    if (ctr.Name != "lblTotal" && ctr.Name != "btnRemove") ctr.Visible = !_is_for_total;
+                if (_is_for_total)
+                {
+                    btnRemove.Text = "Remove All";
+                    btnRemove.BackColor = Color.White;
+                    lblTotal.Visible = true;
+                }
+                else
+                {
+                    btnRemove.Text = "Remove";
+                    lblTotal.Visible = false;
+                }
             }
         }
 
