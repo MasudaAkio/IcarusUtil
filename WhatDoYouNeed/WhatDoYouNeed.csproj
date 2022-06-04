@@ -26,7 +26,7 @@
     <InstallUrl>https://guiyh.z31.web.core.windows.net/WhatDoYouNeed/</InstallUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>34</ApplicationRevision>
+    <ApplicationRevision>35</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -100,7 +100,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Export.cs" />
+    <Compile Include="InputPresetName.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InputPresetName.Designer.cs">
+      <DependentUpon>InputPresetName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
     <Compile Include="ObjectItem.cs" />
+    <Compile Include="WhatDoYouNeed.MessageBoxHook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WhatDoYouNeed.PreSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResultOne.cs">
@@ -109,6 +126,7 @@
     <Compile Include="ResultOne.Designer.cs">
       <DependentUpon>ResultOne.cs</DependentUpon>
     </Compile>
+    <Compile Include="Settings.cs" />
     <Compile Include="WhatDoYouNeed.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +136,15 @@
     <Compile Include="WhatDoYouNeedEventHandlers.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="WindowsAPI.cs" />
+    <EmbeddedResource Include="InputPresetName.resx">
+      <DependentUpon>InputPresetName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.ja-JP.resx" />
+    <EmbeddedResource Include="Messages.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -175,6 +202,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\返信矢印.png" />
+    <None Include="Resources\スパナのアイコン素材.png" />
+    <None Include="Resources\icons8-エクセル-50.png" />
+    <None Include="Resources\ショートカット.png" />
+    <None Include="Resources\large-icon.png" />
+    <None Include="Resources\list.png" />
+    <None Include="Resources\small-icon.png" />
+    <None Include="Resources\tile.png" />
     <Content Include="落船 icon-sq-128.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

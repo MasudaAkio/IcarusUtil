@@ -99,6 +99,8 @@ namespace Icarus
             }
         }
 
+        public decimal Volume => nupdnValue.Value;
+
         // private Label lblTotal = new Label() { Text = "TOTAL", AutoSize = false, TextAlign = ContentAlignment.MiddleCenter, Dock = DockStyle.Fill };
         private bool _is_for_total = false;
         public bool IsForTotal { get => _is_for_total; set

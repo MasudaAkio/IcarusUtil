@@ -39,6 +39,8 @@ namespace Icarus
             this.tbxFilter = new System.Windows.Forms.TextBox();
             this.btnFilter = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exportToExcelFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.largeIconToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.smallIconToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,14 +49,15 @@ namespace Icarus
             this.shortcutsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.makingWoodBuildingPiecesByMyselfToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.exportToExcelFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.presetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.registerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlLower = new System.Windows.Forms.Panel();
             this.flpnlRecipes = new System.Windows.Forms.FlowLayoutPanel();
             this.clbxAttrs = new System.Windows.Forms.CheckedListBox();
             this.pnlMiddle = new System.Windows.Forms.Panel();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.pnlTotal = new System.Windows.Forms.Panel();
+            this.roTotal = new Icarus.ResultOne();
             this.pnlLeftSide = new System.Windows.Forms.Panel();
             this.splitter2 = new System.Windows.Forms.Splitter();
             this.pnlRightSide = new System.Windows.Forms.Panel();
@@ -64,7 +67,6 @@ namespace Icarus
             this.lblHavingBenches = new System.Windows.Forms.Label();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.svfDlog = new System.Windows.Forms.SaveFileDialog();
-            this.roTotal = new Icarus.ResultOne();
             this.pnlUpper.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.pnlLower.SuspendLayout();
@@ -139,8 +141,24 @@ namespace Icarus
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.toolStripMenuItem1,
-            this.shortcutsToolStripMenuItem});
+            this.shortcutsToolStripMenuItem,
+            this.presetToolStripMenuItem});
             this.menuStrip1.Name = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.exportToExcelFileToolStripMenuItem});
+            this.fileToolStripMenuItem.ForeColor = System.Drawing.Color.LightSteelBlue;
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
+            // 
+            // exportToExcelFileToolStripMenuItem
+            // 
+            this.exportToExcelFileToolStripMenuItem.Image = global::Icarus.Properties.Resources.エクセル;
+            this.exportToExcelFileToolStripMenuItem.Name = "exportToExcelFileToolStripMenuItem";
+            resources.ApplyResources(this.exportToExcelFileToolStripMenuItem, "exportToExcelFileToolStripMenuItem");
+            this.exportToExcelFileToolStripMenuItem.Click += new System.EventHandler(this.exportToExcelFileToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -155,24 +173,28 @@ namespace Icarus
             // 
             // largeIconToolStripMenuItem
             // 
+            this.largeIconToolStripMenuItem.Image = global::Icarus.Properties.Resources.large_icon;
             this.largeIconToolStripMenuItem.Name = "largeIconToolStripMenuItem";
             resources.ApplyResources(this.largeIconToolStripMenuItem, "largeIconToolStripMenuItem");
             this.largeIconToolStripMenuItem.Click += new System.EventHandler(this.largeIconToolStripMenuItem_Click);
             // 
             // smallIconToolStripMenuItem
             // 
+            this.smallIconToolStripMenuItem.Image = global::Icarus.Properties.Resources.small_icon;
             this.smallIconToolStripMenuItem.Name = "smallIconToolStripMenuItem";
             resources.ApplyResources(this.smallIconToolStripMenuItem, "smallIconToolStripMenuItem");
             this.smallIconToolStripMenuItem.Click += new System.EventHandler(this.smallIconToolStripMenuItem_Click);
             // 
             // listToolStripMenuItem
             // 
+            this.listToolStripMenuItem.Image = global::Icarus.Properties.Resources.list;
             this.listToolStripMenuItem.Name = "listToolStripMenuItem";
             resources.ApplyResources(this.listToolStripMenuItem, "listToolStripMenuItem");
             this.listToolStripMenuItem.Click += new System.EventHandler(this.listToolStripMenuItem_Click);
             // 
             // tileToolStripMenuItem
             // 
+            this.tileToolStripMenuItem.Image = global::Icarus.Properties.Resources.tile;
             this.tileToolStripMenuItem.Name = "tileToolStripMenuItem";
             resources.ApplyResources(this.tileToolStripMenuItem, "tileToolStripMenuItem");
             this.tileToolStripMenuItem.Click += new System.EventHandler(this.tileToolStripMenuItem_Click);
@@ -188,29 +210,32 @@ namespace Icarus
             // 
             // makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem
             // 
+            this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Image = global::Icarus.Properties.Resources.ショートカット;
             this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Name = "makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem";
             resources.ApplyResources(this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem, "makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem");
             this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem.Click += new System.EventHandler(this.makingWoodBuildingPiecesAtACarpentryBenchToolStripMenuItem_Click);
             // 
             // makingWoodBuildingPiecesByMyselfToolStripMenuItem
             // 
+            this.makingWoodBuildingPiecesByMyselfToolStripMenuItem.Image = global::Icarus.Properties.Resources.ショートカット;
             this.makingWoodBuildingPiecesByMyselfToolStripMenuItem.Name = "makingWoodBuildingPiecesByMyselfToolStripMenuItem";
             resources.ApplyResources(this.makingWoodBuildingPiecesByMyselfToolStripMenuItem, "makingWoodBuildingPiecesByMyselfToolStripMenuItem");
             this.makingWoodBuildingPiecesByMyselfToolStripMenuItem.Click += new System.EventHandler(this.makingWoodBuildingPiecesByMyselfToolStripMenuItem_Click);
             // 
-            // fileToolStripMenuItem
+            // presetToolStripMenuItem
             // 
-            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exportToExcelFileToolStripMenuItem});
-            this.fileToolStripMenuItem.ForeColor = System.Drawing.Color.LightSteelBlue;
-            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
+            this.presetToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.registerToolStripMenuItem});
+            this.presetToolStripMenuItem.ForeColor = System.Drawing.Color.LightSteelBlue;
+            this.presetToolStripMenuItem.Name = "presetToolStripMenuItem";
+            resources.ApplyResources(this.presetToolStripMenuItem, "presetToolStripMenuItem");
             // 
-            // exportToExcelFileToolStripMenuItem
+            // registerToolStripMenuItem
             // 
-            this.exportToExcelFileToolStripMenuItem.Name = "exportToExcelFileToolStripMenuItem";
-            resources.ApplyResources(this.exportToExcelFileToolStripMenuItem, "exportToExcelFileToolStripMenuItem");
-            this.exportToExcelFileToolStripMenuItem.Click += new System.EventHandler(this.exportToExcelFileToolStripMenuItem_Click);
+            resources.ApplyResources(this.registerToolStripMenuItem, "registerToolStripMenuItem");
+            this.registerToolStripMenuItem.Image = global::Icarus.Properties.Resources.スパナ;
+            this.registerToolStripMenuItem.Name = "registerToolStripMenuItem";
+            this.registerToolStripMenuItem.Click += new System.EventHandler(this.registerToolStripMenuItem_Click);
             // 
             // pnlLower
             // 
@@ -253,6 +278,15 @@ namespace Icarus
             this.pnlTotal.Controls.Add(this.roTotal);
             resources.ApplyResources(this.pnlTotal, "pnlTotal");
             this.pnlTotal.Name = "pnlTotal";
+            // 
+            // roTotal
+            // 
+            resources.ApplyResources(this.roTotal, "roTotal");
+            this.roTotal.IsForTotal = true;
+            this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
+            this.roTotal.Name = "roTotal";
+            this.roTotal.Target = null;
+            this.roTotal.ValueChanged = null;
             // 
             // pnlLeftSide
             // 
@@ -323,15 +357,6 @@ namespace Icarus
             // 
             resources.ApplyResources(this.svfDlog, "svfDlog");
             // 
-            // roTotal
-            // 
-            resources.ApplyResources(this.roTotal, "roTotal");
-            this.roTotal.IsForTotal = true;
-            this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
-            this.roTotal.Name = "roTotal";
-            this.roTotal.Target = null;
-            this.roTotal.ValueChanged = null;
-            // 
             // WhatDoYouNeed
             // 
             this.AcceptButton = this.btnFilter;
@@ -391,6 +416,8 @@ namespace Icarus
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exportToExcelFileToolStripMenuItem;
         private System.Windows.Forms.SaveFileDialog svfDlog;
+        private System.Windows.Forms.ToolStripMenuItem presetToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem registerToolStripMenuItem;
     }
 }
 

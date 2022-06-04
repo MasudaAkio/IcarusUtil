@@ -274,7 +274,7 @@
     <value>メイリオ, 9pt</value>
   </data>
   <data name="exportToExcelFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>158, 22</value>
   </data>
   <data name="exportToExcelFileToolStripMenuItem.Text" xml:space="preserve">
     <value>Export(*.xlsx)</value>
@@ -286,25 +286,25 @@
     <value>File</value>
   </data>
   <data name="largeIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>136, 22</value>
   </data>
   <data name="largeIconToolStripMenuItem.Text" xml:space="preserve">
     <value>Large Icon</value>
   </data>
   <data name="smallIconToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>136, 22</value>
   </data>
   <data name="smallIconToolStripMenuItem.Text" xml:space="preserve">
     <value>Small Icon</value>
   </data>
   <data name="listToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>136, 22</value>
   </data>
   <data name="listToolStripMenuItem.Text" xml:space="preserve">
     <value>List</value>
   </data>
   <data name="tileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+    <value>136, 22</value>
   </data>
   <data name="tileToolStripMenuItem.Text" xml:space="preserve">
     <value>Tile</value>
@@ -338,6 +338,21 @@
   </data>
   <data name="shortcutsToolStripMenuItem.Text" xml:space="preserve">
     <value>Shortcuts</value>
+  </data>
+  <data name="registerToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>メイリオ, 9pt, style=Bold</value>
+  </data>
+  <data name="registerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>173, 22</value>
+  </data>
+  <data name="registerToolStripMenuItem.Text" xml:space="preserve">
+    <value>Register Preset</value>
+  </data>
+  <data name="presetToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 22</value>
+  </data>
+  <data name="presetToolStripMenuItem.Text" xml:space="preserve">
+    <value>Preset</value>
   </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
@@ -1948,9 +1963,6 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
   </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Icarus:What do you need</value>
   </data>
@@ -1965,6 +1977,18 @@
   </data>
   <data name="&gt;&gt;ObjectImagesSmall.Type" xml:space="preserve">
     <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportToExcelFileToolStripMenuItem.Name" xml:space="preserve">
+    <value>exportToExcelFileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exportToExcelFileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolStripMenuItem1.Name" xml:space="preserve">
     <value>toolStripMenuItem1</value>
@@ -2014,16 +2038,16 @@
   <data name="&gt;&gt;makingWoodBuildingPiecesByMyselfToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
-    <value>fileToolStripMenuItem</value>
+  <data name="&gt;&gt;presetToolStripMenuItem.Name" xml:space="preserve">
+    <value>presetToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;presetToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;exportToExcelFileToolStripMenuItem.Name" xml:space="preserve">
-    <value>exportToExcelFileToolStripMenuItem</value>
+  <data name="&gt;&gt;registerToolStripMenuItem.Name" xml:space="preserve">
+    <value>registerToolStripMenuItem</value>
   </data>
-  <data name="&gt;&gt;exportToExcelFileToolStripMenuItem.Type" xml:space="preserve">
+  <data name="&gt;&gt;registerToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">

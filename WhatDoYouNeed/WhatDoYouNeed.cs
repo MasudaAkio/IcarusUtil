@@ -25,7 +25,6 @@ namespace Icarus
         {
             public IcrObject.IcrAttributes Attr { get; private set; }
             public int Count { get; private set; }
-
             public string Name { get; private set; }
 
             public CategoryItem(IcrObject.IcrAttributes attr, string name, int count)
@@ -112,6 +111,8 @@ namespace Icarus
             roTotal.SetImageLists(ObjectImagesLarge, ObjectImagesSmall);
             roTotal.Remove += RoTotal_Remove;
             ChangeView(View.SmallIcon);
+
+            PresetMany.Default.Set2Menu(presetToolStripMenuItem, PresetMenuItem_Click, PresetMenuItem_MouseUp);
         }
 
         private void RoTotal_Remove(object sender, EventArgs e)
@@ -195,9 +196,10 @@ namespace Icarus
             var res = svfDlog.ShowDialog(this);
             if (res == DialogResult.OK)
             {
-                Export.CreateSample(svfDlog.FileName, flpnlRecipes.Controls.OfType<ResultOne>(), roTotal);
+                Export.ExportXlsx(svfDlog.FileName, flpnlRecipes.Controls.OfType<ResultOne>(), roTotal);
                 MessageBox.Show("done.");
             }
         }
+
     }
 }
