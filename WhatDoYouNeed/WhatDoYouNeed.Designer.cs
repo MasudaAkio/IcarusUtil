@@ -41,6 +41,7 @@ namespace Icarus
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportToExcelFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.largeIconToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.smallIconToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -148,7 +149,8 @@ namespace Icarus
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.exportToExcelFileToolStripMenuItem});
+            this.exportToExcelFileToolStripMenuItem,
+            this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.ForeColor = System.Drawing.Color.LightSteelBlue;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             resources.ApplyResources(this.fileToolStripMenuItem, "fileToolStripMenuItem");
@@ -159,6 +161,13 @@ namespace Icarus
             this.exportToExcelFileToolStripMenuItem.Name = "exportToExcelFileToolStripMenuItem";
             resources.ApplyResources(this.exportToExcelFileToolStripMenuItem, "exportToExcelFileToolStripMenuItem");
             this.exportToExcelFileToolStripMenuItem.Click += new System.EventHandler(this.exportToExcelFileToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Image = global::Icarus.Properties.Resources.非常口;
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            resources.ApplyResources(this.exitToolStripMenuItem, "exitToolStripMenuItem");
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
@@ -418,6 +427,7 @@ namespace Icarus
         private System.Windows.Forms.SaveFileDialog svfDlog;
         private System.Windows.Forms.ToolStripMenuItem presetToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
     }
 }
 

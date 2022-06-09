@@ -100,4 +100,7 @@
   <data name="RemovePresetPromptMessage" xml:space="preserve">
     <value>Delete preset "{0}". Are you sure?</value>
   </data>
+  <data name="ExcelFileIsSavedMessage" xml:space="preserve">
+    <value>File "{0}" is saved.</value>
+  </data>
 </root>

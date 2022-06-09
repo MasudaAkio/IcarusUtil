@@ -1180,10 +1180,10 @@
     <value>マチェーテ</value>
   </data>
   <data name="MachiningBench" xml:space="preserve">
-    <value>機械加工台</value>
+    <value>機械作業台</value>
   </data>
   <data name="MammothHead" xml:space="preserve">
-    <value>マンモスの頭</value>
+    <value>マンモスヘッド</value>
   </data>
   <data name="MammothTrophy" xml:space="preserve">
     <value>マンモス・トロフィー</value>
@@ -1964,5 +1964,8 @@
   </data>
   <data name="BiofuelExtractor" xml:space="preserve">
     <value>バイオ燃料抽出機</value>
+  </data>
+  <data name="SteelArrow" xml:space="preserve">
+    <value>鋼の矢</value>
   </data>
 </root>

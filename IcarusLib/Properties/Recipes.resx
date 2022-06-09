@@ -1971,4 +1971,7 @@
   <data name="BearTrophy" xml:space="preserve">
     <value>TrophyBench(Stick:10,Wood:30,BearHead:1)</value>
   </data>
+  <data name="SteelArrow" xml:space="preserve">
+    <value>CraftingBench(Epoxy:1,Stick:1,SteelIngot:1)</value>
+  </data>
 </root>

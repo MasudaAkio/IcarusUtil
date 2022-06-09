@@ -4534,6 +4534,15 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///   Steel Arrow に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SteelArrow {
+            get {
+                return ResourceManager.GetString("SteelArrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Steel Axe に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SteelAxe {

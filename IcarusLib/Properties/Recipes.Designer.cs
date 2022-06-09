@@ -4552,6 +4552,15 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///   CraftingBench(Epoxy:1,Stick:1,SteelIngot:1) に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        public static string SteelArrow {
+            get {
+                return ResourceManager.GetString("SteelArrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   AnvilBench(Wood:5,Epoxy:4,SteelIngot:6,SteelScrew:2) に類似しているローカライズされた文字列を検索します。
         /// </summary>
         public static string SteelAxe {

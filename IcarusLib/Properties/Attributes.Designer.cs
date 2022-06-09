@@ -4543,6 +4543,15 @@ namespace IcarusLib.Properties {
         }
         
         /// <summary>
+        ///   Ammo に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string SteelArrow {
+            get {
+                return ResourceManager.GetString("SteelArrow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Axe に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string SteelAxe {

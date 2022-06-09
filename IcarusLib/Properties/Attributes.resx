@@ -1948,4 +1948,7 @@
   <data name="BiofuelExtractor" xml:space="preserve">
     <value>Deployables,Tools</value>
   </data>
+  <data name="SteelArrow" xml:space="preserve">
+    <value>Ammo</value>
+  </data>
 </root>

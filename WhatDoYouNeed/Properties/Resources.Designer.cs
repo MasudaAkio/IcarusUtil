@@ -63,6 +63,16 @@ namespace Icarus.Properties {
         /// <summary>
         ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
         /// </summary>
+        internal static System.Drawing.Bitmap EXITアイコン {
+            get {
+                object obj = ResourceManager.GetObject("EXITアイコン", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
         internal static System.Drawing.Bitmap large_icon {
             get {
                 object obj = ResourceManager.GetObject("large_icon", resourceCulture);
@@ -136,6 +146,16 @@ namespace Icarus.Properties {
         internal static System.Drawing.Bitmap 返信矢印 {
             get {
                 object obj = ResourceManager.GetObject("返信矢印", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   型 System.Drawing.Bitmap のローカライズされたリソースを検索します。
+        /// </summary>
+        internal static System.Drawing.Bitmap 非常口 {
+            get {
+                object obj = ResourceManager.GetObject("非常口", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

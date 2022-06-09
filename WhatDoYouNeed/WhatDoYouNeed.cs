@@ -197,9 +197,12 @@ namespace Icarus
             if (res == DialogResult.OK)
             {
                 Export.ExportXlsx(svfDlog.FileName, flpnlRecipes.Controls.OfType<ResultOne>(), roTotal);
-                MessageBox.Show("done.");
+                PrepareCenteringMessageBoxOnTheForm(this);
+                MessageBox.Show(String.Format(Messages.ExcelFileIsSavedMessage, svfDlog.FileName));
             }
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e) => Close();
 
     }
 }

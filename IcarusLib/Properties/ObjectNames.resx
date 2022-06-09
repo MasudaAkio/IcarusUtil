@@ -1965,4 +1965,7 @@
   <data name="BiofuelExtractor" xml:space="preserve">
     <value>Biofuel Extractor</value>
   </data>
+  <data name="SteelArrow" xml:space="preserve">
+    <value>Steel Arrow</value>
+  </data>
 </root>

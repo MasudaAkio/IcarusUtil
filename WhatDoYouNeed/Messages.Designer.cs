@@ -61,6 +61,15 @@ namespace Icarus {
         }
         
         /// <summary>
+        ///   File &quot;{0}&quot; is saved. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string ExcelFileIsSavedMessage {
+            get {
+                return ResourceManager.GetString("ExcelFileIsSavedMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Delete preset &quot;{0}&quot;. Are you sure? に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string RemovePresetPromptMessage {

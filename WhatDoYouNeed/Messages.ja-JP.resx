@@ -120,4 +120,7 @@
   <data name="RemovePresetPromptMessage" xml:space="preserve">
     <value>プリセット "{0}" を削除します。よろしいですか？</value>
   </data>
+  <data name="ExcelFileIsSavedMessage" xml:space="preserve">
+    <value>ファイル "{0}" を保存しました。</value>
+  </data>
 </root>

@@ -52,6 +52,7 @@ namespace Icarus
                 contextMenuStrip1.Items.AddRange(oi.Recipes
                     .Select((r, i) => new ToolStripMenuItem(r.ToString(), null, RecipeSelected, i.ToString()) { Tag = oi })
                     .ToArray());
+                e.Cancel = false;
             }
             else e.Cancel = true;
         }
