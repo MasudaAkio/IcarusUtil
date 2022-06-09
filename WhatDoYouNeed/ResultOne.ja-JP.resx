@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -117,13 +117,34 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RemovePresetPromptMessage" xml:space="preserve">
-    <value>プリセット "{0}" を削除します。よろしいですか？</value>
+  <data name="picObject.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="ExcelFileIsSavedMessage" xml:space="preserve">
-    <value>ファイル "{0}" を保存しました。</value>
+  <data name="lblName.ToolTip" xml:space="preserve">
+    <value />
   </data>
-  <data name="NotAddedRecipeMessage" xml:space="preserve">
-    <value>現地調達物資なので追加しません。</value>
+  <data name="nupdnValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemove.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlTarget.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lvStuffs.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lvBenches.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlRecipe.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
   </data>
 </root>

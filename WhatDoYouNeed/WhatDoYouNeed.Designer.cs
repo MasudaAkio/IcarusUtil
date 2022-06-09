@@ -58,7 +58,7 @@ namespace Icarus
             this.pnlMiddle = new System.Windows.Forms.Panel();
             this.splitter1 = new System.Windows.Forms.Splitter();
             this.pnlTotal = new System.Windows.Forms.Panel();
-            this.roTotal = new Icarus.ResultOne();
+            this.roTotal = new Icarus.RecipeTotal();
             this.pnlLeftSide = new System.Windows.Forms.Panel();
             this.splitter2 = new System.Windows.Forms.Splitter();
             this.pnlRightSide = new System.Windows.Forms.Panel();
@@ -291,10 +291,9 @@ namespace Icarus
             // roTotal
             // 
             resources.ApplyResources(this.roTotal, "roTotal");
-            this.roTotal.IsForTotal = true;
             this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
             this.roTotal.Name = "roTotal";
-            this.roTotal.Target = null;
+            // this.roTotal.Target = null;
             this.roTotal.ValueChanged = null;
             // 
             // pnlLeftSide
@@ -410,7 +409,7 @@ namespace Icarus
         private System.Windows.Forms.Splitter splitter1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Panel pnlTotal;
-        private ResultOne roTotal;
+        private RecipeTotal roTotal;
         private System.Windows.Forms.Panel pnlLeftSide;
         private System.Windows.Forms.Panel pnlRightSide;
         private System.Windows.Forms.Button btnHavingBenchesAllorNone;

@@ -22,12 +22,18 @@ namespace Icarus
         {
             public string Key { get; set; }
             public decimal Volume { get; set; }
+
+            public PresetStuff(string key, decimal volume)
+            {
+                Key = key;
+                Volume = volume;
+            }
         }
 
         private class PresetOne
         {
-            public string Name { get; set; }
-            public PresetStuff[] Stuffs { get; set; }
+            public string Name { get; set; } = "";
+            public PresetStuff[] Stuffs { get; set; } = new PresetStuff[0];
 
             public override string ToString()
             {
@@ -44,25 +50,25 @@ namespace Icarus
                     Stuffs = eles.Skip(1).Select(ele =>
                     {
                         var k_v = ele.Split(':');
-                        return new PresetStuff() { Key = k_v[0], Volume = decimal.Parse(k_v[1]) };
+                        return new PresetStuff(k_v[0], decimal.Parse(k_v[1]));
                     }).ToArray();
                 }
             }
 
-            public PresetOne() { }
+            public PresetOne(string name, PresetStuff[] stuffs)
+            {
+                Name = name;
+                Stuffs = stuffs;
+            }
 
-            public PresetOne(string x) : base() => this.FromString(x);
+            public PresetOne(string x) => this.FromString(x);
         }
 
         private PresetOne ConstructPresetOne(string name)
         {
-            return new PresetOne()
-            {
-                Name = name,
-                Stuffs = flpnlRecipes.Controls
-                     .OfType<ResultOne>()
-                     .Select(ro => new PresetStuff() { Key = ro.Target.Key, Volume = ro.Volume }).ToArray()
-            };
+            return new PresetOne(name, flpnlRecipes.Controls
+                     .OfType<EachRecipe>()
+                     .Select(ro => new PresetStuff(ro.Target.Key, ro.Volume)).ToArray());
         }
 
         private void ExpandPresetOne(PresetOne po)

@@ -77,7 +77,7 @@ namespace MakingRecipeHelper
 
         private void tbxInputArea_TextChanged(object sender, EventArgs e)
         {
-            string remove_spc(string s) => s?.Replace(" ", "");
+            string remove_spc(string s) => s.Replace(" ", "");
 
             IEnumerable<string> pull_bench(string s) => Benches.Where(b => s.Contains(b));
 

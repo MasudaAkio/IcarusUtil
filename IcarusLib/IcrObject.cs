@@ -11,8 +11,6 @@ using IcarusLib.Properties;
 
 namespace IcarusLib
 {
-
-
     public partial class IcrObject
     {
         static private IcrObjectCores Cores = new IcrObjectCores();
@@ -30,7 +28,7 @@ namespace IcarusLib
         public int RecipeIndex { get => Core.RecipeIndex; set => Core.RecipeIndex = value; }
         public Recipe SelectedRecipe => Core.SelectedRecipe;
 
-        private IcrObjectCore _core;
+        private IcrObjectCore? _core;
         private IcrObjectCore Core => _core ?? (_core = Cores[_key]); // singleton
 
         public override string ToString() => $"Key:{Key}(Name:{Name})";

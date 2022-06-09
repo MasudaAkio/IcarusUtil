@@ -14,7 +14,7 @@ namespace Icarus
 {
     internal class Export
     {
-        private static void MakeSheet(Worksheet wsheet, IEnumerable<ResultOne> recipes, ResultOne total)
+        private static void MakeSheet(Worksheet wsheet, IEnumerable<EachRecipe> recipes, ResultOne total)
         {
             var total_dic = new Dictionary<string, (int idx, string cref, decimal vol)>();
             var rindex = 1u;
@@ -72,7 +72,7 @@ namespace Icarus
 
         }
 
-        public static void ExportXlsx(string path, IEnumerable<ResultOne> recipes, ResultOne total)
+        public static void ExportXlsx(string path, IEnumerable<EachRecipe> recipes, ResultOne total)
            => CreateExcelFileWithOneSheet(path, "ICARUS WhatDoYouNeed", ws => MakeSheet(ws, recipes, total));
     }
 }

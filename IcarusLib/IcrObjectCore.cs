@@ -36,7 +36,7 @@ namespace IcarusLib
 
                 Attribute = Reconst(Attributes.ResourceManager.GetString(key));
             }
-            private Recipe[] _recipes;
+            private Recipe[]? _recipes;
             // Recipsリソースの該当キーの値が "" の場合は空の配列になる。
             public Recipe[] Recipes
             {

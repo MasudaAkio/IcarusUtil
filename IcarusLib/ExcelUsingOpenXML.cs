@@ -15,11 +15,11 @@ namespace IcarusLib
         public static Row FindRow(Worksheet sheet, uint rindex)
         {
             var data = sheet.GetFirstChild<SheetData>();
-            var row = data.Elements<Row>().FirstOrDefault(r => r.RowIndex == rindex);
+            var row = data?.Elements<Row>().FirstOrDefault(r => (r?.RowIndex ?? 0) == rindex);
             if (row == null)
             {
                 row = new Row() { RowIndex = rindex };
-                data.Append(row);
+                data?.Append(row);
             }
             return row;
         }
@@ -30,7 +30,7 @@ namespace IcarusLib
             int icomp(string a, string b) => string.Compare(a, b, StringComparison.OrdinalIgnoreCase);
             bool eq(string a, string b) => icomp(a, b) == 0;
             bool gr(string a, string b) => icomp(a, b) > 0;
-            Cell findcell(Func<string, string, bool> comp) => cells.FirstOrDefault(c => comp(c.CellReference, cellref));
+            Cell findcell(Func<string, string, bool> comp) => cells.FirstOrDefault(c => comp(c.CellReference.Value ?? "", cellref));
 
             var cell = findcell(eq);
             if (cell == null)
@@ -116,20 +116,19 @@ namespace IcarusLib
                 var sheetpart = wbpart.AddNewPart<WorksheetPart>();
                 var wsheet = new Worksheet(new SheetData());
                 sheetpart.Worksheet = wsheet;
-                var sheets = docu.WorkbookPart.Workbook.AppendChild<Sheets>(new Sheets());
-                var sheet = new Sheet()
+                Sheets? sheets = docu.WorkbookPart?.Workbook.AppendChild<Sheets>(new Sheets());
+                if (sheets != null)
                 {
-                    Id = docu.WorkbookPart.GetIdOfPart(sheetpart),
-                    SheetId = 1,
-                    Name = sheet_name, // $"ICARUS WhatDoYouNeed"
-                };
-                sheets.Append(sheet);
+                    var sheet = new Sheet()
+                    {
+                        Id = docu.WorkbookPart?.GetIdOfPart(sheetpart),
+                        SheetId = 1,
+                        Name = sheet_name, // $"ICARUS WhatDoYouNeed"
+                    };
+                    sheets.Append(sheet);
+                }
 
                 var ret = doit(wsheet);
-                // MakeSheet(wsheet, recipes, total);
-
-                // (SpreadsheetDocument docu, WorkbookPart wbpart, WorksheetPart sheetpart, Worksheet wsheet)
-
                 wbpart.Workbook.Save();
                 return ret;
             }

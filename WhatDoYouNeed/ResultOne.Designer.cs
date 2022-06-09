@@ -51,65 +51,73 @@ namespace Icarus
             // 
             // picObject
             // 
+            resources.ApplyResources(this.picObject, "picObject");
             this.picObject.BackColor = System.Drawing.SystemColors.Control;
             this.picObject.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            resources.ApplyResources(this.picObject, "picObject");
             this.picObject.Name = "picObject";
             this.picObject.TabStop = false;
+            this.toolTip1.SetToolTip(this.picObject, resources.GetString("picObject.ToolTip"));
             // 
             // lblName
             // 
+            resources.ApplyResources(this.lblName, "lblName");
             this.lblName.AutoEllipsis = true;
             this.lblName.BackColor = System.Drawing.SystemColors.Control;
-            resources.ApplyResources(this.lblName, "lblName");
             this.lblName.Name = "lblName";
+            this.toolTip1.SetToolTip(this.lblName, resources.GetString("lblName.ToolTip"));
             // 
             // nupdnValue
             // 
             resources.ApplyResources(this.nupdnValue, "nupdnValue");
             this.nupdnValue.Name = "nupdnValue";
+            this.toolTip1.SetToolTip(this.nupdnValue, resources.GetString("nupdnValue.ToolTip"));
             this.nupdnValue.ValueChanged += new System.EventHandler(this.nupdnValue_ValueChanged);
             // 
             // pnlTarget
             // 
+            resources.ApplyResources(this.pnlTarget, "pnlTarget");
             this.pnlTarget.BackColor = System.Drawing.Color.DodgerBlue;
             this.pnlTarget.Controls.Add(this.picObject);
             this.pnlTarget.Controls.Add(this.btnRemove);
             this.pnlTarget.Controls.Add(this.lblName);
             this.pnlTarget.Controls.Add(this.nupdnValue);
             this.pnlTarget.Controls.Add(this.lblTotal);
-            resources.ApplyResources(this.pnlTarget, "pnlTarget");
             this.pnlTarget.Name = "pnlTarget";
+            this.toolTip1.SetToolTip(this.pnlTarget, resources.GetString("pnlTarget.ToolTip"));
             // 
             // btnRemove
             // 
+            resources.ApplyResources(this.btnRemove, "btnRemove");
             this.btnRemove.FlatAppearance.BorderSize = 0;
             this.btnRemove.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
-            resources.ApplyResources(this.btnRemove, "btnRemove");
             this.btnRemove.Name = "btnRemove";
+            this.toolTip1.SetToolTip(this.btnRemove, resources.GetString("btnRemove.ToolTip"));
             this.btnRemove.UseVisualStyleBackColor = true;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // lblTotal
             // 
-            this.lblTotal.BackColor = System.Drawing.Color.MidnightBlue;
             resources.ApplyResources(this.lblTotal, "lblTotal");
+            this.lblTotal.BackColor = System.Drawing.Color.MidnightBlue;
             this.lblTotal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblTotal.ForeColor = System.Drawing.Color.Moccasin;
             this.lblTotal.Name = "lblTotal";
+            this.toolTip1.SetToolTip(this.lblTotal, resources.GetString("lblTotal.ToolTip"));
             // 
             // pnlRecipe
             // 
+            resources.ApplyResources(this.pnlRecipe, "pnlRecipe");
             this.pnlRecipe.Controls.Add(this.lvStuffs);
             this.pnlRecipe.Controls.Add(this.lvBenches);
-            resources.ApplyResources(this.pnlRecipe, "pnlRecipe");
             this.pnlRecipe.Name = "pnlRecipe";
+            this.toolTip1.SetToolTip(this.pnlRecipe, resources.GetString("pnlRecipe.ToolTip"));
             // 
             // lvStuffs
             // 
             resources.ApplyResources(this.lvStuffs, "lvStuffs");
             this.lvStuffs.HideSelection = false;
             this.lvStuffs.Name = "lvStuffs";
+            this.toolTip1.SetToolTip(this.lvStuffs, resources.GetString("lvStuffs.ToolTip"));
             this.lvStuffs.UseCompatibleStateImageBehavior = false;
             this.lvStuffs.View = System.Windows.Forms.View.SmallIcon;
             // 
@@ -119,6 +127,7 @@ namespace Icarus
             this.lvBenches.HideSelection = false;
             this.lvBenches.Name = "lvBenches";
             this.lvBenches.ShowItemToolTips = true;
+            this.toolTip1.SetToolTip(this.lvBenches, resources.GetString("lvBenches.ToolTip"));
             this.lvBenches.UseCompatibleStateImageBehavior = false;
             this.lvBenches.View = System.Windows.Forms.View.SmallIcon;
             // 
@@ -141,6 +150,7 @@ namespace Icarus
             this.Controls.Add(this.pnlRecipe);
             this.Controls.Add(this.pnlTarget);
             this.Name = "ResultOne";
+            this.toolTip1.SetToolTip(this, resources.GetString("$this.ToolTip"));
             ((System.ComponentModel.ISupportInitialize)(this.picObject)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nupdnValue)).EndInit();
             this.pnlTarget.ResumeLayout(false);
@@ -150,10 +160,6 @@ namespace Icarus
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox picObject;
-        private System.Windows.Forms.Label lblName;
-        private System.Windows.Forms.NumericUpDown nupdnValue;
         private System.Windows.Forms.Panel pnlTarget;
         private System.Windows.Forms.Panel pnlRecipe;
         private System.Windows.Forms.ListView lvStuffs;
@@ -163,5 +169,8 @@ namespace Icarus
         private System.Windows.Forms.Button btnRemove;
         private System.Windows.Forms.Label lblTotal;
         private System.Windows.Forms.ToolTip toolTip1;
+        protected System.Windows.Forms.PictureBox picObject;
+        protected System.Windows.Forms.Label lblName;
+        protected System.Windows.Forms.NumericUpDown nupdnValue;
     }
 }

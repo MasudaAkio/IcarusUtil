@@ -734,7 +734,7 @@
     <value>Weapons</value>
   </data>
   <data name="FrozenRocks" xml:space="preserve">
-    <value></value>
+    <value>Materials</value>
   </data>
   <data name="FruitPie" xml:space="preserve">
     <value>Consumables,Food</value>
@@ -824,7 +824,7 @@
     <value>Consumables,Food</value>
   </data>
   <data name="GrowthFertilizer" xml:space="preserve">
-    <value></value>
+    <value>Consumables</value>
   </data>
   <data name="Gunpowder" xml:space="preserve">
     <value>Materials</value>
@@ -860,7 +860,7 @@
     <value>Deployables,Benches</value>
   </data>
   <data name="High-QualityFertilizer" xml:space="preserve">
-    <value></value>
+    <value>Consumables</value>
   </data>
   <data name="HotCocoa" xml:space="preserve">
     <value>Consumables,Drinks</value>
@@ -1376,7 +1376,7 @@
     <value>BuildingPieces</value>
   </data>
   <data name="Resources" xml:space="preserve">
-    <value></value>
+    <value>Materials</value>
   </data>
   <data name="RifleRound" xml:space="preserve">
     <value>Ammo</value>
@@ -1559,7 +1559,7 @@
     <value>Workshop,Armors</value>
   </data>
   <data name="Stamina" xml:space="preserve">
-    <value></value>
+    <value>Materials</value>
   </data>
   <data name="StaminaBuffPaste" xml:space="preserve">
     <value>Consumables,Medicine</value>
@@ -1802,7 +1802,7 @@
     <value>Tools</value>
   </data>
   <data name="WaterSources" xml:space="preserve">
-    <value></value>
+    <value>Materials</value>
   </data>
   <data name="WaterSprinkler" xml:space="preserve">
     <value>Deployables,</value>

@@ -42,7 +42,7 @@ namespace Icarus
         private IcrObject[] can_be_crafted
             => (from k in IcrObject.Keys
                let io = new IcrObject(k)
-               where io.Recipes.Any(r => !r.IsEmpty)
+               where io.Recipes.Any(r => r.IsNotEmpty)
                select io)
             .OrderBy(io => io.Name)
             .ToArray();
@@ -150,8 +150,8 @@ namespace Icarus
         {
             io.RecipeIndex = rindex;
 
-            foreach (var ro in flpnlRecipes.Controls.OfType<ResultOne>())
-                ro.ReCalc();
+            foreach (var ro in flpnlRecipes.Controls.OfType<EachRecipe>())
+                if (ro.Target.SelectedRecipe.IsNotEmpty) ro.ReCalc(); else flpnlRecipes.Controls.Remove(ro);
             CalcTotal();
         }
 
@@ -196,7 +196,7 @@ namespace Icarus
             var res = svfDlog.ShowDialog(this);
             if (res == DialogResult.OK)
             {
-                Export.ExportXlsx(svfDlog.FileName, flpnlRecipes.Controls.OfType<ResultOne>(), roTotal);
+                Export.ExportXlsx(svfDlog.FileName, flpnlRecipes.Controls.OfType<EachRecipe>(), roTotal);
                 PrepareCenteringMessageBoxOnTheForm(this);
                 MessageBox.Show(String.Format(Messages.ExcelFileIsSavedMessage, svfDlog.FileName));
             }

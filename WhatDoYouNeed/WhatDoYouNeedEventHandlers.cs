@@ -59,18 +59,25 @@ namespace Icarus
 
         private void Add2RecipeView(string key)
         {
-            var exists = flpnlRecipes.Controls.OfType<ResultOne>().SingleOrDefault(o => o.Target.Key == key);
+            var exists = flpnlRecipes.Controls.OfType<EachRecipe>().SingleOrDefault(o => o.Target.Key == key);
             if (exists != null)
                 exists.Increment();
             else
             {
-                var ro = new ResultOne(ObjectImagesLarge, ObjectImagesSmall);
-                flpnlRecipes.Controls.Add(ro);
-                ro.Width = flpnlRecipes.Width - ResultOneMargine;
-                ro.Target = new IcrObject(key);
-                ro.ListViewStyle = _view;
-                ro.Remove += RemoveTarget;
-                ro.ValueChanged = () => CalcTotal();
+                var io = new IcrObject(key);
+                if (io.SelectedRecipe.IsNotEmpty)
+                {
+                    var ro = new EachRecipe(io, ObjectImagesLarge, ObjectImagesSmall);
+                    flpnlRecipes.Controls.Add(ro);
+                    ro.Width = flpnlRecipes.Width - ResultOneMargine;
+                    ro.ListViewStyle = _view;
+                    ro.Remove += RemoveTarget;
+                    ro.ValueChanged = () => CalcTotal();
+                } else
+                {
+                    PrepareCenteringMessageBoxOnTheForm(this);
+                    MessageBox.Show(Messages.NotAddedRecipeMessage);
+                }
             }
         }
 
@@ -105,7 +112,7 @@ namespace Icarus
             do
             {
                 var ordered = flpnlRecipes.Controls
-                                    .OfType<ResultOne>()
+                                    .OfType<EachRecipe>()
                                     .Select(ro => ro.Target.Key).ToArray();
                 var conbinings = roTotal.Recipe.benches
                                     .Select(oi => oi.Name)
@@ -123,7 +130,7 @@ namespace Icarus
             {
                 var io = new IcrObject(k);
                 var target = use_carpentry_bench ? "CarpentryBench" : "CharacterCrafting";
-                int index = io.Recipes.SingleOrDefault(r => r.Bench.Key == target)?.Index ?? 0;
+                int index = io.Recipes.SingleOrDefault(r => r.Bench?.Key == target)?.Index ?? 0;
 
                 var oi = lvSouces.Items.OfType<ObjectItem>().FirstOrDefault(i => i.Name == k);
                 if (oi != null) RecipeSelectedInner(oi, index);

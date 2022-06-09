@@ -70,6 +70,15 @@ namespace Icarus {
         }
         
         /// <summary>
+        ///   I won&apos;t add to this list as it&apos;s locally procured supplies. に類似しているローカライズされた文字列を検索します。
+        /// </summary>
+        internal static string NotAddedRecipeMessage {
+            get {
+                return ResourceManager.GetString("NotAddedRecipeMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Delete preset &quot;{0}&quot;. Are you sure? に類似しているローカライズされた文字列を検索します。
         /// </summary>
         internal static string RemovePresetPromptMessage {

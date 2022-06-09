@@ -31,11 +31,11 @@ namespace IcarusLib
         public class Recipe
         {
             public int Index { get; private set; }
-            public IcrObject Bench { get; private set; }
-            public Stuff[] Stuffs { get; private set; }
+            public IcrObject? Bench { get; private set; }
+            public Stuff[] Stuffs { get; private set; } = new Stuff[0];
             private Recipe() { }
 
-            public bool IsEmpty => Bench == null || Stuffs == null;
+            public bool IsNotEmpty => Bench != null && Stuffs != null;
 
             public static readonly Recipe Empty = new Recipe();
 
@@ -70,11 +70,11 @@ namespace IcarusLib
             {
                 var gather = new List<Stuff>();
                 var benches = new List<string>();
-                benches.Add(Bench.Key);
+                if (Bench != null) benches.Add(Bench.Key);
                 foreach (var st in Stuffs ?? new Stuff[] { })
                 {
                     var recipe = st.Item.SelectedRecipe;
-                    if (!recipe.IsEmpty)
+                    if (recipe.IsNotEmpty)
                     {
                         var result =recipe.FinalRequirements();
                         gather.AddRange(result.aggregated.Select(xi => xi.Clone().Multiply(st.Volume)));
@@ -95,11 +95,11 @@ namespace IcarusLib
 
             public override string ToString()
             {
-                if (IsEmpty)
+                if (!IsNotEmpty)
                     return miscellaneous.ResourceManager.GetString("NotToBeCrafted");
                 else
                 {
-                    var bench = Bench.Core.Name;
+                    var bench = Bench?.Core.Name ?? "(not spcified)";
                     var items = string.Join(",", Stuffs.Select(ri => $"{ri.Item.Core.Name} x {ri.Volume}"));
                     return $"{bench}({items})";
                 }

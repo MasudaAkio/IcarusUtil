@@ -103,4 +103,7 @@
   <data name="ExcelFileIsSavedMessage" xml:space="preserve">
     <value>File "{0}" is saved.</value>
   </data>
+  <data name="NotAddedRecipeMessage" xml:space="preserve">
+    <value>I won't add to this list as it's locally procured supplies.</value>
+  </data>
 </root>

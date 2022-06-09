@@ -25,7 +25,7 @@ namespace Icarus
             return basetext + $"{(ceiling > 1 ? $" x {ceiling}" : "")}"; 
         }
 
-        public ObjectItem() { }
+        // public ObjectItem() { }
         public ObjectItem(IcarusLib.IcrObject obj, decimal volume = 0m, bool debug = false)
             : base($"{obj.Name}{(debug ? $"-{obj.Key}" : "")}", obj.Key)
         {

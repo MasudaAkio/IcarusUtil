@@ -117,314 +117,302 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;pnlRecipe.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="picObject.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="picObject.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="picObject.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 44</value>
-  </data>
-  <data name="picObject.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>CenterImage</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="picObject.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;picObject.Name" xml:space="preserve">
-    <value>picObject</value>
-  </data>
-  <data name="&gt;&gt;picObject.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;picObject.Parent" xml:space="preserve">
-    <value>pnlTarget</value>
-  </data>
-  <data name="&gt;&gt;picObject.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
-    <value>45, 4</value>
-  </data>
-  <data name="lblName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
-  </data>
-  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 19</value>
-  </data>
-  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
-    <value>lblName</value>
-  </data>
-  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
-    <value>pnlTarget</value>
-  </data>
-  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="nupdnValue.Location" type="System.Drawing.Point, System.Drawing">
     <value>44, 23</value>
-  </data>
-  <data name="nupdnValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 0, 2, 0</value>
-  </data>
-  <data name="nupdnValue.Size" type="System.Drawing.Size, System.Drawing">
-    <value>98, 23</value>
-  </data>
-  <data name="nupdnValue.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="nupdnValue.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
-  </data>
-  <data name="&gt;&gt;nupdnValue.Name" xml:space="preserve">
-    <value>nupdnValue</value>
-  </data>
-  <data name="&gt;&gt;nupdnValue.Type" xml:space="preserve">
-    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;nupdnValue.Parent" xml:space="preserve">
-    <value>pnlTarget</value>
-  </data>
-  <data name="&gt;&gt;nupdnValue.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="btnRemove.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="btnRemove.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 6.75pt</value>
-  </data>
-  <data name="btnRemove.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 46</value>
-  </data>
-  <data name="btnRemove.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="btnRemove.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>6, 0, 6, 0</value>
-  </data>
-  <data name="btnRemove.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 21</value>
-  </data>
-  <data name="btnRemove.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btnRemove.Text" xml:space="preserve">
-    <value>Remove</value>
-  </data>
-  <data name="btnRemove.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>MiddleRight</value>
-  </data>
-  <data name="&gt;&gt;btnRemove.Name" xml:space="preserve">
-    <value>btnRemove</value>
-  </data>
-  <data name="&gt;&gt;btnRemove.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;btnRemove.Parent" xml:space="preserve">
     <value>pnlTarget</value>
   </data>
-  <data name="&gt;&gt;btnRemove.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lblTotal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lblTotal.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Cascadia Code, 9pt</value>
-  </data>
-  <data name="lblTotal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="lblTotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="lblTotal.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>8, 8, 8, 8</value>
-  </data>
-  <data name="lblTotal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 70</value>
-  </data>
-  <data name="lblTotal.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="lblTotal.Text" xml:space="preserve">
-    <value>total</value>
-  </data>
-  <data name="lblTotal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
-    <value>BottomRight</value>
-  </data>
-  <data name="lblTotal.Visible" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
-  <data name="&gt;&gt;lblTotal.Name" xml:space="preserve">
-    <value>lblTotal</value>
-  </data>
-  <data name="&gt;&gt;lblTotal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTotal.Parent" xml:space="preserve">
-    <value>pnlTarget</value>
-  </data>
-  <data name="&gt;&gt;lblTotal.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="pnlTarget.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="pnlTarget.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="pnlTarget.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="pnlTarget.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>143, 42</value>
-  </data>
-  <data name="pnlTarget.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 70</value>
-  </data>
-  <data name="pnlTarget.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;pnlTarget.Name" xml:space="preserve">
-    <value>pnlTarget</value>
-  </data>
-  <data name="&gt;&gt;pnlTarget.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;pnlTarget.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;pnlTarget.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lvStuffs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="lvStuffs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>119, 0</value>
-  </data>
-  <data name="lvStuffs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>370, 70</value>
-  </data>
-  <data name="lvStuffs.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;lvStuffs.Name" xml:space="preserve">
-    <value>lvStuffs</value>
-  </data>
-  <data name="&gt;&gt;lvStuffs.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lvStuffs.Parent" xml:space="preserve">
-    <value>pnlRecipe</value>
-  </data>
-  <data name="&gt;&gt;lvStuffs.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="lvBenches.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
-  </data>
-  <data name="lvBenches.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="lvBenches.Size" type="System.Drawing.Size, System.Drawing">
-    <value>119, 70</value>
-  </data>
-  <data name="lvBenches.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;lvBenches.Name" xml:space="preserve">
-    <value>lvBenches</value>
-  </data>
-  <data name="&gt;&gt;lvBenches.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lvBenches.Parent" xml:space="preserve">
-    <value>pnlRecipe</value>
-  </data>
   <data name="&gt;&gt;lvBenches.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="pnlRecipe.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Fill</value>
-  </data>
-  <data name="pnlRecipe.Location" type="System.Drawing.Point, System.Drawing">
-    <value>143, 0</value>
-  </data>
-  <data name="pnlRecipe.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>0, 0, 0, 0</value>
-  </data>
-  <data name="pnlRecipe.Size" type="System.Drawing.Size, System.Drawing">
-    <value>489, 70</value>
-  </data>
-  <data name="pnlRecipe.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;pnlRecipe.Name" xml:space="preserve">
-    <value>pnlRecipe</value>
+  <data name="&gt;&gt;picObject.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;pnlRecipe.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;pnlRecipe.Parent" xml:space="preserve">
-    <value>$this</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblName.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
-  <data name="&gt;&gt;pnlRecipe.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="lblName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 4</value>
   </data>
-  <metadata name="ImagesLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="ImagesLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
-    <value>16, 16</value>
+  <data name="btnRemove.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
   </data>
-  <metadata name="ImagesSmall.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>127, 17</value>
-  </metadata>
+  <data name="&gt;&gt;pnlTarget.Name" xml:space="preserve">
+    <value>pnlTarget</value>
+  </data>
+  <data name="pnlTarget.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>143, 42</value>
+  </data>
+  <data name="&gt;&gt;lvStuffs.Parent" xml:space="preserve">
+    <value>pnlRecipe</value>
+  </data>
+  <data name="btnRemove.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 6.75pt</value>
+  </data>
+  <data name="lblTotal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="btnRemove.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
+  <data name="lblTotal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>BottomRight</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lvStuffs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pnlTarget.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="nupdnValue.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblTotal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;lblName.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="ImagesSmall.ImageSize" type="System.Drawing.Size, System.Drawing">
     <value>16, 16</value>
   </data>
-  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>247, 17</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>ja-JP</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>7, 15</value>
+  <data name="lvBenches.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
   </data>
-  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Meiryo UI, 9pt</value>
+  <data name="&gt;&gt;lblTotal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlRecipe.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="&gt;&gt;nupdnValue.Name" xml:space="preserve">
+    <value>nupdnValue</value>
+  </data>
+  <data name="pnlRecipe.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 46</value>
+  </data>
+  <data name="&gt;&gt;picObject.Name" xml:space="preserve">
+    <value>picObject</value>
+  </data>
+  <data name="lblTotal.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 8, 8, 8</value>
+  </data>
+  <data name="lvBenches.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>0, 0, 0, 0</value>
   </data>
+  <data name="btnRemove.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnRemove.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnRemove.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="nupdnValue.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;lvBenches.Name" xml:space="preserve">
+    <value>lvBenches</value>
+  </data>
+  <data name="&gt;&gt;picObject.Parent" xml:space="preserve">
+    <value>pnlTarget</value>
+  </data>
   <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
     <value>632, 70</value>
   </data>
-  <data name="&gt;&gt;ImagesLarge.Name" xml:space="preserve">
-    <value>ImagesLarge</value>
+  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nupdnValue.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
+  </data>
+  <data name="btnRemove.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 21</value>
+  </data>
+  <data name="&gt;&gt;lvBenches.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nupdnValue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 23</value>
+  </data>
+  <data name="&gt;&gt;lvStuffs.Name" xml:space="preserve">
+    <value>lvStuffs</value>
+  </data>
+  <data name="&gt;&gt;pnlTarget.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="lblName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 19</value>
+  </data>
+  <data name="&gt;&gt;lvBenches.Parent" xml:space="preserve">
+    <value>pnlRecipe</value>
+  </data>
+  <data name="&gt;&gt;picObject.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;ImagesLarge.Type" xml:space="preserve">
     <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="picObject.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 44</value>
+  </data>
   <data name="&gt;&gt;ImagesSmall.Name" xml:space="preserve">
     <value>ImagesSmall</value>
+  </data>
+  <data name="picObject.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="&gt;&gt;ImagesLarge.Name" xml:space="preserve">
+    <value>ImagesLarge</value>
+  </data>
+  <data name="&gt;&gt;pnlTarget.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pnlRecipe.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="$this.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pnlTarget.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="pnlTarget.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="picObject.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;pnlRecipe.Name" xml:space="preserve">
+    <value>pnlRecipe</value>
+  </data>
+  <data name="nupdnValue.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lvStuffs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 0</value>
+  </data>
+  <data name="picObject.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
+  </data>
+  <data name="pnlTarget.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 70</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Meiryo UI, 9pt</value>
+  </data>
+  <data name="&gt;&gt;lblName.Parent" xml:space="preserve">
+    <value>pnlTarget</value>
+  </data>
+  <data name="ImagesLarge.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="picObject.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;nupdnValue.Parent" xml:space="preserve">
+    <value>pnlTarget</value>
+  </data>
+  <data name="lblTotal.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ResultOne</value>
+  </data>
+  <data name="lblTotal.Text" xml:space="preserve">
+    <value>total</value>
+  </data>
+  <data name="lblName.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lvStuffs.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="lblTotal.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblTotal.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="lblTotal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 70</value>
+  </data>
+  <data name="pnlRecipe.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblName.Name" xml:space="preserve">
+    <value>lblName</value>
+  </data>
+  <data name="btnRemove.Text" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="pnlTarget.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="&gt;&gt;nupdnValue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="picObject.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblTotal.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Cascadia Code, 9pt</value>
+  </data>
+  <data name="pnlTarget.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lvBenches.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnlRecipe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>489, 70</value>
+  </data>
+  <data name="lvStuffs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>370, 70</value>
+  </data>
+  <data name="lvBenches.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblTotal.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lvStuffs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblTotal.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="pnlTarget.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
   </data>
   <data name="&gt;&gt;ImagesSmall.Type" xml:space="preserve">
     <value>System.Windows.Forms.ImageList, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -432,13 +420,55 @@
   <data name="&gt;&gt;toolTip1.Name" xml:space="preserve">
     <value>toolTip1</value>
   </data>
-  <data name="&gt;&gt;toolTip1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>ResultOne</value>
+  <data name="&gt;&gt;pnlRecipe.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="lvStuffs.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 15</value>
+  </data>
+  <data name="pnlRecipe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>143, 0</value>
+  </data>
+  <data name="&gt;&gt;lblTotal.Name" xml:space="preserve">
+    <value>lblTotal</value>
+  </data>
+  <data name="btnRemove.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleRight</value>
+  </data>
+  <data name="&gt;&gt;btnRemove.Name" xml:space="preserve">
+    <value>btnRemove</value>
+  </data>
+  <data name="lvBenches.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 70</value>
+  </data>
+  <data name="&gt;&gt;lblTotal.Parent" xml:space="preserve">
+    <value>pnlTarget</value>
+  </data>
+  <data name="&gt;&gt;lvStuffs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nupdnValue.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>ja-JP</value>
+  </metadata>
+  <metadata name="ImagesSmall.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>127, 17</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>247, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ImagesLarge.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>

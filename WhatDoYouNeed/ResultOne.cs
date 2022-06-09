@@ -12,13 +12,14 @@ using IcarusLib;
 
 namespace Icarus
 {
-    public partial class ResultOne : UserControl
+
+    abstract public partial class ResultOne : UserControl
     {
+
         public ResultOne()
         {
             InitializeComponent();
         }
-
         public void SetImageLists(ImageList large, ImageList small)
         {
             lvBenches.LargeImageList = large;
@@ -27,17 +28,7 @@ namespace Icarus
             lvStuffs.SmallImageList = small;
         }
 
-        public ResultOne(ImageList large, ImageList small) : this()
-        {
-            lvBenches.LargeImageList = large;
-            lvBenches.SmallImageList = small;
-            lvStuffs.LargeImageList = large;
-            lvStuffs.SmallImageList = small;
-        }
-        private IcrObject _obj;
-        private View _view;
-
-        private void SetRecipe(IcrObject.Recipe rcp = null)
+        protected void SetRecipe(IcrObject.Recipe? rcp = null)
         {
             ObjectItem CreateItem(string key, decimal vol = 0m) => new ObjectItem(new IcrObject(key), vol, false); // IcrObjectは軽量なのでバンバン作っても影響は小さい
             lvBenches.Items.Clear();
@@ -53,7 +44,6 @@ namespace Icarus
                 lvBenches.Items.AddRange(aggre.benches.Select(k => new ObjectItem(new IcrObject(k))).ToArray());
             }
         }
-
         [DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)]
         public (ObjectItem[] benches, ObjectItem[] stuffs) Recipe
         {
@@ -69,6 +59,8 @@ namespace Icarus
             }
         }
 
+        private View _view;
+
         public View ListViewStyle
         {
             get => _view;
@@ -79,68 +71,27 @@ namespace Icarus
                 lvStuffs.View = value;
             }
         }
-        public IcrObject Target {
-            get => _obj;
-            set {
-                _obj = value;
-                if (_obj != null)
-                {
-                    lblName.Text = _obj.Name;
-                    nupdnValue.Value = 1;
-                    picObject.Image = new Bitmap(_obj.Image, picObject.Size);
-                    if (_obj.Recipes.Length > 0) SetRecipe(_obj.Recipes[_obj.RecipeIndex]);
-                }
-                else
-                {
-                    lblName.Text = "";
-                    nupdnValue.Value = 0;
-                    picObject.Image = null;
-                }
-            }
-        }
 
         public decimal Volume => nupdnValue.Value;
-
-        // private Label lblTotal = new Label() { Text = "TOTAL", AutoSize = false, TextAlign = ContentAlignment.MiddleCenter, Dock = DockStyle.Fill };
-        private bool _is_for_total = false;
-        public bool IsForTotal { get => _is_for_total; set
-            {
-                _is_for_total = value;
-                foreach (var ctr in pnlTarget.Controls.OfType<Control>())
-                    if (ctr.Name != "lblTotal" && ctr.Name != "btnRemove") ctr.Visible = !_is_for_total;
-                if (_is_for_total)
-                {
-                    btnRemove.Text = "Remove All";
-                    btnRemove.BackColor = Color.White;
-                    lblTotal.Visible = true;
-                }
-                else
-                {
-                    btnRemove.Text = "Remove";
-                    lblTotal.Visible = false;
-                }
-            }
-        }
-
-        public void ReCalc()
+        public void ReCalc(IcrObject _obj)
         {
             if (_obj.Recipes.Length > 0) SetRecipe(_obj.Recipes[_obj.RecipeIndex]);
         }
 
         public delegate void RemoveEventHandler(object sender, EventArgs e);
-        public event RemoveEventHandler Remove;
+        public event RemoveEventHandler? Remove;
         protected virtual void RaiseRemoveEvent() => Remove?.Invoke(this, new EventArgs());
 
         private void btnRemove_Click(object sender, EventArgs e) => RaiseRemoveEvent();
 
-        public Action ValueChanged { get; set; }
+        public Action? ValueChanged { get; set; }
         public decimal Increment(decimal deff = 1.0m)
         {
             nupdnValue.Value += deff;
             return nupdnValue.Value;
         }
 
-        private void nupdnValue_ValueChanged(object sender, EventArgs e) 
+        private void nupdnValue_ValueChanged(object sender, EventArgs e)
         {
             var current = nupdnValue.Value;
             if (current == 0.0m) btnRemove.PerformClick();
@@ -150,7 +101,56 @@ namespace Icarus
                     it.Multiply(current);
             }
             ValueChanged?.Invoke();
-        
+
+        }
+
+        protected void PrepareForRecipeTotal()
+        {
+            foreach (var ctr in pnlTarget.Controls.OfType<Control>())
+                if (ctr.Name != "lblTotal" && ctr.Name != "btnRemove") ctr.Visible = false;
+            btnRemove.Text = "Remove All";
+            btnRemove.BackColor = Color.White;
+            lblTotal.Visible = true;
+        }
+
+    }
+
+    public class EachRecipe : ResultOne
+    { 
+        public IcrObject Target { get; private set; }
+                //if (_obj != null)
+                //{
+                //    lblName.Text = _obj.Name;
+                //    nupdnValue.Value = 1;
+                //    picObject.Image = new Bitmap(_obj.Image, picObject.Size);
+                //    if (_obj.Recipes.Length > 0) SetRecipe(_obj.Recipes[_obj.RecipeIndex]);
+                //}
+                //else
+                //{
+                //    lblName.Text = "";
+                //    nupdnValue.Value = 0;
+                //    picObject.Image = null;
+                //}
+        public EachRecipe(IcrObject iobj, ImageList large, ImageList small) : base()
+        {
+            Target = iobj;
+            lblName.Text = Target.Name;
+            nupdnValue.Value = 1;
+            picObject.Image = new Bitmap(Target.Image, picObject.Size);
+            if (Target.Recipes.Length > 0) SetRecipe(Target.Recipes[Target.RecipeIndex]);
+            SetImageLists(large, small);
+        }
+
+        public void ReCalc() => ReCalc(Target);
+        // private Label lblTotal = new Label() { Text = "TOTAL", AutoSize = false, TextAlign = ContentAlignment.MiddleCenter, Dock = DockStyle.Fill };
+    }
+
+    public class RecipeTotal : ResultOne
+    {
+        public RecipeTotal()
+        {
+            PrepareForRecipeTotal();
         }
     }
 }
+
