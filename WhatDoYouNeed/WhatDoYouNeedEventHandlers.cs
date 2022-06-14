@@ -67,7 +67,7 @@ namespace Icarus
                 var io = new IcrObject(key);
                 if (io.SelectedRecipe.IsNotEmpty)
                 {
-                    var ro = new EachRecipe(io, ObjectImagesLarge, ObjectImagesSmall);
+                    var ro = new EachRecipe(io, ObjectImagesLarge, ObjectImagesSmall, !cbxNoRecursive.Checked);
                     flpnlRecipes.Controls.Add(ro);
                     ro.Width = flpnlRecipes.Width - ResultOneMargine;
                     ro.ListViewStyle = _view;
@@ -144,5 +144,24 @@ namespace Icarus
         private void makingWoodBuildingPiecesByMyselfToolStripMenuItem_Click(object sender, EventArgs e)
             => ChangeWoodBuildingPieceRecipes();
 
+        private void exportToExcelFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var res = svfDlog.ShowDialog(this);
+            if (res == DialogResult.OK)
+            {
+                Export.ExportXlsx(svfDlog.FileName, flpnlRecipes.Controls.OfType<EachRecipe>(), roTotal);
+                PrepareCenteringMessageBoxOnTheForm(this);
+                MessageBox.Show(String.Format(Messages.ExcelFileIsSavedMessage, svfDlog.FileName));
+            }
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e) => Close();
+
+        private void cbxNoRecursive_CheckedChanged(object sender, EventArgs e)
+        {
+            foreach (var ro in flpnlRecipes.Controls.OfType<EachRecipe>())
+                if (ro.Target.SelectedRecipe.IsNotEmpty) ro.ReCalc(!cbxNoRecursive.Checked); else flpnlRecipes.Controls.Remove(ro);
+            CalcTotal();
+        }
     }
 }

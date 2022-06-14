@@ -184,7 +184,7 @@
     <value>2, 2, 2, 2</value>
   </data>
   <data name="tbxFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>661, 21</value>
+    <value>496, 21</value>
   </data>
   <data name="tbxFilter.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -214,7 +214,7 @@
     <value>NoControl</value>
   </data>
   <data name="btnFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>661, 0</value>
+    <value>496, 0</value>
   </data>
   <data name="btnFilter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>2, 2, 2, 2</value>
@@ -239,6 +239,39 @@
   </data>
   <data name="&gt;&gt;btnFilter.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="cbxNoRecursive.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbxNoRecursive.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="cbxNoRecursive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>605, 0</value>
+  </data>
+  <data name="cbxNoRecursive.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="cbxNoRecursive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>165, 22</value>
+  </data>
+  <data name="cbxNoRecursive.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="cbxNoRecursive.Text" xml:space="preserve">
+    <value>No recursive calculation</value>
+  </data>
+  <data name="&gt;&gt;cbxNoRecursive.Name" xml:space="preserve">
+    <value>cbxNoRecursive</value>
+  </data>
+  <data name="&gt;&gt;cbxNoRecursive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbxNoRecursive.Parent" xml:space="preserve">
+    <value>pnlUpper</value>
+  </data>
+  <data name="&gt;&gt;cbxNoRecursive.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="pnlUpper.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Top</value>
@@ -553,7 +586,7 @@
     <value>roTotal</value>
   </data>
   <data name="&gt;&gt;roTotal.Type" xml:space="preserve">
-    <value>Icarus.ResultOne, WhatDoYouNeed, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+    <value>Icarus.RecipeTotal, WhatDoYouNeed, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
   </data>
   <data name="&gt;&gt;roTotal.Parent" xml:space="preserve">
     <value>pnlTotal</value>

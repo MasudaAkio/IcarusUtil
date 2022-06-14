@@ -16,9 +16,11 @@ namespace Icarus
     abstract public partial class ResultOne : UserControl
     {
 
-        public ResultOne()
+        protected bool Recursive { get; set; }
+        public ResultOne(bool recursive = true)
         {
             InitializeComponent();
+            Recursive = recursive;
         }
         public void SetImageLists(ImageList large, ImageList small)
         {
@@ -38,7 +40,7 @@ namespace Icarus
                 var rcp_str = rcp.ToString();
                 toolTip1.SetToolTip(picObject, rcp_str);
                 toolTip1.SetToolTip(lblName, rcp_str);
-                var aggre = rcp.FinalRequirements();
+                var aggre = rcp.FinalRequirements(Recursive);
                 foreach (var i in aggre.aggregated)
                     lvStuffs.Items.Add(CreateItem(i.Item.Key, /* decimal.Ceiling(i.Volume) */ i.Volume));
                 lvBenches.Items.AddRange(aggre.benches.Select(k => new ObjectItem(new IcrObject(k))).ToArray());
@@ -116,7 +118,7 @@ namespace Icarus
     }
 
     public class EachRecipe : ResultOne
-    { 
+    {
         public IcrObject Target { get; private set; }
                 //if (_obj != null)
                 //{
@@ -131,7 +133,7 @@ namespace Icarus
                 //    nupdnValue.Value = 0;
                 //    picObject.Image = null;
                 //}
-        public EachRecipe(IcrObject iobj, ImageList large, ImageList small) : base()
+        public EachRecipe(IcrObject iobj, ImageList large, ImageList small, bool recursive = true) : base(recursive)
         {
             Target = iobj;
             lblName.Text = Target.Name;
@@ -142,6 +144,7 @@ namespace Icarus
         }
 
         public void ReCalc() => ReCalc(Target);
+        public void ReCalc(bool recursive) { Recursive = recursive; ReCalc(); }
         // private Label lblTotal = new Label() { Text = "TOTAL", AutoSize = false, TextAlign = ContentAlignment.MiddleCenter, Dock = DockStyle.Fill };
     }
 

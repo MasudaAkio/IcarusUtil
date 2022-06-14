@@ -66,7 +66,7 @@ namespace IcarusLib
 
             }
 
-            public (Stuff[] aggregated, string[] benches) FinalRequirements()
+            public (Stuff[] aggregated, string[] benches) FinalRequirements(bool recursive = true)
             {
                 var gather = new List<Stuff>();
                 var benches = new List<string>();
@@ -74,9 +74,9 @@ namespace IcarusLib
                 foreach (var st in Stuffs ?? new Stuff[] { })
                 {
                     var recipe = st.Item.SelectedRecipe;
-                    if (recipe.IsNotEmpty)
+                    if (recipe.IsNotEmpty && recursive)
                     {
-                        var result =recipe.FinalRequirements();
+                        var result =recipe.FinalRequirements(recursive);
                         gather.AddRange(result.aggregated.Select(xi => xi.Clone().Multiply(st.Volume)));
                         benches.AddRange(result.benches);
                     }

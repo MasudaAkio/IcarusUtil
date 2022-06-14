@@ -128,19 +128,32 @@
     <value>メイリオ, 9pt</value>
   </data>
   <data name="tbxFilter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>755, 25</value>
+    <value>627, 25</value>
   </data>
   <data name="btnFilter.Font" type="System.Drawing.Font, System.Drawing">
     <value>Meiryo UI, 9pt</value>
   </data>
   <data name="btnFilter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>755, 0</value>
+    <value>627, 0</value>
   </data>
   <data name="btnFilter.Size" type="System.Drawing.Size, System.Drawing">
     <value>125, 25</value>
   </data>
   <data name="btnFilter.Text" xml:space="preserve">
     <value>フィルター</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="cbxNoRecursive.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbxNoRecursive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>752, 0</value>
+  </data>
+  <data name="cbxNoRecursive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 25</value>
+  </data>
+  <data name="cbxNoRecursive.Text" xml:space="preserve">
+    <value>再帰計算をしない</value>
   </data>
   <data name="pnlUpper.Size" type="System.Drawing.Size, System.Drawing">
     <value>880, 25</value>
@@ -226,7 +239,6 @@
   <data name="presetToolStripMenuItem.Text" xml:space="preserve">
     <value>プリセット</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>5, 2, 0, 2</value>
   </data>
@@ -1463,5 +1475,8 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
 </root>

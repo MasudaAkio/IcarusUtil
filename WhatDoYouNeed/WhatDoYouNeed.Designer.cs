@@ -38,6 +38,7 @@ namespace Icarus
             this.pnlUpper = new System.Windows.Forms.Panel();
             this.tbxFilter = new System.Windows.Forms.TextBox();
             this.btnFilter = new System.Windows.Forms.Button();
+            this.cbxNoRecursive = new System.Windows.Forms.CheckBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exportToExcelFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -115,6 +116,7 @@ namespace Icarus
             this.pnlUpper.BackColor = System.Drawing.Color.DarkGray;
             this.pnlUpper.Controls.Add(this.tbxFilter);
             this.pnlUpper.Controls.Add(this.btnFilter);
+            this.pnlUpper.Controls.Add(this.cbxNoRecursive);
             resources.ApplyResources(this.pnlUpper, "pnlUpper");
             this.pnlUpper.Name = "pnlUpper";
             // 
@@ -134,6 +136,15 @@ namespace Icarus
             this.btnFilter.Name = "btnFilter";
             this.btnFilter.UseVisualStyleBackColor = false;
             this.btnFilter.Click += new System.EventHandler(this.btnFilter_Click);
+            // 
+            // cbxNoRecursive
+            // 
+            resources.ApplyResources(this.cbxNoRecursive, "cbxNoRecursive");
+            this.cbxNoRecursive.BackColor = System.Drawing.Color.DimGray;
+            this.cbxNoRecursive.ForeColor = System.Drawing.Color.White;
+            this.cbxNoRecursive.Name = "cbxNoRecursive";
+            this.cbxNoRecursive.UseVisualStyleBackColor = false;
+            this.cbxNoRecursive.CheckedChanged += new System.EventHandler(this.cbxNoRecursive_CheckedChanged);
             // 
             // menuStrip1
             // 
@@ -293,7 +304,6 @@ namespace Icarus
             resources.ApplyResources(this.roTotal, "roTotal");
             this.roTotal.ListViewStyle = System.Windows.Forms.View.LargeIcon;
             this.roTotal.Name = "roTotal";
-            // this.roTotal.Target = null;
             this.roTotal.ValueChanged = null;
             // 
             // pnlLeftSide
@@ -427,6 +437,7 @@ namespace Icarus
         private System.Windows.Forms.ToolStripMenuItem presetToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem registerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.CheckBox cbxNoRecursive;
     }
 }
 

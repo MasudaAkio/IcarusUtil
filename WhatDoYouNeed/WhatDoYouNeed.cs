@@ -190,19 +190,5 @@ namespace Icarus
                     select new ObjectItem(new IcrObject(g.Key), g.Sum(oi => oi.Volume));
             roTotal.Recipe = (b.ToArray(), s.ToArray());
         }
-
-        private void exportToExcelFileToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            var res = svfDlog.ShowDialog(this);
-            if (res == DialogResult.OK)
-            {
-                Export.ExportXlsx(svfDlog.FileName, flpnlRecipes.Controls.OfType<EachRecipe>(), roTotal);
-                PrepareCenteringMessageBoxOnTheForm(this);
-                MessageBox.Show(String.Format(Messages.ExcelFileIsSavedMessage, svfDlog.FileName));
-            }
-        }
-
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e) => Close();
-
     }
 }
